@@ -1,500 +1,479 @@
+Languages: [English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
+PDF: [English](ai-capital-pressure-v3.en.pdf) | [简体中文](ai-capital-pressure-v3.zh-CN.pdf) | [日本語](ai-capital-pressure-v3.ja.pdf)
+
 # AI Capital Pressure
 
-[PDF version](ai-capital-pressure-v3.pdf)
+## **Cross-industry and historical comparison of annual capital pressure in the AI industry chain**
 
----
+Stress testing under the EPR framework: comparison with normal industries and the same framework with the four historical infrastructure cycles _dda | 2026-05-25 |_Non-investment advice_ | All data are updated to _2026 Q1_ after the financial report
 
-## **AI 产业链年度资本压力的跨行业与历史比较** 
+## **Data Verification and Version Notes**
 
-EPR 框架下的压力测试：与正常行业、与历史四大基础设施周期的同框架对比 _dda | 2026-05-25 |_ 非投资建议 _|_ 数据全部更新至 _2026 Q1_ 财报后 
+All key data in this article have been updated to the latest public sources available as of May 25, 2026. Major updates from earlier estimates:
 
-## **数据核查与版本说明** 
-
-本文所有关键数据已更新至 2026 年 5 月 25 日可得的最新公开来源。相对早期估算的主要更新： 
-
-|**关键数据**|**更新值**|**来源（置信度）**|
+|**Key Data**|**Updated Value**|**Source (Confidence)**|
 |---|---|---|
-|Anthropic ARR|约$40B（May 2026<br>，从April<br>$30B进一步上升）|Anthropic<br>官宣$30B +<br>TechCrunch<br>转引内部人士$40B<br>（中）|
-|OpenAI ARR|$24-25B（April 2026）|Reuters / Sacra / OpenAI Q1<br>funding announcement（中-高）|
-|Microsoft AI ARR|$37B（FY26 Q3）|MSFT官方电话会披露（高）|
-|OpenAI<br>总commitments|约$1.4万亿（5+年累计名<br>义）|Sam Altman公开确认（中）|
-|Big-5 hyperscaler 2026 capex|$670-750B（4<br>家中3<br>家Q1后<br>上调）|Q1 2026 10-Q +公司指引（高）|
-|CoreWeave季度收入|$2.08B（Q1 2026，+112%<br>YoY）|CRWV 10-Q（高）|
-|CoreWeave<br>收入backlog|$99.4B（vs<br>早期$30B+）|CRWV Q1 2026披露（高）|
-|CoreWeave 2026 capex指引|$31-35B|CRWV指引（高）|
-|NVDA Q1 FY27总收入|$81.6B（DC: $75.2B）|NVDA 8-K（高）|
-|NVDA Q2 FY27指引|$91B (±2%)|NVDA指引（高）|
-|NVDA supply commitments|$95.2B（Q4 FY26披露）|NVDA Q4 FY26 CFO<br>commentary（高）|
-|Anthropic估值/融资|$380B (Series G Feb 2026) →<br>$850-900B预期|Anthropic + TechCrunch报道（中-<br>高）|
-|OpenAI估值/融资|$852B (March 2026 close<br>$122B round)|官方融资公告（高）|
-|Goldman 2026 AI capex<br>baseline|$765B|Goldman Sachs Research 2026-<br>04（高）|
+|Anthropic ARR|About $40B (May 2026<br>, further rising from April<br>$30B) | Anthropic<br>Official announcement $30B +<br>TechCrunch<br>Quoting insiders $40B<br> (medium) |
+|OpenAI ARR|$24-25B (April 2026)|Reuters/Sacra/OpenAI Q1<br>funding announcement (medium-high)|
+|Microsoft AI ARR|$37B (FY26 Q3) |MSFT official conference call disclosure (high)|
+|OpenAI<br>Total commitments|About $1.4 trillion (5+ years cumulative nominal) |Sam Altman publicly confirmed (medium)|
+|Big-5 hyperscaler 2026 capex|$670-750B (4<br>of 3<br>houses of Q1<br>raised later) |Q1 2026 10-Q + Company Guidance (High) |
+| CoreWeave Quarterly Revenue | $2.08B (Q1 2026, +112%<br>YoY) | CRWV 10-Q (High) |
+|CoreWeave<br>Revenue backlog|$99.4B (vs<br>Early$30B+)|CRWV Q1 2026 Disclosure (High)|
+|CoreWeave 2026 capex guide|$31-35B|CRWV guide (high)|
+|NVDA Q1 FY27 Total Revenue | $81.6B (DC: $75.2B) | NVDA 8-K (High) |
+|NVDA Q2 FY27 Guidelines|$91B (±2%)|NVDA Guidelines (High)|
+|NVDA supply commitments|$95.2B (Q4 FY26 disclosure) |NVDA Q4 FY26 CFO<br>commentary (high)|
+|Anthropic Valuation/Financing|$380B (Series G Feb 2026) →<br>$850-900B Expectations | Anthropic + TechCrunch Coverage (Medium-<br>High) |
+|OpenAI Valuation/Financing|$852B (March 2026 close<br>$122B round)|Official Financing Announcement (High)|
+|Goldman 2026 AI capex<br>baseline|$765B|Goldman Sachs Research 2026-<br>04 (High)|
 
+Of all the updates, the ones that have the biggest impact on the conclusion are Anthropic ARR jumping from $8-10B to $40B, Microsoft AI ARR disclosure $37B, and OpenAI commitments stack accumulating to $1.4T. This significantly changes the specific numbers of R_T terminal revenue and commitments/revenue ratio, but the overall conclusion direction of the EPR framework remains unchanged. 
 
-在所有更新中，对结论影响最大的是 Anthropic ARR 从 $8-10B 跃升到 $40B、Microsoft AI ARR 披露 $37B、OpenAI commitments 栈累积到 $1.4T。这显著改变了 R_T 终端收入和 commitments/revenue 比的具体数字，但 EPR 框架的整体结论方向不变。 
+## **Central Conclusion**
 
-## **中心结论** 
+Conclusion first. This article uses the unified indicator EPR (Economic Pressure Ratio) = annual capital service pressure / verifiable terminal income to compare the AI ​​industry chain with normal industries and historical bubbles under the same framework. 
 
-结论先行。本文用统一指标 EPR（Economic Pressure Ratio）= 年度资本服务压力 / 可核验终端 收入，把 AI 产业链与正常行业和历史泡沫放在同一框架下比较。 
+Let’s first define it clearly: EPR is not a traditional “leverage ratio” (not Debt/Equity, not Debt/EBITDA), but a capital service pressure ratio—a measure of how much capital-related costs (depreciation + cash operations + interest) must be absorbed from terminal revenue each year. This metric is essentially a simplified form of Jorgenson's (1963) capital service cost theory and utility revenue requirement model, applied to AI cycle analysis. EPR is a nomenclature adopted for the convenience of discussion in this article; the framework itself is not new. 
 
-先明确定义：EPR 不是传统的"杠杆率"（不是 Debt/Equity、不是 Debt/EBITDA），而是 capital service pressure ratio——衡量每年必须从终端收入中消化多少资本相关成本（折旧 + 现金运维 + 利息）。这个指标本质上是 Jorgenson (1963) 资本服务成本理论和公用事业 revenue requirement 模型的简化形式，应用于 AI 周期分析。EPR 是为本文讨论方便而采用的命名，框架 本身不是新的。 
+Under the assumptions of this article (K=$1.3T, weighted asset life 6.1 years, o=10%, r=5.5%, d=30%), the current EPR_cash of the AI ​​industry chain is in the 1.6x–2.3x range, with a median of about 1.8–2.0x. These are stress test results based on explicit assumptions and are not precise industry measurements. 
 
-在本文假设下（K=$1.3T，加权资产寿命 6.1 年，o=10%，r=5.5%，d=30%），AI 产业链当前 EPR_cash 处于 1.6x–2.3x 区间，中位约 1.8–2.0x。这是基于明确假设的压力测试结果，不是精 确的行业测量。 
+Put it into the benchmark and see:
 
-放进基准里看： 
+   - Normal industries (Utilities, Telecommunications, Mature SaaS, Automotive, Aviation) EPR approximately 0.65–0.95x. AI’s current EPR is 2–3 times higher than normal industry benchmarks. 
 
-   - 正常行业（公用事业、电信、成熟 SaaS、汽车、航空）EPR 约 0.65–0.95x。AI 当前 EPR 是正常行业基准的 2–3 倍。 
+   - Approximate estimation of historical infrastructure cycle peak EPR with the same framework: 1840s British Railways 2.5–3x, 1996–2001 U.S. telecommunications optical fiber (stripping out steady-state voice services, only looking at new IP/data segments) is about 3x, 1873 U.S. Railways is about 1.2x (aggregated caliber), 2014 U.S. shale oil is about 1.5–2x. 2007 US housing 0.9–1.1x, but housing is a price + credit quality + securitization structural bubble, and EPR is not a suitable indicator. 
 
-   - 历史基础设施周期峰值 EPR 同框架近似估算：1840s 英国铁路 2.5–3x、1996–2001 美国 电信光纤（剥离稳态语音业务，仅看新建 IP/data 段）约 3x、1873 美国铁路约 1.2x（聚 合口径）、2014 美国页岩油约 1.5–2x。2007 美国住房 0.9–1.1x，但住房是价格 + 信贷 质量 + 证券化结构泡沫，EPR 不是合适指标。 
+- AI's current EPR is orders of magnitude between 1873 US rail (1.2x) and 2014 US shale oil (1.5-2x), and lower than 1840s peak UK rail (2.5-3x) and 2000 new telecoms segments (approximately 3x). It is significantly lower than the median EPR I estimated in 2025 2.5-3.0x - this reflects the surge in Anthropic ARR in the first half of 2026 ($9B→$40B), Microsoft AI ARR ($13B→$37B), and the substantial expansion of R_T driven by the rapid growth of OpenAI. 
 
-   - • AI 当前 EPR 数量级介于 1873 美国铁路（1.2x）与 2014 美国页岩油（1.5-2x）之间，低 于 1840s 英国铁路峰值（2.5-3x）和 2000 电信新建段（约 3x）。比 2025 年中我估算的 EPR 中位 2.5-3.0x 显著下移——这反映 2026 上半年 Anthropic ARR 暴涨 （$9B→$40B）、Microsoft AI ARR ($13B→$37B)、OpenAI 高速增长所驱动的 R_T 大 幅扩张。 
+- Warning required: EPR Center 1.8-2.0x remains well above normal industry benchmarks and remains in "infrastructure bubble magnitude" territory. AI orders of magnitude span the 1873 rail (1.2x) position but not yet the 1846 rail (2.5-3x) position. 
 
-- 需要警告：EPR 中心 1.8-2.0x 仍远超正常行业基准，仍处于"基础设施泡沫量级"区间。AI 数量级跨过了 1873 铁路（1.2x）的位置但还没有到 1846 铁路（2.5-3x）的位置。 
+- AI does not come close to 2007 US housing patterns. Housing is a "price + credit quality + securitization" structure, which is a different failure mode than AI's "capex front-loading + short asset life". 
 
-- AI 不接近 2007 美国住房模式。住房是"价格 + 信贷质量 + 证券化"结构，与 AI 的"capex 前置 + 短资产寿命"是不同的失败模式。 
+Capex to GDP (strictly distinguishing between level and growth contribution):
 
-Capex 占 GDP（严格区分水平和增长贡献）： 
+- AI capex level/GDP (stock caliber): Goldman estimates that AI capex currently accounts for about 0.8% of GDP. 2026 The total capex of Big-5 hyperscalers in the United States is $670-750B (of which ~75% is AI related = $500-545B), accounting for about 1.7-1.8% of U.S. GDP (~$30T) (including the industry-wide AI capex of about 2.0%). UK Rail capex to GDP in 1847 7-8%. U.S. telecom capex accounted for approximately 1.2% of GDP in 1999-2000. AI's current level is slightly above peak 2000 telecoms and well below 1840s railroads. 
 
-- AI capex 水平 / GDP（存量口径）：Goldman 估算 AI capex 当前占 GDP 约 0.8%。2026 美国 Big-5 hyperscaler 总 capex $670-750B（其中 ~75% 为 AI 相关 = $500-545B），占美国 GDP（~$30T）约 1.7-1.8%（含全行业 AI capex 约 2.0%）。1847 年英国铁路 capex 占 GDP 7-8%。1999-2000 年美国电信 capex 占 GDP 约 1.2%。AI 当前水平略高于 2000 电信峰值，远低于 1840s 铁路。 
+- AI capex contribution to GDP growth (incremental caliber, much more sensitive than horizontal caliber): St. Louis Fed estimates 2025 Q3 AI-related investment accounts for 39% of real GDP growth. Jason Furman estimates that investment in information processing equipment and software accounts for 92% of H1 2025 GDP growth. But Goldman Sachs (Jan Hatzius) countered: After deducting imported capital goods, the net contribution of AI capex to GDP growth is only 0.1–0.2 percentage points. The difference between the two calibers is more than 100 times. This article uses the St Louis Fed figures as a reference, but acknowledges that Goldman's imported capital goods adjustment is an important methodological correction. 
 
-- AI capex 对 GDP 增长的贡献（增量口径，比水平口径敏感得多）：圣路易斯联储测算 2025 Q3 AI 相关投资占实际 GDP 增长的 39%。Jason Furman 估算信息处理设备和软件 投资占 H1 2025 GDP 增长的 92%。但 Goldman Sachs（Jan Hatzius）反驳：扣除进口 资本品后，AI capex 对 GDP 增长的净贡献仅 0.1–0.2 个百分点。两个口径相差 100 倍以 上。本文采用 St Louis Fed 数字作为参考，但承认 Goldman 的进口资本品调整是重要的 方法论修正。 
+Confidence. "AI EPR far exceeds normal industry benchmarks": High. "AI EPR Median 1.8-2.0x": Medium (strongly relies on R_T caliber assumptions; the greatest uncertainty in R_T estimates is that internal AI usage attribution and private placement ARR numbers are not audited). "AI orders of magnitude between 1873 railways and 1846 railways": Medium. "AI is likely to follow a digestion-like path rather than a complete collapse": Medium-High. "Specific clearing time point": low. All historical EPR numbers have low-medium confidence. 
 
-置信度。"AI EPR 远超正常行业基准"：高。"AI EPR 中位 1.8-2.0x"：中（强烈依赖 R_T 口径假 设；R_T 估计的最大不确定性在于内部 AI usage 归因和私募 ARR 数字未审计）。"AI 数量级介 于 1873 铁路和 1846 铁路之间"：中。"AI 大概率走类似消化路径而非全面崩盘"：中-高。"具体出 清时点"：低。所有历史 EPR 数字置信度低-中。 
+## **1. EPR Framework: What it is and what it is not**
 
-## **一、EPR 框架：是什么，不是什么** 
+## **1.1 Definition**
 
-## **1.1 定义** 
+P = K/L + o × K + r × d × K
 
-P = K/L + o × K + r × d × K 
+EPR_cash = P/R_T
 
-EPR_cash = P / R_T 
+Among them, K = deployed capital stock, L = weighted average economic life, o = cash operation and maintenance / K, r = average debt financing interest rate, d = debt financing proportion, R_T = verifiable terminal revenue. 
 
-其中 K=已部署资本存量，L=加权平均经济寿命，o=现金运维 / K，r=平均债务融资利率，d=债务 融资占比，R_T=可核验终端收入。 
+## **1.2 Framework traceability (not a new invention)**
 
-## **1.2 框架溯源（不是新发明）** 
+Strictly speaking, EPR is not a new metric. It is essentially a combination of several existing concepts:
 
-严格说，EPR 不是新指标。它本质上是几个既有概念的组合： 
+- Economic level: Jorgenson (1963) Capital Service Cost Theory. Capital service price c = (i + δ - π) × p_K, where δ is the economic depreciation rate, i is the interest rate, and π is the asset price change. This is modern productivity accounting
 
-- 经济学层面：Jorgenson (1963) 资本服务成本理论。资本服务价格 c = (i + δ - π) × p_K， 其中 δ 是经济折旧率、i 是利率、π 是资产价格变化。这是现代生产率核算 
+   - Basics of (BEA, BLS, KLEMS).
 
-   - （BEA、BLS、KLEMS）的基础。 
+- Regulatory Economics: Utility revenue requirement formula. rate base × (depreciation rate + return on capital + O&M) = income that must be recovered. Standard practice in regulating ROE models for 60+ years. 
 
-- 监管经济学：公用事业 revenue requirement 公式。rate base × (depreciation rate + return on capital + O&M) = 必须收回的收入。规制 ROE 模型 60+ 年的标准做法。 
+- Real estate valuation: The reciprocal of cap rate (NOI / property value) is a similar indicator, 1930s already exists. 
 
-- 地产估值：cap rate（NOI / property value）的倒数即类似指标，1930s 已有。 
+- Enterprise valuation: Equivalent to "implied required revenue to justify capex" analysis, which Damodaran and others have repeatedly used in the hyperscaler AI business. 
 
-- 企业估值：等价于"implied required revenue to justify capex"分析，Damodaran 等多次用 于 hyperscaler AI 业务。 
+The contribution of this article does not lie in the framework itself, but in applying it to the AI ​​cycle + making a horizontal comparison with the current normal industry + with the four major infrastructure cycles in history. EPR is a convenient nomenclature adopted for the discussion in this article. 
 
-本文的贡献不在于框架本身，而在于：把它应用到 AI 周期 + 与当前正常行业 + 与历史四大基础 设施周期做横向比较。EPR 是为本文讨论方便采用的命名。 
+## **1.3 What is EPR**
 
-## **1.3 EPR 是什么** 
+- EPR is capital service pressure ratio. Compress the capital-related costs (depreciation + cash operation and maintenance + interest) that the industry must absorb from terminal revenue every year into a single number. 
 
-- EPR 是 capital service pressure ratio。把行业每年必须从终端收入中消化的资本相关成 本（折旧 + 现金运维 + 利息）压缩成一个数。 
+- EPR is more information dense than Debt/Revenue or Capex/Revenue because it also incorporates existing capital pressure, operating pressure and financing costs. 
 
-- EPR 比 Debt/Revenue 或 Capex/Revenue 信息密度高，因为同时纳入存量资本压力、运 营压力和融资成本。 
+- EPR can be used for cross-industry and cross-period comparisons within the same framework (although differences in historical accounting standards are inevitable). 
 
-- EPR 可用于跨行业、跨周期同框架比较（虽然历史会计口径差异不可避免）。 
+## **1.4 What EPR is not**
 
-## **1.4 EPR 不是什么** 
+- EPR is not a traditional leverage ratio. It is not Debt/Equity, Debt/EBITDA, Assets/Equity, Net Debt/Revenue. Calling EPR "leverage" will make readers mistakenly think that it measures debt risk, but many of the core risks of AI are not debt, but equity dilution, depreciation eating up profits, cloud contract renegotiation, capex deceleration leading to valuation compression, and GPU residual value revisions. 
 
-- EPR 不是传统杠杆率。它不是 Debt/Equity、Debt/EBITDA、Assets/Equity、Net Debt/Revenue。把 EPR 称为"杠杆率"会让读者误以为衡量的是债务风险，但 AI 的核心风 险很多不是债务，而是股权稀释、折旧吞噬利润、云合同重谈、capex 减速导致估值压缩、 GPU 残值下修。 
+- EPR is not a complete profit margin indicator. In this article, P only includes depreciation + opex + interest at the infrastructure layer, and does not include R&D, SG&A, sales, customer service, equity incentives, data procurement, promotion subsidies, and taxes at the model company and application layer. Real industry profit pressure is higher than the EPR suggests. 
 
-- EPR 不是完整利润率指标。本文 P 只纳入基础设施层的折旧 + opex + 利息，没有纳入 模型公司和应用层的 R&D、SG&A、销售、客服、股权激励、数据采购、推广补贴、税。 真实行业利润压力比 EPR 暗示的更高。 
+- EPR > 1 is not directly equivalent to "the industry is not profitable". But the terminal revenue is not enough to cover the annual infrastructure pressure defined in this article. 
 
-- EPR > 1 不直接等同于"行业不赚钱"。而是终端收入不足以覆盖本文定义下的年度基础设 施压力。 
+- EPR_cash defaults to cash interest (r × d × K), without charge equity capital opportunity cost. If WACC is used instead, the EPR increases significantly (see sensitivity analysis). 
 
-- EPR_cash 默认用 cash interest（r × d × K），没有 charge 股权资本机会成本。如果改 用 WACC 替代，EPR 会显著升高（见敏感性分析）。 
+- Historical EPR is an approximate estimate of the same frame, not a precise measurement of "the same caliber". All historical EPR numbers have low-medium confidence. 
 
-- 历史 EPR 是同框架近似估算，不是"同口径"精确测量。所有历史 EPR 数字置信度低-中。 
+## **Interpretation interval of 1.5 EPR**
 
-## **1.5 EPR 的解读区间** 
-
-|**EPR_cash区**<br>**间**|**解读**|**典型例子**|
+|**EPR_cash area**<br>**room**|**Interpretation**|**Typical examples**|
 |---|---|---|
-|< 0.6x|低资本压力，行业稳态盈利|消费品、互联网平台、轻资产服务|
-|0.6–1.0x|中等资本压力，大部分正常行业落点|公用事业、电信、SaaS、汽车、航空|
-|1.0–2.0x|高资本压力，需求外推或周期高位|页岩油峰值期、AI当前（更新后）、1873美<br>国铁路聚合|
-|2.0–4.0x|基础设施泡沫量级，提前资本化未来需求|1840s铁路、2000电信光纤新建段|
-|> 4.0x|极端情况，通常出现在崩盘前最后阶段|少数极端案例|
+|< 0.6x|Low capital pressure, steady industry profitability|Consumer goods, Internet platforms, light asset services|
+|0.6–1.0x|Medium capital pressure, most normal industries |Utilities, telecommunications, SaaS, automobiles, aviation|
+|1.0–2.0x|High capital pressure, demand extrapolation or cycle high|Peak shale oil period, AI current (updated), 1873U.S.<br>U.S. rail aggregation|
+|2.0–4.0x|Infrastructure bubble magnitude, capitalize future needs in advance|1840s railway, 2000 new telecom optical fiber section|
+|> 4.0x|Extreme situations, usually appearing in the last stage before a crash|A few extreme cases|
 
+## **2. Current EPR (data update) of the AI industry chain**
 
-## **二、AI 产业链当前 EPR（数据更新）** 
+## **2.1 Input parameters (update)**
 
-## **2.1 输入参数（更新）** 
-
-|**参数**|**取值（更新）**|**相对早期估计的变化**|
+|**Parameter**|**Value (update)**|**Change from earlier estimate**|
 |---|---|---|
-|K（已部署+<br>在建AI capex<br>stock）|$1.3万亿|从$1.2T<br>上调8%（capex加速）|
-|L（资产加权平均经济寿命）|6.1年|不变|
-|o<br>（现金opex / K）|10%|不变|
-|r（平均债务融资利率）|5.5%|不变|
-|d（债务融资占比）|30%|不变|
-|R_T宽口径|$225B|从$150B大幅上调（+50%）|
-|R_T严格口径|$160B|从$90B大幅上调（+78%）|
-|m_T<br>（终端AI毛利率）|50%|不变|
+|K (deployed +<br>AI capex<br>stock under construction)|$1.3 trillion|Upgraded 8% from $1.2T<br>(capex acceleration)|
+|L (asset-weighted average economic life)|6.1 years|unchanged|
+|o<br>(Cash opex/K)|10%|No change|
+|r (average debt financing interest rate)|5.5%|unchanged|
+|d (proportion of debt financing)|30%|unchanged|
+|R_T wide diameter|$225B|Significantly increased from $150B (+50%)|
+|R_T strict caliber|$160B|Significantly increased from $90B (+78%)|
+|m_T<br>(Terminal AI gross profit margin)|50%|Unchanged|
 
+Reason for K increase: 2025 hyperscaler AI capex about $260B + 2026 H1 deployment ~$260B + Neocloud + other cumulative deployments of subjects + construction in progress. 
 
-K 上调原因：2025 hyperscaler AI capex 约 $260B + 2026 H1 部署 ~$260B + Neocloud + 其他 主体的累积部署 + 在建工程。 
+Core reasons for the significant R_T upgrade: Anthropic ARR rose from $9B at the end of 2025 to ~$40B at 2026 May (increased 4.4x); Microsoft AI ARR disclosed $37B; OpenAI maintained ~$25B but continued to grow rapidly. The rapid realization of AI terminal revenue is the most important variable for EPR improvement. 
 
-R_T 大幅上调的核心原因：Anthropic ARR 从 2025 末的 $9B 升至 2026 May 的 ~$40B（增长 4.4x）；Microsoft AI ARR 披露 $37B；OpenAI 维持 ~$25B 但持续高速增长。AI 终端收入快速 兑现是 EPR 改善的最重要变量。 
+## **2.2 EPR Calculation (Updated)**
 
-## **2.2 EPR 计算（更新）** 
-
-|**项目**|**公式**|**结果（更新）**|
+|**Project**|**Formula**|**Results (updated)**|
 |---|---|---|
-|年折旧（分层加总）|ΣK_i/L_i = $1.3T ×<br>16.4%|$213B|
-|年现金opex|o × K|$130B|
-|年现金利息|r × d × K|$21.5B|
-|年化经济压力P_cash|小计|$364B|
-|EPR_cash宽口径|P / R_T(宽)|1.62x|
-|EPR_cash严格口径|P / R_T(严)|2.28x|
-|EPR_cash中位估计||约1.8–2.0x|
-|毛利覆盖所需收入R_req|P / m_T|$728B|
-|当前缺口（宽）|R_req − R_T|约$503B|
-|当前缺口（严）|R_req − R_T|约$568B|
+|Annual depreciation (stratified sum)|ΣK_i/L_i = $1.3T ×<br>16.4%|$213B|
+|Annual cash opex|o × K|$130B|
+|Annual cash interest|r × d × K|$21.5B|
+|Annualized Economic Pressure P_cash|Subtotal|$364B|
+|EPR_cash wide diameter|P/R_T(wide)|1.62x|
+|EPR_cash strict caliber|P/R_T(strict)|2.28x|
+|EPR_cash median estimate||about 1.8–2.0x|
+|R_req|P/m_T|$728B|
+|Current gap (width)|R_req − R_T|About $503B|
+|Current gap (strict)|R_req − R_T|About $568B|
 
+Interpretation. EPR is 1.62x in wide aperture and 2.28x in strict aperture. Median estimate 1.8-2.0x. This is a significant downward shift from the mid-year 2025 estimate of 2.5-3.0x. 
 
-解读。EPR 在宽口径下 1.62x，严格口径下 2.28x。中位估计 1.8-2.0x。这比 2025 年中估算的 2.5-3.0x 显著下移。 
+What has changed? R_T expanded significantly. This is the entire driver of EPR improvement. From mid-year 2025 to May 2026, AI terminal revenue roughly doubled, while P (capital pressure) only increased by about 8% (K rose from $1.2T to $1.3T). R_T growth rate >> P growth rate → EPR decreases. 
 
-什么变了？R_T 大幅扩张。这是 EPR 改善的全部驱动力。从 2025 年中到 2026 年 5 月，AI 终 端收入大约翻了一倍，而 P（资本压力）只增长了约 8%（K 从 $1.2T 升到 $1.3T）。R_T 增速 >> P 增速 → EPR 下降。 
+What hasn't changed? All buffering and amplification factors are still present. OpenAI's total commitments have increased to $1.4T, CoreWeave backlog has increased to $99.4B, NVDA's recurring investment scale >$40B, and hyperscaler 2026 capex guidance is still being revised upward. The AI ​​cycle is accelerating in two directions at the same time: revenue is chasing, and capex is also chasing. EPR is the difference between the two races. 
 
-什么没变？所有缓冲和放大因素仍然存在。OpenAI 总 commitments 涨到 $1.4T、CoreWeave backlog 涨到 $99.4B、NVDA 循环投资规模 >$40B、hyperscaler 2026 capex 指引仍在上修。AI 周期同时在两个方向加速：revenue 在追、capex 也在追。EPR 是这两个 race 的差。 
+## **2.3 R_T bottom-up decomposition (core update table)**
 
-## **2.3 R_T 自下而上分解（核心更新表）** 
+R_T is the most sensitive input of the EPR framework. The table below gives the item-by-item breakdown of 2026 May's strict and wide apertures. 
 
-R_T 是 EPR 框架最敏感的输入。下表给出 2026 May 严格口径和宽口径的逐项分解。 
-
-|**类别**|**严格口径**|**宽口径**|**置信度/说明**|
+|**Category**|**Strict Caliber**|**Wide Caliber**|**Confidence/Explanation**|
 |---|---|---|---|
-|Anthropic（Claude API +<br>订阅<br>+ Claude Code）|$40B|$40B|TechCrunch转引内部<br>人士May 2026<br>（中）；Anthropic公<br>开$30B April 2026<br>（高）|
-|OpenAI（API + ChatGPT订<br>阅）|$25B|$28B|Reuters reports /<br>Sacra（中-高）|
-|Microsoft AI净（$37B less|$27B|$30B|MSFT FY26 Q3<br>披露|
+|Anthropic (Claude API +<br>Subscription<br>+ Claude Code)|$40B|$40B|TechCrunch cited insiders<br>May 2026<br>(medium); Anthropic public<br>$30B April 2026<br>(high)|
+|OpenAI (API + ChatGPT Subscription)|$25B|$28B|Reuters reports /<br>Sacra (Medium-High)|
+|Microsoft AI Net($37B less|$27B|$30B|MSFT FY26 Q3<br>Disclosure|
 
-
-|**类别**|**严格口径**|**宽口径**|**置信度/说明**|
+|**Category**|**Strict Caliber**|**Wide Caliber**|**Confidence/Explanation**|
 |---|---|---|---|
-|~$10B Azure-OpenAI转售）|||$37B<br>；本文扣除<br>Azure-OpenAI转售部<br>分|
-|xAI、Mistral、Cohere、其他模<br>型公司|$5B|$8B|低-中|
-|Google Gemini Advanced +<br>Workspace AI|$5B|$8B|中-低（GOOG未单独<br>披露）|
-|专用AI<br>SaaS（Cursor、Glean、Harve<br>y、Perplexity、Cognition、Sie<br>rra）|$15B|$20B|中|
-|传统SaaS<br>的AI add-on增量<br>（Salesforce<br>Agentforce、ServiceNow Now<br>Assist）|$10B|$15B|低-中（仅增量）|
-|中国AI商业化（百度、字节、<br>阿里、智<br>谱、DeepSeek、Moonshot）|$10B|$15B|低|
-|AWS Bedrock + GCP Vertex<br>AI<br>终端计费（扣除<br>Anthropic/OpenAI转售）|$5B|$10B|中-低|
-|Hyperscaler<br>内部AI usage归<br>因（搜索、广告、推荐增量）|0（不计）|$35B|低（不可独立核验，<br>但规模真实）|
-|咨询/专业服务/<br>企业内部<br>productivity savings|0（不计）|$10B|低|
-|长尾（其他付费）|$5B|$8B|低|
-|排除项1：Azure/AWS/GCP卖<br>给OpenAI/Anthropic的中间收<br>入|排除|排除|避免双重计算|
-|排除项2：NVIDIA GPU销售<br>收入|排除|排除|上游资本品收入|
-|合计（取整）|约$147B →<br>取$160B|约$227B →<br>取$225B||
+|~$10B Azure-OpenAI resale)|||$37B<br>; This article deducts<br>Azure-OpenAI resale<br> points|
+|xAI, Mistral, Cohere, other model companies|$5B|$8B|Low-Medium|
+|Google Gemini Advanced +<br>Workspace AI|$5B|$8B|Medium-Low (not separately<br>disclosed by GOOG)|
+|Dedicated AI<br>SaaS (Cursor, Glean, Harve<br>y, Perplexity, Cognition, Sie<br>rra)|$15B|$20B|中|
+|AI add-on incremental<br> for traditional SaaS<br>(Salesforce<br>Agentforce, ServiceNow Now<br>Assist)|$10B|$15B|Low-Medium (incremental only)|
+|China AI commercialization (Baidu, Byte,<br>Alibaba,<br>Zhipu, DeepSeek, Moonshot)|$10B|$15B|Low|
+|AWS Bedrock + GCP Vertex<br>AI<br>Terminal Billing (deduct<br>Anthropic/OpenAI resale)|$5B|$10B|Medium-Low|
+|Hyperscaler<br>Internal AI usage attribution<br>(search, advertising, recommendation increment)|0 (not counted)|$35B|Low (not independently verifiable,<br>but the scale is real)|
+|Consulting/Professional Services/<br>In-house<br>productivity savings|0 (not counted)|$10B|Low|
+|Long tail (other paid)|$5B|$8B|Low|
+|Exclusion 1: Azure/AWS/GCP sales<br>Intermediate revenue<br>to OpenAI/Anthropic|Exclusions|Exclusions|Avoid double counting|
+|Exclusion 2: NVIDIA GPU Sales<br>Revenue|Exclusion|Exclusion|Upstream Capital Goods Revenue|
+|Total (rounded)|About $147B →<br>Take $160B|About $227B →<br>Take $225B||
 
+The difference between the two calibers. Strictly speaking, only verifiable pure AI product revenue (API, subscription, Claude Code terminal products) will be included. Broadcast joins hyperscaler internal AI usage attribution (search, advertising, recommendation AI delta) and enterprise productivity savings. The main difference between the two is whether the attribution can be trusted.
 
-两个口径的差异。严格口径只计入可核验的纯 AI 产品收入（API、订阅、Claude Code 类终端产 品）。宽口径加入 hyperscaler 内部 AI usage 归因（搜索、广告、推荐 AI 增量）和企业 " " productivity savings。两者的差异主要在于 归因可不可信 。 Anthropic $40B 的来源。公司官方在 4 月披露 ARR 已超 $30B（4 月初）。TechCrunch 后续报 道 4 月底 ARR "closer to $40B" per 内部信息源。这个数字未经审计、未在 SEC 文件中披露，本 文给中等置信度。从 $14B（Feb）→ $19B（March）→ $30B（April）→ $40B（May）的轨迹 与 6 周翻倍速度一致。 
+Source of Anthropic $40B. The company officially disclosed in April that ARR had exceeded $30B (early April). TechCrunch follow-up reported ARR "closer to $40B" per internal source in late April. This figure has not been audited and has not been disclosed in SEC filings. This article gives a medium confidence level. The trajectory from $14B (Feb) → $19B (March) → $30B (April) → $40B (May) is consistent with the 6-week doubling rate. 
 
-Microsoft $37B 净 $27B 的拆分逻辑。 Microsoft 官方 FY26 Q3 披露 AI 业务 ARR $37B（+123% YoY）。但这个数字包含 Azure OpenAI Service 中卖给最终客户的部分（已在最 终客户处计费，可计入 R_T）和卖给 OpenAI 自己的转售部分（应排除，避免与 OpenAI ARR 重 复）。本文估算重叠约 $10B，净计入 $27B。这个拆分估算存在不确定性 ±$5B。 
+Microsoft $37B net $27B split logic. Microsoft Official FY26 Q3 Disclosed AI Business ARR $37B (+123% YoY). But this number includes the portion of Azure OpenAI Service sold to the end customer (already billed at the end customer and can be included in R_T) and the resale portion sold to OpenAI itself (which should be excluded to avoid duplication with OpenAI ARR). This article estimates the overlap to be approximately $10B, netting $27B. This split estimate is subject to uncertainty of ±$5B. 
 
-## **三、K、年度 Capex 与 Commitments 严格分层** 
+## **Three, K, annual Capex and Commitments are strictly stratified**
 
-## AI 产业链涉及三类相关但本质不同的数字。混用导致严重的双重计算或概念错误。 
+## The AI industry chain involves three types of related but essentially different numbers. Mixing up leads to serious double counting or conceptual errors. 
 
-|**层级**|**定义**|**会计性质**|**在本文中的用途**|**典型2026数字**<br>**（更新）**|
+|**Level**|**Definition**|**Accounting Nature**|**Use in this article**|**Typical2026Number**<br>**(Updated)**|
 |---|---|---|---|---|
-|K<br>：已部署+在建资<br>本存量|账上资产NBV +在建工<br>程|存量|进入EPR分子|估计$1.3T|
-|年度Capex|当年PP&E购置流量|流量|预测未来K<br>；用于<br>capex/GDP水平|Big-5 $670-750B；<br>含AI ~$520B|
-|Commitments|尚未全部部署的合同义<br>务/announced|合同义<br>务/<br>announce<br>d|未来K领先指标|OpenAI<br>总栈~$1.4<br>万亿over 5+年|
+|K<br>: Deployed + Assets Under Construction<br> Capital Stock | Assets on Book NBV + Construction in Progress<br> Stock | Enter EPR Numerator | Estimate $1.3T|
+|Annual Capex|The current year’s PP&E acquisition flow|Flow|Forecast future K<br>; used for<br>capex/GDP level|Big-5 $670-750B;<br>with AI ~$520B|
+|Commitments|Contractual obligations not yet fully deployed<br>Obligations/announced|Contractual obligations<br>Obligations/<br>announce<br>d|Future K leading indicators|OpenAI<br>Total stack~$1.4<br>Trillion over 5+ years|
 
+## **3.1 K (about $1.3T, updated with disassembly)**
 
-## **3.1 K（约 $1.3T，更新拆解）** 
+- Hyperscaler AI cumulative capex stock (Big-5 2022-2026 cumulative by AI portion 75%): approx. $780880B
 
-- Hyperscaler AI 累积 capex stock（Big-5 2022-2026 累积按 AI 部分 75%）：约 $780880B 
+- Neocloud AI capex stock (CoreWeave PP&E $36.4B + Lambda + Crusoe + Nebius, etc.): approx. $90-130B
 
-- Neocloud AI capex stock（CoreWeave PP&E $36.4B + Lambda + Crusoe + Nebius 等）：约 $90-130B 
+- Others (Oracle AI infra, self-built by enterprises, government/sovereign investment): $200-300B
 
-- 其他（Oracle AI infra、企业自建、政府/sovereign 投资）：$200-300B 
+- The total median is about $1.3T
 
-- 合计中位约 $1.3T 
+## **3.2 Annual Capex (2026 latest guidance)**
 
-## **3.2 年度 Capex（2026 最新指引）** 
-
-|**主体**|**2024**|**2025**|**2026指引/估计（Q1**<br>**后更新）**|**AI**<br>**部分(~75%)**|
+|**Subject**|**2024**|**2025**|**2026Guidelines/Estimates (Updated after Q1**<br>**)**|**AI**<br>**Part (~75%)**|
 |---|---|---|---|---|
-|Microsoft|~$56B|~$95B|~$190B<br>（含$25B<br>高<br>component pricing）|~$140B|
-|Alphabet|~$53B|~$75B|$180–190B（Q1后从<br>$175-185B上调）|~$140B|
+|Microsoft|~$56B|~$95B|~$190B<br>(including $25B<br>high<br>component pricing) |~$140B|
+|Alphabet|~$53B|~$75B|$180–190B (raised from<br>$175-185B after Q1)|~$140B|
 |Amazon|~$78B|~$105B|~$200B|~$150B|
-|Meta|~$37B|~$65B|$125–145B（Q1后从<br>$115-135B上调）|~$100B|
+|Meta|~$37B|~$65B|$125–145B (raised from <br>$115-135B after Q1) |~$100B|
 |Oracle|~$7B|~$25B|~$60B|~$50B|
-|Big-5合计|~$231B|~$365B|$755–<br>805B（CreditSights|~$580B|
+|Big-5 Total|~$231B|~$365B|$755–<br>805B (CreditSights|~$580B|
 
-
-|**主体**|**2024**|**2025**|**2026指引/估计（Q1**<br>**后更新）**|**AI**<br>**部分(~75%)**|
+|**Subject**|**2024**|**2025**|**2026Guidelines/Estimates (Updated after Q1**<br>**)**|**AI**<br>**Part (~75%)**|
 |---|---|---|---|---|
-||||$750B）||
-|Neocloud合计|~$15B|~$35B|~$60-70B|~$65B|
-|行业AI capex<br>流量||~$400B|~$645B||
+||||$750B)||
+|Neocloud total|~$15B|~$35B|~$60-70B|~$65B|
+|Industry AI capex<br>Traffic||~$400B|~$645B||
 
+Sources: SEC 10-Q Public Disclosures, Q1 2026 Earnings Call Guidance, CreditSights/Goldman Sachs/Yahoo Finance Comprehensive (updated after Q1). Four of the Big-5 companies raised their capex guidance after Q1; only Amazon maintained its original plan (because it was already the highest in the industry). 
 
-来源：SEC 10-Q 公开披露、Q1 2026 财报电话会议指引、CreditSights / Goldman Sachs / Yahoo Finance 综合（Q1 后更新）。Big-5 中四家 Q1 后上调 capex 指引；只有 Amazon 维持 原计划（因为已经是行业最高）。 
+Observation: Goldman Sachs latest baseline model estimates 2026 AI capex $765B, consistent with CreditSights $750B estimates. Goldman predicts AI capex of $1.6T in 2031. Capital expenditures/revenue ratios have exceeded Oracle 86%, Meta 54%, Microsoft 47%, Alphabet 46%, Amazon 25% - historically unimaginable levels. 
 
-观察：Goldman Sachs 最新基线模型估算 2026 AI capex $765B，与 CreditSights $750B 估计一 致。Goldman 预测 2031 年 AI capex 达 $1.6T。资本支出/收入比已经突破 Oracle 86%、Meta 54%、Microsoft 47%、Alphabet 46%、Amazon 25%——历史上不可想象的水平。 
+## **3.3 OpenAI Commitments stack (updated to $1.4T)**
 
-## **3.3 OpenAI Commitments 栈（更新到 $1.4T）** 
+Sam Altman publicly confirmed that OpenAI’s total commitments are approximately $1.4  trillion (covering the next 5+ years). This is the largest single point in the industrial chain. The table below is the breakdown.
 
-Sam Altman 公开确认 OpenAI 总 commitments 约 $1.4 万亿（涵盖未来 5+ 年）。这是产业链最 大单点。下表是分解。 
-
-|**合约/承诺**|**名义规模**|**时间窗口**|**置信度**|
+|**Contract/Commitment**|**Nominal Size**|**Time Window**|**Confidence**|
 |---|---|---|---|
-|Oracle compute deal|约$300B|5年（2027-<br>2031）|高（Oracle CEO Safra Catz多<br>次确认）|
-|Stargate（OpenAI/<br>SoftBank/Oracle/<br>MGX）|约$500B<br>（已<br>announced<br>$400B+<br>已<br>committed<br>）|4年（2025-<br>2028）|中（announced<br>，与Oracle部分<br>重叠）|
-|AMD（6 GW Instinct<br>GPU）|约$90B累<br>积硬件收入|从H2 2026<br>起|中（AMD/OpenAI公开披露）|
-|NVIDIA投资|up to<br>$100B|条件性，按每<br>GW部署逐步|中（announced战略合作）|
-|Amazon AWS|$38B|7年（2025-<br>2031）|高（2025-11双方签署）|
-|Microsoft Azure（重<br>组后）|约$250B<br>cloud<br>purchase|多年|中（双方重组协议）|
-|CoreWeave|约$22.4B|至2032|高（CRWV 10-Q披露）|
-|Broadcom<br>自研芯片+<br>其他|约$50-<br>100B|多年|中|
-|总名义栈（Altman公<br>开数字）|约$1.4万<br>亿|5+年|中-高|
-|OpenAI 2026 May|~$25B|当前|中-高|
+|Oracle compute deal|About $300B|5 years (2027-<br>2031)|High (Oracle CEO Safra Catz confirmed many times)|
+| Stargate (OpenAI/<br>SoftBank/Oracle/<br>MGX) | About $500B<br> (<br>announced<br>$400B+<br><br>committed<br>) | 4 years (2025-<br>2028) | Medium (announced<br>, overlapping with Oracle part<br>)|
+|AMD (6 GW Instinct<br>GPU) | Approximately $90B Cumulative<br>Hardware Revenue | From H2 2026<br>Onwards | Medium (AMD/OpenAI Public Disclosure) |
+|NVIDIA investment|up to<br>$100B|Conditional, gradually deployed per<br>GW|Medium (announced strategic cooperation)|
+|Amazon AWS|$38B|7 years (2025-<br>2031)|High (2025-11 signed by both parties)|
+|Microsoft Azure (after reorganization<br>)|about $250B<br>cloud<br>purchase|many years|medium (reorganization agreement between both parties)|
+|CoreWeave|Approximately $22.4B| to 2032|High (CRWV 10-Q Disclosure)|
+|Broadcom<br>Self-developed chips +<br>Others|About $50-<br>100B|Many years|Mid|
+|Total Notional Stack (Altman Public<br>Numbers) | Approximately $1.4 Trillion | 5+ Years | Mid-High |
+|OpenAI 2026 May|~$25B|current|medium-high|
 
-
-|**合约/承诺**|**名义规模**|**时间窗口**|**置信度**|
+|**Contract/Commitment**|**Nominal Size**|**Time Window**|**Confidence**|
 |---|---|---|---|
 |ARR||||
-|Commitments /<br>Revenue比|||约56x|
+|Commitments /<br>Revenue Ratio|||About 56x|
 
+The OpenAI commitments/revenue ratio rose to 56x from an early estimate of 28-36x. This is a level that has not been achieved by any model company or customer/supplier relationship in history. Even if OpenAI ARR grows at 100% CAGR (already extremely optimistic), it will take 5 years for the commitments/revenue ratio to drop below 5x.
 
-OpenAI commitments / revenue 比从早期估算的 28-36x 升至 56x。这是历史上任何模型公司或 客户/供应商关系都未达到的水平。即使 OpenAI ARR 按 100% CAGR 增长（已经是异常乐观）， 需要 5 年才能让 commitments/revenue 比降到 5x 以下。 对比 Anthropic commitments 栈： 
+Compare Anthropic commitments stack:
 
-|**合约/承诺**|**名义规模**|**说明**|
+|**Contract/Commitment**|**Nominal Size**|**Description**|
 |---|---|---|
-|Amazon|$5B<br>现金+<br>最多$25B + 5GW<br>Trainium + $100B AWS<br>采购<br>(10年)|主要训练伙伴|
-|Google|$10B<br>现金+<br>最多$40B + 5GW<br>TPU|4月24日宣布|
-|NVIDIA|最多$10B + 1GW GPU供应||
-|Microsoft|最多$5B + Anthropic<br>购买<br>$30B Azure compute||
-|Broadcom|$21B AI<br>收入(Anthropic 2026<br>估计)|Mizuho测算|
-|美国compute基础设<br>施投资承诺|$50B|Nov 2025公开|
-|总名义栈估计|$200-300B+|相对ARR $40B<br>比5-7.5x|
+|Amazon|$5B<br>Cash +<br>Up to $25B + 5GW<br>Trainium + $100B AWS<br>Procurement<br>(10 years)|Primary Training Partner|
+|Google|$10B<br>Cash +<br>Up to $40B + 5GW<br>TPU|Announced April 24th|
+|NVIDIA|Up to $10B + 1GW GPU supply||
+|Microsoft|Up to $5B + Anthropic<br>Buy<br>$30B Azure compute||
+|Broadcom|$21B AI<br>Revenue (Anthropic 2026<br>estimate)|Mizuho estimates|
+|U.S. compute infrastructure<br>Investment Commitment|$50B|Nov 2025Public|
+|Total nominal stack estimate|$200-300B+|Relative ARR $40B<br> vs. 5-7.5x|
 
+Anthropic's commitments/revenue ratio (5-7.5x) is much lower than OpenAI (56x). This reflects two different business models: Anthropic’s revenue is expanding rapidly (doubling in 6 weeks), and its commitment scale is relatively restrained; OpenAI’s commitment scale is extremely large, and it relies on future revenue to deliver. 
 
-Anthropic 的 commitments/revenue 比（5-7.5x）远低于 OpenAI（56x）。这反映两家不同的商 业模式：Anthropic 收入扩张快（6 周翻倍），承诺规模相对克制；OpenAI 承诺规模超大，依赖 未来收入兑现。 
+## **4. Normal industry EPR benchmark (rough estimate, non-audit industry model)**
 
-## **四、正常行业 EPR 基准（粗估，非审计行业模型）** 
+The normal industry EPR range serves as the benchmark. All figures are based on industry average estimates based on 2024-2025 public financial reports, with a medium confidence level. Warning: Industry aggregate data is rough. Company income, D&A, opex, and interest come from different companies and accounting standards, and it is impossible to have the same caliber. These numbers are order of magnitude benchmarks, not exact comparisons. 
 
-正常行业 EPR 区间作为基准。所有数字基于 2024-2025 年公开财报按行业平均估算，置信度中。 警示：行业聚合数据粗。公司收入、D&A、opex、利息来自不同公司和会计口径，完全同口径不 可能。这些数字是数量级基准，不是精确比较。 
-
-|**行业**|**估计EPR_cash**|**资产寿命特征**|**风险特征**|
+|**Industry**|**Estimated EPR_cash**|**Asset life characteristics**|**Risk characteristics**|
 |---|---|---|---|
-|成熟SaaS|0.69x|短（3–5y）|轻资产，opex可调|
-|传统电信（post-2002）|0.76x|中长（10–15y）|稳态行业|
-|公用事业（regulated）|0.80x|长（30+y）|高负债+稳定回报|
-|航空|0.90x|中（15–25y）|接近平衡线|
-|汽车OEM|0.92x|短中（5–10y产品）|接近平衡线|
+|Mature SaaS|0.69x|Short (3–5y)|Light asset, opex adjustable|
+|Traditional telecommunications (post-2002)|0.76x|Medium long (10–15y)|Steady-state industries|
+|Utilities (regulated)|0.80x|Long (30+y)|High debt + stable returns|
+|Aviation|0.90x|Medium (15–25y)|Close to the equilibrium line|
+|Automotive OEM|0.92x|Short to medium (5–10y products)|Close to balance line|
 
-
-|**行业**|**估计EPR_cash**|**资产寿命特征**|**风险特征**|
+|**Industry**|**Estimated EPR_cash**|**Asset life characteristics**|**Risk characteristics**|
 |---|---|---|---|
-|AI（更新后宽口径）|1.62x|混合（4–15y）|远超正常基准|
-|AI（更新后严格口径）|2.28x|同上|远超正常基准|
+|AI (updated wide aperture)|1.62x|Hybrid (4–15y) |Far beyond normal baseline|
+|AI (strict caliber after update)|2.28x|Same as above|Far beyond the normal baseline|
 
+The normal industry median EPR is about 0.80x, and even high capital intensity industries (utilities, automobiles) rarely exceed 1.0x. AI's current EPR is 2-3 times that of normal industries. Still an order of magnitude away from normal benchmarks. 
 
-正常行业 EPR 中位约 0.80x，即便高资本密度行业（公用事业、汽车）也很少超过 1.0x。AI 当 前 EPR 是正常行业的 2-3 倍。仍然是远离正常基准的量级。 
+## **5. Approximate estimation of historical bubbles in the same framework**
 
-## **五、历史泡沫的同框架近似估算** 
+Use the same formula to construct approximate EPR estimates for four historical bubbles. All figures are based on published academic research and economic history, accounting and - statistical caliber are different from modern times, confidence level is low - medium. Only for order of magnitude positioning. 
 
-用同样公式构造四个历史泡沫的 EPR 近似估算。所有数字基于公开学术研究和经济史，会计与 - 统计口径与现代不同，置信度低 中。仅作数量级定位。 
+## **5.1 1844-1847 British Railmania**
 
-## **5.1 1844-1847 英国铁路狂热** 
+background. Rail capex accounted for 7-8% of UK GDP in 1847 (Mitchell historical statistics) and twice as much as military spending. 1844-1846 Railroad stock index doubled before crashing, 1847-49 shares fell 50%+. 
 
-背景。1847 年铁路 capex 占英国 GDP 7-8%（Mitchell historical statistics），是军费的两倍。 1844-1846 铁路股票指数翻倍后崩盘，1847-49 股价下跌 50%+。 
-
-|**项目**|**估计值**|**说明**|
+|**Item**|**Estimate**|**Description**|
 |---|---|---|
-|累积铁路资本承诺1844-1847|£170M|Odlyzko估计|
-|英国GDP 1846|£550-600M|Mitchell historical statistics|
-|1847<br>铁路capex/GDP|7-8%|Tandfonline (2022)历史研究|
-|年D&A（L=30y on £170M部<br>署）|£5.7M|铁路资产寿命长|
-|年opex（K<br>的10-15%）|£17-25M||
-|年利息（d=60%, r=4.5-5%）|£4.6-5.1M||
+|Cumulative rail capital commitments1844-1847|£170M|Odlyzko estimate|
+|UK GDP 1846|£550-600M|Mitchell historical statistics|
+|1847<br>Railway capex/GDP|7-8%|Tandfonline (2022) Historical Research|
+|Years D&A (L=30y on £170MDepartment<br>Department)|£5.7M|Long life of railway assets|
+|year opex(K<br>10-15%)|£17-25M||
+|Annual interest (d=60%, r=4.5-5%)|£4.6-5.1M||
 |P_cash|£27-36M||
-|1846铁路运营收入|£10-15M||
-|估算EPR_cash|2.0-3.5x|中位约2.5-3x|
+|1846Railway operating income|£10-15M||
+|Estimated EPR_cash|2.0-3.5x|Median is about 2.5-3x|
 
+Interpretation. 1840s UK Rail EPR estimate 2.5-3x. The mechanism is very similar to AI: real technology + real future demand + capital market extrapolation in advance + reflexive financing. Result: 1847 Bank of England Interest rate hikes and banking crisis trigger collapse. Railroad stocks fell 1847-1850 50-80%. But the rail network was eventually built and produced ongoing returns—investors lost money and society gained. 
 
-解读。1840s 英国铁路 EPR 估算 2.5-3x。机制与 AI 极相似：真实技术 + 真实未来需求 + 资本市 场提前外推 + 反身性融资。结果：1847 Bank of England 加息和 banking crisis 引发崩盘。铁路 股 1847-1850 跌 50-80%。但铁路网络最终建成并产生持续回报——投资者亏损，社会获益。 
+## **5.2 1865-1873 US Railroad Expansion**
 
-## **5.2 1865-1873 美国铁路扩张** 
+background. 1865-1873 U.S. rail mileage doubled from 35,000 to 70,000 miles. In September 1873, the bankruptcy of Jay Cooke triggered the Panic of 1873. 1873-1879 Long Depression, 89 railroads (about 25%) went bankrupt. 
 
-背景。1865-1873 美国铁路里程从 35,000 翻倍到 70,000 英里。1873 年 9 月 Jay Cooke 破产引 发 Panic of 1873。1873-1879 长萧条，89 家铁路（约 25%）破产。 
-
-|**项目**|**估计值**|**说明**|
+|**Item**|**Estimate**|**Description**|
 |---|---|---|
-|累积铁路资本1865-1873|$2.7B|historical estimates|
-|美国GDP 1873|约$7B|Williamson historical|
+|Accumulated railroad capital1865-1873|$2.7B|historical estimates|
+|US GDP 1873|approximately $7B|Williamson historical|
 
-
-|**项目**|**估计值**|**说明**|
+|**Item**|**Estimate**|**Description**|
 |---|---|---|
-|累积capex / GDP|约38%|极高|
-|年D&A（L=30y）|$90M||
-|年opex（K<br>的15%）|$405M||
-|年利息（d=70%, r=7%）|$132M|高杠杆高利率|
+|Cumulative capex/GDP|About 38%|Extremely high|
+|Year D&A (L=30y)|$90M||
+|year opex(K<br>15%)|$405M||
+|Annual interest (d=70%, r=7%)|$132M|High leverage and high interest rate|
 |P_cash|$627M||
-|年铁路运营收入1872|约$520M|Census/ICC historical|
-|估算EPR_cash（聚合）|约1.2x|低于英国数字|
+|Annual Railway Operating Revenue1872|Approximately$520M|Census/ICC historical|
+|Estimated EPR_cash (aggregated)|Approximately 1.2x|Less than UK figures|
 
+Interpretation. Overall rail EPR approximately 1.2x. Profits on old mature lines masked extreme pressure on new speculative lines. Crash Mechanism: Jay Cooke Fundraising Failure → Credit Crunch → Overall Railroad Bond Price Collapse → Bank Failures → 6 Years of Long Depression. 
 
-解读。整体铁路 EPR 约 1.2x。老成熟线路盈利掩盖了新建投机线路的极度压力。崩盘机制：Jay Cooke 募资失败 → 信用紧缩 → 整体铁路债券价格崩塌 → 银行倒闭 → 6 年长萧条。 
+## **5.3 1996-2001 US Telecom Fiber Optic Foam**
 
-## **5.3 1996-2001 美国电信光纤泡沫** 
+background. WorldCom CEO claims that Internet traffic doubles every 100 days (actually about 2x per year). In 1996-2001, U.S. telecommunications companies issued $500B+ of new debt and laid 80M miles of optical fiber. Global Crossing 2002 Bankruptcy leaves $12.4B debt. WorldCom 2002 Bankruptcy, largest U.S. accounting fraud. 2002 Only 2.7% US fiber is "lit". 2004 Long-distance wholesale prices fell 55% year-on-year. 
 
-背景。WorldCom CEO 声称互联网流量每 100 天翻倍（实际每年约 2x）。1996-2001 年美国电 信公司发行新债 $500B+，铺设光纤 80M 英里。Global Crossing 2002 破产留下 $12.4B 债务。 WorldCom 2002 破产，最大美国会计欺诈案。2002 仅 2.7% 美国光纤被"点亮"。2004 长途批发 价同比下跌 55%。 
-
-|**项目**|**估计值**|**说明**|
+|**Item**|**Estimate**|**Description**|
 |---|---|---|
-|累积美国电信capex 1996-<br>2001|约$500B|行业聚合|
-|峰值年capex (2000)|$120B|BEA|
-|美国GDP 2000|$10.25T|BEA|
-|峰值capex/GDP|约1.2%||
-|年D&A（L=15y on $500B部<br>署）|$33B||
-|年opex（K<br>的10-12%）|$50-60B||
-|年利息（d=60%, r=8%）|$24B||
+|Accumulated US telecom capex 1996-<br>2001|About $500B|Industry aggregation|
+|Peak year capex (2000)|$120B|BEA|
+|US GDP 2000|$10.25T|BEA|
+|Peak capex/GDP|About 1.2%||
+|Year D&A (L=15y on $500BDepartment<br>Department)|$33B||
+|year opex(K<br>10-12%)|$50-60B||
+|Annual interest (d=60%, r=8%)|$24B||
 |P_cash|$107-117B||
-|2001 IP/data终端收入|$30-50B|从总电信收入剥离|
-|估算EPR_cash<br>（仅IP/data新<br>建段）|约2.5-4x|中位3x|
-|全行业（含语音稳态）EPR|约0.5-0.8x|稳态业务掩盖新建IP压力|
+|2001 IP/data terminal revenue|$30-50B|Split from total telecom revenue|
+|Estimated EPR_cash<br>(IP/data new<br>segment only)|About 2.5-4x|Median 3x|
+|Industry-wide (including voice steady-state) EPR|About 0.5-0.8x|Steady-state business covers the pressure of new IP|
 
+Interpretation. After stripping off the steady-state voice service, the EPR of the new IP/data segment is about 3x. This is almost completely parallel to the current situation of AI: Hyperscaler's overall business (search, advertising, e-commerce, Office) is healthy, but the newly built AI infrastructure is under great pressure alone. 
 
-解读。剥离稳态语音业务后，IP/data 新建段 EPR 约 3x。这与 AI 当前情形几乎完全平行： hyperscaler 整体业务（搜索、广告、电商、Office）健康，但新建的 AI 基础设施单独看压力很 大。 
+## **5.4 2005-2008 American Housing (Contrast Case)**
 
-## **5.4 2005-2008 美国住房（对照案例）** 
-
-|**项目**|**估计值**|**说明**|
+|**Item**|**Estimate**|**Description**|
 |---|---|---|
-|住房抵押债务/GDP 2007|97%|FRED|
-|住房存量总价值2007Q3|约$24T||
-|住房抵押债务2007Q3|约$10T|FRED HHMSDODNS|
-|年D&A<br>（住房2%折旧）|$480B||
-|年现金opex|$700B|约K<br>的3%|
-|年利息|$600B||
-|P_cash|约$1.78T||
-|年租金收入（实际+imputed）|约$1.7-2T|BEA|
-|估算住房EPR_cash|0.9-1.1x||
+|Home Mortgage Debt/GDP 2007|97%|FRED|
+|Total value of housing stock2007Q3|Approximately$24T||
+|Home Mortgage Debt2007Q3|Approx.$10T|FRED HHMSDODNS|
+|Year D&A<br>(Housing2%Depreciation)|$480B||
+|Annual cash opex|$700B|3% of about K<br>|
+|Annual interest|$600B||
+|P_cash|about$1.78T||
+|Annual rental income (actual + imputed)|Approx. $1.7-2T|BEA|
+|Estimated housing EPR_cash|0.9-1.1x||
 
+Interpretation. Housing EPR is about 1.0x, not extreme. The core of the housing bubble is not in EPR, but in three different dimensions: (1) price/income ratio rising from 3x to 5x; (2) credit quality (NINJA loans, option ARM); (3) securitization deregulation and rating fraud. Important conclusions. EPR is not a be-all and end-all indicator for all bubbles. The housing bubble is a three-layer structure of "price + credit quality + securitization", and the railway/telecom/AI is a "capital front + demand extrapolation + short asset life" structure. 
 
-解读。住房 EPR 约 1.0x，不极端。住房泡沫核心不在 EPR，而在三个不同维度：(1) 价格/收入 比从 3x 升到 5x；(2) 信贷质量（NINJA loans、option ARM）；(3) 证券化的去监管和评级欺诈。 重要结论。EPR 不是衡量所有泡沫的万能指标。住房泡沫是"价格 + 信贷质量 + 证券化"三层结构， 铁路/电信/AI 是"资本前置 + 需求外推 + 资产寿命短"结构。 
+## **5.5 Other historical cases (short list)**
 
-## **5.5 其他历史案例（简表）** 
-
-|**案例**|**时期**|**EPR估计**|**主要破裂机制**|
+|**Case**|**Period**|**EPR estimate**|**Main rupture mechanism**|
 |---|---|---|---|
-|日本资产泡沫|1985-1990|n/a（价格泡沫）|股市跌60%<br>，地价跌80%，30<br>年通缩|
-|中国钢铁过剩|2010-2016|约0.5-0.7x|价格跌70%，供给侧改革整合|
-|美国页岩油|2011-2016|约1.5-2x|油价崩盘75%，~100<br>家E&P破<br>产|
-|加密货币<br>（2017/2021<br>）|2017, 2021|n/a（叙事泡沫）|比特币跌80%多次|
+|Japanese asset bubble|1985-1990|n/a (price bubble)|The stock market fell 60%<br>, land prices fell 80%, 30 years of deflation|
+|China’s steel surplus|2010-2016|About 0.5-0.7x|Price falls70%, supply-side reform and integration|
+| U.S. shale oil | 2011-2016 | About 1.5-2x | Oil prices collapse 75%, ~100<br>E&Ps bankrupt<br>|
+|Cryptocurrency<br>(2017/2021<br>)|2017, 2021|n/a (narrative bubble) |Bitcoin fell 80% multiple times|
 
+## **6. Main comparison table: AI’s position in the leverage spectrum (updated)**
 
-## **六、主对比表：AI 在杠杆光谱中的位置（更新）** 
+## Put all previous calculations in a table. 
 
-## 把前面所有计算放在一张表里。 
-
-|**案例**|**时期**|**EPR近似估算**|**资产寿命**|**终端崩盘特征**|**与AI相似**<br>**度**|
+|**Case**|**Period**|**EPR Approximate Estimate**|**Asset Life**|**Terminal Crash Characteristics**|**Similar to AI**<br>** Degree**|
 |---|---|---|---|---|---|
-|成熟SaaS|当前|0.69x|3-5y|n/a（稳态）|低|
-|传统电信（post-<br>bubble）|当前|0.76x|10-15y|n/a|低|
-|公用事业|当前|0.80x|30+y|n/a|低|
+|Mature SaaS|Current|0.69x|3-5y|n/a (steady state)|Low|
+|Traditional Telecommunications (post-<br>bubble)|Current|0.76x|10-15y|n/a|Low|
+|Utilities|Current|0.80x|30+y|n/a|Low|
 
-
-|**案例**|**时期**|**EPR近似估算**|**资产寿命**|**终端崩盘特征**|**与AI相似**<br>**度**|
+|**Case**|**Period**|**EPR Approximate Estimate**|**Asset Life**|**Terminal Crash Characteristics**|**Similar to AI**<br>** Degree**|
 |---|---|---|---|---|---|
 |regulated||||||
-|航空|当前|0.90x|15-25y|周期性破产|低|
-|汽车OEM|当前|0.92x|5-10y|周期性破产|低|
-|中国钢铁|2015峰<br>值|0.5-0.7x|20+y|价格跌70%|低|
-|美国住房|2007峰<br>值|0.9-1.1x|50+y|房价跌35%，金融<br>危机|低（结构不<br>同）|
-|美国铁路|1873峰<br>值|约1.2x（聚合）|50+y|25%行业破产，6<br>年长萧条|中-高|
-|美国页岩油|2014峰<br>值|1.5-2x|5-10y|油价跌<br>75%，~100破产|中|
-|AI 2026 May（宽<br>口径R_T，更新）|当前|1.62x|4-15y混合|?|基准|
-|AI 2026 May（严<br>格口径R_T，更<br>新）|当前|2.28x|同|?|基准|
-|英国铁路|1846峰<br>值|2.5-3x|50+y|股价跌50-80%|高|
-|美国电信光纤（新<br>建IP/data）|2000峰<br>值|约3x|15-20y|$2T市值蒸<br>发，WorldCom破<br>产|高|
+|Aviation|Current|0.90x|15-25y|Cyclic Bankruptcy|Low|
+|Auto OEM|Current|0.92x|5-10y|Cyclic Bankruptcy|Low|
+|China Steel|2015 Peak<br>Value|0.5-0.7x|20+y|Price fell70%|Low|
+|US Housing|2007Peak<br>Value|0.9-1.1x|50+y|House prices fall35%, financial<br>crisis|Low (structure<br>different)|
+| U.S. Railroads | 1873 Peak<br>Value | Approximately 1.2x (aggregated) | 50+y | 25% Industry Bankruptcy, 6<br>Long Depression | Mid-High |
+|US shale oil|2014peak<br>value|1.5-2x|5-10y|Oil prices drop<br>75%, ~100 bankrupt|mid|
+|AI 2026 May (Wide<br>Caliber R_T, updated)|Current|1.62x|4-15y Mix|?|Baseline|
+|AI 2026 May (strict<br>caliber R_T, updated<br>)|current|2.28x|same|?|baseline|
+|British Rail|1846 Peak<br>Value|2.5-3x|50+y|Share price down50-80%|High|
+|US Telecom Optical Fiber (New<br>IP/data)|2000 Peak<br>Value|Approximately 3x|15-20y|$2T Market value evaporates<br>, WorldCom goes bankrupt<br>|High|
 
+Warning: All historical EPRs are approximate estimates of the same frame, not precise measurements of "the same caliber". Read several key conclusions from the updated table:
 
-警示：所有历史 EPR 是同框架近似估算，不是"同口径"精确测量。 从更新后的表读出几个关键结论： 
+Conclusion 1: The AI position has moved down from the historical bubble peak range to the middle. Early EPR 2.5-3x estimates put AI looking on par with 1846 railroads and 2000 telecoms. Updated 1.6-2.3x puts the AI ​​position between 1873 US Rail (1.2x) and 1846 UK Rail (2.5-3x), and comparable to 2014 US Shale Oil (1.5-2x). This reflects the true impact of 2026 R_T's rapid expansion in the first half of the year. 
 
-结论 1：AI 位置已经从历史泡沫峰值区间下移到中段。早期 EPR 2.5-3x 估算让 AI 看起来与 1846 铁路和 2000 电信平齐。更新后的 1.6-2.3x 让 AI 位置介于 1873 美国铁路（1.2x）和 1846 英国铁路（2.5-3x）之间，与 2014 美国页岩油（1.5-2x）相当。这反映 2026 上半年 R_T 快速 扩张的真实影响。 
+Conclusion 2: AI still far outperforms normal industry benchmarks. Normal industry 0.65-0.95x, AI 1.6-2.3x. Median EPR 2x = 2.5x normal industry benchmark. Still at the "infrastructure bubble level", just no longer at the peak. 
 
-结论 2：AI 仍然远超正常行业基准。正常行业 0.65-0.95x，AI 1.6-2.3x。EPR 中位 2x = 2.5 倍 正常行业基准。仍然在"基础设施泡沫量级"，只是不再是峰值。 
+Conclusion 3: The direction has not changed, but the degree has slowed down. AI still shows "capital front + demand extrapolation" characteristics. But R_T cashes out faster than expected - this is the most important "escape" path. If Anthropic + Microsoft AI + OpenAI, etc. 2026-2027 continue to expand at the current growth rate, EPR may fall below 1.5x around 2027 and enter the same level as the peak of shale oil.
 
-结论 3：方向并未改变，只是程度变缓。 AI 仍然显示"资本前置 + 需求外推"特征。但 R_T 兑现 速度比预期快——这是最重要的"逃逸"路径。如果 Anthropic + Microsoft AI + OpenAI 等 20262027 继续按当前增速扩张，EPR 可能在 2027 中前后跌破 1.5x，进入与页岩油峰值同等水平之 下。 结论 4：AI 与 1846 铁路和 2000 电信的可比性下降，与 1873 铁路 + 页岩油的可比性上升。 1846 铁路和 2000 电信的特征是终端需求增长严重不及 capex 节奏。AI 当前情形不同——R_T 在以 100%+ 速度扩张。这降低了 AI 走向 1846/2000 类似全面崩盘的概率。 
+Conclusion 4: AI’s comparability with 1846 Railroad and 2000 Telecommunications decreases, and its comparability with 1873 Rail + Shale Oil increases. 1846 Rail and 2000 Telecom are characterized by terminal demand growth that is severely undercapex paced. AI's current situation is different - R_T is expanding at a rate of 100%+. This reduces the probability of the AI ​​heading towards a 1846/2000-like full-blown crash. 
 
-结论 5：但 capex 端仍在加速。 Big-5 2026 capex 指引从年初 $620B 升到 $750B，Microsoft FY27 暗示更高。如果 capex 持续加速 + R_T 增速放缓，EPR 会反弹。当前 1.6-2.3x 不是稳态。 
+Conclusion 5: But the capex side is still accelerating. Big-5 2026 capex guidance rose to $750B from $620B at the beginning of the year, with Microsoft FY27 hinting at higher. If capex continues to accelerate + R_T growth slows, EPR will rebound. The current 1.6-2.3x is not steady state. 
 
-## **七、Capex / GDP 双口径分析（更新）** 
+## **7. Capex/GDP dual-caliber analysis (updated)**
 
-严格区分两个完全不同的概念：(1) capex 水平占 GDP；(2) capex 对 GDP 增长的贡献。混用是 经常的错误。 
+Strictly distinguish between two completely different concepts: (1) capex level as a share of GDP; (2) capex contribution to GDP growth. Mixing is a common mistake. 
 
-## **7.1 Capex 水平占 GDP** 
+## **7.1 Capex level to GDP**
 
-|**案例**|**时期**|**Capex**<br>**水平/ GDP（年口**<br>**径）**|**说明**|
+|**Case**|**Period**|**Capex**<br>**Level/GDP (annual**<br>**Diameter)**|**Description**|
 |---|---|---|---|
-|英国铁路|1847峰<br>值|7-8%|当年新增capex / GDP|
-|美国电信|2000峰<br>值|约1.2%|BEA|
-|美国住房（住宅投<br>资）|2005-<br>2006|约6.3%|历史高位|
-|AI美国（Big-5<br>2026）|2026|约1.7%|$520B AI<br>部分/ GDP $30T|
-|AI<br>美国（全行业<br>2026）|2026|约2.0%|含neocloud + Oracle + sovereign|
-|Goldman<br>估算AI<br>capex/GDP|当前|约0.8%（窄口径）|Goldman Sachs Research|
-|AI<br>全球2026|2026|约0.6-0.7%|$700-750B /<br>全球$110T|
+|British Rail|1847Peak value|7-8%|New capex/GDP for the year|
+|US Telecom|2000Peak<br>Value|Approx.1.2%|BEA|
+|US Housing (Residential Investment<br>Investment)|2005-<br>2006|About 6.3%|Historical Highs|
+|AI USA (Big-5<br>2026)|2026|About 1.7%|$520B AI<br>Part/GDP $30T|
+|AI<br>USA (all industries<br>2026)|2026|about 2.0%|including neocloud + Oracle + sovereign|
+|Goldman<br>Estimated AI<br>capex/GDP|Current|About 0.8% (narrow bore) |Goldman Sachs Research|
+|AI<br>Global2026|2026|About0.6-0.7%|$700-750B /<br>Global$110T|
 
+AI 2026 US capex/GDP is slightly higher than 2000 telecom peak, and well below 1840s rail. The difference between Goldman's estimate (0.8%) and this article's estimate (~1.7-2.0%) lies in the caliber: Goldman uses a more stringent definition of pure AI capex, while this article uses the hyperscaler total capex × 75% AI ratio. 
 
-AI 2026 美国 capex/GDP 略高于 2000 电信峰值，远低于 1840s 铁路。Goldman 估算（0.8%） 和本文估算（~1.7-2.0%）的差异在于口径：Goldman 用更严格的纯 AI capex 定义，本文按 hyperscaler 总 capex × 75% AI 比例。 
+## **7.2 Capex Contribution to GDP Growth**
 
-## **7.2 Capex 对 GDP 增长的贡献** 
+This is a completely different metric than the capex/GDP level. GDP growth contribution looks at the year-on-year increase in capex, not the total amount. The latest external estimates differ sharply:
 
-这是与 capex/GDP 水平完全不同的指标。GDP 增长贡献看的是 capex 同比增量，不是总量。最 新外部估算存在巨大分歧： 
-
-|**口径**|**估计**|**来源**|
+|**Caliber**|**Estimate**|**Source**|
 |---|---|---|
-|Jason Furman:信息处理设备+<br>软件占H1 2025<br>GDP增长|92%|X帖子|
-|St Louis Fed: AI<br>相关投资占Q3 2025<br>实际GDP<br>增长|39%|St Louis Fed On the Economy Jan 2026|
-|Goldman Sachs: AI capex<br>对GDP增长贡献<br>（capex增量口径）|1.5 pp名义|Goldman Sachs Research|
-|Goldman Sachs: AI capex<br>净GDP增长贡献|0.1-0.2 pp|Jan Hatzius|
+|Jason Furman: Information Processing Equipment +<br>Software accounts for H1 2025<br>GDP Growth|92%|X Posts|
+|St Louis Fed: AI<br>related investment in Q3 2025<br>real GDP<br>growth|39%|St Louis Fed On the Economy Jan 2026|
+|Goldman Sachs: AI capex<br>contribution to GDP growth<br> (capex incremental caliber) |1.5 pp nominal |Goldman Sachs Research|
+|Goldman Sachs: AI capex<br>Net GDP growth contribution|0.1-0.2 pp|Jan Hatzius|
 
-
-|**口径**|**估计**|**来源**|
+|**Caliber**|**Estimate**|**Source**|
 |---|---|---|
-|（扣除进口资本品后）|||
-|这些数字相差近1,000倍（0.1-0.2 pp<br>到92%）。原因：|||
+|(After deducting imported capital goods)|||
+|These numbers differ by a factor of nearly 1,000 (0.1-0.2 pp<br> to 92%). Reason: |||
 
+   - Furman used the NIPA category (Information processing equipment + software). This category H1 2025 has an unusually high contribution to GDP growth due to the surge in AI investment, but the denominator (total GDP growth) is also unusually low. This is the denominator effect. 
 
-   - Furman 用的是 NIPA 类别（Information processing equipment + software），这个类别 H1 2025 因为 AI 投资暴涨而对 GDP 增长贡献占比异常高，但分母（总 GDP 增长）也异 常低。这是分母效应。 
+- St Louis Fed uses more precise AI-related subcategories, resulting in 39% (more credible, but still nominal). 
 
-- St Louis Fed 用更精确的 AI-related 子类别，得到 39%（更可信，但仍是名义口径）。 
+- Goldman further deducts imported capital goods (most imports of GPUs, HBMs, servers) to get net 0.1-0.2 pp. GDP measures domestic production and imported goods do not count towards GDP growth. 
 
-- • Goldman 进一步扣除进口资本品（GPU、HBM、服务器大部分进口），得到净 0.1-0.2 pp。GDP 计算的是国内生产，进口商品不算 GDP 增长。 
+- This article adopts Goldman's methodological revisions. The true AI capex's net contribution to U.S. GDP growth may be only 0.1-0.5 pp, far less than the horizontal share (1.7-2.0%) would lead one to think. This is because AI investments 70%+ are imported capital goods (NVIDIA is made with TSMC, HBM is from SK Hynix and Samsung). But this correction in turn means that if AI capex slows down, the direct drag on GDP growth will be smaller (0.1-0.5 pp reversal). Reflexivity is more reflected in stock market valuation → wealth effect → consumption rather than direct GDP calculation. 
 
-- 本文采纳 Goldman 的方法论修正。真实 AI capex 对美国 GDP 增长的净贡献可能只有 0.1-0.5 pp，远低于水平占比（1.7-2.0%）会让人以为的程度。这是因为 AI 投资 70%+ 是进口资本品 （NVIDIA 用 TSMC 制造，HBM 来自 SK 海力士和三星）。 但这个修正反过来意味着：AI capex 如果减速，对 GDP 增长的直接拖累也较小（0.1-0.5 pp 反 转）。反身性更多体现在股市估值 → 财富效应 → 消费，而不是直接的 GDP 计算。 
+## **8. Sensitivity analysis**
 
-## **八、敏感性分析** 
+The EPR center estimate 1.8-2.0x appears to be precise, but actually relies on multiple uncertain parameters. The table below shows the impact of changes in key parameters on EPR. 
 
-EPR 中心估计 1.8-2.0x 看起来精确，实际依赖多个不确定参数。下表展示关键参数变化对 EPR 的影响。 
+## **8.1 Key Parameter Sensitivity (Updated Baseline)**
 
-## **8.1 关键参数敏感性（更新基准）** 
-
-|**假设变化**|**P变化方向**|**对宽口径EPR**<br>**的影响（基准1.62x）**|
+|**Assumption changes**|**P change direction**|**Impact on wide-aperture EPR**<br>** (baseline1.62x)**|
 |---|---|---|
-|R_T<br>从$225B<br>升到$300B<br>（如2027持续高增<br>长）|不变|EPR<br>降至1.21x|
-|R_T<br>从$225B<br>升到$400B|不变|EPR<br>降至0.91x（接近正常行业）|
-|R_T<br>从$225B<br>降到$180B|不变|EPR<br>升至2.02x|
-|R_T<br>从$225B<br>降到$160B（严格口径）|不变|EPR<br>升至2.28x|
-|K<br>从$1.3T<br>升到$1.7T（2027末）|P<br>升约$112B|EPR<br>升至2.12x|
-|K<br>从$1.3T<br>升到$2.0T（2028）|P<br>升约$196B|EPR<br>升至2.49x|
-|GPU/network<br>寿命从4<br>年降到3年|折旧升约$43B|EPR<br>升至1.81x|
-|o<br>从10%<br>升到15%<br>（高opex）|opex<br>升$65B|EPR<br>升至1.91x|
-|用WACC 8%<br>替代r×d|P<br>升约$80B|EPR_wacc<br>约1.97x|
-|EPR<br>的合理90%可信区间：1.0x-2.8x（宽口径）/ 1.5x-3.5x<br>（严格口径）。点估计是1.62x<br>或<br>2.28x，但实际值在区间内分布。|||
+|R_T<br>raised from $225B<br> to $300B<br> (such as 2027 continues to grow at a high<br> rate)|EPR<br>reduces to 1.21x|
+|R_T<br>raised from $225B<br> to $400B|unchanged|EPR<br>dropped to 0.91x (close to normal industry)|
+|R_T<br>downgraded from $225B<br> to $180B|unchanged|EPR<br>upgraded to 2.02x|
+|R_T<br>Downgraded from $225B<br> to $160B (strict caliber)|Unchanged|EPR<br>Upgraded to 2.28x|
+|K<br>Upgraded from $1.3T<br> to $1.7T (end of 2027)|P<br>Upgraded to approximately $112B|EPR<br>Upgraded to 2.12x|
+|K<br>Upgraded from $1.3T<br> to $2.0T (2028)|P<br>Upgraded to approximately $196B|EPR<br>Upgraded to 2.49x|
+|GPU/network<br>lifetime dropped from 4<br> years to 3 years|Depreciation increased to approximately $43B|EPR<br>increased to 1.81x|
+|o<br>Upgraded from 10%<br> to 15%<br> (high opex) |opex<br>Upgraded to $65B|EPR<br>Upgraded to 1.91x|
+|Replace r×d with WACC 8%<br>|P<br>up to about $80B|EPR_wacc<br>about 1.97x|
+|EPR<br>'s reasonable 90% confidence interval: 1.0x-2.8x (wide caliber) / 1.5x-3.5x<br> (strict caliber). The point estimate is 1.62x<br> or<br>2.28x, but the actual values ​​are spread over the interval. |||
 
+## **8.2 EPR Time Path (Updated)**
 
-## **8.2 EPR 时间路径（更新）** 
+The current K=$1.3T is still below steady state. Estimated by annual capex run rate $600B and L=6.1 years, steady state K=$3.66T. K is still expanding upward. The following is a hypothetical trajectory of the third-speed R_T speed increase (wide aperture $225B starting point). Assumption: annual capex remains at $600B (2026 actual guidance level); other parameters remain unchanged.
 
-当前 K=$1.3T 仍低于稳态。按年 capex run rate $600B 和 L=6.1 年估算，稳态 K=$3.66T。K 仍 在向上扩张。下面给三档 R_T 增速假设的轨迹（宽口径 $225B 起点）。 假设：年 capex 维持 $600B（2026 实际指引水平）；其他参数不变。 
-
-|**年份**|**K (年初)**|**P**|**R_T**<br>**50%C**<br>**AGR**|**EPR**|**R_T**<br>**25%C**<br>**AGR**|**EPR**|**R_T**<br>**10%C**<br>**AGR**|**EPR**|
+|**Year**|**K (beginning of the year)**|**P**|**R_T**<br>**50%C**<br>**AGR**|**EPR**|**R_T**<br>**25%C**<br>**AGR**|**EPR**|**R_T**<br>**10%C**<br>**AGR**|**EPR**|
 |---|---|---|---|---|---|---|---|---|
 |2026|$1.3T|$364B|$225B|1.62x|$225B|1.62x|$225B|1.62x|
 |2027|$1.7T|$476B|$338B|1.41x|$281B|1.69x|$248B|1.92x|
@@ -504,263 +483,260 @@ EPR 中心估计 1.8-2.0x 看起来精确，实际依赖多个不确定参数。
 |2031|$2.7T|$756B|$1708<br>B|0.44x|$686B|1.10x|$363B|2.08x|
 |2032|$2.9T|$812B|$2562<br>B|0.32x|$857B|0.95x|$399B|2.03x|
 
+## Interpretation:
 
-## 解读： 
+- 50% CAGR (close to 2026 actual first half rate): R_T continues to grow at current pace, EPR fell below 1.5x at 2028, and 2030 is close to normal industry benchmarks. Under this path, the AI ​​cycle achieves "rapid digestion". 
 
-- 50% CAGR（接近 2026 上半年实际速度）：R_T 持续按当前速度增长，EPR 在 2028 跌 破 1.5x，2030 接近正常行业基准。这条路径下 AI 周期实现"快速消化"。 
+- 25% CAGR (still very aggressive): EPR peaked at 2028-2029 around 1.7x, then fell back. 2032 Entering the upper edge of the normal industry. This is a neutral scenario. 
 
-- 25% CAGR（仍然非常激进）：EPR 在 2028-2029 达到峰值约 1.7x，之后回落。2032 进入正常行业上沿。这是中性情景。 
+- 10% CAGR (conservative): EPR continues at 2x platform. Requires capex to actively slow down to balance. May cause hyperscaler capex downward revision cycle. 
 
-- 10% CAGR（保守）：EPR 持续在 2x 平台。需要 capex 主动降速才能平衡。可能引发 hyperscaler capex 下修循环。 
+Note that 50% CAGR is not extreme. Anthropic's trailing 12-month ARR went from $9B → $40B (400%+). OpenAI 2025 changes from $6B → $20B (230%) throughout the year. If the two companies continue to grow at 50-100% for a few years, it is entirely possible that R_T will reach $500-600B in 2028. 
 
-注意 50% CAGR 不算极端。 Anthropic 过去 12 个月 ARR 从 $9B → $40B（400%+）。OpenAI 2025 全年从 $6B → $20B（230%）。如果两家继续按 50-100% 增长几年，R_T 完全可能在 2028 达到 $500-600B。 
+But of course there are risks. Reasoning price wars, open source model challenges, and enterprise penetration saturation may bring R_T's growth to a sudden halt. If R_T growth falls to 10% CAGR and capex continues to be invested at $600B/year level, EPR will continue at the 2x platform in 2027-2029, similar to the digestion period after the establishment of historical bubbles. 
 
-但当然这也有风险。推理价格战、开源模型挑战、企业渗透饱和都可能让 R_T 增速急停。如果 R_T 增速跌到 10% CAGR 而 capex 继续按 $600B/年水平投放，EPR 会在 2027-2029 持续在 2x 平台，与历史泡沫成立后的消化期相似。 
+## **9. Key differences between AI and historical bubbles (updated)**
 
-## **九、AI 与历史泡沫的关键差异（更新）** 
+## **9.1 Factors that buffer AI cycles**
 
-## **9.1 缓冲 AI 周期的因素** 
+- Hyperscaler’s own strong cash flow. Amazon/Microsoft/Google/Meta combined annual free cash flow $300B+. 
 
-- Hyperscaler 自身强大现金流。 Amazon/Microsoft/Google/Meta 合并年自由现金流 $300B+。 
+- Upstream revenue is solid and verifiable. NVIDIA Q1 FY27 DC revenue $75.2B (+92% YoY), forward annualized ~$300B+. Q2 Guidelines $91B/Q. 
 
-- 上游收入扎实可核验。 NVIDIA Q1 FY27 DC 收入 $75.2B（+92% YoY），forward annualized ~$300B+。Q2 指引 $91B/Q。 
+- R_T Cash out quickly (most important update). Anthropic went from $9B to $40B (6 months), Microsoft AI ARR $37B, OpenAI ~$25B. AI revenue is cashing out faster than any infrastructure cycle in history. 
 
-- R_T 快速兑现（最重要的更新）。 Anthropic 从 $9B 升到 $40B（6 个月），Microsoft AI ARR $37B，OpenAI ~$25B。AI 收入兑现速度超过历史任何基础设施周期。 
+- Diversification reduces systemic risk. 
 
-- 多元化降低系统性风险。 
+- Real advancement of technology. The cost of inference 2023-2026 has been reduced by 10-30 times cumulatively. Hardware is iterated on an 18-24 month cadence. 
 
-- 技术真实推进。推理成本 2023-2026 累计下降 10-30 倍。Hardware 按 18-24 个月节奏 迭代。 
+## **9.2 Factors that amplify AI cycles**
 
-## **9.2 放大 AI 周期的因素** 
+- OpenAI commitments stack extreme (raised to $1.4T). vs 2026 ARR ~$25B = 56x commitments/revenue ratio. This is unprecedented in history. 
 
-- OpenAI commitments 栈极端（已升至 $1.4T）。 vs 2026 ARR ~$25B = 56x commitments/revenue 比。这是历史前所未有。 
+- Revolving financing is huge. NVIDIA 2026 invests $40B+ in equity bets. NVIDIA’s single $30B investment in OpenAI. NVIDIA + CoreWeave + OpenAI Triangle Loops scale. 
 
-- 循环融资规模庞大。 NVIDIA 2026 投资 $40B+ in equity bets。NVIDIA 单笔 $30B 投入 OpenAI。NVIDIA + CoreWeave + OpenAI 三角循环规模巨大。 
+- Neocloud local high leverage. CoreWeave includes lease leverage of approximately 4.2x annualized revenue, backlog $99.4B (vs Q1 revenue $2.08B = 48x). 
 
-- Neocloud 局部高杠杆。 CoreWeave 含租赁杠杆约 4.2x 年化收入，backlog $99.4B（vs Q1 收入 $2.08B = 48x）。 
+- Rapid depreciation over GPU life. H100's economic value declined significantly within 24 months of B200/Rubin's emergence. 
 
-- GPU 寿命快速折旧。 H100 在 B200/Rubin 出现后 24 个月内经济价值显著下降。 
+- Open source models challenge proprietary API price tiers. DeepSeek, Llama, Qwen directly threaten proprietary API pricing. This is a factor that 2000 Telecom does not have. 
 
-- • 开源模型挑战专有 API 价格层。 DeepSeek、Llama、Qwen 直接威胁专有 API 定价。这 是 2000 电信没有的因素。 
+- Microsoft Copilot penetration remains low (3.3-4.4%). Even though AI ARR $37B seems to be high, the coverage rate is still low compared to the Microsoft 365 commercial base (approximately 400 million seats), which means there is a lot of upside space and also means that R_T's expansion depends on the continued increase in penetration rate. 
 
-- Microsoft Copilot 渗透率仍低（3.3-4.4%）。即便 AI ARR $37B 看似很高，但相对 Microsoft 365 商业基础（约 4 亿 seats）覆盖率仍低，意味着上行空间大同时也意味着 R_T 的扩张依赖渗透率持续提升。 
+## **9.3 Comprehensive judgment (updated)**
 
-## **9.3 综合判断（更新）** 
+AI cushioning factors are stronger than historical bubbles, and R_T has shown to cash out much faster than 1846 Railroads or 2000 Telecoms. AI amplification factors are also more extreme than historically, especially the size of the OpenAI commitments stack and recurring funding. 
 
-AI 缓冲因素比历史泡沫更强，且 R_T 已经显示比 1846 铁路或 2000 电信快得多的兑现速度。 AI 放大因素也比历史更极端，特别是 OpenAI commitments 栈和循环融资规模。 
+Most likely path (updated):
 
-最可能的路径（更新后）： 
+- Anthropic + Microsoft AI maintain rapid growth → R_T continues to expand → EPR further down in 2027-2028
 
-- Anthropic + Microsoft AI 维持高速增长 → R_T 继续扩张 → EPR 在 2027-2028 进一步下 
+   - Dropped to 1.0-1.5x range
 
-   - 降到 1.0-1.5x 区间 
+- At the same time, capex continues to accelerate (Big-5 capex is still being revised upward) → K is also growing rapidly → EPR will not decline quickly
 
-- 与此同时，capex 持续加速（Big-5 capex 仍在上修） → K 增速也快 → EPR 下降速度不 会很快 
+- OpenAI is the most vulnerable point in the industry chain. Commitments 56x The revenue ratio cannot be absorbed by revenue expansion alone and requires continued equity financing or commitment write-downs. 
 
-- OpenAI 是产业链最脆弱点。 Commitments 56x revenue 比无法仅靠收入扩张消化，需要 持续股权融资或 commitment 减记。 
+- Neocloud (CoreWeave, etc.) is also vulnerable. Backlog 48x Quarterly revenue ratio relies on backlog realization. If big clients like Anthropic or Meta renegotiate, it could trigger a chain of events
 
-- Neocloud（CoreWeave 等）也是脆弱点。 Backlog 48x 季度收入比依赖 backlog 兑现。 如果 Anthropic 或 Meta 等大客户重谈，会引发连锁 
+- Hyperscaler does not have a total collapse. Strong cash flow + diversification. 
 
-- Hyperscaler 不会全面崩塌。现金流强 + 多元化。 
+NVIDIA won't go bankrupt, but the chance of significant compression in forward multiples remains. Its supply commitments $95B and $40B+ investments in customers are so reflexive that any customer-level slowdowns are immediately transmitted to NVIDIA itself. 
 
-NVIDIA 不会破产，但 forward multiples 大幅压缩的概率仍存在。其 supply commitments $95B 和对客户的 $40B+ 投资形成的反身性，使得任何客户层面减速会立刻传导到 NVIDIA 本身。 
+## **10. Leading indicators**
 
-## **十、领先指标** 
+Monitor high-priority signals for cycle turning points (sorted by importance, adjusted based on updated circumstances):
 
-监测周期转折的高优先级信号（按重要性排序，根据更新后情况调整）： 
+- 1. Anthropic and OpenAI growth rate. The current 6-week doubling is an anomaly. Any deceleration to monthly growth <10% is a cycle turning signal. 
 
-- 1. Anthropic 和 OpenAI 增速。当前 6 周翻倍是异常状态。任何减速到月度增速 <10% 都 是周期转折信号。 
+- 2. Hyperscaler asset life policy. Amazon has revised it down from 6 years to 5 years. Microsoft/Google/Meta follow-through will trigger a 10-15% GAAP depreciation upward revision. 
 
-- 2. Hyperscaler 资产寿命政策。 Amazon 已从 6 年下调到 5 年。Microsoft/Google/Meta 跟进会引发 10-15% GAAP 折旧上修。 
+- 3. OpenAI commitments fulfillment speed. Whether OpenAI can maintain commitments stack schedule deployment. If OpenAI and Oracle, AWS, CoreWeave, etc. start to delay or renegotiate, it will be the earliest manifestation of the pressure on the commitments stack $1.4T. 
 
-- 3. OpenAI commitments 履约速度。 OpenAI 是否能维持 commitments 栈 schedule 部署。 如果 OpenAI 与 Oracle、AWS、CoreWeave 等开始延后或重谈，是 commitments 栈 $1.4T 压力的最早表现。 
+- 4. Neocloud refinancing spread and backlog quality. CoreWeave backlog $99.4B looks thick, but is customer focused. Any customer default or delayed deployment would immediately hit EBITDA. 
 
-- 4. Neocloud 再融资利差和 backlog 质量。 CoreWeave backlog $99.4B 看起来很厚，但 客户集中。任何客户违约或延后部署会立刻冲击 EBITDA。 
+- 5. Hyperscaler capex guidance tone. Changes in rhetoric from "increasing investment" to "improving efficiency". 
 
-- 5. Hyperscaler capex 指引语气。从"加大投资"到"提高效率"的话术变化。 
+- 6. Changes in NVIDIA supply commitments. Current $95B. The significant month-on-month decline means that NVIDIA has less confidence in its forward orders. 
 
-- 6. NVIDIA supply commitments 变化。当前 $95B。环比明显下降意味着 NVIDIA 对自己 forward orders 信心下降。 
+- 7. AI inference gross profit margin. OpenAI/Anthropic inference gross margin trend. Price war suppressing gross profit improvement is an early warning. 
 
-- 7. AI 推理毛利率。 OpenAI/Anthropic inference gross margin 趋势。价格战压制毛利改善 是早期警告。 
+- 8. GPU rental price. H100/H200/B200 spot price. H100 spot Chronically below $3/hour pressure CoreWeave. B200 New cluster breakeven $5/hour.
 
-- 8. GPU 租赁价格。 H100/H200/B200 spot 价格。H100 spot 长期低于 $3/hour 压力 CoreWeave。B200 新建集群盈亏平衡 $5/hour。 
+- 9. AI capex in GDP and contribution to GDP growth. Current capex/GDP is about 1.7-2.0% (US). The ratio continues to rise, which means the economy’s reliance on AI reflexivity deepens. 
 
-- 9. AI capex 占 GDP 与对 GDP 增长贡献。当前 capex/GDP 约 1.7-2.0%（美国）。比例 继续上升意味着经济对 AI 反身性依赖加深。 
+- 10. Capital market AI theme valuation quantile. Anthropic current $850-900B valuation (21-23x ARR); OpenAI $852B (34x ARR). The downward movement of these multiples is a periodic signal. 
 
-- 10. 资本市场 AI 主题估值分位。 Anthropic 当前 $850-900B 估值（21-23x ARR）； OpenAI $852B（34x ARR）。这些倍数下行就是周期信号。 
+The red combination (simultaneous appearance means that the probability of cyclical turning point increases significantly): Anthropic + OpenAI growth rate deceleration + capex still upward revision + GPU rental price decrease + financing spread expansion + neocloud backlog quality decrease + model company commitments renegotiated. 
 
-红色组合（同时出现意味着周期转折概率显著上升）：Anthropic + OpenAI 增速减速 + capex 仍 上修 + GPU 租价下跌 + 融资利差扩大 + neocloud backlog 质量下降 + 模型公司 commitments 重谈。 
+## **11. Final judgment**
 
-## **十一、最终判断** 
+Data available as of 2026-05-25:
 
-截至 2026-05-25 可得数据： 
+Under the assumptions of this article (K=$1.3T, L=6.1 years, R_T=$160-225B), the current EPR_cash of the AI industry chain is in the 1.6x-2.3x range, with a median of about 1.8-2.0x. This is significantly lower than early 2.5-3.0x estimates, mainly driven by 2026 Anthropic ARR surged from $9B to $40B in the first half of the year, Microsoft AI ARR disclosure $37B, and OpenAI maintaining rapid growth. AI current EPR position:
 
-在本文假设下（K=$1.3T，L=6.1 年，R_T=$160-225B），AI 产业链当前 EPR_cash 处于 1.6x2.3x 区间，中位约 1.8-2.0x。这显著低于早期 2.5-3.0x 的估算，主要驱动力是 2026 上半年 Anthropic ARR 从 $9B 暴涨到 $40B、Microsoft AI ARR 披露 $37B、OpenAI 维持高速增长。 AI 当前 EPR 位置： 
+   - Significantly higher than normal industry benchmarks (0.65-0.95x) - AI is still in the "infrastructure bubble level" range
 
-   - 明显高于正常行业基准（0.65-0.95x）—— AI 仍处于"基础设施泡沫量级"区间 
+   - Approximately equal to 2014 US shale oil (1.5-2x) and higher than 1873 US rail aggregate caliber (1.2x)
 
-   - 约等于 2014 美国页岩油（1.5-2x），高于 1873 美国铁路聚合口径（1.2x） 
+   - Significantly lower than 1846 UK Rail Peak (2.5-3x) and 2000 US Telecom New Section (approximately 3x)
 
-   - 明显低于 1846 英国铁路峰值（2.5-3x）和 2000 美国电信新建段（约 3x） 
+- AI failure modes compared with history:
 
-- AI 失败模式与历史比较： 
+   - Unlike 2007 US housing (price + credit + securitization structure)
 
-   - 不像 2007 美国住房（价格+信贷+证券化结构） 
+   - Unlike 1989 Japanese asset bubble (pure price bubble)
 
-   - 不像 1989 日本资产泡沫（纯价格泡沫） 
+   - Similarity to 1840s Railroads and 2000 Telecoms decreases as R_T cashes out much faster than those cycles
 
-   - 与 1840s 铁路和 2000 电信的相似性下降，因为 R_T 兑现速度远超那些周期 
+   - Rising similarity to 1873 U.S. railroads and 2014 shale oil
 
-   - 与 1873 美国铁路和 2014 页岩油的相似性上升 
+AI capex/GDP ratio:
 
-AI capex/GDP 占比： 
+- US capex level/GDP around 1.7-2.0% (medium-high, but well below 1840s rail 7-8%)
 
-- 美国 capex 水平 / GDP 约 1.7-2.0%（中等-高，但远低于 1840s 铁路 7-8%） 
+- Net contribution to GDP growth 0.1-0.5 pp (Goldman adjusted for imported capital goods)
 
-- 对 GDP 增长的净贡献 0.1-0.5 pp（Goldman 进口资本品调整后） 
+- Nominal GDP growth contribution caliber can reach 39% (St Louis Fed)
 
-- 名义 GDP 增长贡献口径可达 39%（St Louis Fed） 
+## Most likely path:
 
-## 最可能的路径： 
+- If Anthropic + Microsoft AI + OpenAI, etc. maintain 25%+ annual growth rate, EPR will further decline in 2027-2028, and the AI cycle will achieve "rapid digestion"
 
-- 如果 Anthropic + Microsoft AI + OpenAI 等维持 25%+ 年增速，EPR 在 2027-2028 进一 步下降，AI 周期实现"快速消化" 
+- If R_T growth falls below 10% and capex continues at $600B+/year, EPR rebounds above 2x
 
-- 如果 R_T 增速跌到 10% 以下而 capex 持续 $600B+/年水平，EPR 反弹到 2x 以上 
+- Neocloud (CoreWeave, etc.) and over-committed model companies (OpenAI 56x commitments/revenue ratio) remain the most vulnerable
 
-- Neocloud（CoreWeave 等）和过度承诺的模型公司（OpenAI 56x commitments/revenue 比）仍是最脆弱环节 
+- Hyperscaler has strong cash flow and will not completely collapse
 
-- Hyperscaler 现金流强大，不会全面崩塌 
+- NVIDIA won't go bankrupt, but massive compression in forward multiples is still possible
 
-- NVIDIA 不会破产，但 forward multiples 大幅压缩仍可能 
+One sentence summary: Under the stress test assumptions of this article, AI is a real technology cycle + historical capital front-end + local high leverage + reflexive financing. The order of magnitude of EPR has moved down from 2.5-3x to 1.6-2.3x, which is a true reflection of the faster-than-expected realization of R_T in the first half of 2026. However, AI is still 2-3 times farther away from the normal industry, the capex side is still accelerating, and the OpenAI commitments stack has reached a historically unprecedented level of $1.4T. The most likely outcome is the combination of "partial clearing + soft digestion" in 2027-2029, not a total collapse; but investors holding partial high-leverage links (neocloud, over-committed model companies, long-tail application layers) will bear substantial losses. The probability of a systemic financial crisis is low, but the probability of partial losses of equity and credit is high. 
 
-一句话总结：在本文压力测试假设下，AI 是真实技术周期 + 历史性资本前置 + 局部高杠杆 + 反 身性融资。EPR 数量级已经从 2.5-3x 下移到 1.6-2.3x，这是 2026 上半年 R_T 兑现速度超预期 的真实反映。但 AI 与正常行业仍有 2-3 倍距离，capex 端仍在加速，OpenAI commitments 栈达 到 $1.4T 这一历史前所未有的水平。最可能的结局是 2027-2029 年的"局部出清 + 软消化"组合， 不是全面崩塌；但持有局部高杠杆环节（neocloud、过度承诺的模型公司、长尾应用层）的投资 者会承担实质损失。系统性金融危机概率低，权益和信用局部损失概率高。 
+## Confidence summary:
 
-## 置信度汇总： 
+- "AI EPR_cash median 1.8-2.0x": Medium (R_T key uncertainty reduced but still present, especially Anthropic
 
-- "AI EPR_cash 中位 1.8-2.0x"：中（R_T 关键不确定性减少但仍存在，特别是 Anthropic 
+   - $40B not audited)
 
-   - $40B 未审计） 
+- "AI EPR far exceeds normal industry benchmarks": High
 
-- "AI EPR 远超正常行业基准"：高 
+- "AI magnitude is within historical bubble range": High
 
-- "AI 数量级在历史泡沫范围内"：高 
+- "AI orders of magnitude between 1873 railroad and 1846 railroad": Medium-High
 
-- "AI 数量级介于 1873 铁路和 1846 铁路之间"：中-高 
+- "AI is not like 2007 housing or 1989 Japan": High
 
-- "AI 不像 2007 住房或 1989 日本"：高 
+- "Hyperscaler will not completely collapse" Will not completely collapse: Medium High
 
-- " - 
+- "OpenAI is the most vulnerable point in the industry chain": high (commitments 56x revenue)
 
-- "hyperscaler 不会全面崩塌 ：中 高 
+- "Specific clearing time point": low
 
-- "OpenAI 是产业链最脆弱单点"：高（commitments 56x revenue） 
+## **Twelve, main caveats**
 
-- " " 具体出清时点 ：低 
+- EPR is not a traditional leverage ratio. is the capital service pressure ratio, which is essentially a simplified form of Jorgenson's capital service cost theory. 
 
-## **十二、主要 Caveats** 
+- EPR is not a complete profit margin indicator. Does not include R&D, SG&A, sales, customer service, equity incentives, taxes. Real profit pressure is higher than EPR suggests. 
 
-- EPR 不是传统杠杆率。是 capital service pressure ratio，本质上是 Jorgenson 资本服务 成本理论的简化形式。 
+- EPR > 1 is not the same as "the industry is not profitable". But the terminal revenue is not enough to cover the annual infrastructure pressure defined in this article. 
 
-- EPR 不是完整利润率指标。没有纳入 R&D、SG&A、销售、客服、股权激励、税。真实 利润压力比 EPR 暗示的更高。 
+- Historical EPR is an approximation of the same frame. It is not an accurate measurement of "same caliber". All historical EPR confidence low-medium.
 
-- EPR > 1 不等同于"行业不赚钱"。而是终端收入不足以覆盖本文定义下的年度基础设施压 力。 
+- R_T is the most sensitive variable in the full text. Anthropic $40B comes from TechCrunch internal information sources (medium confidence); OpenAI ARR, Microsoft AI ARR, etc. are selectively disclosed by the company and may not be audited. 
 
-- 历史 EPR 是同框架近似估算。不是"同口径"精确测量。所有历史 EPR 置信度低-中。 
+- K = $1.3T is the median estimate. Cumulative AI capex stock estimates for hyperscaler/neocloud/other entities are subject to ±20% uncertainty. 
 
-- R_T 是全文最敏感变量。 Anthropic $40B 来自 TechCrunch 内部信息源（中等置信度）； OpenAI ARR、Microsoft AI ARR 等都是公司选择性披露，未必经审计。 
+- Normal industry EPR is an aggregate estimate. The leader in the industry may have a lower EPR and a higher long tail. 
 
-- • K = $1.3T 是中位估计。 hyperscaler/neocloud/其他实体的累积 AI capex stock 估计存在 ±20% 不确定性。 
+- OpenAI commitments $1.4T contain some overlap. Oracle deal and Stargate partially overlap; Anthropic's Amazon $100B purchase commitment is 10 years cumulative; time windows are inconsistent. 
 
-- 正常行业 EPR 是聚合估计。行业内龙头可能 EPR 更低，长尾更高。 
+- Anthropic ARR $40B is TechCrunch citing internal information. The latest official public figure from the company is $30B (April 2026). "$40B" should be understood as a non-audited private market measure. 
 
-- • OpenAI commitments $1.4T 含部分重叠。 Oracle deal 和 Stargate 部分重叠；Anthropic 的 Amazon $100B 采购承诺是 10 年累计；时间窗口不一致。 
+- AI capex/GDP figures vary widely from source to source. Goldman 0.8% (narrow aperture) vs. this article's 1.7-2.0% (wide aperture includes all hyperscaler AI related capex). 
 
-- Anthropic ARR $40B 是 TechCrunch 转引内部信息。公司官方最新公开数字是 $30B（April 2026）。"$40B" 应被理解为非审计的私募市场指标。 
+- The contribution of AI capex to GDP growth varies greatly. From Goldman net 0.1-0.2 pp to Furman 92% (H1 2025 NIPA subcategory). This article adopts Goldman’s adjusted version of imported capital goods. 
 
-- AI capex/GDP 数字不同来源差异较大。 Goldman 0.8%（窄口径）vs 本文 1.7-2.0%（宽 口径含全部 hyperscaler AI 相关 capex）。 
+- Housing EPR ~1x does not mean housing is not dangerous. Housing is a price bubble and the EPR framework does not apply here. 1873 US railroads only use aggregate EPR ~1.2x. There is no reliable new/old line breakdown data. The mechanism of "reflexivity" itself is not directly quantifiable. NVIDIA invests in OpenAI, and OpenAI buys NVIDIA GPU. The scale of this chain is estimated to be $40B+. The nominal value is a reasonable estimate based on public disclosure, not an audited figure. 
 
-- • AI capex 对 GDP 增长的贡献口径差异极大。从 Goldman 净 0.1-0.2 pp 到 Furman 92% （H1 2025 NIPA 子类别）。本文取 Goldman 的进口资本品调整版本。 
+- This article provides a research framework and stress test and does not constitute any recommendation to buy or sell securities. 
 
-- • 住房 EPR ~1x 不意味住房不危险。住房是价格泡沫，EPR 框架在这里不适用。 • 1873 美国铁路只用聚合 EPR ~1.2x。没有可靠的新建/老线分解数据。 • "反身性"机制本身不可直接量化。 NVIDIA 投资 OpenAI、OpenAI 买 NVIDIA GPU 这种链 条规模估计为 $40B+ 名义是基于公开披露的合理估计，不是审计数字。 
+## **Thirteen, main sources (all updated to 2026-05-25)**
 
-- 本文提供研究框架与压力测试，不构成任何证券买卖建议。 
+## AI company financial reports and official disclosures (high confidence):
 
-## **十三、主要来源（全部更新至 2026-05-25）** 
+   - NVIDIA Q1 FY27 8-K, CFO commentary, 10-Q (filed 2026-05-20)
 
-## AI 公司财报和官方披露（高置信度）： 
+   - NVIDIA Q4 FY26 CFO commentary (supply commitments $95.2B disclosure)
 
-   - NVIDIA Q1 FY27 8-K, CFO commentary, 10-Q (filed 2026-05-20) 
+   - Microsoft FY26 Q3 Earnings Call Transcript and 10-Q (2026-04-29, AI ARR $37B)
 
-   - NVIDIA Q4 FY26 CFO commentary (supply commitments $95.2B 披露) 
+   - Alphabet/Amazon/Meta Q1 2026 10-Q (filed 2026-04-30)
 
-   - Microsoft FY26 Q3 Earnings Call Transcript and 10-Q (2026-04-29，AI ARR $37B) 
+- CoreWeave Q1 2026 Earnings Call Transcript and 10-Q (2026-05-08, backlog $99.4B)
 
-   - Alphabet/Amazon/Meta Q1 2026 10-Q (filed 2026-04-30) 
+- Anthropic official announcement (2026-04-06, "run-rate revenue has now surpassed $30 billion")
 
-   - CoreWeave Q1 2026 Earnings Call Transcript and 10-Q (2026-05-08，backlog $99.4B) 
+   - Anthropic Series G $30B raised at $380B valuation (Feb 2026)
 
-   - • Anthropic 官方公告 (2026-04-06，"run-rate revenue has now surpassed $30 billion") 
+   - Anthropic-Google-Broadcom 3.5 GW TPU deal (Apr 2026)
 
-   - Anthropic Series G $30B raised at $380B valuation (Feb 2026) 
+   - OpenAI March 2026 $122B funding round at $852B valuation
 
-   - Anthropic-Google-Broadcom 3.5 GW TPU deal (Apr 2026) 
+- AI related industry analysis (medium confidence):
 
-   - OpenAI March 2026 $122B funding round at $852B valuation 
+   - Goldman Sachs Research: AI capex baseline $765B for 2026 (2026-04)
 
-- AI 相关行业分析（中等置信度）： 
+   - Goldman Sachs Research: AI capex GDP impact 0.1-0.2 pp net (Jan Hatzius, 2026-02)
 
-   - Goldman Sachs Research: AI capex baseline $765B for 2026 (2026-04) 
+   - CreditSights: Hyperscaler Capex 2026 Estimates $750B (2026-02)
 
-   - Goldman Sachs Research: AI capex GDP impact 0.1-0.2 pp net (Jan Hatzius, 2026-02) 
+   - St Louis Fed: AI investment contribution to Q3 2025 GDP growth 39% (Jan 2026)
 
-   - CreditSights: Hyperscaler Capex 2026 Estimates $750B (2026-02) 
+   - Jason Furman: H1 2025 GDP growth contribution analysis
 
-   - St Louis Fed: AI investment contribution to Q3 2025 GDP growth 39% (Jan 2026) 
+   - Bloomberg: AI Circular Deals visualization (2026-03)
 
-   - Jason Furman: H1 2025 GDP growth contribution analysis 
+- Media coverage (should be downgraded to reported):
 
-   - Bloomberg: AI Circular Deals visualization (2026-03) 
+- TechCrunch: Anthropic run rate "closer to $40 billion" per internal sources (2026-04-29)
 
-- 媒体报道（应降级为 reported）： 
+- Reuters: OpenAI/Oracle $300B deal report (2025-09 via WSJ)
 
-- TechCrunch: Anthropic run rate "closer to $40 billion" per internal sources (2026-04-29) 
+- Reuters: Anthropic Google $40B investment (2026-04-24)
 
-- Reuters: OpenAI/Oracle $300B deal report (2025-09 via WSJ) 
+- Financial Times: Anthropic potential $40-50B raise at $850-900B valuation (2026-05-07)
 
-- Reuters: Anthropic Google $40B investment (2026-04-24) 
+- CNBC: NVIDIA $40B+ equity bets in 2026 (2026-05-09)
 
-- Financial Times: Anthropic potential $40-50B raise at $850-900B valuation (2026-05-07) 
+- VentureBeat: Anthropic $30B ARR with 80x growth (2026-04)
 
-- CNBC: NVIDIA $40B+ equity bets in 2026 (2026-05-09) 
+## Historical bubble:
 
-- VentureBeat: Anthropic $30B ARR with 80x growth (2026-04) 
+- Andrew Odlyzko, "Collective Hallucinations and Inefficient Markets: The British Railway Mania of the 1840s" (2010)
 
-## 历史泡沫： 
+- Andrew Odlyzko, "The Railway Mania of the 1860s"
 
-- Andrew Odlyzko, "Collective Hallucinations and Inefficient Markets: The British Railway Mania of the 1840s" (2010) 
+- Mitchell, B.R., British Historical Statistics
 
-- Andrew Odlyzko, "The Railway Mania of the 1860s" 
+- Williamson, J.G., American Growth and the Balance of Payments 1820-1913
 
-- Mitchell, B.R., British Historical Statistics 
+- "Dark Fiber—an Archeology of the Dot-Com Bubble" (Technostatecraft, 2025)
 
-- Williamson, J.G., American Growth and the Balance of Payments 1820-1913 
+- "Lessons from History: The Rise and Fall of the Telecom Bubble" (Fabricated Knowledge, 2023)
 
-- "Dark Fiber—an Archaeology of the Dot-Com Bubble" (Technostatecraft, 2025) 
+- Global Crossing bankruptcy filings (2002)
 
-- "Lessons from History: The Rise and Fall of the Telecom Bubble" (Fabricated Knowledge, 2023) 
+- WorldCom Form 10-K 2001 (SEC EDGAR)
 
-- Global Crossing bankruptcy filings (2002) 
+- FRED HHMSDODNS, DPI (US housing leverage)
 
-- WorldCom Form 10-K 2001 (SEC EDGAR) 
+- Federal Reserve History: "The Great Recession and Its Aftermath"
 
-- FRED HHMSDODNS, DPI (US housing leverage) 
+## Framework and methodology:
 
-- Federal Reserve History: "The Great Recession and Its Aftermath" 
+- Jorgenson, D.W. (1963), "Capital Theory and Investment Behavior"
 
-## 框架与方法论： 
-
-- Jorgenson, D.W. (1963), "Capital Theory and Investment Behavior" 
-
-- Public utility revenue requirement framework (standard regulatory economics) 
+- Public utility revenue requirement framework (standard regulatory economics)
 
 - Damodaran, A. (2024-2025), "Implied required revenue to justify AI capex" blog series
