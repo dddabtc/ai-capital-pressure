@@ -1,13 +1,17 @@
 Languages: [English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md)
 PDF: [English](ai-capital-pressure-v3.en.pdf) | [简体中文](ai-capital-pressure-v3.zh-CN.pdf) | [日本語](ai-capital-pressure-v3.ja.pdf)
+(PDFs are v3 archives; for v3.1 revisions, use the Markdown files in each language.)
 
 # AI Capital Pressure
 
 ## **Cross-industry and historical comparison of annual capital pressure in the AI industry chain**
 
-Stress testing under the EPR framework: comparison with normal industries and the same framework with the four historical infrastructure cycles _dda | 2026-05-25 |_Non-investment advice_ | All data are updated to _2026 Q1_ after the financial report
+Stress testing under the EPR framework: comparison with normal industries and the same framework with the four historical infrastructure cycles _dda | 2026-05-25 (v3.1 revised 2026-06-10) |_Non-investment advice_ | All data are updated to _2026 Q1_ after the financial report
 
 ## **Data Verification and Version Notes**
+
+**v3.1 (2026-06-10) revision note**: After external review, five measurement-basis issues were corrected; all numbers can be recomputed from repo `epr.py` + `data/inputs.json` (the script includes consistency assertions). (1) Strict R_T now uses Anthropic's official $30B ($40B reported figure only enters the wide basis), deducts application-layer resale paid to model APIs (about $6-8B), and removes the previous $147B→$160B upward rounding: strict EPR is revised from 2.28x to 2.81x; wide basis after the same resale deduction is 1.66x. (2) Historical cases add opex-calibration sensitivity: after calibrating 1846 UK railways to the period operating ratio (45-55%), EPR is only about 1.0-1.9x, so "AI below the 1846 peak" is no longer a headline conclusion. (3) Big-5 2026 capex is unified at $755-805B (consistent with the §3.2 company table). (4) R_T is explicitly a point-in-time run-rate, with a TTM reference basis (about 2.6x). (5) The sensitivity table adds a "construction in progress not depreciated" row. The direction of the central conclusion is unchanged; the magnitude changes are below.
+
 
 All key data in this article have been updated to the latest public sources available as of May 25, 2026. Major updates from earlier estimates:
 
@@ -17,7 +21,7 @@ All key data in this article have been updated to the latest public sources avai
 |OpenAI ARR|$24-25B (April 2026)|Reuters/Sacra/OpenAI Q1<br>funding announcement (medium-high)|
 |Microsoft AI ARR|$37B (FY26 Q3) |MSFT official conference call disclosure (high)|
 |OpenAI<br>Total commitments|About $1.4 trillion (5+ years cumulative nominal) |Sam Altman publicly confirmed (medium)|
-|Big-5 hyperscaler 2026 capex|$670-750B (4<br>of 3<br>houses of Q1<br>raised later) |Q1 2026 10-Q + Company Guidance (High) |
+|Big-5 hyperscaler 2026 capex|$755-805B (3<br>of 4<br>raised after Q1) |Q1 2026 10-Q + Company Guidance (High) |
 | CoreWeave Quarterly Revenue | $2.08B (Q1 2026, +112%<br>YoY) | CRWV 10-Q (High) |
 |CoreWeave<br>Revenue backlog|$99.4B (vs<br>Early$30B+)|CRWV Q1 2026 Disclosure (High)|
 |CoreWeave 2026 capex guide|$31-35B|CRWV guide (high)|
@@ -36,27 +40,27 @@ Conclusion first. This article uses the unified indicator EPR (Economic Pressure
 
 Let’s first define it clearly: EPR is not a traditional “leverage ratio” (not Debt/Equity, not Debt/EBITDA), but a capital service pressure ratio—a measure of how much capital-related costs (depreciation + cash operations + interest) must be absorbed from terminal revenue each year. This metric is essentially a simplified form of Jorgenson's (1963) capital service cost theory and utility revenue requirement model, applied to AI cycle analysis. EPR is a nomenclature adopted for the convenience of discussion in this article; the framework itself is not new. 
 
-Under the assumptions of this article (K=$1.3T, weighted asset life 6.1 years, o=10%, r=5.5%, d=30%), the current EPR_cash of the AI ​​industry chain is in the 1.6x–2.3x range, with a median of about 1.8–2.0x. These are stress test results based on explicit assumptions and are not precise industry measurements. 
+Under the assumptions of this article (K=$1.3T, weighted asset life 6.1 years, o=10%, r=5.5%, d=30%), the current EPR_cash of the AI ​​industry chain is in the 1.66x–2.81x range (wide/strict basis), with a median of about 2.1–2.2x. These are stress test results based on explicit assumptions and are not precise industry measurements.
 
 Put it into the benchmark and see:
 
    - Normal industries (Utilities, Telecommunications, Mature SaaS, Automotive, Aviation) EPR approximately 0.65–0.95x. AI’s current EPR is 2–3 times higher than normal industry benchmarks. 
 
-   - Approximate estimation of historical infrastructure cycle peak EPR with the same framework: 1840s British Railways 2.5–3x, 1996–2001 U.S. telecommunications optical fiber (stripping out steady-state voice services, only looking at new IP/data segments) is about 3x, 1873 U.S. Railways is about 1.2x (aggregated caliber), 2014 U.S. shale oil is about 1.5–2x. 2007 US housing 0.9–1.1x, but housing is a price + credit quality + securitization structural bubble, and EPR is not a suitable indicator. 
+   - Approximate estimation of historical infrastructure cycle peak EPR with the same framework: 1840s British Railways 2.5–3x, 1996–2001 U.S. telecommunications optical fiber (stripping out steady-state voice services, only looking at new IP/data segments) is about 3x, 1873 U.S. Railways is about 1.2x (aggregated basis), 2014 U.S. shale oil is about 1.5–2x. 2007 US housing 0.9–1.1x, but housing is a price + credit quality + securitization structural bubble, and EPR is not a suitable indicator. 
 
-- AI's current EPR is orders of magnitude between 1873 US rail (1.2x) and 2014 US shale oil (1.5-2x), and lower than 1840s peak UK rail (2.5-3x) and 2000 new telecoms segments (approximately 3x). It is significantly lower than the median EPR I estimated in 2025 2.5-3.0x - this reflects the surge in Anthropic ARR in the first half of 2026 ($9B→$40B), Microsoft AI ARR ($13B→$37B), and the substantial expansion of R_T driven by the rapid growth of OpenAI. 
+- AI's current EPR is clearly above the 1873 US railroad aggregate basis (about 1.1-1.2x), at the upper edge of or slightly above 2014 US shale oil (1.5-2x), and below the 2000 new telecom segment (about 3x, this article's most reliable high historical reference). Ranking against 1846 UK rail is not robust: under a unified opex basis, 1846 is about 2.5-3x, but after calibration to the period operating ratio it is only about 1.0-1.9x (see 5.1), so this article does not make a ranking conclusion. It is lower than the median EPR I estimated in mid-2025 2.5-3.0x - this reflects the surge in Anthropic ARR in the first half of 2026 ($9B→$40B), Microsoft AI ARR ($13B→$37B), and the substantial expansion of R_T driven by the rapid growth of OpenAI.
 
-- Warning required: EPR Center 1.8-2.0x remains well above normal industry benchmarks and remains in "infrastructure bubble magnitude" territory. AI orders of magnitude span the 1873 rail (1.2x) position but not yet the 1846 rail (2.5-3x) position. 
+- Warning required: EPR Center 2.1-2.2x remains well above normal industry benchmarks and remains in "infrastructure bubble magnitude" territory. AI has clearly crossed the 1873 railroad aggregate position; its relative position to 1846 rail depends on historical opex calibration, so a hard conclusion is not appropriate.
 
 - AI does not come close to 2007 US housing patterns. Housing is a "price + credit quality + securitization" structure, which is a different failure mode than AI's "capex front-loading + short asset life". 
 
 Capex to GDP (strictly distinguishing between level and growth contribution):
 
-- AI capex level/GDP (stock caliber): Goldman estimates that AI capex currently accounts for about 0.8% of GDP. 2026 The total capex of Big-5 hyperscalers in the United States is $670-750B (of which ~75% is AI related = $500-545B), accounting for about 1.7-1.8% of U.S. GDP (~$30T) (including the industry-wide AI capex of about 2.0%). UK Rail capex to GDP in 1847 7-8%. U.S. telecom capex accounted for approximately 1.2% of GDP in 1999-2000. AI's current level is slightly above peak 2000 telecoms and well below 1840s railroads. 
+- AI capex level/GDP (stock basis): Goldman estimates that AI capex currently accounts for about 0.8% of GDP. 2026 The total capex of Big-5 hyperscalers in the United States is $755-805B (of which ~75% is AI related ≈ $565-605B), accounting for about 1.9% of U.S. GDP (~$30T) (including the industry-wide AI capex of about 2.1-2.2%). UK Rail capex to GDP in 1847 7-8%. U.S. telecom capex accounted for approximately 1.2% of GDP in 1999-2000. AI's current level is slightly above peak 2000 telecoms and well below 1840s railroads.
 
-- AI capex contribution to GDP growth (incremental caliber, much more sensitive than horizontal caliber): St. Louis Fed estimates 2025 Q3 AI-related investment accounts for 39% of real GDP growth. Jason Furman estimates that investment in information processing equipment and software accounts for 92% of H1 2025 GDP growth. But Goldman Sachs (Jan Hatzius) countered: After deducting imported capital goods, the net contribution of AI capex to GDP growth is only 0.1–0.2 percentage points. The difference between the two calibers is more than 100 times. This article uses the St Louis Fed figures as a reference, but acknowledges that Goldman's imported capital goods adjustment is an important methodological correction. 
+- AI capex contribution to GDP growth (incremental basis, much more sensitive than horizontal basis): St. Louis Fed estimates 2025 Q3 AI-related investment accounts for 39% of real GDP growth. Jason Furman estimates that investment in information processing equipment and software accounts for 92% of H1 2025 GDP growth. But Goldman Sachs (Jan Hatzius) countered: After deducting imported capital goods, the net contribution of AI capex to GDP growth is only 0.1–0.2 percentage points. The difference between the two basiss is more than 100 times. This article uses the St Louis Fed figures as a reference, but acknowledges that Goldman's imported capital goods adjustment is an important methodological correction. 
 
-Confidence. "AI EPR far exceeds normal industry benchmarks": High. "AI EPR Median 1.8-2.0x": Medium (strongly relies on R_T caliber assumptions; the greatest uncertainty in R_T estimates is that internal AI usage attribution and private placement ARR numbers are not audited). "AI orders of magnitude between 1873 railways and 1846 railways": Medium. "AI is likely to follow a digestion-like path rather than a complete collapse": Medium-High. "Specific clearing time point": low. All historical EPR numbers have low-medium confidence. 
+Confidence. "AI EPR far exceeds normal industry benchmarks": High. "AI EPR Median 2.1-2.2x": Medium (strongly relies on R_T basis assumptions; the greatest uncertainty in R_T estimates is that internal AI usage attribution and private placement ARR numbers are not audited). "AI above 1873 railroad aggregate, below the 2000 new telecom segment": Medium. "Ranking against 1846 rail": Low (extremely sensitive to historical opex calibration). "AI is likely to follow a digestion-like path rather than a complete collapse": Medium-High. "Specific clearing time point": low. All historical EPR numbers have low-medium confidence.
 
 ## **1. EPR Framework: What it is and what it is not**
 
@@ -102,7 +106,7 @@ The contribution of this article does not lie in the framework itself, but in ap
 
 - EPR_cash defaults to cash interest (r × d × K), without charge equity capital opportunity cost. If WACC is used instead, the EPR increases significantly (see sensitivity analysis). 
 
-- Historical EPR is an approximate estimate of the same frame, not a precise measurement of "the same caliber". All historical EPR numbers have low-medium confidence. 
+- Historical EPR is an approximate estimate of the same frame, not a precise measurement of "the same basis". All historical EPR numbers have low-medium confidence. 
 
 ## **Interpretation interval of 1.5 EPR**
 
@@ -110,8 +114,8 @@ The contribution of this article does not lie in the framework itself, but in ap
 |---|---|---|
 |< 0.6x|Low capital pressure, steady industry profitability|Consumer goods, Internet platforms, light asset services|
 |0.6–1.0x|Medium capital pressure, most normal industries |Utilities, telecommunications, SaaS, automobiles, aviation|
-|1.0–2.0x|High capital pressure, demand extrapolation or cycle high|Peak shale oil period, AI current (updated), 1873U.S.<br>U.S. rail aggregation|
-|2.0–4.0x|Infrastructure bubble magnitude, capitalize future needs in advance|1840s railway, 2000 new telecom optical fiber section|
+|1.0–2.0x|High capital pressure, demand extrapolation or cycle high|Peak shale oil period, current AI wide basis, 1873U.S.<br>U.S. rail aggregation|
+|2.0–4.0x|Infrastructure bubble magnitude, capitalize future needs in advance|Current AI strict basis, 2000 new telecom optical fiber section, 1840s railway (unified o basis)|
 |> 4.0x|Extreme situations, usually appearing in the last stage before a crash|A few extreme cases|
 
 ## **2. Current EPR (data update) of the AI industry chain**
@@ -125,8 +129,8 @@ The contribution of this article does not lie in the framework itself, but in ap
 |o<br>(Cash opex/K)|10%|No change|
 |r (average debt financing interest rate)|5.5%|unchanged|
 |d (proportion of debt financing)|30%|unchanged|
-|R_T wide diameter|$225B|Significantly increased from $150B (+50%)|
-|R_T strict caliber|$160B|Significantly increased from $90B (+78%)|
+|R_T wide diameter (point-in-time run-rate)|$220B|Significantly increased from $150B (+47%); v3.1 deducts application-layer API resale|
+|R_T strict basis (point-in-time run-rate)|$130B|Increased from $90B (+44%); v3.1 uses Anthropic official $30B, deducts API resale, and removes upward rounding|
 |m_T<br>(Terminal AI gross profit margin)|50%|Unchanged|
 
 Reason for K increase: 2025 hyperscaler AI capex about $260B + 2026 H1 deployment ~$260B + Neocloud + other cumulative deployments of subjects + construction in progress. 
@@ -140,15 +144,16 @@ Core reasons for the significant R_T upgrade: Anthropic ARR rose from $9B at the
 |Annual depreciation (stratified sum)|ΣK_i/L_i = $1.3T ×<br>16.4%|$213B|
 |Annual cash opex|o × K|$130B|
 |Annual cash interest|r × d × K|$21.5B|
-|Annualized Economic Pressure P_cash|Subtotal|$364B|
-|EPR_cash wide diameter|P/R_T(wide)|1.62x|
-|EPR_cash strict caliber|P/R_T(strict)|2.28x|
-|EPR_cash median estimate||about 1.8–2.0x|
-|R_req|P/m_T|$728B|
-|Current gap (width)|R_req − R_T|About $503B|
-|Current gap (strict)|R_req − R_T|About $568B|
+|Annualized Economic Pressure P_cash|Subtotal|$365B|
+|EPR_cash wide diameter|P/R_T(wide $220B)|1.66x|
+|EPR_cash strict basis|P/R_T(strict $130B)|2.81x|
+|EPR_cash median estimate||about 2.1–2.2x|
+|EPR_cash (TTM reference basis)|P / TTM wide R_T(~$140B)|about 2.6x (R_T is point-in-time run-rate, TTM basis is more conservative)|
+|R_req|P/m_T|$729B|
+|Current gap (width)|R_req − R_T|About $509B|
+|Current gap (strict)|R_req − R_T|About $599B|
 
-Interpretation. EPR is 1.62x in wide aperture and 2.28x in strict aperture. Median estimate 1.8-2.0x. This is a significant downward shift from the mid-year 2025 estimate of 2.5-3.0x. 
+Interpretation. EPR is 1.66x in wide aperture and 2.81x in strict aperture. Median estimate is about 2.1-2.2x. This is lower than the mid-year 2025 estimate of 2.5-3.0x, but the decline is smaller than the 1.6-2.3x stated in the first v3 draft - the first draft's strict basis mixed upward rounding and unaudited numbers, which v3.1 corrects. Note that R_T is point-in-time run-rate (exit ARR) while P is annualized pressure: during a phase when revenue doubles in half a year, TTM-basis EPR is about 2.6x, so the point-in-time basis is naturally optimistic.
 
 What has changed? R_T expanded significantly. This is the entire driver of EPR improvement. From mid-year 2025 to May 2026, AI terminal revenue roughly doubled, while P (capital pressure) only increased by about 8% (K rose from $1.2T to $1.3T). R_T growth rate >> P growth rate → EPR decreases. 
 
@@ -160,7 +165,7 @@ R_T is the most sensitive input of the EPR framework. The table below gives the 
 
 |**Category**|**Strict Caliber**|**Wide Caliber**|**Confidence/Explanation**|
 |---|---|---|---|
-|Anthropic (Claude API +<br>Subscription<br>+ Claude Code)|$40B|$40B|TechCrunch cited insiders<br>May 2026<br>(medium); Anthropic public<br>$30B April 2026<br>(high)|
+|Anthropic (Claude API +<br>Subscription<br>+ Claude Code)|$30B (official)|$40B (reported)|TechCrunch cited insiders<br>May 2026<br>(medium); Anthropic public<br>$30B April 2026<br>(high)|
 |OpenAI (API + ChatGPT Subscription)|$25B|$28B|Reuters reports /<br>Sacra (Medium-High)|
 |Microsoft AI Net($37B less|$27B|$30B|MSFT FY26 Q3<br>Disclosure|
 
@@ -169,7 +174,7 @@ R_T is the most sensitive input of the EPR framework. The table below gives the 
 |~$10B Azure-OpenAI resale)|||$37B<br>; This article deducts<br>Azure-OpenAI resale<br> points|
 |xAI, Mistral, Cohere, other model companies|$5B|$8B|Low-Medium|
 |Google Gemini Advanced +<br>Workspace AI|$5B|$8B|Medium-Low (not separately<br>disclosed by GOOG)|
-|Dedicated AI<br>SaaS (Cursor, Glean, Harve<br>y, Perplexity, Cognition, Sie<br>rra)|$15B|$20B|中|
+|Dedicated AI<br>SaaS (Cursor, Glean, Harve<br>y, Perplexity, Cognition, Sie<br>rra), net|$9B|$12B|Medium; gross $15B/$20B, less ~$6B/$8B paid to model APIs (already counted in Anthropic/OpenAI ARR)|
 |AI add-on incremental<br> for traditional SaaS<br>(Salesforce<br>Agentforce, ServiceNow Now<br>Assist)|$10B|$15B|Low-Medium (incremental only)|
 |China AI commercialization (Baidu, Byte,<br>Alibaba,<br>Zhipu, DeepSeek, Moonshot)|$10B|$15B|Low|
 |AWS Bedrock + GCP Vertex<br>AI<br>Terminal Billing (deduct<br>Anthropic/OpenAI resale)|$5B|$10B|Medium-Low|
@@ -178,13 +183,14 @@ R_T is the most sensitive input of the EPR framework. The table below gives the 
 |Long tail (other paid)|$5B|$8B|Low|
 |Exclusion 1: Azure/AWS/GCP sales<br>Intermediate revenue<br>to OpenAI/Anthropic|Exclusions|Exclusions|Avoid double counting|
 |Exclusion 2: NVIDIA GPU Sales<br>Revenue|Exclusion|Exclusion|Upstream Capital Goods Revenue|
-|Total (rounded)|About $147B →<br>Take $160B|About $227B →<br>Take $225B||
+|Exclusion 3: application-layer resale paid to model APIs|Exclusion|Exclusion|Avoid model-layer ↔ application-layer double counting (added in v3.1)|
+|Total (rounded to nearest $5B)|$131B →<br>Take $130B|$219B →<br>Take $220B||
 
-The difference between the two calibers. Strictly speaking, only verifiable pure AI product revenue (API, subscription, Claude Code terminal products) will be included. Broadcast joins hyperscaler internal AI usage attribution (search, advertising, recommendation AI delta) and enterprise productivity savings. The main difference between the two is whether the attribution can be trusted.
+The difference between the two basiss. Strictly speaking, only verifiable pure AI product revenue (API, subscription, Claude Code terminal products) will be included. Broadcast joins hyperscaler internal AI usage attribution (search, advertising, recommendation AI delta) and enterprise productivity savings. The main difference between the two is whether the attribution can be trusted.
 
-Source of Anthropic $40B. The company officially disclosed in April that ARR had exceeded $30B (early April). TechCrunch follow-up reported ARR "closer to $40B" per internal source in late April. This figure has not been audited and has not been disclosed in SEC filings. This article gives a medium confidence level. The trajectory from $14B (Feb) → $19B (March) → $30B (April) → $40B (May) is consistent with the 6-week doubling rate. 
+Source and basis allocation for Anthropic $40B. The company officially disclosed on April 6 that ARR had exceeded $30B. TechCrunch follow-up reported ARR "closer to $40B" per internal source in late April - that figure has not been audited and has not been disclosed in SEC filings. Starting with v3.1, the strict basis (defined as "verifiable") uses only the official $30B, while $40B enters only the wide basis. The trajectory from $14B (Feb) → $19B (March) → $30B (April) → $40B (May) is roughly equivalent to about 10 weeks doubling.
 
-Microsoft $37B net $27B split logic. Microsoft Official FY26 Q3 Disclosed AI Business ARR $37B (+123% YoY). But this number includes the portion of Azure OpenAI Service sold to the end customer (already billed at the end customer and can be included in R_T) and the resale portion sold to OpenAI itself (which should be excluded to avoid duplication with OpenAI ARR). This article estimates the overlap to be approximately $10B, netting $27B. This split estimate is subject to uncertainty of ±$5B. 
+Microsoft $37B net $27B split logic. Microsoft Official FY26 Q3 Disclosed AI Business ARR $37B (+123% YoY). But this number includes the portion of Azure OpenAI Service sold to the end customer (already billed at the end customer and can be included in R_T) and the resale portion sold to OpenAI itself (which should be excluded to avoid duplication with OpenAI ARR). This article estimates the overlap to be approximately $10B, netting $27B. Note that Microsoft's official basis explicitly says the $37B "includes all model builders on Azure"; combined overlap from OpenAI and Anthropic (which has committed to buy $30B of Azure) may be greater than $10B, so the split uncertainty is widened to ±$5-10B.
 
 ## **Three, K, annual Capex and Commitments are strictly stratified**
 
@@ -193,7 +199,7 @@ Microsoft $37B net $27B split logic. Microsoft Official FY26 Q3 Disclosed AI Bus
 |**Level**|**Definition**|**Accounting Nature**|**Use in this article**|**Typical2026Number**<br>**(Updated)**|
 |---|---|---|---|---|
 |K<br>: Deployed + Assets Under Construction<br> Capital Stock | Assets on Book NBV + Construction in Progress<br> Stock | Enter EPR Numerator | Estimate $1.3T|
-|Annual Capex|The current year’s PP&E acquisition flow|Flow|Forecast future K<br>; used for<br>capex/GDP level|Big-5 $670-750B;<br>with AI ~$520B|
+|Annual Capex|The current year’s PP&E acquisition flow|Flow|Forecast future K<br>; used for<br>capex/GDP level|Big-5 $755-805B;<br>with AI ~$565-605B|
 |Commitments|Contractual obligations not yet fully deployed<br>Obligations/announced|Contractual obligations<br>Obligations/<br>announce<br>d|Future K leading indicators|OpenAI<br>Total stack~$1.4<br>Trillion over 5+ years|
 
 ## **3.1 K (about $1.3T, updated with disassembly)**
@@ -204,7 +210,7 @@ Microsoft $37B net $27B split logic. Microsoft Official FY26 Q3 Disclosed AI Bus
 
 - Others (Oracle AI infra, self-built by enterprises, government/sovereign investment): $200-300B
 
-- The total median is about $1.3T
+- The total range is about $1.07-1.31T; this article takes the upper end $1.3T (making P higher and EPR more conservative). Note the basis difference when comparing with historical cases: AI's K is deployed basis (excluding $1.4T commitments), while the £170M for 1846 rail is cumulative committed capital - this asymmetry makes the historical anchor higher and AI lower (see 5.1)
 
 ## **3.2 Annual Capex (2026 latest guidance)**
 
@@ -249,7 +255,7 @@ Sam Altman publicly confirmed that OpenAI’s total commitments are approximatel
 |ARR||||
 |Commitments /<br>Revenue Ratio|||About 56x|
 
-The OpenAI commitments/revenue ratio rose to 56x from an early estimate of 28-36x. This is a level that has not been achieved by any model company or customer/supplier relationship in history. Even if OpenAI ARR grows at 100% CAGR (already extremely optimistic), it will take 5 years for the commitments/revenue ratio to drop below 5x.
+The OpenAI commitments/revenue ratio rose to 56x from an early estimate of 28-36x. This is a level that has not been achieved by any model company or customer/supplier relationship in history. Even if OpenAI ARR grows at 100% CAGR (already extremely optimistic), it still takes about 4 years for the commitments/revenue ratio to drop below 5x ($25B×2⁴=$400B, 1400/400=3.5x); at a more realistic 50% CAGR, it takes more than 6 years.
 
 Compare Anthropic commitments stack:
 
@@ -263,11 +269,11 @@ Compare Anthropic commitments stack:
 |U.S. compute infrastructure<br>Investment Commitment|$50B|Nov 2025Public|
 |Total nominal stack estimate|$200-300B+|Relative ARR $40B<br> vs. 5-7.5x|
 
-Anthropic's commitments/revenue ratio (5-7.5x) is much lower than OpenAI (56x). This reflects two different business models: Anthropic’s revenue is expanding rapidly (doubling in 6 weeks), and its commitment scale is relatively restrained; OpenAI’s commitment scale is extremely large, and it relies on future revenue to deliver. 
+Anthropic's commitments/revenue ratio (5-7.5x) is much lower than OpenAI (56x). This reflects two different business models: Anthropic’s revenue is expanding rapidly (doubling in about 10 weeks), and its commitment scale is relatively restrained; OpenAI’s commitment scale is extremely large, and it relies on future revenue to deliver.
 
 ## **4. Normal industry EPR benchmark (rough estimate, non-audit industry model)**
 
-The normal industry EPR range serves as the benchmark. All figures are based on industry average estimates based on 2024-2025 public financial reports, with a medium confidence level. Warning: Industry aggregate data is rough. Company income, D&A, opex, and interest come from different companies and accounting standards, and it is impossible to have the same caliber. These numbers are order of magnitude benchmarks, not exact comparisons. 
+The normal industry EPR range serves as the benchmark. All figures are based on industry average estimates based on 2024-2025 public financial reports, with a medium confidence level. Warning: Industry aggregate data is rough. Company income, D&A, opex, and interest come from different companies and accounting standards, and it is impossible to have the same basis. These numbers are order of magnitude benchmarks, not exact comparisons. 
 
 |**Industry**|**Estimated EPR_cash**|**Asset life characteristics**|**Risk characteristics**|
 |---|---|---|---|
@@ -279,14 +285,14 @@ The normal industry EPR range serves as the benchmark. All figures are based on 
 
 |**Industry**|**Estimated EPR_cash**|**Asset life characteristics**|**Risk characteristics**|
 |---|---|---|---|
-|AI (updated wide aperture)|1.62x|Hybrid (4–15y) |Far beyond normal baseline|
-|AI (strict caliber after update)|2.28x|Same as above|Far beyond the normal baseline|
+|AI (v3.1 wide basis)|1.66x|Hybrid (4–15y) |Far beyond normal baseline|
+|AI (v3.1 strict basis)|2.81x|Same as above|Far beyond the normal baseline|
 
-The normal industry median EPR is about 0.80x, and even high capital intensity industries (utilities, automobiles) rarely exceed 1.0x. AI's current EPR is 2-3 times that of normal industries. Still an order of magnitude away from normal benchmarks. 
+The normal industry median EPR is about 0.80x, and even high capital intensity industries (utilities, automobiles) rarely exceed 1.0x. AI's current EPR is 2-3.5 times that of normal industries. Still an order of magnitude away from normal benchmarks.
 
 ## **5. Approximate estimation of historical bubbles in the same framework**
 
-Use the same formula to construct approximate EPR estimates for four historical bubbles. All figures are based on published academic research and economic history, accounting and - statistical caliber are different from modern times, confidence level is low - medium. Only for order of magnitude positioning. 
+Use the same formula to construct approximate EPR estimates for four historical bubbles. All figures are based on published academic research and economic history, accounting and - statistical basis are different from modern times, confidence level is low - medium. Only for order of magnitude positioning. 
 
 ## **5.1 1844-1847 British Railmania**
 
@@ -298,13 +304,14 @@ background. Rail capex accounted for 7-8% of UK GDP in 1847 (Mitchell historical
 |UK GDP 1846|£550-600M|Mitchell historical statistics|
 |1847<br>Railway capex/GDP|7-8%|Tandfonline (2022) Historical Research|
 |Years D&A (L=30y on £170MDepartment<br>Department)|£5.7M|Long life of railway assets|
-|year opex(K<br>10-15%)|£17-25M||
+|year opex (unified basis: K<br>10-15%)|£17-25.5M|Same assumption as AI, not industry calibrated|
+|year opex (calibrated basis: operating ratio 45-55%)|£4.5-8.2M|Railway working expenses in the period were about 45-55% of revenue (≈K's 2.6-4.9%)|
 |Annual interest (d=60%, r=4.5-5%)|£4.6-5.1M||
-|P_cash|£27-36M||
+|P_cash|Unified £27-36M / calibrated £15-19M||
 |1846Railway operating income|£10-15M||
-|Estimated EPR_cash|2.0-3.5x|Median is about 2.5-3x|
+|Estimated EPR_cash|Unified 1.8-3.6x (median 2.5-3x) / calibrated about 1.0-1.9x|Extremely sensitive to the o assumption|
 
-Interpretation. 1840s UK Rail EPR estimate 2.5-3x. The mechanism is very similar to AI: real technology + real future demand + capital market extrapolation in advance + reflexive financing. Result: 1847 Bank of England Interest rate hikes and banking crisis trigger collapse. Railroad stocks fell 1847-1850 50-80%. But the rail network was eventually built and produced ongoing returns—investors lost money and society gained. 
+Interpretation. Under a unified opex basis, the 1840s UK rail EPR estimate is 2.5-3x; after calibrating opex to the period's actual operating ratio, it is only about 1.0-1.9x. Both basiss are shown (v3.1): the difference shows this anchor is not stable enough, and together with the asymmetry that K uses committed capital (while AI uses deployed capital), this article no longer uses "AI below the 1846 peak" as a ranking conclusion. Mechanistically it remains very similar to AI: real technology + real future demand + capital market extrapolation in advance + reflexive financing. Result: 1847 Bank of England Interest rate hikes and banking crisis trigger collapse. Railroad stocks fell 1847-1850 50-80%. But the rail network was eventually built and produced ongoing returns—investors lost money and society gained.
 
 ## **5.2 1865-1873 US Railroad Expansion**
 
@@ -319,13 +326,14 @@ background. 1865-1873 U.S. rail mileage doubled from 35,000 to 70,000 miles. In 
 |---|---|---|
 |Cumulative capex/GDP|About 38%|Extremely high|
 |Year D&A (L=30y)|$90M||
-|year opex(K<br>15%)|$405M||
+|year opex (unified basis: K<br>15%)|$405M||
+|year opex (calibrated basis: 1872 operating ratio ~65%)|$338M (≈K's 12.5%)||
 |Annual interest (d=70%, r=7%)|$132M|High leverage and high interest rate|
-|P_cash|$627M||
+|P_cash|Unified $627M / calibrated $560M||
 |Annual Railway Operating Revenue1872|Approximately$520M|Census/ICC historical|
-|Estimated EPR_cash (aggregated)|Approximately 1.2x|Less than UK figures|
+|Estimated EPR_cash (aggregated)|Approximately 1.1-1.2x|Unified 1.21x / calibrated 1.08x|
 
-Interpretation. Overall rail EPR approximately 1.2x. Profits on old mature lines masked extreme pressure on new speculative lines. Crash Mechanism: Jay Cooke Fundraising Failure → Credit Crunch → Overall Railroad Bond Price Collapse → Bank Failures → 6 Years of Long Depression. 
+Interpretation. Overall rail EPR approximately 1.1-1.2x. Profits on old mature lines masked extreme pressure on new speculative lines. Crash Mechanism: Jay Cooke Fundraising Failure → Credit Crunch → Overall Railroad Bond Price Collapse → Bank Failures → 6 Years of Long Depression.
 
 ## **5.3 1996-2001 US Telecom Fiber Optic Foam**
 
@@ -389,26 +397,26 @@ Interpretation. Housing EPR is about 1.0x, not extreme. The core of the housing 
 |Auto OEM|Current|0.92x|5-10y|Cyclic Bankruptcy|Low|
 |China Steel|2015 Peak<br>Value|0.5-0.7x|20+y|Price fell70%|Low|
 |US Housing|2007Peak<br>Value|0.9-1.1x|50+y|House prices fall35%, financial<br>crisis|Low (structure<br>different)|
-| U.S. Railroads | 1873 Peak<br>Value | Approximately 1.2x (aggregated) | 50+y | 25% Industry Bankruptcy, 6<br>Long Depression | Mid-High |
+| U.S. Railroads | 1873 Peak<br>Value | Approximately 1.1-1.2x (aggregated) | 50+y | 25% Industry Bankruptcy, 6<br>Long Depression | Mid-High |
 |US shale oil|2014peak<br>value|1.5-2x|5-10y|Oil prices drop<br>75%, ~100 bankrupt|mid|
-|AI 2026 May (Wide<br>Caliber R_T, updated)|Current|1.62x|4-15y Mix|?|Baseline|
-|AI 2026 May (strict<br>caliber R_T, updated<br>)|current|2.28x|same|?|baseline|
-|British Rail|1846 Peak<br>Value|2.5-3x|50+y|Share price down50-80%|High|
+|AI 2026 (Wide<br>Caliber R_T, v3.1)|Current|1.66x|4-15y Mix|?|Baseline|
+|AI 2026 (strict<br>basis R_T, v3.1<br>)|current|2.81x|same|?|baseline|
+|British Rail|1846 Peak<br>Value|Unified 2.5-3x /<br>calibrated 1.0-1.9x|50+y|Share price down50-80%|High (ranking unstable)|
 |US Telecom Optical Fiber (New<br>IP/data)|2000 Peak<br>Value|Approximately 3x|15-20y|$2T Market value evaporates<br>, WorldCom goes bankrupt<br>|High|
 
-Warning: All historical EPRs are approximate estimates of the same frame, not precise measurements of "the same caliber". Read several key conclusions from the updated table:
+Warning: All historical EPRs are approximate estimates of the same frame, not precise measurements of "the same basis". Read several key conclusions from the updated table:
 
-Conclusion 1: The AI position has moved down from the historical bubble peak range to the middle. Early EPR 2.5-3x estimates put AI looking on par with 1846 railroads and 2000 telecoms. Updated 1.6-2.3x puts the AI ​​position between 1873 US Rail (1.2x) and 1846 UK Rail (2.5-3x), and comparable to 2014 US Shale Oil (1.5-2x). This reflects the true impact of 2026 R_T's rapid expansion in the first half of the year. 
+Conclusion 1: The AI position has moved down from the historical bubble peak range, but remains high. Early EPR 2.5-3x estimates put AI looking on par with 1846 railroads and 2000 telecoms. The v3.1 corrected 1.66-2.81x puts AI clearly above the 1873 US railroad aggregate (1.1-1.2x), at the upper edge of or slightly above 2014 US shale oil (1.5-2x), and still below the 2000 new telecom segment (about 3x). This article does not rank AI against 1846 rail (its EPR is extremely sensitive to opex calibration: 2.5-3x or 1.0-1.9x).
 
-Conclusion 2: AI still far outperforms normal industry benchmarks. Normal industry 0.65-0.95x, AI 1.6-2.3x. Median EPR 2x = 2.5x normal industry benchmark. Still at the "infrastructure bubble level", just no longer at the peak. 
+Conclusion 2: AI still far outperforms normal industry benchmarks. Normal industry 0.65-0.95x, AI 1.66-2.81x. Median EPR about 2.1-2.2x ≈ 2.7x normal industry benchmark. Still at the "infrastructure bubble level", just no longer at the peak.
 
-Conclusion 3: The direction has not changed, but the degree has slowed down. AI still shows "capital front + demand extrapolation" characteristics. But R_T cashes out faster than expected - this is the most important "escape" path. If Anthropic + Microsoft AI + OpenAI, etc. 2026-2027 continue to expand at the current growth rate, EPR may fall below 1.5x around 2027 and enter the same level as the peak of shale oil.
+Conclusion 3: The direction has not changed, but the degree has slowed down. AI still shows "capital front + demand extrapolation" characteristics. But R_T cashes out faster than expected - this is the most important "escape" path. If Anthropic + Microsoft AI + OpenAI, etc. 2026-2027 continue to expand at the current growth rate, wide-basis EPR may fall below 1.5x in 2027-2028 and enter the same level as the peak of shale oil.
 
 Conclusion 4: AI’s comparability with 1846 Railroad and 2000 Telecommunications decreases, and its comparability with 1873 Rail + Shale Oil increases. 1846 Rail and 2000 Telecom are characterized by terminal demand growth that is severely undercapex paced. AI's current situation is different - R_T is expanding at a rate of 100%+. This reduces the probability of the AI ​​heading towards a 1846/2000-like full-blown crash. 
 
-Conclusion 5: But the capex side is still accelerating. Big-5 2026 capex guidance rose to $750B from $620B at the beginning of the year, with Microsoft FY27 hinting at higher. If capex continues to accelerate + R_T growth slows, EPR will rebound. The current 1.6-2.3x is not steady state. 
+Conclusion 5: But the capex side is still accelerating. Big-5 2026 capex guidance rose to $755-805B from about $620B at the beginning of the year, with Microsoft FY27 hinting at higher. If capex continues to accelerate + R_T growth slows, EPR will rebound. The current 1.66-2.81x is not steady state.
 
-## **7. Capex/GDP dual-caliber analysis (updated)**
+## **7. Capex/GDP dual-basis analysis (updated)**
 
 Strictly distinguish between two completely different concepts: (1) capex level as a share of GDP; (2) capex contribution to GDP growth. Mixing is a common mistake. 
 
@@ -419,12 +427,12 @@ Strictly distinguish between two completely different concepts: (1) capex level 
 |British Rail|1847Peak value|7-8%|New capex/GDP for the year|
 |US Telecom|2000Peak<br>Value|Approx.1.2%|BEA|
 |US Housing (Residential Investment<br>Investment)|2005-<br>2006|About 6.3%|Historical Highs|
-|AI USA (Big-5<br>2026)|2026|About 1.7%|$520B AI<br>Part/GDP $30T|
-|AI<br>USA (all industries<br>2026)|2026|about 2.0%|including neocloud + Oracle + sovereign|
+|AI USA (Big-5<br>2026)|2026|About 1.9%|$565-605B AI<br>Part/GDP $30T|
+|AI<br>USA (all industries<br>2026)|2026|about 2.1-2.2%|including neocloud + Oracle + sovereign|
 |Goldman<br>Estimated AI<br>capex/GDP|Current|About 0.8% (narrow bore) |Goldman Sachs Research|
 |AI<br>Global2026|2026|About0.6-0.7%|$700-750B /<br>Global$110T|
 
-AI 2026 US capex/GDP is slightly higher than 2000 telecom peak, and well below 1840s rail. The difference between Goldman's estimate (0.8%) and this article's estimate (~1.7-2.0%) lies in the caliber: Goldman uses a more stringent definition of pure AI capex, while this article uses the hyperscaler total capex × 75% AI ratio. 
+AI 2026 US capex/GDP is slightly higher than 2000 telecom peak, and well below 1840s rail. The difference between Goldman's estimate (0.8%) and this article's estimate (~1.9-2.2%) lies in the basis: Goldman uses a more stringent definition of pure AI capex, while this article uses the hyperscaler total capex × 75% AI ratio.
 
 ## **7.2 Capex Contribution to GDP Growth**
 
@@ -434,7 +442,7 @@ This is a completely different metric than the capex/GDP level. GDP growth contr
 |---|---|---|
 |Jason Furman: Information Processing Equipment +<br>Software accounts for H1 2025<br>GDP Growth|92%|X Posts|
 |St Louis Fed: AI<br>related investment in Q3 2025<br>real GDP<br>growth|39%|St Louis Fed On the Economy Jan 2026|
-|Goldman Sachs: AI capex<br>contribution to GDP growth<br> (capex incremental caliber) |1.5 pp nominal |Goldman Sachs Research|
+|Goldman Sachs: AI capex<br>contribution to GDP growth<br> (capex incremental basis) |1.5 pp nominal |Goldman Sachs Research|
 |Goldman Sachs: AI capex<br>Net GDP growth contribution|0.1-0.2 pp|Jan Hatzius|
 
 |**Caliber**|**Estimate**|**Source**|
@@ -452,42 +460,43 @@ This is a completely different metric than the capex/GDP level. GDP growth contr
 
 ## **8. Sensitivity analysis**
 
-The EPR center estimate 1.8-2.0x appears to be precise, but actually relies on multiple uncertain parameters. The table below shows the impact of changes in key parameters on EPR. 
+The EPR center estimate 2.1-2.2x appears to be precise, but actually relies on multiple uncertain parameters. The table below shows the impact of changes in key parameters on EPR.
 
 ## **8.1 Key Parameter Sensitivity (Updated Baseline)**
 
-|**Assumption changes**|**P change direction**|**Impact on wide-aperture EPR**<br>** (baseline1.62x)**|
+|**Assumption changes**|**P change direction**|**Impact on wide-aperture EPR**<br>** (baseline1.66x)**|
 |---|---|---|
-|R_T<br>raised from $225B<br> to $300B<br> (such as 2027 continues to grow at a high<br> rate)|EPR<br>reduces to 1.21x|
-|R_T<br>raised from $225B<br> to $400B|unchanged|EPR<br>dropped to 0.91x (close to normal industry)|
-|R_T<br>downgraded from $225B<br> to $180B|unchanged|EPR<br>upgraded to 2.02x|
-|R_T<br>Downgraded from $225B<br> to $160B (strict caliber)|Unchanged|EPR<br>Upgraded to 2.28x|
-|K<br>Upgraded from $1.3T<br> to $1.7T (end of 2027)|P<br>Upgraded to approximately $112B|EPR<br>Upgraded to 2.12x|
-|K<br>Upgraded from $1.3T<br> to $2.0T (2028)|P<br>Upgraded to approximately $196B|EPR<br>Upgraded to 2.49x|
-|GPU/network<br>lifetime dropped from 4<br> years to 3 years|Depreciation increased to approximately $43B|EPR<br>increased to 1.81x|
-|o<br>Upgraded from 10%<br> to 15%<br> (high opex) |opex<br>Upgraded to $65B|EPR<br>Upgraded to 1.91x|
-|Replace r×d with WACC 8%<br>|P<br>up to about $80B|EPR_wacc<br>about 1.97x|
-|EPR<br>'s reasonable 90% confidence interval: 1.0x-2.8x (wide caliber) / 1.5x-3.5x<br> (strict caliber). The point estimate is 1.62x<br> or<br>2.28x, but the actual values ​​are spread over the interval. |||
+|R_T<br>raised from $220B<br> to $300B<br> (such as 2027 continues to grow at a high<br> rate)|unchanged|EPR<br>reduces to 1.22x|
+|R_T<br>raised from $220B<br> to $400B|unchanged|EPR<br>dropped to 0.91x (close to normal industry)|
+|R_T<br>downgraded from $220B<br> to $180B|unchanged|EPR<br>upgraded to 2.03x|
+|R_T<br>Downgraded from $220B<br> to $130B (strict basis)|Unchanged|EPR<br>Upgraded to 2.81x|
+|K<br>Upgraded from $1.3T<br> to $1.7T (end of 2027)|P<br>Upgraded to approximately $112B|EPR<br>Upgraded to 2.17x|
+|K<br>Upgraded from $1.3T<br> to $2.0T (2028)|P<br>Upgraded to approximately $196B|EPR<br>Upgraded to 2.55x|
+|GPU/network<br>lifetime dropped from 4<br> years to 3 years|Depreciation increased to approximately $43B|EPR<br>increased to 1.85x|
+|o<br>Upgraded from 10%<br> to 15%<br> (high opex) |opex<br>Upgraded to $65B|EPR<br>Upgraded to 1.95x|
+|Replace r×d with WACC 8%<br>|P<br>up to about $80B|EPR_wacc<br>about 2.02x|
+|Construction in progress (15-20% of K)<br>not depreciated (added in v3.1)|D&A<br>down $32-43B|EPR<br>falls to 1.46-1.51x|
+|EPR<br>'s reasonable 90% confidence interval: 1.1x-2.9x (wide basis) / 1.8x-3.8x<br> (strict basis). The point estimate is 1.66x<br> or<br>2.81x, but the actual values ​​are spread over the interval. |||
 
 ## **8.2 EPR Time Path (Updated)**
 
-The current K=$1.3T is still below steady state. Estimated by annual capex run rate $600B and L=6.1 years, steady state K=$3.66T. K is still expanding upward. The following is a hypothetical trajectory of the third-speed R_T speed increase (wide aperture $225B starting point). Assumption: annual capex remains at $600B (2026 actual guidance level); other parameters remain unchanged.
+The current K=$1.3T is still below steady state. Estimated by annual capex run rate $600B and L=6.1 years, steady state K=$3.66T. K is still expanding upward. The following is a hypothetical trajectory of the third-speed R_T speed increase (wide aperture $220B starting point). Assumption: annual capex remains at $600B (2026 actual guidance level); other parameters remain unchanged.
 
 |**Year**|**K (beginning of the year)**|**P**|**R_T**<br>**50%C**<br>**AGR**|**EPR**|**R_T**<br>**25%C**<br>**AGR**|**EPR**|**R_T**<br>**10%C**<br>**AGR**|**EPR**|
 |---|---|---|---|---|---|---|---|---|
-|2026|$1.3T|$364B|$225B|1.62x|$225B|1.62x|$225B|1.62x|
-|2027|$1.7T|$476B|$338B|1.41x|$281B|1.69x|$248B|1.92x|
-|2028|$2.0T|$560B|$506B|1.11x|$352B|1.59x|$272B|2.06x|
-|2029|$2.3T|$644B|$759B|0.85x|$439B|1.47x|$300B|2.15x|
-|2030|$2.5T|$700B|$1139<br>B|0.61x|$549B|1.27x|$330B|2.12x|
-|2031|$2.7T|$756B|$1708<br>B|0.44x|$686B|1.10x|$363B|2.08x|
-|2032|$2.9T|$812B|$2562<br>B|0.32x|$857B|0.95x|$399B|2.03x|
+|2026|$1.3T|$365B|$220B|1.66x|$220B|1.66x|$220B|1.66x|
+|2027|$1.7T|$473B|$330B|1.43x|$275B|1.72x|$242B|1.96x|
+|2028|$2.0T|$564B|$495B|1.14x|$344B|1.64x|$266B|2.12x|
+|2029|$2.3T|$640B|$742B|0.86x|$430B|1.49x|$293B|2.18x|
+|2030|$2.5T|$703B|$1114<br>B|0.63x|$537B|1.31x|$322B|2.18x|
+|2031|$2.7T|$756B|$1671<br>B|0.45x|$671B|1.13x|$354B|2.13x|
+|2032|$2.9T|$800B|$2506<br>B|0.32x|$839B|0.95x|$390B|2.05x|
 
 ## Interpretation:
 
-- 50% CAGR (close to 2026 actual first half rate): R_T continues to grow at current pace, EPR fell below 1.5x at 2028, and 2030 is close to normal industry benchmarks. Under this path, the AI ​​cycle achieves "rapid digestion". 
+- 50% CAGR (close to 2026 actual first half rate): R_T continues to grow at current pace, EPR falls below 1.5x in 2027-2028 (about 1.14x in 2028), and 2030 is close to normal industry benchmarks. Under this path, the AI ​​cycle achieves "rapid digestion".
 
-- 25% CAGR (still very aggressive): EPR peaked at 2028-2029 around 1.7x, then fell back. 2032 Entering the upper edge of the normal industry. This is a neutral scenario. 
+- 25% CAGR (still very aggressive): EPR peaks in 2027 at about 1.7x, then slowly falls back. 2032 enters the upper edge of the normal industry (0.95x). This is a neutral scenario.
 
 - 10% CAGR (conservative): EPR continues at 2x platform. Requires capex to actively slow down to balance. May cause hyperscaler capex downward revision cycle. 
 
@@ -515,7 +524,7 @@ But of course there are risks. Reasoning price wars, open source model challenge
 
 - Revolving financing is huge. NVIDIA 2026 invests $40B+ in equity bets. NVIDIA’s single $30B investment in OpenAI. NVIDIA + CoreWeave + OpenAI Triangle Loops scale. 
 
-- Neocloud local high leverage. CoreWeave includes lease leverage of approximately 4.2x annualized revenue, backlog $99.4B (vs Q1 revenue $2.08B = 48x). 
+- Neocloud local high leverage. CoreWeave includes lease leverage of approximately 4.2x annualized revenue, backlog $99.4B (vs Q1 revenue $2.08B = 48x quarterly basis; using 2026 full-year revenue guidance of $12-13B, it is about 8x forward annual revenue - both basiss are shown to avoid exaggeration).
 
 - Rapid depreciation over GPU life. H100's economic value declined significantly within 24 months of B200/Rubin's emergence. 
 
@@ -537,7 +546,7 @@ Most likely path (updated):
 
 - OpenAI is the most vulnerable point in the industry chain. Commitments 56x The revenue ratio cannot be absorbed by revenue expansion alone and requires continued equity financing or commitment write-downs. 
 
-- Neocloud (CoreWeave, etc.) is also vulnerable. Backlog 48x Quarterly revenue ratio relies on backlog realization. If big clients like Anthropic or Meta renegotiate, it could trigger a chain of events
+- Neocloud (CoreWeave, etc.) is also vulnerable. Backlog 48x quarterly revenue ratio (about 8x forward annual revenue on 2026 guidance) relies on backlog realization. If big clients like Anthropic or Meta renegotiate, it could trigger a chain of events
 
 - Hyperscaler does not have a total collapse. Strong cash flow + diversification. 
 
@@ -547,7 +556,7 @@ NVIDIA won't go bankrupt, but the chance of significant compression in forward m
 
 Monitor high-priority signals for cycle turning points (sorted by importance, adjusted based on updated circumstances):
 
-- 1. Anthropic and OpenAI growth rate. The current 6-week doubling is an anomaly. Any deceleration to monthly growth <10% is a cycle turning signal. 
+- 1. Anthropic and OpenAI growth rate. The current about 10-week doubling is an anomaly. Any deceleration to monthly growth <10% is a cycle turning signal.
 
 - 2. Hyperscaler asset life policy. Amazon has revised it down from 6 years to 5 years. Microsoft/Google/Meta follow-through will trigger a 10-15% GAAP depreciation upward revision. 
 
@@ -573,13 +582,13 @@ The red combination (simultaneous appearance means that the probability of cycli
 
 Data available as of 2026-05-25:
 
-Under the assumptions of this article (K=$1.3T, L=6.1 years, R_T=$160-225B), the current EPR_cash of the AI industry chain is in the 1.6x-2.3x range, with a median of about 1.8-2.0x. This is significantly lower than early 2.5-3.0x estimates, mainly driven by 2026 Anthropic ARR surged from $9B to $40B in the first half of the year, Microsoft AI ARR disclosure $37B, and OpenAI maintaining rapid growth. AI current EPR position:
+Under the assumptions of this article (K=$1.3T, L=6.1 years, R_T=$130-220B), the current EPR_cash of the AI industry chain is in the 1.66x-2.81x range, with a median of about 2.1-2.2x. This is lower than early 2.5-3.0x estimates (but the decline after the v3.1 correction is smaller than the first v3 draft claimed), mainly driven by 2026 Anthropic ARR surged from $9B to $40B in the first half of the year, Microsoft AI ARR disclosure $37B, and OpenAI maintaining rapid growth. AI current EPR position:
 
    - Significantly higher than normal industry benchmarks (0.65-0.95x) - AI is still in the "infrastructure bubble level" range
 
-   - Approximately equal to 2014 US shale oil (1.5-2x) and higher than 1873 US rail aggregate caliber (1.2x)
+   - At the upper edge of or slightly above 2014 US shale oil (1.5-2x), and higher than 1873 US rail aggregate basis (1.1-1.2x)
 
-   - Significantly lower than 1846 UK Rail Peak (2.5-3x) and 2000 US Telecom New Section (approximately 3x)
+   - Below the 2000 US Telecom new section (approximately 3x); no ranking against 1846 UK Rail (unified basis 2.5-3x, but only 1.0-1.9x after operating-ratio calibration, so the anchor is unstable)
 
 - AI failure modes compared with history:
 
@@ -597,7 +606,7 @@ AI capex/GDP ratio:
 
 - Net contribution to GDP growth 0.1-0.5 pp (Goldman adjusted for imported capital goods)
 
-- Nominal GDP growth contribution caliber can reach 39% (St Louis Fed)
+- Nominal GDP growth contribution basis can reach 39% (St Louis Fed)
 
 ## Most likely path:
 
@@ -611,23 +620,23 @@ AI capex/GDP ratio:
 
 - NVIDIA won't go bankrupt, but massive compression in forward multiples is still possible
 
-One sentence summary: Under the stress test assumptions of this article, AI is a real technology cycle + historical capital front-end + local high leverage + reflexive financing. The order of magnitude of EPR has moved down from 2.5-3x to 1.6-2.3x, which is a true reflection of the faster-than-expected realization of R_T in the first half of 2026. However, AI is still 2-3 times farther away from the normal industry, the capex side is still accelerating, and the OpenAI commitments stack has reached a historically unprecedented level of $1.4T. The most likely outcome is the combination of "partial clearing + soft digestion" in 2027-2029, not a total collapse; but investors holding partial high-leverage links (neocloud, over-committed model companies, long-tail application layers) will bear substantial losses. The probability of a systemic financial crisis is low, but the probability of partial losses of equity and credit is high. 
+One sentence summary: Under the stress test assumptions of this article, AI is a real technology cycle + historical capital front-end + local high leverage + reflexive financing. The order of magnitude of EPR has moved down from 2.5-3x to 1.66-2.81x (median 2.1-2.2x), which is a true reflection of the faster-than-expected realization of R_T in the first half of 2026. However, AI is still 2-3 times farther away from the normal industry, the capex side is still accelerating, and the OpenAI commitments stack has reached a historically unprecedented level of $1.4T. The most likely outcome is the combination of "partial clearing + soft digestion" in 2027-2029, not a total collapse; but investors holding partial high-leverage links (neocloud, over-committed model companies, long-tail application layers) will bear substantial losses. The probability of a systemic financial crisis is low, but the probability of partial losses of equity and credit is high.
 
 ## Confidence summary:
 
-- "AI EPR_cash median 1.8-2.0x": Medium (R_T key uncertainty reduced but still present, especially Anthropic
-
-   - $40B not audited)
+- "AI EPR_cash median 2.1-2.2x": Medium (R_T key uncertainty reduced but still present; strict basis now uses official $30B)
 
 - "AI EPR far exceeds normal industry benchmarks": High
 
 - "AI magnitude is within historical bubble range": High
 
-- "AI orders of magnitude between 1873 railroad and 1846 railroad": Medium-High
+- "AI above 1873 railroad aggregate, below the 2000 new telecom segment": Medium-High
+
+- "Ranking against 1846 railroad": Low (sensitive to historical opex calibration)
 
 - "AI is not like 2007 housing or 1989 Japan": High
 
-- "Hyperscaler will not completely collapse" Will not completely collapse: Medium High
+- "Hyperscaler will not completely collapse": Medium-High
 
 - "OpenAI is the most vulnerable point in the industry chain": high (commitments 56x revenue)
 
@@ -641,9 +650,17 @@ One sentence summary: Under the stress test assumptions of this article, AI is a
 
 - EPR > 1 is not the same as "the industry is not profitable". But the terminal revenue is not enough to cover the annual infrastructure pressure defined in this article. 
 
-- Historical EPR is an approximation of the same frame. It is not an accurate measurement of "same caliber". All historical EPR confidence low-medium.
+- Historical EPR is an approximation of the same frame. It is not an accurate measurement of "same basis". All historical EPR confidence low-medium.
 
-- R_T is the most sensitive variable in the full text. Anthropic $40B comes from TechCrunch internal information sources (medium confidence); OpenAI ARR, Microsoft AI ARR, etc. are selectively disclosed by the company and may not be audited. 
+- R_T is the most sensitive variable in the full text. Anthropic $40B comes from TechCrunch internal information sources (medium confidence, wide basis only; strict basis uses official $30B); OpenAI ARR, Microsoft AI ARR, etc. are selectively disclosed by the company and may not be audited.
+
+- R_T is a point-in-time run-rate, while P is annualized pressure. In high-growth periods, exit ARR is about twice TTM; TTM-basis EPR is about 2.6x (wide). This article uses the point-in-time basis as the main view and TTM as a reference.
+
+- K includes construction in progress. Assets under construction do not operate and are not depreciated; excluding them (15-20% of K) reduces D&A by $32-43B and wide-basis EPR to about 1.5x. This effect points in the opposite direction from "revenue lags construction in progress," so it is listed as sensitivity rather than the baseline.
+
+- Historical EPR opex parameters are not necessarily on the same basis. After calibrating 1846 and 1873 railways to the period operating ratios, EPR is significantly below the unified o basis (1846: 1.0-1.9x vs 2.5-3x); and 1846 K is committed capital while AI uses deployed capital. Historical ranking conclusions are therefore downgraded.
+
+- Model-layer → application-layer API resale has been deducted (v3.1). Application-layer AI SaaS revenue is included net to avoid double counting with model-company ARR; the uncertainty range for Microsoft AI ARR overlap is widened to ±$5-10B.
 
 - K = $1.3T is the median estimate. Cumulative AI capex stock estimates for hyperscaler/neocloud/other entities are subject to ±20% uncertainty. 
 
@@ -661,7 +678,17 @@ One sentence summary: Under the stress test assumptions of this article, AI is a
 
 - This article provides a research framework and stress test and does not constitute any recommendation to buy or sell securities. 
 
-## **Thirteen, main sources (all updated to 2026-05-25)**
+## **XIII. Reproducible calculations (added in v3.1)**
+
+All core numbers in the full text (P, EPR, the strict/wide R_T totals, sensitivities, time path, and unified/calibrated historical case basiss) can be recomputed in one command from repo `epr.py` + `data/inputs.json`:
+
+```bash
+python3 epr.py
+```
+
+The script includes consistency assertions: the R_T itemized table total must match the headline figure, and the company-by-company capex table total must match the summary range. The two inconsistencies in the first v3 draft were caught by this machine check. After changing any input, rerun the script to get the full set of numbers.
+
+## **XIV. Main sources (all updated to 2026-05-25)**
 
 ## AI company financial reports and official disclosures (high confidence):
 
