@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reproducible EPR calculations for the AI capital pressure paper (v3.1).
+"""Reproducible EPR calculations for the AI capital pressure paper (v3.2).
 
 Every number in the paper's quantitative spine is computed here from
 data/inputs.json, so internal inconsistencies (mismatched table sums,
@@ -30,7 +30,7 @@ P = dep + opex + interest
 
 section("P (annual capital service pressure, $B)")
 print(f"depreciation {dep:.0f} + opex {opex:.0f} + interest {interest:.1f} = P {P:.0f}")
-assert abs(P - 364) < 2, P
+assert abs(P - 364.65) < 0.01, P
 
 section("R_T bottom-up ($B)")
 strict_items = I["r_t_strict_billion"]
@@ -41,7 +41,7 @@ R_strict = round(strict_sum / 5) * 5   # symmetric rounding to nearest 5
 R_wide = round(wide_sum / 5) * 5
 print(f"strict sum {strict_sum} -> R_T strict {R_strict}")
 print(f"wide   sum {wide_sum} -> R_T wide {R_wide}")
-assert R_strict == 130 and R_wide == 220, (R_strict, R_wide)
+assert R_strict == 135 and R_wide == 260, (R_strict, R_wide)
 
 section("EPR")
 epr_wide = P / R_wide
@@ -61,16 +61,46 @@ print(f"if CIP ({lo:.0%}-{hi:.0%} of K) accrues no depreciation: "
       f"D&A falls {dep*lo:.0f}-{dep*hi:.0f} -> EPR wide "
       f"{(P-dep*hi)/R_wide:.2f}-{(P-dep*lo)/R_wide:.2f}x")
 
-section("2026 Big-5 capex ($B)")
+section("Annual capex guidance ($B; Oracle FY27, other Big-5 CY2026)")
 cx = I["capex_2026_billion"]
-big5_lo = sum(v[0] for k, v in cx.items() if isinstance(v, list) and k != "neocloud")
-big5_hi = sum(v[1] for k, v in cx.items() if isinstance(v, list) and k != "neocloud")
+big5 = [cx[k] for k in ("microsoft", "alphabet", "amazon", "meta", "oracle")]
+big5_lo = sum(v[0] for v in big5)
+big5_hi = sum(v[1] for v in big5)
+assert (big5_lo, big5_hi) == (810, 835), (big5_lo, big5_hi)
 ai_share = cx["ai_share_of_hyperscaler"]
 ai_lo, ai_hi = big5_lo * ai_share, big5_hi * ai_share
-print(f"Big-5 total {big5_lo}-{big5_hi} | AI share ~{ai_share:.0%} -> {ai_lo:.0f}-{ai_hi:.0f}")
+print(f"Big-5 total {big5_lo}-{big5_hi} | assumed AI share {ai_share:.0%} -> {ai_lo:.1f}-{ai_hi:.2f}")
+nc = cx["neocloud"]
+nc_lo = nc["coreweave"][0] + nc["nebius"][0]
+nc_hi = nc["coreweave"][1] + nc["nebius"][1]
+print(f"CoreWeave {nc['coreweave']} + Nebius {nc['nebius']} -> known neocloud guidance {nc_lo}-{nc_hi}")
 gdp = I["us_gdp_trillion"] * 1000
-industry_ai = (ai_lo + ai_hi) / 2 + sum(cx["neocloud"]) / 2
-print(f"AI capex / US GDP: Big-5 {((ai_lo+ai_hi)/2)/gdp:.1%} | industry ~{industry_ai/gdp:.1%}")
+industry_ai = (ai_lo + ai_hi + nc_lo + nc_hi) / 2
+print(f"Annual-guidance scale / US GDP (${gdp/1000:.6f}T SAAR): Big-5 AI {((ai_lo+ai_hi)/2)/gdp:.1%} | plus known neocloud {industry_ai/gdp:.1%}")
+print("Mixed periods and definitions; not US domestic investment or a complete industry total.")
+sp = I["disclosed_billion"]["spacex"]
+print(f"SpaceX SI: Q3 actual capex {sp['si_capex_q3']:.3f}; 9M actual {sp['si_capex_9m']:.3f}; full-year AI guidance not separately disclosed.")
+print(f"IREN: remaining FY27 capex {I['disclosed_billion']['iren']['remaining_fy2027_capex']}; CY2026 capex not verified. Other neocloud estimate: unavailable, not counted.")
+
+section("Latest company disclosures ($B; not additional terminal revenue)")
+d = I["disclosed_billion"]
+an = d["anthropic"]
+an_q = [an[f"gaap_2026_q{x}"] for x in (1, 2, 3)]
+print(f"Anthropic GAAP Q1/Q2/Q3: {an_q}; 9M {sum(an_q):.3f}; TTM {sum(an_q)+an['gaap_2025_q4']:.3f}")
+print(f"Anthropic marketplace share {an['marketplace_share_2026_9m']:.0%}; sales recognized gross, not added again in strict Bedrock/Vertex.")
+print(f"Anthropic commitments {an['committed_spend']}; due next 12M {an['commitments_due_next_12m']}")
+sp = d["spacex"]
+print(f"SpaceX SI Q3 revenue {sp['si_revenue_q3']:.3f}; solutions/infrastructure {sp['si_solutions_infrastructure_revenue_q3']:.3f}; pure terminal AI run-rate not separately disclosed.")
+orcl = d["oracle"]
+print(f"Oracle FY27 Q1 capex {orcl['capex_quarter']:.3f}; net cash capex {orcl['net_cash_capex_quarter']:.3f}; RPO {orcl['rpo']}; OCI revenue {orcl['oci_revenue_quarter']}")
+cw = d["coreweave"]
+print(f"CoreWeave Q2 revenue {cw['revenue_quarter']:.3f}; backlog {cw['backlog']}; backlog/quarter revenue {cw['backlog']/cw['revenue_quarter']:.1f}x; backlog/FY26 revenue-guidance midpoint {cw['backlog']/(sum(cw['revenue_guidance_2026'])/2):.1f}x")
+nb = d["nebius"]
+print(f"Nebius Q2 revenue {nb['revenue_quarter']}; AI cloud {nb['ai_cloud_revenue_quarter']}; customer commitments >{nb['customer_commitments_lower_bound']} (not comparable backlog)")
+ir = d["iren"]
+print(f"IREN FY27 Q1 revenue {ir['revenue_quarter']:.3f}; AI cloud {ir['ai_cloud_revenue_quarter']:.3f}; backlog {ir['backlog']}")
+nv = d["nvidia"]
+print(f"NVIDIA FY27 Q2 revenue {nv['revenue_quarter']}; DC {nv['data_center_revenue_quarter']}; Q3 guidance {nv['revenue_guidance_next_quarter']}; supply/capacity commitments {nv['supply_capacity_commitments']}")
 
 section("Sensitivity grid (P=base unless noted, denominator = wide R_T)")
 s = I["sensitivity"]
@@ -83,7 +113,7 @@ print(f"GPU life 4->3y: EPR {(P+s['gpu_life_extra_dep_billion'])/R_wide:.2f}x")
 print(f"o 10->15%: EPR {(P+s['opex_15pct_extra_billion'])/R_wide:.2f}x")
 print(f"WACC 8% replacing r*d: EPR {(P+s['wacc_extra_billion'])/R_wide:.2f}x")
 
-section("Time path (capex $600B/yr, dep at blended rate)")
+section("Time path (legacy illustrative capex $600B/yr, dep at blended rate)")
 tp = I["time_path"]
 k_path = [K]
 for _ in tp["years"][1:]:
@@ -129,4 +159,4 @@ P_cal = dep_u + rev_u * us["operating_ratio_calibrated"] + int_u
 print(f"uniform o 15%: P {P_uni:.0f} -> EPR {P_uni/rev_u:.2f}x")
 print(f"calibrated (op ratio 65%): P {P_cal:.0f} -> EPR {P_cal/rev_u:.2f}x")
 
-print("\nAll assertions passed — paper numbers are reproducible from data/inputs.json")
+print("\nAll assertions passed - paper numbers are reproducible from data/inputs.json")

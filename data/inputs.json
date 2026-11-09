@@ -1,35 +1,40 @@
 {
-  "as_of": "2026-06-10 (v3.1)",
+  "as_of": "2026-11-09 (v3.2)",
   "core": {
     "K_trillion": 1.3,
     "L_years": 6.1,
     "blended_depreciation_rate": 0.164,
-    "opex_over_K": 0.10,
+    "opex_over_K": 0.1,
     "debt_rate": 0.055,
-    "debt_share": 0.30,
-    "terminal_gross_margin": 0.50,
-    "cip_share_of_K": [0.15, 0.20]
+    "debt_share": 0.3,
+    "terminal_gross_margin": 0.5,
+    "cip_share_of_K": [
+      0.15,
+      0.2
+    ]
   },
   "r_t_strict_billion": {
-    "anthropic_official": 30,
-    "openai": 25,
+    "anthropic_official": 47,
+    "openai": 24,
     "microsoft_ai_net_of_openai_resale": 27,
-    "xai_mistral_cohere_other": 5,
+    "spacex_xai_terminal_only": 0,
+    "mistral_cohere_other": 0,
     "google_gemini_workspace": 5,
     "ai_saas_net_of_api_resale": 9,
     "trad_saas_ai_addon": 10,
     "china_ai": 10,
-    "bedrock_vertex_net": 5,
+    "bedrock_vertex_net": 0,
     "hyperscaler_internal_attribution": 0,
     "consulting_productivity": 0,
     "long_tail": 5
   },
-  "r_t_strict_note": "ai_saas gross ~15 minus ~6 paid to model APIs (already inside Anthropic/OpenAI ARR); Anthropic uses the official 2026-04-06 number, the reported $40B stays in the wide basket",
+  "r_t_strict_note": "Anthropic official May run-rate >47; OpenAI March monthly revenue 2 x 12 = 24. Anthropic S-1/A GAAP quarters are disclosed separately, not substituted for exit run-rate. CSP marketplace sales are gross in Anthropic revenue; no independently verified residual Bedrock/Vertex terminal sales, so strict residual is excluded (0 means not counted). SpaceX SI mixes ads, hosting, Grok, X and Cursor; terminal-only run-rate and the old xAI allocation cannot be separated. Old mixed model-company estimate 5 is excluded rather than inventing a split; other unverified v3.1 estimates remain labelled. AI SaaS gross 15 less API resale 6 = 9 is an unchanged assumption, including Cursor only here.",
   "r_t_wide_billion": {
-    "anthropic_reported": 40,
-    "openai": 28,
+    "anthropic_reported": 65,
+    "openai": 50,
     "microsoft_ai_net_of_openai_resale": 30,
-    "xai_mistral_cohere_other": 8,
+    "spacex_xai_terminal_only": 0,
+    "mistral_cohere_other": 0,
     "google_gemini_workspace": 8,
     "ai_saas_net_of_api_resale": 12,
     "trad_saas_ai_addon": 15,
@@ -39,27 +44,74 @@
     "consulting_productivity": 10,
     "long_tail": 8
   },
-  "r_t_wide_note": "ai_saas gross ~20 minus ~8 API resale",
+  "r_t_wide_note": "Anthropic >65 (July, Reuters Aug 17) and OpenAI almost 50 (September, Reuters Oct 8) are reported values, not official disclosures. Old mixed model-company estimate 8 is excluded because its xAI allocation is unknown. AI SaaS gross 20 less API resale 8 = 12; Bedrock/Vertex residual 10 is an unverified legacy estimate assumed to exclude all Anthropic/OpenAI sales.",
   "r_t_ttm_wide_billion": 140,
   "capex_2026_billion": {
-    "microsoft": [190, 195],
-    "alphabet": [180, 190],
-    "amazon": [200, 205],
-    "meta": [125, 145],
-    "oracle": [60, 70],
-    "neocloud": [60, 70],
-    "ai_share_of_hyperscaler": 0.75
+    "microsoft": [
+      170,
+      170
+    ],
+    "alphabet": [
+      195,
+      205
+    ],
+    "amazon": [
+      220,
+      220
+    ],
+    "meta": [
+      135,
+      145
+    ],
+    "oracle": [
+      90,
+      95
+    ],
+    "ai_share_of_hyperscaler": 0.75,
+    "neocloud": {
+      "coreweave": [
+        35,
+        39
+      ],
+      "nebius": [
+        20,
+        25
+      ],
+      "iren_calendar_2026": null,
+      "other_estimate": null,
+      "note": "CoreWeave and Nebius calendar-2026 guidance. IREN: no full calendar-2026 figure verified; FY27 remaining capex 15 is recorded separately. Lambda/Crusoe/other estimates are not newly invented. The old neocloud total 60-70 had no auditable company allocation and is retired, not added on top."
+    }
   },
-  "us_gdp_trillion": 30,
+  "us_gdp_trillion": 33.010036,
   "time_path": {
     "annual_capex_billion": 600,
-    "r_t_start_billion": 220,
-    "cagr_scenarios": [0.50, 0.25, 0.10],
-    "years": [2026, 2027, 2028, 2029, 2030, 2031, 2032]
+    "r_t_start_billion": 260,
+    "cagr_scenarios": [
+      0.5,
+      0.25,
+      0.1
+    ],
+    "years": [
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032
+    ]
   },
   "sensitivity": {
-    "r_t_levels": [300, 400, 180, 130],
-    "k_levels_trillion": [1.7, 2.0],
+    "r_t_levels": [
+      300,
+      400,
+      180,
+      135
+    ],
+    "k_levels_trillion": [
+      1.7,
+      2.0
+    ],
     "gpu_life_extra_dep_billion": 43,
     "opex_15pct_extra_billion": 65,
     "wacc_extra_billion": 80
@@ -68,11 +120,23 @@
     "uk_rail_1846": {
       "K_committed_mGBP": 170,
       "L_years": 30,
-      "opex_uniform_over_K": [0.10, 0.15],
-      "operating_ratio_calibrated": [0.45, 0.55],
-      "revenue_mGBP": [10, 15],
-      "debt_share": 0.60,
-      "debt_rate": [0.045, 0.05]
+      "opex_uniform_over_K": [
+        0.1,
+        0.15
+      ],
+      "operating_ratio_calibrated": [
+        0.45,
+        0.55
+      ],
+      "revenue_mGBP": [
+        10,
+        15
+      ],
+      "debt_share": 0.6,
+      "debt_rate": [
+        0.045,
+        0.05
+      ]
     },
     "us_rail_1873": {
       "K_busd": 2.7,
@@ -80,8 +144,113 @@
       "opex_uniform_over_K": 0.15,
       "operating_ratio_calibrated": 0.65,
       "revenue_busd": 0.52,
-      "debt_share": 0.70,
+      "debt_share": 0.7,
       "debt_rate": 0.07
+    }
+  },
+  "core_note": "All core assumptions, including K, are carried from v3.1; not remeasured as of November. The updated EPR is conditional on this unchanged capital stock.",
+  "capex_period_note": "Microsoft, Alphabet, Amazon and Meta: CY2026 guidance. Oracle: FY2027 (June 2026-May 2027) gross capex guidance, not CY2026 or net cash capex. Totals mix periods and company accounting definitions; not a measured US domestic investment total. SpaceX SI partial-year actual capex is separate, not annualized or added to annual guidance totals.",
+  "time_path_note": "Existing illustrative scenario: annual capex 600 and CAGR 50/25/10 percent unchanged; not current guidance or a new forecast. Only starting terminal revenue is updated.",
+  "disclosed_billion": {
+    "anthropic": {
+      "gaap_2025_q4": 2.04,
+      "gaap_2026_q1": 4.731,
+      "gaap_2026_q2": 11.555,
+      "gaap_2026_q3": 16.956,
+      "marketplace_share_2026_9m": 0.44,
+      "committed_spend": 895.4,
+      "commitments_due_next_12m": 69.8,
+      "latest_s1a_run_rate": null
+    },
+    "spacex": {
+      "xai_wholly_owned_since": "2026-02-02",
+      "latest_quarter": "2026-09-30",
+      "si_revenue_q3": 7.56,
+      "si_solutions_infrastructure_revenue_q3": 7.022,
+      "si_revenue_9m": 10.939,
+      "si_capex_q3": 16.444,
+      "si_capex_9m": 39.995,
+      "pure_terminal_ai_run_rate": null,
+      "ai_capex_full_year_guidance": null,
+      "note": "10-Q Note 1 pp10-11; Note 3 p12; Note 18 pp32-33; MD&A Revenue-SI pp41-42 and 48. SI includes X ads, hosting, data licensing, Grok and Cursor; no whole-segment revenue enters R_T. Do not count xAI separately from SpaceX or Cursor twice.",
+      "ai_capex_2026_q1_from_s1a": 7.723
+    },
+    "oracle": {
+      "period": "FY2027 Q1 ended 2026-08-31",
+      "capex_quarter": 28.499,
+      "net_cash_capex_quarter": 17.966,
+      "rpo": 664,
+      "oci_revenue_quarter": 7.4,
+      "gross_capex_fy2027": [
+        90,
+        95
+      ],
+      "net_cash_capex_fy2027_max": 70
+    },
+    "coreweave": {
+      "period": "2026 Q2",
+      "revenue_quarter": 2.575,
+      "backlog": 104.2,
+      "revenue_guidance_2026": [
+        12.4,
+        13.2
+      ],
+      "capex_2026": [
+        35,
+        39
+      ]
+    },
+    "nebius": {
+      "period": "2026 Q2",
+      "revenue_quarter": 0.5823,
+      "ai_cloud_revenue_quarter": 0.5749,
+      "capex_quarter_approx": 5.7,
+      "customer_commitments_lower_bound": 40,
+      "comparable_backlog": null,
+      "capex_2026": [
+        20,
+        25
+      ]
+    },
+    "iren": {
+      "period": "FY2027 Q1 ended 2026-09-30",
+      "revenue_quarter": 0.228,
+      "ai_cloud_revenue_quarter": 0.2,
+      "backlog": 20.3,
+      "remaining_fy2027_capex": 15,
+      "calendar_2026_capex": null
+    },
+    "other_neocloud": {
+      "members": [
+        "Lambda",
+        "Crusoe",
+        "others"
+      ],
+      "capex_2026_estimate": null,
+      "revenue_quarter": null,
+      "backlog": null,
+      "note": "No comparable quarterly filing or annual capex verified; financing/project announcements are not annual capex. Not counted; no estimate invented."
+    },
+    "nvidia": {
+      "period": "FY2027 Q2 ended 2026-07-26",
+      "revenue_quarter": 96.2,
+      "data_center_revenue_quarter": 89.0,
+      "revenue_guidance_next_quarter": 108,
+      "supply_capacity_commitments": 279
+    },
+    "goldman": {
+      "published": "2026-08-07",
+      "global_ai_investment_estimate_2026": 1000,
+      "us_ai_investment_estimate_2026": 581,
+      "us_gdp_share_estimate": 0.018,
+      "global_gdp_share_estimate": 0.009
+    },
+    "stlouis_fed": {
+      "published": "2026-01-12",
+      "period": "2025 first three quarters / Q3 only",
+      "share_of_real_growth_9m": 0.39,
+      "share_of_real_growth_q3": 0.11,
+      "contribution_q3_pp": 0.48
     }
   }
 }
