@@ -25,7 +25,7 @@ v3.2（2026-11-09）修订说明：保留原文结构、判断和预测，只更
 |OpenAI<br>总commitments|约$1.4万亿（5+年累计名<br>义）|Sam Altman公开确认（中）（v3.2 未更新）|
 |Big-5年度capex指引|$810–835B|四家CY2026 + Oracle FY27，期间不同；AI75%仍是假设|
 |CoreWeave季度收入|$2.575B（Q2 2026）|2026-08-11公司披露|
-|CoreWeave<br>收入backlog|$104.2B（vs<br>早期$30B+）|CRWV Q2 2026披露（高）|
+|CoreWeave<br>收入backlog|~$104B（vs<br>早期$30B+）|CRWV Q2 2026披露（高）|
 |CoreWeave 2026 capex指引|$35–39B|CRWV指引（高）|
 |NVDA Q2 FY27总收入|$96.2B（DC: $89.0B）|NVDA 8-K（高）|
 |NVDA Q3 FY27指引|$108B (±2%)|NVDA指引（高）|
@@ -161,7 +161,7 @@ R_T 大幅上调的核心原因：Anthropic ARR 从 2025 末的 $9B 升至 2026 
 
 什么变了？R_T 大幅扩张。这是 EPR 改善的全部驱动力。从 2025 年中到 2026 年 5 月，AI 终 端收入大约翻了一倍，而 P（资本压力）只增长了约 8%（K 从 $1.2T 升到 $1.3T）。R_T 增速 >> P 增速 → EPR 下降。（v3.2 未更新）
 
-什么没变？所有缓冲和放大因素仍然存在。OpenAI 总 commitments 涨到 $1.4T、CoreWeave backlog 涨到 $104.2B、NVDA 循环投资规模 >$40B、hyperscaler 2026 capex 指引仍在上修。AI 周期同时在两个方向加速：revenue 在追、capex 也在追。EPR 是这两个 race 的差。（v3.2 未更新）
+什么没变？所有缓冲和放大因素仍然存在。OpenAI 总 commitments 涨到 $1.4T、CoreWeave backlog 涨到 ~$104B、NVDA 循环投资规模 >$40B、hyperscaler 2026 capex 指引仍在上修。AI 周期同时在两个方向加速：revenue 在追、capex 也在追。EPR 是这两个 race 的差。（v3.2 未更新）
 
 ## **2.3 R_T 自下而上分解（核心更新表）** 
 
@@ -212,7 +212,7 @@ v3.2 补充：Anthropic S-1/A第161页列2026Q1/Q2/Q3收入4.731/11.555/16.956B�
 
 - Hyperscaler AI 累积 capex stock（Big-5 2022-2026 累积按 AI 部分 75%）：约 $780880B（v3.2 未更新）
 
-- Neocloud AI capex stock（CoreWeave PP&E $36.4B + Lambda + Crusoe + Nebius 等）：约 $90-130B（v3.2 未更新）
+- Neocloud AI capex stock（CoreWeave账面设备等资产净额，即PP&E，2026-06-30为$46.736B + Lambda + Crusoe + Nebius等）：约$90-130B（v3.2 注：[Q2](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm)，2026-08-12，只更新CoreWeave；行业存量估计未重新测量。公司资产含在建工程，不等于已部署的纯AI资本。）
 
 - 其他（Oracle AI infra、企业自建、政府/sovereign 投资）：$200-300B（v3.2 未更新）
 
@@ -237,8 +237,8 @@ v3.2 资本时点对照：原3.1只写2022–2026累计数，没有K测量日；
 |Alphabet|~$53B（v3.2 未更新）|~$75B（v3.2 未更新）|$195–205B|$146.25–153.75B|
 |Amazon|~$78B（v3.2 未更新）|~$105B（v3.2 未更新）|$220B|$165B|
 |Meta|~$37B（v3.2 未更新）|~$65B（v3.2 未更新）|$135–145B|$101.25–108.75B|
-|Oracle|~$7B（v3.2 未更新）|~$25B（v3.2 未更新）|$90–95B|$67.5–71.25B（v3.2 注：FY27为2026-06至2027-05，非自然2026）|
-|Big-5合计|~$231B（v3.2 未更新）|~$365B（v3.2 未更新）|$810–835B|$607.5–626.25B|
+|Oracle|$6.866B（FY24）|$21.215B（FY25）|$90–95B|$67.5–71.25B（v3.2 注：[FY25](https://s23.q4cdn.com/440135859/files/doc_financials/2025/q4/4q25-pressrelease-June-final.pdf)，2025-06-11；历史两列为财年。FY27为2026-06至2027-05；全年指引仍来自第三方转录，未以一手材料核实）|
+|Big-5合计|~$231B（v3.2 未更新）|~$361.2B（v3.2 注：只修正Oracle FY25；其他旧估计及错期合计保留）|$810–835B|$607.5–626.25B|
 
 |**主体**|**2024**|**2025**|**2026指引/估计（Q1**<br>**后更新）**|**AI**<br>**部分(~75%)**|
 |---|---|---|---|---|
@@ -252,28 +252,51 @@ v3.2 资本时点对照：原3.1只写2022–2026累计数，没有K测量日；
 
 ### 3.2a v3.2：逐家资本支出和后续季度
 
-Big-5的810–835B混合四家自然2026与Oracle FY27（2026-06至2027-05）。Oracle全年指引90–95来自电话会原话公开转录，未复听录音；不能称自然2026或净现金指引。
+Big-5的810–835B混合四家自然2026与Oracle FY27（2026-06至2027-05）。Oracle90–95及净现金最多70仍仅作为第三方转录补充保留。已查官方FY27 Q1公告、2026-09-11的10-Q和2026-10-28投资者日材料；未取得可核实全年资本支出金额的官方文字或回放内容。截至2026-11-09，FY27 Q2尚未结束。这项混合合计并非全部经过一手核实。
 
 | 公司 | 年度资本支出指引，$B | 期间和来源 |
 |---|---|---|
 | CoreWeave | 35–39 | CY2026; [IR](https://s205.q4cdn.com/133937190/files/doc_financials/2026/q2/CoreWeave-Q2-26-Earnings-Outlook-Presentation.pdf) (2026-08-11) |
-| Nebius | 20–25 | CY2026; [Call transcript](https://www.fool.com/earnings/call-transcripts/2026/08/19/nebius-nbis-q2-2026-earnings-call-transcript/) (2026-08-19（会议08-12）) |
+| Nebius | 20–25 | CY2026; [第三方转录](https://www.fool.com/earnings/call-transcripts/2026/08/19/nebius-nbis-q2-2026-earnings-call-transcript/) (2026-08-19（会议08-12）) |
 | 已列两家新云厂商 | 55–64 | 不是全行业合计 |
-| IREN | 自然2026未核实；剩余FY27为15 | [IR](https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results) (2026-11-05) |
+| IREN | 自然2026未核实；剩余FY27为15 | [IR](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05) |
 | SpaceX SI | 全年AI未单独披露；前九月实际39.995 | [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22) |
-| 其他（估计）：Lambda、Crusoe等 | 金额未核实，不编估计，不计入 | 融资或项目公告不等于年度capex |
+| Applied Digital | 全年未核实 | FY27 Q1现金支出2.074698；初始租期合同总额约36 |
+| Cipher Digital（原Cipher Mining） | 全年未核实 | Q3现金支出1.552980；Barber Lake初始租期合同总额约9.1 |
+| TeraWulf | 全年未核实 | Q3现金支出0.852274；Anthropic初始租期合同总额约19 |
+| Galaxy Digital（Helios） | 全年未核实 | Q3部门披露支出0.757；潜在合同额>30包含续租权 |
+| Nscale | 全年未核实 | H1现金支出3.2301；9月融资3.36，其中1预计之后到账 |
+| Lambda | 未披露 | 融资额度1；Red Clay多年项目拟投33.1，不是自然2026支出 |
+| Crusoe | 未披露 | 预计3.9的F轮首次交割；总合同额>140 |
+| Fluidstack | 未披露 | 1月A轮融资0.830；公司文章2026-07-20 |
+| Together AI | 未披露 | C轮融资0.8；公司文章2026-07-01 |
+| Core Scientific | 全年未核实 | Q3现金设备购置0.540735；公司披露支出0.9851含资产收购 |
+| Hut 8 | 全年未核实 | Q3现金设备购置0.476026；项目初始租期合同总额约26.6 |
 
-Oracle与Nebius全年指引取自财报会原话的公开转录，未复听录音；来源表保留这个限制。原neocloud60–70B没有逐家底稿，不能在列出CoreWeave和Nebius后又加一次，也不能编一个余数分给其他公司。SpaceX与IREN的部分期间数不参加年度指引相加。
+CoreWeave三季报和电话会预定2026-11-10，Nebius预定2026-11-12；两家最新已披露季度仍为Q2。Oracle与Nebius全年支出数仍待官方录音核实；Nebius官方Q2股东信只确认维持指引，没有写出资本支出金额。上表私营公司的融资和项目金额单列。旧neocloud60–70B没有可审查的逐家底稿。SpaceX、IREN的部分期间金额及新增公司的数据不加入年度指引合计。定义、日期、原表行名和出处见[ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09)。
 
-| 公司/季度 | 最近季度收入，$B | backlog或RPO，$B | 补充披露 |
+下表现金支出采用现金流量表数据，季度/累计期间按各公司财年注明。PP&E是账面资产净额，不是累计资本支出。债务按各公司资产负债表分类，融资租赁是否计入见来源表。剩余订单、客户承诺、初始租期合同总额和含续租权金额不能直接比较或相加。Galaxy的部门支出与未取得的合并现金购置额分列；Nscale披露半年数，不外推季度数。
+
+| 公司/季度 | 最近季度收入，$B | 订单余额/RPO或另行定义的合同额，$B | 现金支出季度/累计；资产净额；债务；其他，$B |
 |---|---|---|---|
-| Oracle FY27 Q1 | OCI ~7.4 | RPO 664 | 资本支出28.499；净现金17.966 |
-| CoreWeave Q2 2026 | 2.575 | 104.2 | 全年收入指引12.4–13.2 |
-| Nebius Q2 2026 | 0.5823 (AI cloud 0.5749) | 客户承诺>40，不是同定义backlog | Q2支出约5.7 |
-| IREN FY27 Q1 | 0.228 (AI cloud 0.200) | 20.3 | 后续剩余财年支出15 |
+| Oracle FY27 Q1 | 19.345 (OCI ~7.4) | RPO 664 | 28.499 / 28.499; 127.845; 125.337；净现金支出17.966 |
+| CoreWeave Q2 2026 | 2.575 | ~104 | 6.422 / 14.117; 46.736; 35.068；全年收入指引12.4–13.2 |
+| Nebius Q2 2026 | 0.5823 (AI cloud 0.5749) | >40 | 5.6574 / 8.1303; 13.0452; 8.5457 |
+| IREN FY27 Q1 | 0.228 (AI cloud 0.200) | 20.3 | 4.824 / 4.824; 12.344; 10.208 |
+| Applied Digital FY27 Q1 | 0.341875 | ~36 | 2.074698 / 2.074698; 6.330411; 6.376592 |
+| Cipher Digital Q3 2026 | 0.026701 (HPC 0.005852) | ~9.1 | 1.552980 / 2.517241; 3.899880; 5.559878 |
+| TeraWulf Q3 2026 | 0.076230 (HPC 0.062986) | ~19 | 0.852274 / 2.230788; 4.580681; 5.232310 |
+| Galaxy Digital Q3 2026 | 8.688050 (leasing 0.079068) | >30 | null / null; 2.946995; 6.748432 |
+| Nscale H1 2026 | H1 0.1406; Q null | >103 | null / 3.2301; 5.7275; 0.1374 |
+| Lambda | null | null | null / null; null; null |
+| Crusoe | null | >140 | null / null; null; null |
+| Fluidstack | null | null | null / null; null; null |
+| Together AI | null | null | null / null; null; null |
+| Core Scientific Q3 2026 | 0.232866 (HDC 0.215432) | 7.484422 + ~1.8 | 0.540735 / 1.494979; 2.630353; 4.302175 |
+| Hut 8 Q3 2026 | 0.071071 | ~26.6 | 0.476026 / 1.092208; 1.861749; 7.628225 |
 | SpaceX SI Q3 2026 | 7.560 (Solutions & Infrastructure 7.022) | 此处未作AI终端backlog | Q3支出16.444；前九月收入10.939 |
 
-SpaceX Q3 10-Q附注1（第10–11页）确认xAI为全资子公司；附注3（第12页）及附注18（第32–33页）列收入和资本支出。GPU采购、数据中心等单独资本开支及全年纯AI指引未单独披露。新云厂商的订单指标定义不同，不直接相加；它们的全部收入也不直接加进终端AI收入。 [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf) (2026-08-12); [IREN](https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy27-results) (2026-11-05)
+SpaceX Q3 10-Q附注1（第10–11页）确认xAI为全资子公司；附注3（第12页）及附注18（第32–33页）列收入和资本支出。GPU采购、数据中心等单独资本开支及全年纯AI指引未单独披露。新云厂商的订单指标定义不同，不直接相加；它们的全部收入也不直接加进终端AI收入。 [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf) (2026-08-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
 
 微软的170B与旧指引不能直接解释为项目规模下降，租赁确认和交付时间会影响报表资本支出。微软表示FY27下半年支出将加速；Alphabet表示2027年支出将明显增加；Meta表示仍在编制2027预算，计划继续大力投入，未给全年金额。Amazon公告没有给可比的2027全年capex数，本版不填数。这些只是已公布的管理层说法，不是本文新增预测。 [Microsoft](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1), [Alphabet](https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx), [Meta](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx), [Amazon](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf)
 
@@ -291,7 +314,7 @@ Sam Altman 公开确认 OpenAI 总 commitments 约 $1.4 万亿（涵盖未来 5+
 |NVIDIA投资|up to<br>$100B|条件性，按每<br>GW部署逐步|中（announced战略合作）（v3.2 未更新）|
 |Amazon AWS|原$38B + 新增$100B；名义$138B|新增部分8年，原协议不同期限|OpenAI官方2026-02-27|
 |Microsoft Azure（重<br>组后）|约$250B<br>cloud<br>purchase|多年|中（双方重组协议）（v3.2 未更新）|
-|CoreWeave|约$22.4B|至2032|高（CRWV 10-Q披露）（v3.2 未更新）|
+|CoreWeave|已公告合同总额上限约$22.4B|各订单期限不同；最新$6.5B至2031-05-31|（v3.2 注：[company](https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b)，2025-09-25，确认总额上限；最新Q2 10-Q，2026-08-12，确认最新订单。不是剩余订单额，也没有统一的2032年到期日）|
 |Broadcom<br>自研芯片+<br>其他|约$50-<br>100B|多年|中（v3.2 未更新）|
 |总名义栈（Altman公<br>开数字）|约$1.4万<br>亿|5+年|中-高（v3.2 未更新）|
 |OpenAI 2026-03 official|~$24B|当前|中-高|
@@ -574,7 +597,7 @@ EPR 中心估计 1.73x 看起来精确，实际依赖多个不确定参数。下
 
 - 循环融资规模庞大。 NVIDIA 2026 投资 $40B+ in equity bets。NVIDIA 单笔 $30B 投入 OpenAI。NVIDIA + CoreWeave + OpenAI 三角循环规模巨大。（v3.2 未更新）
 
-- Neocloud 局部高杠杆。 CoreWeave 含租赁杠杆约 4.2x 年化收入，backlog $104.2B（vs Q2 收入 $2.575B = 40.5x 季度口径；按 2026 全年收入指引 $12.4–13.2B 折算约 8.1x 前瞻年收入——两个口径都列出以免夸大）。 （v3.2 注：含租赁杠杆4.2x旧值未更新；8.1x按全年指引中点12.8计算）
+- Neocloud 局部高杠杆。 CoreWeave 含租赁杠杆约 5.0x 年化收入，backlog ~$104B（vs Q2 收入 $2.575B = 40.4x 季度口径；按 2026 全年收入指引 $12.4–13.2B 折算约 8.1x 前瞻年收入——两个口径都列出以免夸大）。 （v3.2 注：Q2债务及融资/经营租赁合计51.608，除以季度收入年化10.3，得5.0x；订单额按官方公告写约104。8.1x按全年指引中点12.8计算；出处见3.2a。）
 
 - GPU 寿命快速折旧。 H100 在 B200/Rubin 出现后 24 个月内经济价值显著下降。（v3.2 未更新）
 
@@ -596,7 +619,7 @@ AI 缓冲因素比历史泡沫更强，且 R_T 已经显示比 1846 铁路或 20
 
 - OpenAI 是产业链最脆弱点。 Commitments 58.3x revenue 比无法仅靠收入扩张消化，需要 持续股权融资或 commitment 减记。 （v3.2 注：OpenAI1.4T未更新；用报道50B为28.0x。Anthropic新承诺/季度年化13.2x，不能据不同日期总额确证风险排名）
 
-- Neocloud（CoreWeave 等）也是脆弱点。 Backlog 40.5x 季度收入比依赖 backlog 兑现。 如果 Anthropic 或 Meta 等大客户重谈，会引发连锁
+- Neocloud（CoreWeave 等）也是脆弱点。 Backlog 40.4x 季度收入比依赖 backlog 兑现。 如果 Anthropic 或 Meta 等大客户重谈，会引发连锁
 
 - Hyperscaler 不会全面崩塌。现金流强 + 多元化。 
 
@@ -612,7 +635,7 @@ NVIDIA 不会破产，但 forward multiples 大幅压缩的概率仍存在。其
 
 - 3. OpenAI commitments 履约速度。 OpenAI 是否能维持 commitments 栈 schedule 部署。 如果 OpenAI 与 Oracle、AWS、CoreWeave 等开始延后或重谈，是 commitments 栈 $1.4T 压力的最早表现。（v3.2 未更新）
 
-- 4. Neocloud 再融资利差和 backlog 质量。 CoreWeave backlog $104.2B 看起来很厚，但 客户集中。任何客户违约或延后部署会立刻冲击 EBITDA。
+- 4. Neocloud 再融资利差和 backlog 质量。 CoreWeave backlog ~$104B 看起来很厚，但 客户集中。任何客户违约或延后部署会立刻冲击 EBITDA。
 
 - 5. Hyperscaler capex 指引语气。从"加大投资"到"提高效率"的话术变化。 
 

@@ -90,10 +90,11 @@ print(f"Big-5 total {big5_lo}-{big5_hi} | assumed AI share {ai_share:.0%} -> {ai
 nc = cx["neocloud"]
 nc_lo = nc["coreweave"][0] + nc["nebius"][0]
 nc_hi = nc["coreweave"][1] + nc["nebius"][1]
-print(f"CoreWeave {nc['coreweave']} + Nebius {nc['nebius']} -> known neocloud guidance {nc_lo}-{nc_hi}")
+print(f"CoreWeave {nc['coreweave']} + Nebius {nc['nebius']} -> listed neocloud guidance {nc_lo}-{nc_hi}")
+print("Oracle and Nebius annual amounts remain supplementary third-party transcripts, not primary-verified guidance.")
 gdp = I["us_gdp_trillion"] * 1000
 industry_ai = (ai_lo + ai_hi + nc_lo + nc_hi) / 2
-print(f"Annual-guidance scale / US GDP (${gdp/1000:.6f}T SAAR): Big-5 AI {((ai_lo+ai_hi)/2)/gdp:.1%} | plus known neocloud {industry_ai/gdp:.1%}")
+print(f"Annual-guidance scale / US GDP (${gdp/1000:.6f}T SAAR): Big-5 AI {((ai_lo+ai_hi)/2)/gdp:.1%} | plus listed neocloud {industry_ai/gdp:.1%}")
 print("Mixed periods and definitions; not US domestic investment or a complete industry total.")
 sp = I["disclosed_billion"]["spacex"]
 print(f"SpaceX SI: Q3 actual capex {sp['si_capex_q3']:.3f}; 9M actual {sp['si_capex_9m']:.3f}; full-year AI guidance not separately disclosed.")
@@ -119,6 +120,32 @@ nb = d["nebius"]
 print(f"Nebius Q2 revenue {nb['revenue_quarter']}; AI cloud {nb['ai_cloud_revenue_quarter']}; customer commitments >{nb['customer_commitments_lower_bound']} (not comparable backlog)")
 ir = d["iren"]
 print(f"IREN FY27 Q1 revenue {ir['revenue_quarter']:.3f}; AI cloud {ir['ai_cloud_revenue_quarter']:.3f}; backlog {ir['backlog']}")
+
+section("Oracle and neocloud cash spending / balance-sheet checks ($B)")
+assert orcl['annual_guidance_primary_verified'] is False
+assert nb['annual_guidance_primary_verified'] is False
+assert cw['annual_guidance_primary_verified'] is True
+assert cw['next_results_date'] == '2026-11-10'
+assert nb['next_results_date'] == '2026-11-12'
+assert abs(orcl['operating_cash_flow_quarter'] - orcl['capex_quarter']
+           - orcl['free_cash_flow_quarter']) < 1e-9
+assert abs(orcl['capex_quarter'] - orcl['short_term_capex_financing_net_cash_flow']
+           - orcl['customer_prepayments_with_financing_component_quarter']
+           - orcl['net_cash_capex_quarter']) < 1e-9
+assert abs(ir['capex_quarter'] - (2.131 + 2.693)) < 1e-9
+for name in ('cipher_digital', 'terawulf', 'core_scientific', 'hut8'):
+    row = d[name]
+    assert abs(row['capex_quarter'] - (row['capex_ytd'] - row['capex_h1'])) < 1e-9, name
+for name in ('oracle', 'coreweave', 'nebius', 'iren', *d['other_neocloud']['members']):
+    row = d[name]
+    print(f"{name}: {row['period']}; cash capex Q {row['capex_quarter']}, "
+          f"YTD {row['capex_ytd']}; PP&E net {row['ppe_net']}; debt {row['total_debt']}")
+    if row['capex_quarter'] is not None and row['capex_ytd'] is not None:
+        assert 0 <= row['capex_quarter'] <= row['capex_ytd'], name
+assert d['galaxy_digital']['capex_quarter'] is None
+assert d['nscale']['revenue_quarter'] is None
+print("Cash-spending identities passed. Periods, noncash assets, project announcements and order definitions remain separate.")
+
 nv = d["nvidia"]
 print(f"NVIDIA FY27 Q2 revenue {nv['revenue_quarter']}; DC {nv['data_center_revenue_quarter']}; Q3 guidance {nv['revenue_guidance_next_quarter']}; supply/capacity commitments {nv['supply_capacity_commitments']}")
 
