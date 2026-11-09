@@ -14,11 +14,10 @@
     ]
   },
   "r_t_strict_billion": {
-    "anthropic_official": 47,
+    "anthropic_q3_gaap_annualized": 67.8,
     "openai": 24,
     "microsoft_ai_net_of_openai_resale": 27,
-    "spacex_xai_terminal_only": 0,
-    "mistral_cohere_other": 0,
+    "xai_mistral_cohere_other": 5,
     "google_gemini_workspace": 5,
     "ai_saas_net_of_api_resale": 9,
     "trad_saas_ai_addon": 10,
@@ -28,13 +27,12 @@
     "consulting_productivity": 0,
     "long_tail": 5
   },
-  "r_t_strict_note": "Anthropic official May run-rate >47; OpenAI March monthly revenue 2 x 12 = 24. Anthropic S-1/A GAAP quarters are disclosed separately, not substituted for exit run-rate. CSP marketplace sales are gross in Anthropic revenue; no independently verified residual Bedrock/Vertex terminal sales, so strict residual is excluded (0 means not counted). SpaceX SI mixes ads, hosting, Grok, X and Cursor; terminal-only run-rate and the old xAI allocation cannot be separated. Old mixed model-company estimate 5 is excluded rather than inventing a split; other unverified v3.1 estimates remain labelled. AI SaaS gross 15 less API resale 6 = 9 is an unchanged assumption, including Cursor only here.",
+  "r_t_strict_note": "Anthropic Q3 GAAP revenue 16.956 x 4 = 67.824, stored as 67.8 per rework instruction. This is quarterly GAAP revenue annualized, not company-defined Run-Rate Revenue or ARR. OpenAI official monthly revenue about 2 x 12 = 24. The legacy xAI(SpaceX)/Mistral/Cohere/other estimate 5 is retained, unupdated; SpaceX SI revenue is background only and not added. Strict Bedrock/Vertex residual is excluded because Anthropic marketplace sales are recognized gross. Other v3.1 estimates remain unverified. Application net revenue includes Cursor only once.",
   "r_t_wide_billion": {
-    "anthropic_reported": 65,
+    "anthropic_q3_gaap_annualized": 67.8,
     "openai": 50,
     "microsoft_ai_net_of_openai_resale": 30,
-    "spacex_xai_terminal_only": 0,
-    "mistral_cohere_other": 0,
+    "xai_mistral_cohere_other": 8,
     "google_gemini_workspace": 8,
     "ai_saas_net_of_api_resale": 12,
     "trad_saas_ai_addon": 15,
@@ -44,7 +42,7 @@
     "consulting_productivity": 10,
     "long_tail": 8
   },
-  "r_t_wide_note": "Anthropic >65 (July, Reuters Aug 17) and OpenAI almost 50 (September, Reuters Oct 8) are reported values, not official disclosures. Old mixed model-company estimate 8 is excluded because its xAI allocation is unknown. AI SaaS gross 20 less API resale 8 = 12; Bedrock/Vertex residual 10 is an unverified legacy estimate assumed to exclude all Anthropic/OpenAI sales.",
+  "r_t_wide_note": "Anthropic Q3 GAAP annualized 67.8 also replaces the older reported 65. OpenAI almost 50 remains a Reuters reported value. Legacy xAI(SpaceX)/Mistral/Cohere/other estimate 8 is retained, unupdated. AI SaaS gross 20 less API resale 8 = 12 and Bedrock/Vertex residual 10 remain unverified v3.1 assumptions; the latter is assumed to exclude all model resale.",
   "r_t_ttm_wide_billion": 140,
   "capex_2026_billion": {
     "microsoft": [
@@ -85,7 +83,7 @@
   "us_gdp_trillion": 33.010036,
   "time_path": {
     "annual_capex_billion": 600,
-    "r_t_start_billion": 260,
+    "r_t_start_billion": 270,
     "cagr_scenarios": [
       0.5,
       0.25,
@@ -106,7 +104,7 @@
       300,
       400,
       180,
-      135
+      165
     ],
     "k_levels_trillion": [
       1.7,
@@ -252,5 +250,26 @@
       "share_of_real_growth_q3": 0.11,
       "contribution_q3_pp": 0.48
     }
+  },
+  "k_rollforward": {
+    "base_as_of": null,
+    "target_as_of": "2026-09-30",
+    "base_date_evidence": "origin/main README section 3.1 gives cumulative 2022-2026 stock without a measurement date; section 2.1 mentions H1 deployments; paper dates May 25 / June 10 do not establish June 30 stock.",
+    "actual_period_start": "2026-07-01",
+    "cash_ppe_q3_billion": {
+      "microsoft": 39.367,
+      "alphabet": 51.355,
+      "amazon": 77.259,
+      "meta": 33.942
+    },
+    "company_reported_capex_q3_billion": {
+      "microsoft": 45.2,
+      "alphabet": 51.4,
+      "amazon": 77.259,
+      "meta": 34.906
+    },
+    "unmatched_oracle_period": "2026-06-01 to 2026-08-31; Q1 FY27 actual 28.499, not July-September",
+    "aligned_k_trillion": null,
+    "note": "Only comparable Q3 cash PP&E flows can be subtotalled; 75% AI share is the unchanged paper assumption. Cash PP&E excludes noncash leases and is not complete asset additions. Do not treat reported finance-lease principal payments as new assets. No full roll to September 30: base date unknown, Oracle unmatched, neocloud/sovereign flows and disposals incomplete. Partial identity uses annual 16.4% depreciation / 4; no assumed June 30 starting stock."
   }
 }

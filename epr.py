@@ -41,7 +41,7 @@ R_strict = round(strict_sum / 5) * 5   # symmetric rounding to nearest 5
 R_wide = round(wide_sum / 5) * 5
 print(f"strict sum {strict_sum} -> R_T strict {R_strict}")
 print(f"wide   sum {wide_sum} -> R_T wide {R_wide}")
-assert R_strict == 135 and R_wide == 260, (R_strict, R_wide)
+assert R_strict == 165 and R_wide == 270, (R_strict, R_wide)
 
 section("EPR")
 epr_wide = P / R_wide
@@ -49,7 +49,24 @@ epr_strict = P / R_strict
 mid = (epr_wide * epr_strict) ** 0.5
 print(f"EPR wide {epr_wide:.2f}x | strict {epr_strict:.2f}x | geometric mid {mid:.2f}x")
 ttm = I["r_t_ttm_wide_billion"]
-print(f"EPR on TTM wide R_T (${ttm}B): {P/ttm:.2f}x  (R_T above is point-in-time run-rate)")
+print(f"EPR on TTM wide R_T (${ttm}B): {P/ttm:.2f}x  (R_T mixes disclosed annualization bases; see notes)")
+
+section("Capital date alignment: actual Q3 flows only ($B)")
+kr = I["k_rollforward"]
+cash_q3 = sum(kr["cash_ppe_q3_billion"].values())
+reported_q3 = sum(kr["company_reported_capex_q3_billion"].values())
+ai_q3 = cash_q3 * I["capex_2026_billion"]["ai_share_of_hyperscaler"]
+quarter_dep = core["blended_depreciation_rate"] / 4
+assert abs(cash_q3 - 201.923) < 0.000001, cash_q3
+assert abs(ai_q3 - 151.44225) < 0.000001, ai_q3
+assert abs(reported_q3 - 208.765) < 0.000001, reported_q3
+assert kr["base_as_of"] is None and kr["aligned_k_trillion"] is None
+print(f"Q3 actual cash PP&E subtotal {cash_q3:.3f}; AI at assumed 75% {ai_q3:.5f}")
+print(f"Company-reported Q3 capex subtotal {reported_q3:.3f}; lease definitions differ, not used as new asset additions.")
+print(f"Partial roll identity: K_0930 = {1-quarter_dep:.3f} * K_0630 + {ai_q3:.5f} + unmeasured net additions ($B).")
+print(f"Annual P = {P/K:.4f} * K_0930; EPR strict = P/{R_strict}; wide = P/{R_wide}; mid = sqrt(strict*wide).")
+print("Aligned 2026-09-30 K/P/EPR: unavailable; base measurement date is not established.")
+print("Oracle June-August is unmatched; neocloud/other flows and noncash asset additions are incomplete. No guidance substituted for actuals.")
 
 section("Required revenue at terminal gross margin")
 R_req = P / core["terminal_gross_margin"]
@@ -87,6 +104,9 @@ d = I["disclosed_billion"]
 an = d["anthropic"]
 an_q = [an[f"gaap_2026_q{x}"] for x in (1, 2, 3)]
 print(f"Anthropic GAAP Q1/Q2/Q3: {an_q}; 9M {sum(an_q):.3f}; TTM {sum(an_q)+an['gaap_2025_q4']:.3f}")
+an_annualized = round(an["gaap_2026_q3"] * 4, 1)
+assert an_annualized == strict_items["anthropic_q3_gaap_annualized"] == wide_items["anthropic_q3_gaap_annualized"]
+print(f"Anthropic Q3 GAAP annualized {an_annualized:.1f}; not company-defined Run-Rate Revenue; commitments/annualization {an['committed_spend']/an_annualized:.1f}x")
 print(f"Anthropic marketplace share {an['marketplace_share_2026_9m']:.0%}; sales recognized gross, not added again in strict Bedrock/Vertex.")
 print(f"Anthropic commitments {an['committed_spend']}; due next 12M {an['commitments_due_next_12m']}")
 sp = d["spacex"]
