@@ -114,6 +114,30 @@ sp = d["spacex"]
 print(f"SpaceX SI Q3 revenue {sp['si_revenue_q3']:.3f}; solutions/infrastructure {sp['si_solutions_infrastructure_revenue_q3']:.3f}; pure terminal AI run-rate not separately disclosed.")
 orcl = d["oracle"]
 print(f"Oracle FY27 Q1 capex {orcl['capex_quarter']:.3f}; net cash capex {orcl['net_cash_capex_quarter']:.3f}; RPO {orcl['rpo']}; OCI revenue {orcl['oci_revenue_quarter']}")
+ytd = orcl['historical_cash_capex_ytd']
+quarters = orcl['historical_cash_capex_quarters']
+for quarter, derived in (
+    ('fy2024_q3', ytd['fy2024_9m'] - ytd['fy2024_h1']),
+    ('fy2024_q4', ytd['fy2024_full_year'] - ytd['fy2024_9m']),
+    ('fy2025_q1', ytd['fy2025_q1']),
+    ('fy2025_q2', ytd['fy2025_h1'] - ytd['fy2025_q1']),
+    ('fy2025_q3', ytd['fy2025_9m'] - ytd['fy2025_h1']),
+    ('fy2025_q4', ytd['fy2025_full_year'] - ytd['fy2025_9m']),
+    ('fy2026_q1', ytd['fy2026_q1']),
+    ('fy2026_q2', ytd['fy2026_h1'] - ytd['fy2026_q1']),
+):
+    assert abs(quarters[quarter] - derived) < 1e-9, quarter
+near_2024 = sum(quarters[q] for q in ('fy2024_q3', 'fy2024_q4', 'fy2025_q1', 'fy2025_q2'))
+near_2025 = sum(quarters[q] for q in ('fy2025_q3', 'fy2025_q4', 'fy2026_q1', 'fy2026_q2'))
+assert abs(near_2024 - orcl['capex_near_calendar_2024']) < 1e-9
+assert abs(near_2025 - orcl['capex_near_calendar_2025']) < 1e-9
+# The other four historical company estimates are unchanged from the README.
+historical_big5_2024 = 56 + 53 + 78 + 37 + near_2024
+historical_big5_2025 = 95 + 75 + 105 + 65 + near_2025
+assert abs(historical_big5_2024 - 234.745) < 1e-9
+assert abs(historical_big5_2025 - 375.477) < 1e-9
+print(f"Oracle near-calendar cash capex: 2024 {near_2024:.3f}; 2025 {near_2025:.3f}; both shifted one month earlier.")
+print(f"Historical Big-5 totals: 2024 {historical_big5_2024:.3f}; 2025 {historical_big5_2025:.3f}; other four firms remain legacy estimates.")
 cw = d["coreweave"]
 print(f"CoreWeave Q2 revenue {cw['revenue_quarter']:.3f}; backlog {cw['backlog']}; backlog/quarter revenue {cw['backlog']/cw['revenue_quarter']:.1f}x; backlog/FY26 revenue-guidance midpoint {cw['backlog']/(sum(cw['revenue_guidance_2026'])/2):.1f}x")
 nb = d["nebius"]

@@ -1,6 +1,6 @@
 # 2026 年 11 月数据核查
 
-本轮Oracle/新云复查以文末“Oracle和新云补充核对（2026-11-09）”为当前记录；此前表格保留版本历史。Oracle与Nebius全年指引仍未用一手材料核实，不能把保留的混合合计称为全部一手确认。
+Oracle历史两列和正文显示以文末“Oracle/新云返工1：历史期间与正文显示”为当前记录；5533e8d的FY24/FY25替代自然年及361.2合计已被纠正，旧表仅保留修改历史。其他Oracle/新云数据见“Oracle和新云补充核对（2026-11-09）”。Oracle与Nebius全年指引仍未用一手材料核实，不能把保留的混合合计称为全部一手确认。
 
 本版保留作者原来的结构、判断和预测，并在相关句子后注明新数据的影响。能核实的新值已更新，查不到可比新值的旧数字仍保留并标未更新。旧资本存量日期不明确，不能把收入更新造成的压力比下降当作同期风险改善。
 
@@ -599,3 +599,68 @@ Oracle全年90–95和净现金上限70、Nebius全年20–25均保留旧数，�
 README中2025旧合计365→约361.2，仅把Oracle旧25换成FY25实际21.215，再对原有各行相加取一位小数。其他四家旧估计和错期问题保留；不是新核实的年度行业总额。CoreWeave的约104替代104.2是按官方公告降低精度，季度比率104/2.575=40.4，全年指引中点比率104/12.8=8.1。含租赁债务比率(35.068+0.221+16.319)/(2.575×4)=5.0，分母是季度收入年化。
 
 行业新云存量90–130未重新测量：公司PP&E含在建工程、矿业及不同合并范围，余额日期也不一。不能用新增公司的融资、承诺或跨期资产余额直接替换K。Oracle季度支出28.499未变，新增非现金租赁资产单列，不把存量融资租赁负债当成本季新增资产。
+
+<a id="oracle-neocloud-rework1"></a>
+
+## Oracle/新云返工1：历史期间与正文显示
+
+本节替代5533e8d中Oracle历史两列及相应Big-5合计的做法。旧表把FY24/FY25的6.866/21.215放进自然年列，期间不匹配，361.2的下调不能作为可靠比较。财年实际数仍保留在inputs.json，明确不再用于正文自然年列。其他公司原数、2026年度指引、收入模型及判断未改。
+
+下列原表单位均为百万美元，括号表示现金流出；数据文件转换为十亿美元并用正数保存。这些是现金流量表支出，不是非现金取得资产或净融资后的支出。
+
+| 来源 | 发布日 | 原文件和位置 |
+|---|---|---|
+| H24 | 2024-12-10 | [Oracle官方申报文件](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)；FY25 Q2 10-Q，合并现金流量表“Capital expenditures”：六个月截至2024-11-30为(6,273)，截至2023-11-30为(2,394)；第36页最近四季对账另列(10,745)。 |
+| M25 | 2025-03-11 | [Oracle官方申报文件](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)；FY25 Q3 10-Q，合并现金流量表同一行：九个月截至2025-02-28为(12,135)，截至2024-02-29为(4,068)。 |
+| K25 | 2025-06-18 | [Oracle官方申报文件](https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm)；FY25 10-K，合并现金流量表同一行：截至2025-05-31全年(21,215)，截至2024-05-31全年(6,866)。 |
+| Q125 | 2024-09-10 | [Oracle官方申报文件](https://www.sec.gov/Archives/edgar/data/1341439/000095017024104905/orcl-20240831.htm)；FY25 Q1 10-Q，合并现金流量表同一行：三个月截至2024-08-31为(2,303)。 |
+| Q126 | 2025-09-10 | [Oracle官方申报文件](https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm)；FY26 Q1 10-Q，合并现金流量表同一行：三个月截至2025-08-31为(8,502)。 |
+| H26 | 2025-12-11 | [Oracle官方申报文件](https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm)；FY26 Q2 10-Q，合并现金流量表同一行：六个月截至2025-11-30为(20,535)，比较期为(6,273)；最近四季对账另列(35,477)和(10,745)。 |
+
+另用[SEC公司XBRL事实接口](https://data.sec.gov/api/xbrl/companyfacts/CIK0001341439.json)的`us-gaap:PaymentsToAcquirePropertyPlantAndEquipment`核对期间、原数和申报编号；只采用2026-11-09以前的记录。没有按接口中的CY frame标签代替起止日期。上述文件中的合并现金流量表是原数出处。
+
+| 财季 | 实际期间 | 累计相减或直接取数，十亿美元 | 季度支出 | 出处 |
+|---|---|---|---|---|
+| fy2024_q3 | 2023-12-01～2024-02-29 | 4.068 − 2.394 | 1.674 | [M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11）；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10） |
+| fy2024_q4 | 2024-03-01～2024-05-31 | 6.866 − 4.068 | 2.798 | [K25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm)（2025-06-18）；[M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11） |
+| fy2025_q1 | 2024-06-01～2024-08-31 | Q1原数 | 2.303 | [Q125](https://www.sec.gov/Archives/edgar/data/1341439/000095017024104905/orcl-20240831.htm)（2024-09-10） |
+| fy2025_q2 | 2024-09-01～2024-11-30 | 6.273 − 2.303 | 3.970 | [H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10）；[Q125](https://www.sec.gov/Archives/edgar/data/1341439/000095017024104905/orcl-20240831.htm)（2024-09-10） |
+| fy2025_q3 | 2024-12-01～2025-02-28 | 12.135 − 6.273 | 5.862 | [M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11）；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10） |
+| fy2025_q4 | 2025-03-01～2025-05-31 | 21.215 − 12.135 | 9.080 | [K25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm)（2025-06-18）；[M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11） |
+| fy2026_q1 | 2025-06-01～2025-08-31 | Q1原数 | 8.502 | [Q126](https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm)（2025-09-10） |
+| fy2026_q2 | 2025-09-01～2025-11-30 | 20.535 − 8.502 | 12.033 | [H26](https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm)（2025-12-11）；[Q126](https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm)（2025-09-10） |
+
+约自然2024：1.674+2.798+2.303+3.970=10.745，期间2023-12-01～2024-11-30。约自然2025：5.862+9.080+8.502+12.033=35.477，期间2024-12-01～2025-11-30。两段均比自然年提前一个月。H24/H26的最近四季对账也分别列10.745和35.477，与逐季相加一致。
+
+历史Big-5合计只替换Oracle，其他四家旧估计保留。2024：(56+53+78+37)+10.745=234.745，正文234.75；2025：(95+75+105+65)+35.477=375.477，正文375.48。不能将这两个合计称作全部重新核实的自然年实际值。
+
+| 改动字段 | 旧值 → 新值 | 出处/定义 |
+|---|---|---|
+| `disclosed_billion.oracle.historical_cash_capex_ytd.fy2024_h1` | 未列 → 2.394 | [H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10）；财年起点至所列季度末累计，十亿美元 |
+| `disclosed_billion.oracle.historical_cash_capex_ytd.fy2024_9m` | 未列 → 4.068 | [M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11）；财年起点至所列季度末累计，十亿美元 |
+| `disclosed_billion.oracle.historical_cash_capex_ytd.fy2024_full_year` | 未列 → 6.866 | [K25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm)（2025-06-18）；财年起点至所列季度末累计，十亿美元 |
+| `disclosed_billion.oracle.historical_cash_capex_ytd.fy2025_q1` | 未列 → 2.303 | [Q125](https://www.sec.gov/Archives/edgar/data/1341439/000095017024104905/orcl-20240831.htm)（2024-09-10）；财年起点至所列季度末累计，十亿美元 |
+| `disclosed_billion.oracle.historical_cash_capex_ytd.fy2025_h1` | 未列 → 6.273 | [H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10）；财年起点至所列季度末累计，十亿美元 |
+| `disclosed_billion.oracle.historical_cash_capex_ytd.fy2025_9m` | 未列 → 12.135 | [M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11）；财年起点至所列季度末累计，十亿美元 |
+| `disclosed_billion.oracle.historical_cash_capex_ytd.fy2025_full_year` | 未列 → 21.215 | [K25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm)（2025-06-18）；财年起点至所列季度末累计，十亿美元 |
+| `disclosed_billion.oracle.historical_cash_capex_ytd.fy2026_q1` | 未列 → 8.502 | [Q126](https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm)（2025-09-10）；财年起点至所列季度末累计，十亿美元 |
+| `disclosed_billion.oracle.historical_cash_capex_ytd.fy2026_h1` | 未列 → 20.535 | [H26](https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm)（2025-12-11）；财年起点至所列季度末累计，十亿美元 |
+| `disclosed_billion.oracle.historical_cash_capex_quarters.fy2024_q3` | 未列 → 1.674 | 2023-12-01～2024-02-29；4.068 − 2.394；[M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11）；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10） |
+| `disclosed_billion.oracle.historical_cash_capex_quarters.fy2024_q4` | 未列 → 2.798 | 2024-03-01～2024-05-31；6.866 − 4.068；[K25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm)（2025-06-18）；[M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11） |
+| `disclosed_billion.oracle.historical_cash_capex_quarters.fy2025_q1` | 未列 → 2.303 | 2024-06-01～2024-08-31；Q1原数；[Q125](https://www.sec.gov/Archives/edgar/data/1341439/000095017024104905/orcl-20240831.htm)（2024-09-10） |
+| `disclosed_billion.oracle.historical_cash_capex_quarters.fy2025_q2` | 未列 → 3.970 | 2024-09-01～2024-11-30；6.273 − 2.303；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10）；[Q125](https://www.sec.gov/Archives/edgar/data/1341439/000095017024104905/orcl-20240831.htm)（2024-09-10） |
+| `disclosed_billion.oracle.historical_cash_capex_quarters.fy2025_q3` | 未列 → 5.862 | 2024-12-01～2025-02-28；12.135 − 6.273；[M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11）；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10） |
+| `disclosed_billion.oracle.historical_cash_capex_quarters.fy2025_q4` | 未列 → 9.080 | 2025-03-01～2025-05-31；21.215 − 12.135；[K25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025087926/orcl-20250531.htm)（2025-06-18）；[M25](https://www.sec.gov/Archives/edgar/data/1341439/000095017025037143/orcl-20250228.htm)（2025-03-11） |
+| `disclosed_billion.oracle.historical_cash_capex_quarters.fy2026_q1` | 未列 → 8.502 | 2025-06-01～2025-08-31；Q1原数；[Q126](https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm)（2025-09-10） |
+| `disclosed_billion.oracle.historical_cash_capex_quarters.fy2026_q2` | 未列 → 12.033 | 2025-09-01～2025-11-30；20.535 − 8.502；[H26](https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm)（2025-12-11）；[Q126](https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm)（2025-09-10） |
+| `disclosed_billion.oracle.capex_near_calendar_2024` | 未列 → 10.745 | 上述季度计算；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10）；[H26](https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm)（2025-12-11） |
+| `disclosed_billion.oracle.capex_near_calendar_2025` | 未列 → 35.477 | 上述季度计算；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10）；[H26](https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm)（2025-12-11） |
+| `disclosed_billion.oracle.near_calendar_2024_period` | 未列 → "2023-12-01 to 2024-11-30; FY24 Q3 through FY25 Q2" | 上述季度计算；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10）；[H26](https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm)（2025-12-11） |
+| `disclosed_billion.oracle.near_calendar_2025_period` | 未列 → "2024-12-01 to 2025-11-30; FY25 Q3 through FY26 Q2" | 上述季度计算；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10）；[H26](https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm)（2025-12-11） |
+| `disclosed_billion.oracle.historical_capex_period_note` | 未列 → "Approximate calendar-year comparison uses the closest four fiscal quarters, shifted one month earlier. FY24/FY25 full-year actuals remain separate facts and are not used in the README calendar-year columns. Historical Big-5 totals retain the other four companies legacy estimates." | 上述季度计算；[H24](https://www.sec.gov/Archives/edgar/data/1341439/000095017024134973/orcl-20241130.htm)（2024-12-10）；[H26](https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm)（2025-12-11） |
+| `README 3.2 Oracle历史2024/2025列` | FY24 6.866 / FY25 21.215 → 约自然2024 10.75 / 约自然2025 35.48 | 精确值10.745/35.477；错开一个月，非财年替代自然年 |
+| `README 3.2 Big-5历史2024/2025列` | 231 / 361.2 → 234.75 / 375.48 | 按原四家旧估计加上Oracle新近自然年值，精确合计234.745/375.477 |
+
+正文显示只改变精度，不改精确数据。一般最多两位小数，小于0.1的金额保留三位。任务书另给0.341875→0.342的明确示例，本轮按该示例保留这一处三位；没有把它改成0.34。所有比率仍按inputs.json精确数计算，不按正文取整数重算。来源表及inputs.json保留原精度。
+
+Lambda、Fluidstack、Together AI的季度表改为“未披露季度报表；见上方融资/项目公告”；Crusoe保留TCV并用文字说明没有季度报表。Galaxy现金流量表缺项改为“未取得”，Nscale没有单季拆分的项目改为“未披露”。英文和日文使用对应语言。三语正文不再用null表示这些缺项；数据文件仍保留null，未补造数值。

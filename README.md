@@ -24,7 +24,7 @@ Key data are checked against public sources available by November 9, 2026. Compa
 |Microsoft AI ARR|$37B (FY26 Q3) |MSFT official conference call disclosure (high) (v3.2 unupdated) (v3.2 note: Microsoft37 is April disclosure; comparable net revenue is unupdated)|
 |OpenAI<br>Total commitments|About $1.4 trillion (5+ years cumulative nominal) |Sam Altman publicly confirmed (medium) (v3.2 unupdated)|
 |Big-5 annual capex guidance|$810–835B|Four CY2026 plus Oracle FY27; mixed periods, AI75% remains an assumption|
-|CoreWeave quarterly revenue|$2.575B (Q2 2026)|Company disclosure 2026-08-11|
+|CoreWeave quarterly revenue|$2.58B (Q2 2026)|Company disclosure 2026-08-11|
 |CoreWeave<br>Revenue backlog|~$104B (vs<br>Early$30B+)|CRWV Q2 2026 Disclosure (High)|
 |CoreWeave 2026 capex guide|$35–39B|CRWV guide (high)|
 |NVDA Q2 FY27 Total Revenue | $96.2B (DC: $89.0B) | NVDA 8-K (High) |
@@ -212,7 +212,7 @@ v3.2 supplement: Anthropic S-1/A p161 reports2026Q1/Q2/Q3 revenue4.731/11.555/16
 
 - Hyperscaler AI cumulative capex stock (Big-5 2022-2026 cumulative by AI portion 75%): approx. $780880B (v3.2 unupdated)
 
-- Neocloud AI capex stock (CoreWeave net property and equipment, PP&E, $46.736B at 2026-06-30 + Lambda + Crusoe + Nebius, etc.): approx. $90-130B (v3.2 note: [Q2](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm), 2026-08-12, updates CoreWeave only; the industry stock estimate is not remeasured. Company assets include construction in progress and do not equal deployed pure-AI capital.)
+- Neocloud AI capex stock (CoreWeave net property and equipment, PP&E, $46.74B at 2026-06-30 + Lambda + Crusoe + Nebius, etc.): approx. $90-130B (v3.2 note: [Q2](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm), 2026-08-12, updates CoreWeave only; the industry stock estimate is not remeasured. Company assets include construction in progress and do not equal deployed pure-AI capital.)
 
 - Others (Oracle AI infra, self-built by enterprises, government/sovereign investment): $200-300B (v3.2 unupdated)
 
@@ -227,7 +227,7 @@ v3.2 capital-date comparison: Original3.1 provides cumulative2022–2026 amounts
 | Amazon | 77.259 | 77.259 | [Cash flow, p6](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf) (2026-10-29) |
 | Meta | 33.942 | 34.906 | [Cash flow / FCF reconciliation](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx) (2026-10-21) |
 
-Cash subtotal201.923B; applying the unchanged75% AI assumption gives151.44225B, a known flow rather than complete asset additions. Reported capex totals208.765B: Microsoft includes lease recognition, Meta lease principal payments, so these are not equivalent new-asset measures. The paper’s roll method, with16.4% annual depreciation allocated quarterly as4.1%, gives only the partial identity: K_September=0.959×K_June+151.44225B+unmeasured net additions. Oracle28.499B covers June–August, not Q3; neocloud flows, noncash leases and disposals are incomplete. June-endK cannot be determined, so alignedK,P and strict/wide/midpoint EPR are unavailable, not zero. WithK inB, P=0.2805K, strictEPR=P/165, wide=P/270 and midpoint is geometric. This limitation is also stated in the central conclusion and Section11; a denominator-driven decline is not evidence of matched-date risk improvement.
+Cash subtotal201.923B; applying the unchanged75% AI assumption gives151.44225B, a known flow rather than complete asset additions. Reported capex totals208.765B: Microsoft includes lease recognition, Meta lease principal payments, so these are not equivalent new-asset measures. The paper’s roll method, with16.4% annual depreciation allocated quarterly as4.1%, gives only the partial identity: K_September=0.959×K_June+151.44225B+unmeasured net additions. Oracle28.50B covers June–August, not Q3; neocloud flows, noncash leases and disposals are incomplete. June-endK cannot be determined, so alignedK,P and strict/wide/midpoint EPR are unavailable, not zero. WithK inB, P=0.2805K, strictEPR=P/165, wide=P/270 and midpoint is geometric. This limitation is also stated in the central conclusion and Section11; a denominator-driven decline is not evidence of matched-date risk improvement.
 
 ## **3.2 Annual Capex (2026 latest guidance)**
 
@@ -237,8 +237,8 @@ Cash subtotal201.923B; applying the unchanged75% AI assumption gives151.44225B, 
 |Alphabet|~$53B (v3.2 unupdated)|~$75B (v3.2 unupdated)|$195–205B|$146.25–153.75B|
 |Amazon|~$78B (v3.2 unupdated)|~$105B (v3.2 unupdated)|$220B|$165B|
 |Meta|~$37B (v3.2 unupdated)|~$65B (v3.2 unupdated)|$135–145B|$101.25–108.75B|
-|Oracle|$6.866B (FY24)|$21.215B (FY25)|$90–95B|$67.5–71.25B (v3.2 note: [FY25](https://s23.q4cdn.com/440135859/files/doc_financials/2025/q4/4q25-pressrelease-June-final.pdf), 2025-06-11; historical columns are fiscal years. FY27 is 2026-06 to 2027-05; annual guidance remains third-party transcript information, not primary-verified)|
-|Big-5 Total|~$231B (v3.2 unupdated)|~$361.2B (v3.2 note: Oracle FY25 corrected; other legacy estimates and mixed periods retained)|$810–835B|$607.5–626.25B|
+|Oracle|$10.75B (approx. CY2024; 2023-12–2024-11)|$35.48B (approx. CY2025; 2024-12–2025-11)|$90–95B|$67.5–71.25B (v3.2 note: closest four fiscal quarters, shifted one month earlier; [10-Q / calculations](data/sources_2026-11.md#oracle-neocloud-rework1). FY27 is 2026-06 to 2027-05; annual guidance remains third-party transcript information, not primary-verified)|
+|Big-5 Total|~$234.75B|~$375.48B|$810–835B|$607.5–626.25B (v3.2 note: historical totals use Oracle’s approximate-calendar amounts; the other four firms remain legacy estimates)|
 
 |**Subject**|**2024**|**2025**|**2026Guidelines/Estimates (Updated after Q1**<br>**)**|**AI**<br>**Part (~75%)**|
 |---|---|---|---|---|
@@ -260,41 +260,41 @@ Big-5’s810–835B mixes four CY2026 guides with Oracle FY27 (2026-06 to2027-05
 | Nebius | 20–25 | CY2026; [Third-party transcript](https://www.fool.com/earnings/call-transcripts/2026/08/19/nebius-nbis-q2-2026-earnings-call-transcript/) (2026-08-19, call 08-12) |
 | Two listed neoclouds | 55–64 | Not an industry total |
 | IREN | CY2026 unverified; remaining FY27 is 15 | [IR](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05) |
-| SpaceX SI | Full-year AI not separately disclosed; 9M actual 39.995 | [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22) |
-| Applied Digital | Full-year unverified | FY27 Q1 cash capex 2.074698; initial-term contracts ~36 |
-| Cipher Digital (formerly Cipher Mining) | Full-year unverified | Q3 cash capex 1.552980; Barber Lake initial-term contract ~9.1 |
-| TeraWulf | Full-year unverified | Q3 cash capex 0.852274; Anthropic initial-term contract ~19 |
-| Galaxy Digital (Helios) | Full-year unverified | Q3 segment-reported capex 0.757; potential contract value >30 includes renewal options |
-| Nscale | Full-year unverified | H1 cash capex 3.2301; September financing 3.36, including 1 expected later |
+| SpaceX SI | Full-year AI not separately disclosed; 9M actual 40.00 | [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22) |
+| Applied Digital | Full-year unverified | FY27 Q1 cash capex 2.07; initial-term contracts ~36 |
+| Cipher Digital (formerly Cipher Mining) | Full-year unverified | Q3 cash capex 1.55; Barber Lake initial-term contract ~9.1 |
+| TeraWulf | Full-year unverified | Q3 cash capex 0.85; Anthropic initial-term contract ~19 |
+| Galaxy Digital (Helios) | Full-year unverified | Q3 segment-reported capex 0.76; potential contract value >30 includes renewal options |
+| Nscale | Full-year unverified | H1 cash capex 3.23; September financing 3.36, including 1 expected later |
 | Lambda | Not disclosed | Financing facility 1; proposed multiyear Red Clay project 33.1, not CY2026 capex |
 | Crusoe | Not disclosed | Initial close of anticipated Series F 3.9; total contracted value >140 |
-| Fluidstack | Not disclosed | Series A 0.830 raised in January; company post 2026-07-20 |
+| Fluidstack | Not disclosed | Series A 0.83 raised in January; company post 2026-07-20 |
 | Together AI | Not disclosed | Series C 0.8; company post 2026-07-01 |
-| Core Scientific | Full-year unverified | Q3 cash PP&E 0.540735; reported capex 0.9851 includes asset acquisitions |
-| Hut 8 | Full-year unverified | Q3 cash PP&E 0.476026; portfolio initial-term contract value ~26.6 |
+| Core Scientific | Full-year unverified | Q3 cash PP&E 0.54; reported capex 0.99 includes asset acquisitions |
+| Hut 8 | Full-year unverified | Q3 cash PP&E 0.48; portfolio initial-term contract value ~26.6 |
 
 CoreWeave Q3 results and call are scheduled for 2026-11-10; Nebius for 2026-11-12. Q2 remains the latest reported quarter for both. Oracle and Nebius annual capex amounts still require official-audio verification; Nebius’s official Q2 letter reaffirms guidance without printing the capex amount. Private-company financing and project amounts above are separate announcements. The old neocloud60–70B has no auditable company allocation. SpaceX and IREN partial-period amounts and the added firms are not added to the annual-guidance sum. Definitions, dates, original line items and sources: [ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09).
 
-Cash capex below is the cash-flow statement measure; Q/YTD periods follow each company’s fiscal year. PP&E is net book value, not cumulative capex. Debt follows each company’s disclosed balance-sheet categories, with finance leases treated as specified in the ledger. Backlog, customer commitments, initial-term contract value and values including renewal options are not comparable or additive. Galaxy’s segment-reported capex is separate from unavailable consolidated cash PP&E; Nscale discloses a half-year rather than a quarter.
+Displayed amounts are rounded; ratios use the exact inputs in inputs.json. Cash capex below is the cash-flow statement measure; Q/YTD periods follow each company’s fiscal year. PP&E is net book value, not cumulative capex. Debt follows each company’s disclosed balance-sheet categories, with finance leases treated as specified in the ledger. Backlog, customer commitments, initial-term contract value and values including renewal options are not comparable or additive. Galaxy’s segment-reported capex is separate from unavailable consolidated cash PP&E; Nscale discloses a half-year rather than a quarter.
 
 | Company/quarter | Latest quarterly revenue, $B | Backlog/RPO or separately defined contract value, $B | Cash capex Q / YTD; PP&E net; debt; other, $B |
 |---|---|---|---|
-| Oracle FY27 Q1 | 19.345 (OCI ~7.4) | RPO 664 | 28.499 / 28.499; 127.845; 125.337; net cash capex17.966 |
-| CoreWeave Q2 2026 | 2.575 | ~104 | 6.422 / 14.117; 46.736; 35.068; FY revenue guide12.4–13.2 |
-| Nebius Q2 2026 | 0.5823 (AI cloud 0.5749) | >40 | 5.6574 / 8.1303; 13.0452; 8.5457 |
-| IREN FY27 Q1 | 0.228 (AI cloud 0.200) | 20.3 | 4.824 / 4.824; 12.344; 10.208 |
-| Applied Digital FY27 Q1 | 0.341875 | ~36 | 2.074698 / 2.074698; 6.330411; 6.376592 |
-| Cipher Digital Q3 2026 | 0.026701 (HPC 0.005852) | ~9.1 | 1.552980 / 2.517241; 3.899880; 5.559878 |
-| TeraWulf Q3 2026 | 0.076230 (HPC 0.062986) | ~19 | 0.852274 / 2.230788; 4.580681; 5.232310 |
-| Galaxy Digital Q3 2026 | 8.688050 (leasing 0.079068) | >30 | null / null; 2.946995; 6.748432 |
-| Nscale H1 2026 | H1 0.1406; Q null | >103 | null / 3.2301; 5.7275; 0.1374 |
-| Lambda | null | null | null / null; null; null |
-| Crusoe | null | >140 | null / null; null; null |
-| Fluidstack | null | null | null / null; null; null |
-| Together AI | null | null | null / null; null; null |
-| Core Scientific Q3 2026 | 0.232866 (HDC 0.215432) | 7.484422 + ~1.8 | 0.540735 / 1.494979; 2.630353; 4.302175 |
-| Hut 8 Q3 2026 | 0.071071 | ~26.6 | 0.476026 / 1.092208; 1.861749; 7.628225 |
-| SpaceX SI Q3 2026 | 7.560 (Solutions & Infrastructure 7.022) | No terminal-AI backlog used here | Q3 capex 16.444; 9M revenue 10.939 |
+| Oracle FY27 Q1 | 19.35 (OCI ~7.4) | RPO 664 | 28.50 / 28.50; 127.85; 125.34; net cash capex17.97 |
+| CoreWeave Q2 2026 | 2.58 | ~104 | 6.42 / 14.12; 46.74; 35.07; FY revenue guide12.4–13.2 |
+| Nebius Q2 2026 | 0.58 (AI cloud 0.57) | >40 | 5.66 / 8.13; 13.05; 8.55 |
+| IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 10.21 |
+| Applied Digital FY27 Q1 | 0.342 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
+| Cipher Digital Q3 2026 | 0.027 (HPC 0.006) | ~9.1 | 1.55 / 2.52; 3.90; 5.56 |
+| TeraWulf Q3 2026 | 0.076 (HPC 0.063) | ~19 | 0.85 / 2.23; 4.58; 5.23 |
+| Galaxy Digital Q3 2026 | 8.69 (leasing 0.079) | >30 | Not obtained / Not obtained; 2.95; 6.75 |
+| Nscale H1 2026 | H1 0.14; Q Not disclosed | >103 | Not disclosed / 3.23; 5.73; 0.14 |
+| Lambda | No quarterly financial statements disclosed; see financing/project announcements above | | |
+| Crusoe | No quarterly financial statements disclosed; see financing/project announcements above | >140 | Not disclosed |
+| Fluidstack | No quarterly financial statements disclosed; see financing/project announcements above | | |
+| Together AI | No quarterly financial statements disclosed; see financing/project announcements above | | |
+| Core Scientific Q3 2026 | 0.23 (HDC 0.22) | 7.48 + ~1.8 | 0.54 / 1.49; 2.63; 4.30 |
+| Hut 8 Q3 2026 | 0.071 | ~26.6 | 0.48 / 1.09; 1.86; 7.63 |
+| SpaceX SI Q3 2026 | 7.56 (Solutions & Infrastructure 7.02) | No terminal-AI backlog used here | Q3 capex 16.44; 9M revenue 10.94 |
 
 SpaceX’s Q3 10-Q Note 1 (pp10–11) confirms that xAI is wholly owned; Notes 3 (p12) and 18 (pp32–33) disclose revenue and capex. GPU purchases, data-center capex and full-year pure-AI guidance are not separately disclosed. Neocloud order metrics have different definitions and are not directly summed; their entire revenues are not added to terminal AI revenue either. [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf) (2026-08-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
 
@@ -597,7 +597,7 @@ But of course there are risks. Reasoning price wars, open source model challenge
 
 - Revolving financing is huge. NVIDIA 2026 invests $40B+ in equity bets. NVIDIA’s single $30B investment in OpenAI. NVIDIA + CoreWeave + OpenAI Triangle Loops scale. (v3.2 unupdated)
 
-- Neocloud local high leverage. CoreWeave includes lease leverage of approximately 5.0x annualized revenue, backlog ~$104B (vs Q2 revenue $2.575B = 40.4x quarterly basis; using 2026 full-year revenue guidance of $12.4–13.2B, it is about 8.1x forward annual revenue - both basiss are shown to avoid exaggeration).  (v3.2 note: Q2 debt plus finance/operating leases51.608 divided by Q2 revenue annualized10.3 gives5.0x; backlog is approximately104 per official release. The8.1x ratio uses annual-guide midpoint12.8; see3.2a.)
+- Neocloud local high leverage. CoreWeave includes lease leverage of approximately 5.0x annualized revenue, backlog ~$104B (vs Q2 revenue $2.58B = 40.4x quarterly basis; using 2026 full-year revenue guidance of $12.4–13.2B, it is about 8.1x forward annual revenue - both basiss are shown to avoid exaggeration).  (v3.2 note: Q2 debt plus finance/operating leases51.61 divided by Q2 revenue annualized10.3 gives5.0x; backlog is approximately104 per official release. The8.1x ratio uses annual-guide midpoint12.8; see3.2a.)
 
 - Rapid depreciation over GPU life. H100's economic value declined significantly within 24 months of B200/Rubin's emergence. (v3.2 unupdated)
 

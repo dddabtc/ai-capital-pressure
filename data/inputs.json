@@ -216,7 +216,33 @@
       "annual_guidance_primary_verified": false,
       "annual_guidance_quote_primary": null,
       "note": "FY27 Q2 has not ended as of 2026-11-09. Cash-flow capex excludes separately disclosed noncash lease assets. Net cash outlay is the company supplemental measure, not the cash-flow-statement capex. FY27 90-95 and net cash maximum 70 remain supplementary third-party transcript figures, not verified against official audio. October 28 Investor Day materials do not supply those annual amounts. No gross new-borrowing total is separately disclosed; zero new senior notes is not zero financing.",
-      "new_borrowings_quarter": null
+      "new_borrowings_quarter": null,
+      "historical_cash_capex_ytd": {
+        "fy2024_h1": 2.394,
+        "fy2024_9m": 4.068,
+        "fy2024_full_year": 6.866,
+        "fy2025_q1": 2.303,
+        "fy2025_h1": 6.273,
+        "fy2025_9m": 12.135,
+        "fy2025_full_year": 21.215,
+        "fy2026_q1": 8.502,
+        "fy2026_h1": 20.535
+      },
+      "historical_cash_capex_quarters": {
+        "fy2024_q3": 1.674,
+        "fy2024_q4": 2.798,
+        "fy2025_q1": 2.303,
+        "fy2025_q2": 3.97,
+        "fy2025_q3": 5.862,
+        "fy2025_q4": 9.08,
+        "fy2026_q1": 8.502,
+        "fy2026_q2": 12.033
+      },
+      "capex_near_calendar_2024": 10.745,
+      "capex_near_calendar_2025": 35.477,
+      "near_calendar_2024_period": "2023-12-01 to 2024-11-30; FY24 Q3 through FY25 Q2",
+      "near_calendar_2025_period": "2024-12-01 to 2025-11-30; FY25 Q3 through FY26 Q2",
+      "historical_capex_period_note": "Approximate calendar-year comparison uses the closest four fiscal quarters, shifted one month earlier. FY24/FY25 full-year actuals remain separate facts and are not used in the README calendar-year columns. Historical Big-5 totals retain the other four companies legacy estimates."
     },
     "coreweave": {
       "period": "2026 Q2 ended 2026-06-30",
