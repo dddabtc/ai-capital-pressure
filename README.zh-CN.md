@@ -64,7 +64,7 @@ Capex 占 GDP（严格区分水平和增长贡献）：
 
 置信度。"AI EPR 远超正常行业基准"：高。"AI EPR 中位 1.73x"：中（强烈依赖 R_T 口径假设；R_T 估计的最大不确定性在于内部 AI usage 归因和私募 ARR 数字未审计）。"AI 高于 1873 铁路聚合、低于 2000 电信新建段"：中。"与 1846 铁路的排序"：低（对历史运维校准极敏感）。"AI 大概率走类似消化路径而非全面崩盘"：中-高。"具体出 清时点"：低。所有历史 EPR 数字置信度低-中。
 
-v3.2 同期资本对照：旧K=1.3T的几何中点1.73x；把K滚到2026-09-30的完整结果不可得。原文未明确K测量日，已知四家Q3现金支出201.923B、按75%假定AI为151.44225B，但Oracle期间不齐、新云厂商与其他流量不全。因此没有新的同期K/P/EPR数值可与1.73x直接比较，差别不能量化；计算只给3.1的部分恒等式。收入更新使旧K下EPR机械下降，不能据此认定同期资本风险下降。
+v3.2 同期资本对照：旧K=1.3T的几何中点1.73x；把K滚到2026-09-30的完整结果不可得。原文未明确K测量日，已知四家Q3现金支出201.92B、按75%假定AI为151.44B，但Oracle期间不齐、新云厂商与其他流量不全。因此没有新的同期K/P/EPR数值可与1.73x直接比较，差别不能量化；计算只给3.1的部分恒等式。收入更新使旧K下EPR机械下降，不能据此认定同期资本风险下降。
 
 ## **一、EPR 框架：是什么，不是什么** 
 
@@ -220,35 +220,39 @@ v3.2 补充：Anthropic S-1/A第161页列2026Q1/Q2/Q3收入4.731/11.555/16.956B�
 
 v3.2 资本时点对照：原3.1只写2022–2026累计数，没有K测量日；2.1提到2026H1部署，但5月25日正文/6月10日版本日期不能证明1.3T是6月30日存量。故不能直接把全年指引或整个Q3支出加到旧K。已核实7–9月四家公司现金PP&E支出如下，均为实际数：
 
-| 公司 | Q3现金PP&E，$B | 公司报告capex，$B | 一手来源 |
-|---|---|---|---|
-| Microsoft | 39.367 | 45.2 | [Cash](https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast), [Call](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1) (2026-10-28) |
-| Alphabet | 51.355 | 51.4 | [Cash flow](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm) (2026-10-28) |
-| Amazon | 77.259 | 77.259 | [Cash flow, p6](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf) (2026-10-29) |
-| Meta | 33.942 | 34.906 | [Cash flow / FCF reconciliation](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx) (2026-10-21) |
+| 公司/最新期间 | 现金购置季度/财年累计，$B | 公司口径季度/累计，$B | PP&E净额，$B | 借款账面值，$B | 融资租赁负债，$B | 一手出处 |
+|---|---|---|---|---|---|---|
+| Microsoft FY27 Q1 | 39.37 / 39.37 | 45.2 / 45.2 | 346.84 | 35.48 | 70.97 | [MSQ](data/sources_2026-11.md#capex-all-rework2) |
+| Alphabet Q3 2026 | 51.36 / 131.95 | 51.4 / 132.0 | 372.83 | 126.12 | 3.71 | [GOOGQ](data/sources_2026-11.md#capex-all-rework2) |
+| Amazon Q3 2026 | 77.26 / 175.67 | 75.88 / 172.19 | 508.86 | 180.33 | 14.50 | [AMZNQ](data/sources_2026-11.md#capex-all-rework2) |
+| Meta Q3 2026 | 33.94 / 83.06 | 34.91 / 85.82 | 253.22 | 83.67 | 未取得 | [METAQ](data/sources_2026-11.md#capex-all-rework2) |
 
-现金支出小计201.923B；沿用AI占75%得151.44225B，只是已知流量，不是完整资产增加。公司报告capex合计208.765B，微软含租赁确认，Meta含租赁本金支付，不能当作同定义新资产相加。沿用论文资本滚动法，把年折旧16.4%按季度分摊为4.1%，只能写部分恒等式：K_9月末=0.959×K_6月末+151.44225B+其余未核实的净增加。Oracle28.50B是6–8月，不与Q3相加；新云厂商等流量、非现金租赁和处置也不完整。K_6月末无法从旧文确定，因此同期K、P及严格/宽/中点均“不可得”，不是零。若K以B计，P=0.2805K，EPR严格=P/165、宽=P/270、中点为两者几何平均。中心结论与第十一节同时保留这一限制，不把分母更新造成的下降说成同期风险改善。
+现金支出小计201.92B；沿用AI占75%得151.44B，只是已知流量，不是完整资产增加。公司口径capex合计207.38B，微软含租赁确认，Amazon扣除处置收入及补贴，Meta含租赁本金支付，不能当作同定义新资产相加。沿用论文资本滚动法，把年折旧16.4%按季度分摊为4.1%，只能写部分恒等式：K_9月末=0.959×K_6月末+151.44B+其余未核实的净增加。Oracle28.50B是6–8月，不与Q3相加；新云厂商等流量、非现金租赁和处置也不完整。K_6月末无法从旧文确定，因此同期K、P及严格/宽/中点均“不可得”，不是零。若K以B计，P=0.2805K，EPR严格=P/165、宽=P/270、中点为两者几何平均。中心结论与第十一节同时保留这一限制，不把分母更新造成的下降说成同期风险改善。
+
+微软财年累计为一个季度，其他三家累计为1–9月。借款采用账面值，融资租赁另列。微软45.2包含租赁确认，不能用现金购置额加本季新增租赁直接对账。Alphabet管理层把现金购置数取整。Amazon扣除设备处置收入和补贴：季度77.26减1.38为75.88；累计175.67减3.48为172.19。Meta加入租赁本金偿还：季度33.94加0.96为34.91；累计83.06加2.77为85.82。这些是取整显示，合计仍用精确输入计算。
 
 ## **3.2 年度 Capex（2026 最新指引）** 
 
 |**主体**|**2024**|**2025**|**2026指引/估计（Q1**<br>**后更新）**|**AI**<br>**部分(~75%)**|
 |---|---|---|---|---|
-|Microsoft|~$56B（v3.2 未更新）|~$95B（v3.2 未更新）|$170B|$127.5B|
-|Alphabet|~$53B（v3.2 未更新）|~$75B（v3.2 未更新）|$195–205B|$146.25–153.75B|
-|Amazon|~$78B（v3.2 未更新）|~$105B（v3.2 未更新）|$220B|$165B|
-|Meta|~$37B（v3.2 未更新）|~$65B（v3.2 未更新）|$135–145B|$101.25–108.75B|
+|Microsoft|$55.55B|$83.09B|$170B|$127.5B|
+|Alphabet|$52.54B|$91.45B|$195–205B|$146.25–153.75B|
+|Amazon|$83.00B|$131.82B|$220B|$165B|
+|Meta|$37.26B|$69.69B|$135–145B|$101.25–108.75B|
 |Oracle|$10.75B（约自然2024；2023-12～2024-11）|$35.48B（约自然2025；2024-12～2025-11）|$90–95B|$67.5–71.25B（v3.2 注：按最接近自然年的四个财季计算，错开一个月；[10-Q及计算](data/sources_2026-11.md#oracle-neocloud-rework1)。FY27为2026-06至2027-05；全年指引仍来自第三方转录，未以一手材料核实）|
-|Big-5合计|~$234.75B|~$375.48B|$810–835B|$607.5–626.25B（v3.2 注：历史合计使用Oracle约自然年数据，其他四家仍是旧估计）|
+|Big-5合计|~$239.09B|~$411.53B|$810–835B|$607.5–626.25B（v3.2 注：历史合计现用四家自然年现金购置实际数，加Oracle所列近似期间。）|
 
 |**主体**|**2024**|**2025**|**2026指引/估计（Q1**<br>**后更新）**|**AI**<br>**部分(~75%)**|
 |---|---|---|---|---|
 ||||$750B）|（v3.2 未更新）|
 |Neocloud合计|~$15B|~$35B|~$60-70B|~$65B（v3.2 未更新）（v3.2 注：本版逐家列示见下表，不把旧60–70再相加）|
-|行业AI capex<br>流量||~$400B|~$676.375B|（v3.2 注：Big-5假定AI指引中点616.875+已列两家59.5；非全行业、非同期间、非实际支出）|
+|行业AI capex<br>流量||~$400B|~$676.38B|（v3.2 注：Big-5假定AI指引中点616.88+已列两家59.5；非全行业、非同期间、非实际支出）|
 
 来源：SEC 10-Q 公开披露、Q1 2026 财报电话会议指引、CreditSights / Goldman Sachs / Yahoo Finance 综合（Q1 后更新）。Big-5 中四家 Q1 后上调 capex 指引；只有 Amazon 维持 原计划（因为已经是行业最高）。 （v3.2 注：本版四家采用10月披露，Oracle采用9月FY27；微软170受交付延迟影响，不再断言所有公司都在上修；旧来源描述保留但未更新）
 
-观察：Goldman Sachs 最新基线模型估算 2026 AI capex $1000B，与 CreditSights $750B 估计一 致。Goldman 预测 2031 年 AI capex 达 $1.6T。资本支出/收入比已经突破 Oracle 86%、Meta 54%、Microsoft 47%、Alphabet 46%、Amazon 25%——历史上不可想象的水平。 （v3.2 注：Goldman新值为8月7日研究估计，不再与旧CreditSights750相同；2031预测和支出/收入旧比率保留，未更新）
+观察：Goldman Sachs 最新基线模型估算 2026 AI capex $1000B，与 CreditSights $750B 估计一 致。Goldman 预测 2031 年 AI capex 达 $1.6T。资本支出/收入比已经突破 Oracle 147.32%、Meta 52.54%、Microsoft 42.66%、Alphabet 40.25%、Amazon 38.26%——历史上不可想象的水平。 （v3.2 注：Goldman新值为8月7日研究估计，不再与旧CreditSights750相同；2031预测保留，未更新） 支出/收入比已按最新季度现金购置额除以同季收入计算；Oracle为FY27 Q1，其余四家为2026 Q3。它们不是全年指引或纯AI支出。[出处](data/sources_2026-11.md#capex-all-rework2)。
+
+历史两列采用现金设备等资产购置支出。微软按季度拼成1–12月，未错开月份；Alphabet、Amazon、Meta用自然年10-K实际数。Oracle仍按本行注明的提前一个月期间计算。融资租赁和全年指引另有定义。[出处和计算](data/sources_2026-11.md#capex-all-rework2)。
 
 ### 3.2a v3.2：逐家资本支出和后续季度
 
@@ -272,6 +276,9 @@ Big-5的810–835B混合四家自然2026与Oracle FY27（2026-06至2027-05）。
 | Together AI | 未披露 | C轮融资0.8；公司文章2026-07-01 |
 | Core Scientific | 全年未核实 | Q3现金设备购置0.54；公司披露支出0.99含资产收购 |
 | Hut 8 | 全年未核实 | Q3现金设备购置0.48；项目初始租期合同总额约26.6 |
+| NVIDIA | 未取得 | FY27 Q2现金设备及无形资产购置2.68；未来购置义务8B不是全年指引 |
+| Anthropic | 未取得 | 前九个月现金设备购置0.93；租赁及设备预付款1.96另列 |
+| OpenAI / Stargate | 未披露 | 多年目标500，已公告项目投资>450；非年度现金支出 |
 
 CoreWeave三季报和电话会预定2026-11-10，Nebius预定2026-11-12；两家最新已披露季度仍为Q2。Oracle与Nebius全年支出数仍待官方录音核实；Nebius官方Q2股东信只确认维持指引，没有写出资本支出金额。上表私营公司的融资和项目金额单列。旧neocloud60–70B没有可审查的逐家底稿。SpaceX、IREN的部分期间金额及新增公司的数据不加入年度指引合计。定义、日期、原表行名和出处见[ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09)。
 
@@ -282,8 +289,8 @@ CoreWeave三季报和电话会预定2026-11-10，Nebius预定2026-11-12；两家
 | Oracle FY27 Q1 | 19.35 (OCI ~7.4) | RPO 664 | 28.50 / 28.50; 127.85; 125.34；净现金支出17.97 |
 | CoreWeave Q2 2026 | 2.58 | ~104 | 6.42 / 14.12; 46.74; 35.07；全年收入指引12.4–13.2 |
 | Nebius Q2 2026 | 0.58 (AI cloud 0.57) | >40 | 5.66 / 8.13; 13.05; 8.55 |
-| IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 10.21 |
-| Applied Digital FY27 Q1 | 0.342 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
+| IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 9.90 ；融资租赁0.31 |
+| Applied Digital FY27 Q1 | 0.34 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
 | Cipher Digital Q3 2026 | 0.027 (HPC 0.006) | ~9.1 | 1.55 / 2.52; 3.90; 5.56 |
 | TeraWulf Q3 2026 | 0.076 (HPC 0.063) | ~19 | 0.85 / 2.23; 4.58; 5.23 |
 | Galaxy Digital Q3 2026 | 8.69 (leasing 0.079) | >30 | 未取得 / 未取得; 2.95; 6.75 |
@@ -294,13 +301,19 @@ CoreWeave三季报和电话会预定2026-11-10，Nebius预定2026-11-12；两家
 | Together AI | 未披露季度报表；见上方融资/项目公告 | | |
 | Core Scientific Q3 2026 | 0.23 (HDC 0.22) | 7.48 + ~1.8 | 0.54 / 1.49; 2.63; 4.30 |
 | Hut 8 Q3 2026 | 0.071 | ~26.6 | 0.48 / 1.09; 1.86; 7.63 |
-| SpaceX SI Q3 2026 | 7.56 (Solutions & Infrastructure 7.02) | 此处未作AI终端backlog | Q3支出16.44；前九月收入10.94 |
+| SpaceX SI Q3 2026 | 7.56 (Solutions & Infrastructure 7.02) | 此处未作AI终端backlog | SI季度支出16.44 / 前九月40.00；此处未单列部门资产和债务；前九月收入10.94 |
+| SpaceX全公司 Q3 2026 | 14.58 | 不作为终端AI订单额 | 19.59 / 48.07; 89.48; 37.86；融资租赁0.98 |
+| NVIDIA FY27 Q2 | 96.2 | 供货及产能承诺279，非capex | 2.68 / 4.43，含无形资产购置；14.29; 33.37 |
+| Anthropic Q3 2026 | 16.96 | 总承诺895.4，非capex | 0.44 / 0.93; 3.06; 130.50；融资租赁1.67 |
+| OpenAI / Stargate | 未取得公开季度报表；融资和项目公告不能代替现金支出 | | |
 
 SpaceX Q3 10-Q附注1（第10–11页）确认xAI为全资子公司；附注3（第12页）及附注18（第32–33页）列收入和资本支出。GPU采购、数据中心等单独资本开支及全年纯AI指引未单独披露。新云厂商的订单指标定义不同，不直接相加；它们的全部收入也不直接加进终端AI收入。 [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf) (2026-08-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
 
 微软的170B与旧指引不能直接解释为项目规模下降，租赁确认和交付时间会影响报表资本支出。微软表示FY27下半年支出将加速；Alphabet表示2027年支出将明显增加；Meta表示仍在编制2027预算，计划继续大力投入，未给全年金额。Amazon公告没有给可比的2027全年capex数，本版不填数。这些只是已公布的管理层说法，不是本文新增预测。 [Microsoft](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1), [Alphabet](https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx), [Meta](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx), [Amazon](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf)
 
-SpaceX最新S-1/A为2026-06-03，已读“AI Capital Expenditures”段：2026 Q1 AI资本支出7.723B，增长来自地面数据中心的建设、设备和配套设施。之后2026-06-12最终招股书沿用该披露；本版当前值采用更晚的Q3 10-Q，而不沿用上市前季度。 [S-1/A](https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm), [424B4](https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm)
+SpaceX最新S-1/A为2026-06-03，已读“AI Capital Expenditures”段：2026 Q1 AI资本支出7.72B，增长来自地面数据中心的建设、设备和配套设施。之后2026-06-12最终招股书沿用该披露；本版当前值采用更晚的Q3 10-Q，而不沿用上市前季度。 [S-1/A](https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm), [424B4](https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm)
+
+本轮还核对NVIDIA自身支出、含xAI的SpaceX全公司、Anthropic自建或租用的算力及OpenAI/Stargate。NVIDIA未来资本购置义务8B不是全年指引。Anthropic前九个月租赁及设备预付款1.96、非现金取得的融资租赁资产1.76，均与现金购置支出分列；可转债130.50是公允价值账面金额。SpaceX全公司与SI部门数据有重叠。[一手资料核对](data/sources_2026-11.md#capex-all-rework2)。
 
 ## **3.3 OpenAI Commitments 栈（更新到 $1.4T）** 
 
@@ -309,7 +322,7 @@ Sam Altman 公开确认 OpenAI 总 commitments 约 $1.4 万亿（涵盖未来 5+
 |**合约/承诺**|**名义规模**|**时间窗口**|**置信度**|
 |---|---|---|---|
 |Oracle compute deal|约$300B|5年（2027-<br>2031）|高（Oracle CEO Safra Catz多<br>次确认）（v3.2 未更新）|
-|Stargate（OpenAI/<br>SoftBank/Oracle/<br>MGX）|约$500B<br>（已<br>announced<br>$400B+<br>已<br>committed<br>）|4年（2025-<br>2028）|中（announced<br>，与Oracle部分<br>重叠）（v3.2 未更新）|
+|Stargate（OpenAI/<br>SoftBank/Oracle/<br>MGX）| $500B；已公告项目投资>$450B |4年（2025-<br>2028）|中（announced<br>，与Oracle部分<br>重叠）（v3.2 未更新）|
 |AMD（6 GW Instinct<br>GPU）|约$90B累<br>积硬件收入|从H2 2026<br>起|中（AMD/OpenAI公开披露）（v3.2 未更新）|
 |NVIDIA投资|up to<br>$100B|条件性，按每<br>GW部署逐步|中（announced战略合作）（v3.2 未更新）|
 |Amazon AWS|原$38B + 新增$100B；名义$138B|新增部分8年，原协议不同期限|OpenAI官方2026-02-27|
@@ -341,6 +354,8 @@ OpenAI commitments / revenue 比从早期估算的 28-36x 升至 58.3x。这是�
 Anthropic 的 commitments/revenue 比（13.2x）远低于 OpenAI（58.3x）。这反映两家不同的商 业模式：Anthropic 收入扩张快（约 10 周翻倍），承诺规模相对克制；OpenAI 承诺规模超大，依赖 未来收入兑现。 （v3.2 注：S-1/A披露895.4B，原“相对克制”判断受削弱；OpenAI1.4T未更新、日期不同，不能当同日风险排序。旧伙伴表未更新，不再求和替代总承诺）
 
 v3.2：总承诺来自[S-1/A](https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm)（2026-11-02）第174–175页及相关说明，含短期、期后承诺和未开始租赁；表内319.993B不是全额。AWS更新来自[OpenAI官方](https://openai.com/index/amazon-partnership/)（2026-02-27）。
+
+返工2出处核对：Stargate的>450B是已公告的多年项目投资，非已支出额，500B目标不变。AMD的6GW、Broadcom的10GW已确认；旧90B、50–100B合同价格未核实。NVIDIA最多100B是当时公布的投资意向，非capex或当前无条件义务。Anthropic的50B是2025年11月项目公告。其他旧伙伴金额仍未逐项核实，不求和。[出处](data/sources_2026-11.md#capex-all-rework2)。
 
 ## **四、正常行业 EPR 基准（粗估，非审计行业模型）** 
 
@@ -657,7 +672,7 @@ NVIDIA 不会破产，但 forward multiples 大幅压缩的概率仍存在。其
 
 在本文假设下（K=$1.3T，L=6.1 年，R_T=$165-270B），AI 产业链当前 EPR_cash 处于 1.35x-2.21x 区间，中位约 1.73x。这低于早期 2.5-3.0x 的估算（但 v3.1 修正后降幅小于 v3 初版声称的水平），主要驱动力是 2026 上半年 Anthropic ARR 从 $9B 暴涨到 $40B、Microsoft AI ARR 披露 $37B、OpenAI 维持高速增长。 AI 当前 EPR 位置：
 
-v3.2 同期资本对照：旧K=1.3T的几何中点1.73x；把K滚到2026-09-30的完整结果不可得。原文未明确K测量日，已知四家Q3现金支出201.923B、按75%假定AI为151.44225B，但Oracle期间不齐、新云厂商与其他流量不全。因此没有新的同期K/P/EPR数值可与1.73x直接比较，差别不能量化；计算只给3.1的部分恒等式。收入更新使旧K下EPR机械下降，不能据此认定同期资本风险下降。
+v3.2 同期资本对照：旧K=1.3T的几何中点1.73x；把K滚到2026-09-30的完整结果不可得。原文未明确K测量日，已知四家Q3现金支出201.92B、按75%假定AI为151.44B，但Oracle期间不齐、新云厂商与其他流量不全。因此没有新的同期K/P/EPR数值可与1.73x直接比较，差别不能量化；计算只给3.1的部分恒等式。收入更新使旧K下EPR机械下降，不能据此认定同期资本风险下降。
 
    - 明显高于正常行业基准（0.65-0.95x）—— AI 仍处于"基础设施泡沫量级"区间 
 

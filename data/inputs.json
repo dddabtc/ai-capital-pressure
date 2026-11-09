@@ -169,7 +169,30 @@
       "marketplace_share_2026_9m": 0.44,
       "committed_spend": 895.4,
       "commitments_due_next_12m": 69.8,
-      "latest_s1a_run_rate": null
+      "latest_s1a_run_rate": null,
+      "unit": "USD billion",
+      "period": "2026 Q3 ended 2026-09-30",
+      "ytd_period": "2026 first nine months ended 2026-09-30",
+      "capex_quarter": 0.443,
+      "capex_ytd": 0.925,
+      "capex_h1": 0.482,
+      "cash_capex_line": "Purchases of property and equipment",
+      "capex_definition": "Cash PP&E purchases; Q3 = S-1/A 9M 0.925 minus S-1 H1 0.482 for the same named line. S-1/A presentation separately identifies lease/equipment prepayments; those are not added to this PP&E measure.",
+      "prepayments_for_leased_assets_and_equipment_ytd": 1.955,
+      "finance_lease_assets_obtained_ytd": 1.759,
+      "finance_lease_liabilities": 1.674,
+      "ppe_net": 3.061,
+      "total_debt": 130.502,
+      "debt_definition": "Convertible notes payable at reported fair-value carrying amount, not cash principal or near-term repayment. Revolving credit facility has no drawn borrowings; finance leases separately 1.674.",
+      "capex_calendar_2024": 0.015,
+      "capex_calendar_2025": 0.131,
+      "capex_full_year_guidance": null,
+      "annual_guidance_quote_primary": null,
+      "review_sources": [
+        "ANTH",
+        "ANTH0"
+      ],
+      "review_as_of": "2026-11-09"
     },
     "spacex": {
       "xai_wholly_owned_since": "2026-02-02",
@@ -182,7 +205,27 @@
       "pure_terminal_ai_run_rate": null,
       "ai_capex_full_year_guidance": null,
       "note": "10-Q Note 1 pp10-11; Note 3 p12; Note 18 pp32-33; MD&A Revenue-SI pp41-42 and 48. SI includes X ads, hosting, data licensing, Grok and Cursor; no whole-segment revenue enters R_T. Do not count xAI separately from SpaceX or Cursor twice.",
-      "ai_capex_2026_q1_from_s1a": 7.723
+      "ai_capex_2026_q1_from_s1a": 7.723,
+      "unit": "USD billion",
+      "period": "2026 Q3 ended 2026-09-30; consolidated SpaceX including xAI",
+      "ytd_period": "2026 first nine months ended 2026-09-30",
+      "capex_quarter": 19.593,
+      "capex_ytd": 48.069,
+      "capex_h1": 28.476,
+      "cash_capex_line": "Purchases of property, plant, and equipment",
+      "capex_definition": "Consolidated cash PP&E; Q3 = 9M minus H1. SI segment cash capex 16.444/39.995 is included, not added again.",
+      "ppe_net": 89.483,
+      "total_debt": 37.861,
+      "finance_lease_liabilities": 0.983,
+      "debt_definition": "Total debt carrying amount net of issuance costs/discount; finance leases 0.983 separately. Gross principal 38.006 is not the carrying balance.",
+      "capex_full_year_guidance": null,
+      "annual_guidance_quote_primary": null,
+      "review_sources": [
+        "SPACEQ",
+        "SPACEH"
+      ],
+      "review_as_of": "2026-11-09",
+      "revenue_quarter": 14.575
     },
     "oracle": {
       "period": "FY2027 Q1 ended 2026-08-31",
@@ -242,7 +285,14 @@
       "capex_near_calendar_2025": 35.477,
       "near_calendar_2024_period": "2023-12-01 to 2024-11-30; FY24 Q3 through FY25 Q2",
       "near_calendar_2025_period": "2024-12-01 to 2025-11-30; FY25 Q3 through FY26 Q2",
-      "historical_capex_period_note": "Approximate calendar-year comparison uses the closest four fiscal quarters, shifted one month earlier. FY24/FY25 full-year actuals remain separate facts and are not used in the README calendar-year columns. Historical Big-5 totals retain the other four companies legacy estimates."
+      "historical_capex_period_note": "Approximate calendar-year comparison uses the closest four fiscal quarters, shifted one month earlier. FY24/FY25 full-year actuals remain separate facts and are not used in the README calendar-year columns. Historical Big-5 totals now use the other four companies actual calendar-year cash purchases.",
+      "review_sources": [
+        "O1",
+        "O2",
+        "O4"
+      ],
+      "review_as_of": "2026-11-09",
+      "cash_capex_line": "Capital expenditures"
     },
     "coreweave": {
       "period": "2026 Q2 ended 2026-06-30",
@@ -275,7 +325,15 @@
       "note": "Q3 results and call scheduled for November 10; retain Q2. OpenAI 22.4 is the September 25, 2025 announced aggregate ceiling, not remaining backlog or a uniform 2032 maturity. Official Q2 release reports approximately 104, not 104.2; precision follows that primary source. Lease-inclusive ratio = (35.068 + 0.221 + 16.319) / (2.575 * 4), rounded to one decimal.",
       "backlog_approximate": true,
       "operating_lease_liabilities": 16.319,
-      "debt_including_leases_to_annualized_quarter_revenue": 5.0
+      "debt_including_leases_to_annualized_quarter_revenue": 5.0,
+      "review_sources": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "review_as_of": "2026-11-09",
+      "cash_capex_line": "Purchase of property and equipment, including capitalized internal-use software"
     },
     "nebius": {
       "period": "2026 Q2 ended 2026-06-30",
@@ -300,7 +358,15 @@
       "backlog_definition": "More than 40 of customer commitments is management disclosure, not a company metric comparable to CoreWeave revenue backlog.",
       "annual_guidance_primary_verified": false,
       "annual_guidance_quote_primary": null,
-      "note": "Q3 results and call scheduled for November 12; retain Q2. Official Q2 shareholder letter p3 reaffirms all annual metrics without printing the 20-25 capex amount. That numeric guidance remains supplementary third-party transcript information; official audio was not verified."
+      "note": "Q3 results and call scheduled for November 12; retain Q2. Official Q2 shareholder letter p3 reaffirms all annual metrics without printing the 20-25 capex amount. That numeric guidance remains supplementary third-party transcript information; official audio was not verified.",
+      "review_sources": [
+        "N1",
+        "N2",
+        "N3"
+      ],
+      "review_as_of": "2026-11-09",
+      "finance_lease_liabilities": null,
+      "cash_capex_line": "Purchases of property and equipment and intangible assets"
     },
     "iren": {
       "period": "FY2027 Q1 ended 2026-09-30",
@@ -315,12 +381,21 @@
       "capex_ytd": 4.824,
       "capex_definition": "Cash payments for PP&E net of computer hardware 2.131 plus computer hardware 2.693; excludes intangible assets 0.065 and other prepayments/deposits 0.337. Not net of disposal proceeds.",
       "ppe_net": 12.344,
-      "total_debt": 10.208,
-      "debt_definition": "Company GAAP balance-sheet debt: borrowings carrying value 9.897 plus finance lease liabilities 0.311; operating leases excluded.",
+      "total_debt": 9.897,
+      "debt_definition": "Current borrowings 0.950 plus noncurrent borrowings 8.947 at carrying value. Finance leases 0.311 shown separately; the company net-debt reconciliation includes them in its GAAP balance-sheet debt 10.208.",
       "backlog_definition": "RPO plus remaining lease arrangements and other estimated future revenue under committed customer contracts, subject to delivery and service availability.",
       "capex_full_year_guidance": null,
       "annual_guidance_quote_primary": "$15 billion remaining planned FY27 capex",
-      "note": "15 is the remaining plan after September 30, not full FY27 or calendar-2026 guidance. Fiscal-year-to-date capex is one quarter; no calendar YTD substituted."
+      "note": "15 is the remaining plan after September 30, not full FY27 or calendar-2026 guidance. Fiscal-year-to-date capex is one quarter; no calendar YTD substituted.",
+      "company_reported_debt_including_finance_leases": 10.208,
+      "finance_lease_liabilities": 0.311,
+      "reported_capex_quarter": null,
+      "review_sources": [
+        "I1",
+        "I2"
+      ],
+      "review_as_of": "2026-11-09",
+      "cash_capex_line": "Payments for property, plant and equipment, net of computer hardware; Payments for computer hardware"
     },
     "other_neocloud": {
       "members": [
@@ -346,7 +421,31 @@
       "revenue_quarter": 96.2,
       "data_center_revenue_quarter": 89.0,
       "revenue_guidance_next_quarter": 108,
-      "supply_capacity_commitments": 279
+      "supply_capacity_commitments": 279,
+      "unit": "USD billion",
+      "ytd_period": "FY2027 first six months ended 2026-07-26",
+      "capex_quarter": 2.677,
+      "capex_ytd": 4.434,
+      "capex_fy_q1": 1.757,
+      "cash_capex_line": "Purchases related to property and equipment and intangible assets",
+      "capex_definition": "Cash PP&E and intangible purchases combined; Q2 = first half 4.434 minus Q1 1.757. This is NVIDIA own spending, not customer purchases of NVIDIA chips.",
+      "ppe_net": 14.285,
+      "total_debt": 33.366,
+      "debt_current": 1.0,
+      "debt_noncurrent": 32.366,
+      "finance_lease_liabilities": null,
+      "debt_definition": "Short-term debt plus long-term debt, carrying value. Finance-lease costs are immaterial; no separate liability balance verified.",
+      "capex_full_year_guidance": null,
+      "annual_guidance_quote_primary": null,
+      "capex_purchase_commitments_approx": 8,
+      "note": "Latest reported quarter remains FY27 Q2; Q3 scheduled November 17. The rounded 8 of capex contractual obligations is a future commitment across periods, not annual capex guidance or cash already spent.",
+      "review_sources": [
+        "NVQ",
+        "NVQ1",
+        "NVRELEASE",
+        "NVDATE"
+      ],
+      "review_as_of": "2026-11-09"
     },
     "goldman": {
       "published": "2026-08-07",
@@ -379,7 +478,12 @@
       "finance_lease_liabilities": 0.045947,
       "contracted_revenue_base_term_approx": 36,
       "backlog_definition": "Approximately 36 of contracted revenue over initial base lease terms; 86 includes all renewal options. Not comparable company revenue backlog.",
-      "note": "Consolidated financials include majority-owned ChronoScale. Fiscal YTD is not calendar YTD. No full-year capex amount found in the latest results release."
+      "note": "Consolidated financials include majority-owned ChronoScale. Fiscal YTD is not calendar YTD. No full-year capex amount found in the latest results release.",
+      "review_sources": [
+        "A1"
+      ],
+      "review_as_of": "2026-11-09",
+      "cash_capex_line": "Purchases of property and equipment and other assets"
     },
     "cipher_digital": {
       "unit": "USD billion",
@@ -401,7 +505,14 @@
       "ai_hpc_revenue_quarter": 0.005852,
       "barber_lake_contract_revenue_approx": 9.1,
       "backlog_definition": "9.1 is Barber Lake contracted revenue over its amended 20-year term, not the whole-company remaining backlog.",
-      "note": "Latest results published November 2; no full-year capex guide located in the latest release or 10-Q."
+      "note": "Latest results published November 2; no full-year capex guide located in the latest release or 10-Q.",
+      "review_sources": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "review_as_of": "2026-11-09",
+      "cash_capex_line": "Purchases of property and equipment"
     },
     "terawulf": {
       "unit": "USD billion",
@@ -421,7 +532,14 @@
       "ai_hpc_revenue_quarter": 0.062986,
       "anthropic_initial_term_contract_revenue_approx": 19,
       "backlog_definition": "19 is the approximately 20-year initial Anthropic lease at Justified, not whole-company remaining backlog.",
-      "note": "Latest results and call November 6. Construction cost guidance 8-10 million per critical IT MW is not annual capex."
+      "note": "Latest results and call November 6. Construction cost guidance 8-10 million per critical IT MW is not annual capex.",
+      "finance_lease_liabilities": 0.000369,
+      "review_sources": [
+        "W1",
+        "W2"
+      ],
+      "review_as_of": "2026-11-09",
+      "cash_capex_line": "Purchase of and deposits on plant and equipment"
     },
     "galaxy_digital": {
       "unit": "USD billion",
@@ -442,7 +560,14 @@
       "revenue_definition": "Consolidated revenues AND gains/losses from operations; predominantly trading gross flows, not AI cloud revenue.",
       "helios_potential_contract_value_lower_bound": 30,
       "backlog_definition": "More than 30 of Helios potential contract value assumes BOTH five-year extension options beyond the 15-year base term; not remaining backlog.",
-      "note": "October 27 release and 8-K are latest results located. They supply segment capex, not a consolidated cash-flow statement; quarterly/YTD cash PP&E remain null. No Q3 10-Q located in IR filings checked; no claim that segment capex equals cash PP&E."
+      "note": "October 27 release and 8-K are latest results located. They supply segment capex, not a consolidated cash-flow statement; quarterly/YTD cash PP&E remain null. No Q3 10-Q located in IR filings checked; no claim that segment capex equals cash PP&E.",
+      "review_sources": [
+        "G1",
+        "G2",
+        "G_INDEX"
+      ],
+      "review_as_of": "2026-11-09",
+      "finance_lease_liabilities": null
     },
     "nscale": {
       "unit": "USD billion",
@@ -464,7 +589,14 @@
       "financing_announced": 3.36,
       "financing_initial_tranche": 2.36,
       "financing_conditional_later_tranche": 1,
-      "note": "Public S-1 located, not evidence that IPO completed. September convertible financing comprises 2.36 initial tranche and 1 NVIDIA commitment expected mid-November. No full-year capex guide verified; no quarterly revenue inferred from H1."
+      "note": "Public S-1 located, not evidence that IPO completed. September convertible financing comprises 2.36 initial tranche and 1 NVIDIA commitment expected mid-November. No full-year capex guide verified; no quarterly revenue inferred from H1.",
+      "review_sources": [
+        "S1",
+        "S2"
+      ],
+      "review_as_of": "2026-11-09",
+      "finance_lease_liabilities": null,
+      "cash_capex_line": "Purchases of property and equipment"
     },
     "lambda": {
       "unit": "USD billion",
@@ -481,7 +613,13 @@
       "financing_credit_facility": 1,
       "project_investment_estimate": 33.1,
       "project_period": "Red Clay proposed construction begins Q1 2027 and takes up to five years; announcement 2026-11-04",
-      "note": "Searched Lambda official blog/investor pages and public SEC S-1/10-Q search; no public listing completion or relevant public S-1/10-Q located. This does not establish absence of a confidential filing. May 7 financing is an upsized credit facility, not debt drawn or capex. November 4 Red Clay 33.1 is a proposed multiyear project investment, not 2026 capex."
+      "note": "Searched Lambda official blog/investor pages and public SEC S-1/10-Q search; no public listing completion or relevant public S-1/10-Q located. This does not establish absence of a confidential filing. May 7 financing is an upsized credit facility, not debt drawn or capex. November 4 Red Clay 33.1 is a proposed multiyear project investment, not 2026 capex.",
+      "review_sources": [
+        "L1",
+        "L2"
+      ],
+      "review_as_of": "2026-11-09",
+      "finance_lease_liabilities": null
     },
     "crusoe": {
       "unit": "USD billion",
@@ -498,7 +636,12 @@
       "total_contracted_value_lower_bound": 140,
       "backlog_definition": "More than 140 total contracted value across vertically integrated platform; not remaining GAAP RPO or comparable backlog.",
       "financing_round_expected": 3.9,
-      "note": "Company announced initial closing of an anticipated 3.9 Series F round; not proof all 3.9 funded, and not capex. Official newsroom checked; no public quarterly capex, annual capex guidance, revenue, PP&E or total debt located."
+      "note": "Company announced initial closing of an anticipated 3.9 Series F round; not proof all 3.9 funded, and not capex. Official newsroom checked; no public quarterly capex, annual capex guidance, revenue, PP&E or total debt located.",
+      "review_sources": [
+        "R1"
+      ],
+      "review_as_of": "2026-11-09",
+      "finance_lease_liabilities": null
     },
     "fluidstack": {
       "unit": "USD billion",
@@ -514,7 +657,12 @@
       "total_debt": null,
       "financing_series_a": 0.83,
       "financing_event_period": "January 2026, announced in company post dated July 20, 2026",
-      "note": "Official news post checked. Funding is equity financing, not capex. No comparable company quarterly financials or annual capex guidance located. Counterparty project lease announcements are not Fluidstack capex and are not added to its partners spending."
+      "note": "Official news post checked. Funding is equity financing, not capex. No comparable company quarterly financials or annual capex guidance located. Counterparty project lease announcements are not Fluidstack capex and are not added to its partners spending.",
+      "review_sources": [
+        "D1"
+      ],
+      "review_as_of": "2026-11-09",
+      "finance_lease_liabilities": null
     },
     "together_ai": {
       "unit": "USD billion",
@@ -529,7 +677,12 @@
       "ppe_net": null,
       "total_debt": null,
       "financing_series_c": 0.8,
-      "note": "Official July 1 Series C announcement and company blog checked; funding is not capex. No comparable quarterly statements or full-year capex guidance located."
+      "note": "Official July 1 Series C announcement and company blog checked; funding is not capex. No comparable quarterly statements or full-year capex guidance located.",
+      "review_sources": [
+        "T1"
+      ],
+      "review_as_of": "2026-11-09",
+      "finance_lease_liabilities": null
     },
     "core_scientific": {
       "unit": "USD billion",
@@ -551,7 +704,15 @@
       "uncommenced_lease_receipts_approx": 1.8,
       "debt_definition": "Debt net of discount/issuance costs; finance leases shown separately in filing, not included.",
       "backlog_definition": "7.484422 future operating lease payments for commenced leases plus separately disclosed 1.8 for uncommenced CoreWeave leases; neither equals total announced potential contracts including AMD.",
-      "note": "Latest results and call November 5; no comparable full-year capex guide located."
+      "note": "Latest results and call November 5; no comparable full-year capex guide located.",
+      "review_sources": [
+        "CS1",
+        "CS2",
+        "CS3"
+      ],
+      "review_as_of": "2026-11-09",
+      "finance_lease_liabilities": 0.000892,
+      "cash_capex_line": "Purchases of property and equipment"
     },
     "hut8": {
       "unit": "USD billion",
@@ -570,7 +731,205 @@
       "debt_definition": "Debt carrying value; separate other financial liability 0.003275 excluded. Company total carrying amount including that liability is 7.631500.",
       "ai_project_base_term_contract_value_approx": 26.6,
       "backlog_definition": "Expected aggregate initial base-term contract value across AI data-center portfolio; includes future delivery, not comparable remaining backlog.",
-      "note": "Latest results and call November 4; no full-year capex guide located."
+      "note": "Latest results and call November 4; no full-year capex guide located.",
+      "review_sources": [
+        "H1",
+        "H2",
+        "H3"
+      ],
+      "review_as_of": "2026-11-09",
+      "finance_lease_liabilities": 0,
+      "cash_capex_line": "Purchases of property and equipment"
+    },
+    "microsoft": {
+      "unit": "USD billion",
+      "period": "FY2027 Q1 ended 2026-09-30",
+      "ytd_period": "FY2027 first three months ended 2026-09-30",
+      "annual_guidance_primary_verified": true,
+      "historical_period_note": "Calendar January-December, zero-month shift; fiscal July-June cash flows are split into four calendar quarters.",
+      "capex_quarter": 39.367,
+      "capex_ytd": 39.367,
+      "reported_capex_quarter": 45.2,
+      "reported_capex_ytd": 45.2,
+      "ppe_net": 346.844,
+      "total_debt": 35.481,
+      "debt_current": 4.391,
+      "debt_noncurrent": 31.09,
+      "finance_lease_liabilities": 70.973,
+      "finance_lease_additions_quarter": 7.4,
+      "capex_calendar_2024": 55.552,
+      "capex_calendar_2025": 83.094,
+      "annual_guidance_quote_primary": "spend should be approximately $170 billion",
+      "cash_capex_line": "Additions to property and equipment",
+      "capex_definition": "Cash PP&E additions. Company capex recognizes the full finance-lease principal at commencement; cash payments and lease recognition are not additive because of timing and accrual differences.",
+      "review_sources": [
+        "MSQ",
+        "MSCALL",
+        "MSK",
+        "MSH",
+        "MSH24",
+        "MS9M"
+      ],
+      "capex_full_year_guidance": [
+        170,
+        170
+      ],
+      "annual_guidance_date": "2026-10-28",
+      "debt_definition": "Current and noncurrent borrowings at carrying value; finance leases excluded and shown separately.",
+      "historical_cash_capex_ytd": {
+        "fy2024_h1": 19.652,
+        "fy2024_9m": 30.604,
+        "fy2024_full_year": 44.477,
+        "fy2025_q1": 14.923,
+        "fy2025_h1": 30.727,
+        "fy2025_9m": 47.472,
+        "fy2025_full_year": 64.551,
+        "fy2026_q1": 19.394,
+        "fy2026_h1": 49.27
+      },
+      "historical_cash_capex_quarters": {
+        "cy2024_q1": 10.952,
+        "cy2024_q2": 13.873,
+        "cy2024_q3": 14.923,
+        "cy2024_q4": 15.804,
+        "cy2025_q1": 16.745,
+        "cy2025_q2": 17.079,
+        "cy2025_q3": 19.394,
+        "cy2025_q4": 29.876
+      },
+      "review_as_of": "2026-11-09",
+      "revenue_quarter": 92.279
+    },
+    "alphabet": {
+      "unit": "USD billion",
+      "period": "2026 Q3 ended 2026-09-30",
+      "ytd_period": "2026 first nine months ended 2026-09-30",
+      "annual_guidance_primary_verified": true,
+      "historical_period_note": "Calendar years ended December 31; cash purchases before disposal proceeds and incentives; finance lease additions excluded.",
+      "capex_quarter": 51.355,
+      "capex_ytd": 131.953,
+      "capex_h1": 80.598,
+      "reported_capex_quarter": 51.4,
+      "reported_capex_ytd": 132.0,
+      "ppe_net": 372.827,
+      "total_debt": 126.118,
+      "debt_current": 1.016,
+      "debt_noncurrent": 125.102,
+      "finance_lease_liabilities": 3.705,
+      "capex_calendar_2024": 52.535,
+      "capex_calendar_2025": 91.447,
+      "annual_guidance_quote_primary": "full-year 2026 CapEx guidance range of $195-$205 billion remain unchanged",
+      "cash_capex_line": "Purchases of property and equipment",
+      "capex_definition": "Cash PP&E purchases; management rounded Q3 to 51.4 and YTD to 132.0, rather than a different asset-additions measure.",
+      "review_sources": [
+        "GOOGQ",
+        "GOOGK",
+        "GOOGCALL"
+      ],
+      "capex_full_year_guidance": [
+        195,
+        205
+      ],
+      "annual_guidance_date": "2026-10-28",
+      "debt_definition": "Current and noncurrent borrowings at carrying value; finance leases excluded and shown separately.",
+      "review_as_of": "2026-11-09",
+      "revenue_quarter": 127.577
+    },
+    "amazon": {
+      "unit": "USD billion",
+      "period": "2026 Q3 ended 2026-09-30",
+      "ytd_period": "2026 first nine months ended 2026-09-30",
+      "annual_guidance_primary_verified": true,
+      "historical_period_note": "Calendar years ended December 31; cash purchases before disposal proceeds and incentives; finance lease additions excluded.",
+      "capex_quarter": 77.259,
+      "capex_ytd": 175.67,
+      "capex_h1": 98.411,
+      "reported_capex_quarter": 75.878,
+      "reported_capex_ytd": 172.188,
+      "ppe_disposal_proceeds_and_incentives_quarter": 1.381,
+      "ppe_disposal_proceeds_and_incentives_ytd": 3.482,
+      "ppe_net": 508.862,
+      "total_debt": 180.332,
+      "debt_current": 6.827,
+      "debt_noncurrent": 173.125,
+      "other_short_term_borrowings": 0.38,
+      "finance_lease_liabilities": 14.495,
+      "finance_lease_additions_quarter": 1.472,
+      "capex_calendar_2024": 82.999,
+      "capex_calendar_2025": 131.819,
+      "annual_guidance_quote_primary": "2026 cash capital expenditures to be approximately $220 billion",
+      "cash_capex_line": "Purchases of property and equipment",
+      "capex_definition": "Gross cash PP&E purchases. Company cash capex subtracts proceeds from PP&E sales and incentives; Q3 77.259-1.381 and YTD 175.670-3.482. Finance leases and financing obligations are separate.",
+      "review_sources": [
+        "AMZNQ",
+        "AMZNK",
+        "AMZNRELEASE"
+      ],
+      "capex_full_year_guidance": [
+        220,
+        220
+      ],
+      "annual_guidance_date": "2026-10-29",
+      "debt_definition": "Current and noncurrent borrowings at carrying value; finance leases excluded and shown separately. Includes other short-term facilities 0.380. The 17.5 term loan is already included in long-term debt and is not added again.",
+      "review_as_of": "2026-11-09",
+      "revenue_quarter": 201.944
+    },
+    "meta": {
+      "unit": "USD billion",
+      "period": "2026 Q3 ended 2026-09-30",
+      "ytd_period": "2026 first nine months ended 2026-09-30",
+      "annual_guidance_primary_verified": true,
+      "historical_period_note": "Calendar years ended December 31; cash purchases before disposal proceeds and incentives; finance lease additions excluded.",
+      "capex_quarter": 33.942,
+      "capex_ytd": 83.055,
+      "capex_h1": 49.113,
+      "reported_capex_quarter": 34.906,
+      "reported_capex_ytd": 85.824,
+      "finance_lease_principal_payments_quarter": 0.964,
+      "finance_lease_principal_payments_ytd": 2.769,
+      "ppe_net": 253.222,
+      "total_debt": 83.669,
+      "debt_current": 2.747,
+      "debt_noncurrent": 80.922,
+      "finance_lease_liabilities": null,
+      "capex_calendar_2024": 37.256,
+      "capex_calendar_2025": 69.691,
+      "annual_guidance_quote_primary": "capital expenditures, including principal payments on finance leases",
+      "annual_guidance_amount_quote_primary": "$135-145 billion",
+      "cash_capex_line": "Purchases of property and equipment",
+      "capex_definition": "Cash PP&E purchases. Company capex adds finance-lease principal payments, which repay existing leases rather than measure new assets. A separate current-quarter finance-lease liability balance was not located.",
+      "review_sources": [
+        "METAQ",
+        "METAK",
+        "METARELEASE"
+      ],
+      "capex_full_year_guidance": [
+        135,
+        145
+      ],
+      "annual_guidance_date": "2026-10-21",
+      "debt_definition": "Current and noncurrent borrowings at carrying value; finance leases excluded and shown separately.",
+      "review_as_of": "2026-11-09",
+      "revenue_quarter": 64.601
+    },
+    "openai": {
+      "unit": "USD billion",
+      "period": "No public quarterly cash-flow or balance-sheet statements verified as of 2026-11-09",
+      "ytd_period": "Not disclosed",
+      "capex_quarter": null,
+      "capex_ytd": null,
+      "ppe_net": null,
+      "total_debt": null,
+      "finance_lease_liabilities": null,
+      "capex_full_year_guidance": null,
+      "annual_guidance_quote_primary": null,
+      "note": "Stargate targets, announced project investment and supplier commitments are not OpenAI cash capex; no inferred company capex from these amounts.",
+      "review_sources": [
+        "STARGATE",
+        "OAI_SBE",
+        "OAI_POLICY"
+      ],
+      "review_as_of": "2026-11-09"
     }
   },
   "k_rollforward": {
@@ -587,11 +946,11 @@
     "company_reported_capex_q3_billion": {
       "microsoft": 45.2,
       "alphabet": 51.4,
-      "amazon": 77.259,
+      "amazon": 75.878,
       "meta": 34.906
     },
     "unmatched_oracle_period": "2026-06-01 to 2026-08-31; Q1 FY27 actual 28.499, not July-September",
     "aligned_k_trillion": null,
-    "note": "Only comparable Q3 cash PP&E flows can be subtotalled; 75% AI share is the unchanged paper assumption. Cash PP&E excludes noncash leases and is not complete asset additions. Do not treat reported finance-lease principal payments as new assets. No full roll to September 30: base date unknown, Oracle unmatched, neocloud/sovereign flows and disposals incomplete. Partial identity uses annual 16.4% depreciation / 4; no assumed June 30 starting stock."
+    "note": "Only comparable Q3 cash PP&E flows can be subtotalled; 75% AI share is the unchanged paper assumption. Cash PP&E excludes noncash leases and is not complete asset additions. Do not treat reported finance-lease principal payments as new assets. No full roll to September 30: base date unknown, Oracle unmatched, neocloud/sovereign flows and disposals incomplete. Partial identity uses annual 16.4% depreciation / 4; no assumed June 30 starting stock. Amazon company cash capex subtracts PP&E sale proceeds and incentives; the cash-purchase subtotal remains gross."
   }
 }

@@ -64,7 +64,7 @@ Capex to GDP (strictly distinguishing between level and growth contribution):
 
 Confidence. "AI EPR far exceeds normal industry benchmarks": High. "AI EPR Median 1.73x": Medium (strongly relies on R_T basis assumptions; the greatest uncertainty in R_T estimates is that internal AI usage attribution and private placement ARR numbers are not audited). "AI above 1873 railroad aggregate, below the 2000 new telecom segment": Medium. "Ranking against 1846 rail": Low (extremely sensitive to historical opex calibration). "AI is likely to follow a digestion-like path rather than a complete collapse": Medium-High. "Specific clearing time point": low. All historical EPR numbers have low-medium confidence.
 
-v3.2 capital-date comparison: The old-K=1.3T midpoint is1.73x; a complete roll to2026-09-30 is unavailable. The original measurement date is unspecified. Four firms’ Q3 cash spending is201.923B, with151.44225B at assumed75%AI, but Oracle’s period differs and other flows are incomplete. There is no new matched-dateK/P/EPR number directly comparable to1.73x and the difference cannot be quantified; only the partial identity in3.1 is given. Updating revenue mechanically lowers fixed-K EPR and does not establish lower matched-date capital risk.
+v3.2 capital-date comparison: The old-K=1.3T midpoint is1.73x; a complete roll to2026-09-30 is unavailable. The original measurement date is unspecified. Four firms’ Q3 cash spending is201.92B, with151.44B at assumed75%AI, but Oracle’s period differs and other flows are incomplete. There is no new matched-dateK/P/EPR number directly comparable to1.73x and the difference cannot be quantified; only the partial identity in3.1 is given. Updating revenue mechanically lowers fixed-K EPR and does not establish lower matched-date capital risk.
 
 ## **1. EPR Framework: What it is and what it is not**
 
@@ -220,35 +220,39 @@ v3.2 supplement: Anthropic S-1/A p161 reports2026Q1/Q2/Q3 revenue4.731/11.555/16
 
 v3.2 capital-date comparison: Original3.1 provides cumulative2022–2026 amounts but no measurement date forK;2.1 mentions2026H1 deployments. The May25 paper/June10 revision dates do not establish a June30 stock of1.3T. Annual guidance or all Q3 spending cannot simply be added to that old K. Verified July–September cash PP&E purchases are actuals:
 
-| Company | Q3 cash PP&E, $B | Company-reported capex, $B | Primary source |
-|---|---|---|---|
-| Microsoft | 39.367 | 45.2 | [Cash](https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast), [Call](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1) (2026-10-28) |
-| Alphabet | 51.355 | 51.4 | [Cash flow](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm) (2026-10-28) |
-| Amazon | 77.259 | 77.259 | [Cash flow, p6](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf) (2026-10-29) |
-| Meta | 33.942 | 34.906 | [Cash flow / FCF reconciliation](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx) (2026-10-21) |
+| Company / latest period | Cash PP&E Q / fiscal YTD, $B | Company capex Q / YTD, $B | PP&E net, $B | Borrowings, $B | Finance-lease liabilities, $B | Primary source |
+|---|---|---|---|---|---|---|
+| Microsoft FY27 Q1 | 39.37 / 39.37 | 45.2 / 45.2 | 346.84 | 35.48 | 70.97 | [MSQ](data/sources_2026-11.md#capex-all-rework2) |
+| Alphabet Q3 2026 | 51.36 / 131.95 | 51.4 / 132.0 | 372.83 | 126.12 | 3.71 | [GOOGQ](data/sources_2026-11.md#capex-all-rework2) |
+| Amazon Q3 2026 | 77.26 / 175.67 | 75.88 / 172.19 | 508.86 | 180.33 | 14.50 | [AMZNQ](data/sources_2026-11.md#capex-all-rework2) |
+| Meta Q3 2026 | 33.94 / 83.06 | 34.91 / 85.82 | 253.22 | 83.67 | Not obtained | [METAQ](data/sources_2026-11.md#capex-all-rework2) |
 
-Cash subtotal201.923B; applying the unchanged75% AI assumption gives151.44225B, a known flow rather than complete asset additions. Reported capex totals208.765B: Microsoft includes lease recognition, Meta lease principal payments, so these are not equivalent new-asset measures. The paper’s roll method, with16.4% annual depreciation allocated quarterly as4.1%, gives only the partial identity: K_September=0.959×K_June+151.44225B+unmeasured net additions. Oracle28.50B covers June–August, not Q3; neocloud flows, noncash leases and disposals are incomplete. June-endK cannot be determined, so alignedK,P and strict/wide/midpoint EPR are unavailable, not zero. WithK inB, P=0.2805K, strictEPR=P/165, wide=P/270 and midpoint is geometric. This limitation is also stated in the central conclusion and Section11; a denominator-driven decline is not evidence of matched-date risk improvement.
+Cash subtotal201.92B; applying the unchanged75% AI assumption gives151.44B, a known flow rather than complete asset additions. Company capex totals207.38B: Microsoft includes lease recognition, Amazon nets disposals/incentives, and Meta adds lease principal payments; these are not equivalent new-asset measures. The paper’s roll method, with16.4% annual depreciation allocated quarterly as4.1%, gives only the partial identity: K_September=0.959×K_June+151.44B+unmeasured net additions. Oracle28.50B covers June–August, not Q3; neocloud flows, noncash leases and disposals are incomplete. June-endK cannot be determined, so alignedK,P and strict/wide/midpoint EPR are unavailable, not zero. WithK inB, P=0.2805K, strictEPR=P/165, wide=P/270 and midpoint is geometric. This limitation is also stated in the central conclusion and Section11; a denominator-driven decline is not evidence of matched-date risk improvement.
+
+Microsoft fiscal YTD is one quarter; the other three YTD periods cover January–September. Borrowings use carrying values and exclude the finance leases shown separately. Microsoft’s 45.2 includes lease recognition and is not cash purchases plus this quarter’s lease additions. Alphabet management rounds cash purchases. Amazon nets PP&E sale proceeds and incentives: 77.26 less 1.38 gives 75.88; YTD 175.67 less 3.48 gives 172.19. Meta adds lease principal repayments: 33.94 plus 0.96 gives 34.91; YTD 83.06 plus 2.77 gives 85.82. These rounded displays are not used to recompute exact totals.
 
 ## **3.2 Annual Capex (2026 latest guidance)**
 
 |**Subject**|**2024**|**2025**|**2026Guidelines/Estimates (Updated after Q1**<br>**)**|**AI**<br>**Part (~75%)**|
 |---|---|---|---|---|
-|Microsoft|~$56B (v3.2 unupdated)|~$95B (v3.2 unupdated)|$170B|$127.5B|
-|Alphabet|~$53B (v3.2 unupdated)|~$75B (v3.2 unupdated)|$195–205B|$146.25–153.75B|
-|Amazon|~$78B (v3.2 unupdated)|~$105B (v3.2 unupdated)|$220B|$165B|
-|Meta|~$37B (v3.2 unupdated)|~$65B (v3.2 unupdated)|$135–145B|$101.25–108.75B|
+|Microsoft|$55.55B|$83.09B|$170B|$127.5B|
+|Alphabet|$52.54B|$91.45B|$195–205B|$146.25–153.75B|
+|Amazon|$83.00B|$131.82B|$220B|$165B|
+|Meta|$37.26B|$69.69B|$135–145B|$101.25–108.75B|
 |Oracle|$10.75B (approx. CY2024; 2023-12–2024-11)|$35.48B (approx. CY2025; 2024-12–2025-11)|$90–95B|$67.5–71.25B (v3.2 note: closest four fiscal quarters, shifted one month earlier; [10-Q / calculations](data/sources_2026-11.md#oracle-neocloud-rework1). FY27 is 2026-06 to 2027-05; annual guidance remains third-party transcript information, not primary-verified)|
-|Big-5 Total|~$234.75B|~$375.48B|$810–835B|$607.5–626.25B (v3.2 note: historical totals use Oracle’s approximate-calendar amounts; the other four firms remain legacy estimates)|
+|Big-5 Total|~$239.09B|~$411.53B|$810–835B|$607.5–626.25B (v3.2 note: Historical totals now use cash purchases: four calendar-year actuals plus Oracle’s stated approximation.)|
 
 |**Subject**|**2024**|**2025**|**2026Guidelines/Estimates (Updated after Q1**<br>**)**|**AI**<br>**Part (~75%)**|
 |---|---|---|---|---|
 ||||$750B)| (v3.2 unupdated)|
 |Neocloud total|~$15B|~$35B|~$60-70B|~$65B (v3.2 unupdated) (v3.2 note: Company rows below replace this aggregate; old60–70 is not added again)|
-|Industry AI capex<br>Traffic||~$400B|~$676.375B| (v3.2 note: Big-5 assumed AI guidance midpoint616.875+two listed firms59.5; incomplete industry, mixed periods, not actual spending)|
+|Industry AI capex<br>Traffic||~$400B|~$676.38B| (v3.2 note: Big-5 assumed AI guidance midpoint616.88+two listed firms59.5; incomplete industry, mixed periods, not actual spending)|
 
 Sources: SEC 10-Q Public Disclosures, Q1 2026 Earnings Call Guidance, CreditSights/Goldman Sachs/Yahoo Finance Comprehensive (updated after Q1). Four of the Big-5 companies raised their capex guidance after Q1; only Amazon maintained its original plan (because it was already the highest in the industry).  (v3.2 note: Four firms now use October disclosures and Oracle September FY27; Microsoft170 reflects delivery delays, so not every firm raised guidance. Original source description remains unupdated)
 
-Observation: Goldman Sachs latest baseline model estimates 2026 AI capex $1000B, consistent with CreditSights $750B estimates. Goldman predicts AI capex of $1.6T in 2031. Capital expenditures/revenue ratios have exceeded Oracle 86%, Meta 54%, Microsoft 47%, Alphabet 46%, Amazon 25% - historically unimaginable levels.  (v3.2 note: Goldman’s August7 research estimate no longer equals old CreditSights750; the2031 forecast and old capex/revenue ratios remain unupdated)
+Observation: Goldman Sachs latest baseline model estimates 2026 AI capex $1000B, consistent with CreditSights $750B estimates. Goldman predicts AI capex of $1.6T in 2031. Capital expenditures/revenue ratios have exceeded Oracle 147.32%, Meta 52.54%, Microsoft 42.66%, Alphabet 40.25%, Amazon 38.26% - historically unimaginable levels.  (v3.2 note: Goldman’s August7 research estimate no longer equals old CreditSights750; the2031 forecast remains unupdated) Cash capex/revenue ratios now use each latest reported quarter: Oracle FY27 Q1, the other four Q3 2026; they are not full-year guides or pure-AI spending. [Sources](data/sources_2026-11.md#capex-all-rework2).
+
+Historical columns are cash PP&E purchases. Microsoft is reconstructed for January–December with no month shift; Alphabet, Amazon and Meta use calendar-year 10-K actuals. Oracle retains the one-month shift shown in its row. Finance leases and annual guidance use different definitions. [Sources and calculations](data/sources_2026-11.md#capex-all-rework2).
 
 ### 3.2a v3.2: company capex and subsequent quarters
 
@@ -272,6 +276,9 @@ Big-5’s810–835B mixes four CY2026 guides with Oracle FY27 (2026-06 to2027-05
 | Together AI | Not disclosed | Series C 0.8; company post 2026-07-01 |
 | Core Scientific | Full-year unverified | Q3 cash PP&E 0.54; reported capex 0.99 includes asset acquisitions |
 | Hut 8 | Full-year unverified | Q3 cash PP&E 0.48; portfolio initial-term contract value ~26.6 |
+| NVIDIA | Not obtained | FY27 Q2 cash PP&E/intangibles 2.68; 8B future obligations are not a full-year guide |
+| Anthropic | Not obtained | 9M cash PP&E 0.93; lease/equipment prepayments 1.96 are separate |
+| OpenAI / Stargate | Not disclosed | 500 multiyear target and >450 announced project investment; not annual cash capex |
 
 CoreWeave Q3 results and call are scheduled for 2026-11-10; Nebius for 2026-11-12. Q2 remains the latest reported quarter for both. Oracle and Nebius annual capex amounts still require official-audio verification; Nebius’s official Q2 letter reaffirms guidance without printing the capex amount. Private-company financing and project amounts above are separate announcements. The old neocloud60–70B has no auditable company allocation. SpaceX and IREN partial-period amounts and the added firms are not added to the annual-guidance sum. Definitions, dates, original line items and sources: [ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09).
 
@@ -282,8 +289,8 @@ Displayed amounts are rounded; ratios use the exact inputs in inputs.json. Cash 
 | Oracle FY27 Q1 | 19.35 (OCI ~7.4) | RPO 664 | 28.50 / 28.50; 127.85; 125.34; net cash capex17.97 |
 | CoreWeave Q2 2026 | 2.58 | ~104 | 6.42 / 14.12; 46.74; 35.07; FY revenue guide12.4–13.2 |
 | Nebius Q2 2026 | 0.58 (AI cloud 0.57) | >40 | 5.66 / 8.13; 13.05; 8.55 |
-| IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 10.21 |
-| Applied Digital FY27 Q1 | 0.342 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
+| IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 9.90 ; finance leases 0.31 |
+| Applied Digital FY27 Q1 | 0.34 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
 | Cipher Digital Q3 2026 | 0.027 (HPC 0.006) | ~9.1 | 1.55 / 2.52; 3.90; 5.56 |
 | TeraWulf Q3 2026 | 0.076 (HPC 0.063) | ~19 | 0.85 / 2.23; 4.58; 5.23 |
 | Galaxy Digital Q3 2026 | 8.69 (leasing 0.079) | >30 | Not obtained / Not obtained; 2.95; 6.75 |
@@ -294,13 +301,19 @@ Displayed amounts are rounded; ratios use the exact inputs in inputs.json. Cash 
 | Together AI | No quarterly financial statements disclosed; see financing/project announcements above | | |
 | Core Scientific Q3 2026 | 0.23 (HDC 0.22) | 7.48 + ~1.8 | 0.54 / 1.49; 2.63; 4.30 |
 | Hut 8 Q3 2026 | 0.071 | ~26.6 | 0.48 / 1.09; 1.86; 7.63 |
-| SpaceX SI Q3 2026 | 7.56 (Solutions & Infrastructure 7.02) | No terminal-AI backlog used here | Q3 capex 16.44; 9M revenue 10.94 |
+| SpaceX SI Q3 2026 | 7.56 (Solutions & Infrastructure 7.02) | No terminal-AI backlog used here | Q3 SI capex16.44 / 9M40.00; segment PP&E/debt not separately disclosed here; 9M revenue10.94 |
+| SpaceX consolidated Q3 2026 | 14.58 | Not used as terminal AI backlog | 19.59 / 48.07; 89.48; 37.86; finance leases 0.98 |
+| NVIDIA FY27 Q2 | 96.2 | Supply/capacity commitments 279; not capex | 2.68 / 4.43 incl. intangible purchases; 14.29; 33.37 |
+| Anthropic Q3 2026 | 16.96 | Total commitments 895.4; not capex | 0.44 / 0.93; 3.06; 130.50; finance leases 1.67 |
+| OpenAI / Stargate | No public quarterly statements verified; financing and project announcements do not establish cash capex | | |
 
 SpaceX’s Q3 10-Q Note 1 (pp10–11) confirms that xAI is wholly owned; Notes 3 (p12) and 18 (pp32–33) disclose revenue and capex. GPU purchases, data-center capex and full-year pure-AI guidance are not separately disclosed. Neocloud order metrics have different definitions and are not directly summed; their entire revenues are not added to terminal AI revenue either. [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf) (2026-08-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
 
 Microsoft’s 170B versus its old guidance cannot directly establish a smaller project programme: lease recognition and delivery timing affect reported capex. Microsoft said FY27 second-half spending would accelerate; Alphabet said 2027 spending would increase significantly; Meta said its 2027 budget was still being developed and it intended to keep investing aggressively, without a full-year amount. Amazon’s release supplied no comparable full-year 2027 capex number, so none is entered. These are published management statements, not new forecasts by this paper. [Microsoft](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1), [Alphabet](https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx), [Meta](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx), [Amazon](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf)
 
-SpaceX’s latest S-1/A is dated 2026-06-03. Its “AI Capital Expenditures” paragraph reports 7.723B of AI capex in 2026 Q1, driven by construction, equipment and supporting terrestrial data-center infrastructure. The final prospectus dated 2026-06-12 carries this disclosure forward. Current values here use the later Q3 10-Q rather than the pre-listing quarter. [S-1/A](https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm), [424B4](https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm)
+SpaceX’s latest S-1/A is dated 2026-06-03. Its “AI Capital Expenditures” paragraph reports 7.72B of AI capex in 2026 Q1, driven by construction, equipment and supporting terrestrial data-center infrastructure. The final prospectus dated 2026-06-12 carries this disclosure forward. Current values here use the later Q3 10-Q rather than the pre-listing quarter. [S-1/A](https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm), [424B4](https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm)
+
+The additional checks cover NVIDIA’s own spending, consolidated SpaceX including xAI, Anthropic Direct and OpenAI/Stargate. NVIDIA’s 8B future capex obligations are not full-year guidance. Anthropic’s 9M lease/equipment prepayments of 1.96 and noncash finance-lease assets of 1.76 are separate from cash PP&E; convertible notes of 130.50 use fair-value carrying amounts. SpaceX consolidated and SI amounts overlap. [Primary-source review](data/sources_2026-11.md#capex-all-rework2).
 
 ## **3.3 OpenAI Commitments stack (updated to $1.4T)**
 
@@ -309,7 +322,7 @@ Sam Altman publicly confirmed that OpenAI’s total commitments are approximatel
 |**Contract/Commitment**|**Nominal Size**|**Time Window**|**Confidence**|
 |---|---|---|---|
 |Oracle compute deal|About $300B|5 years (2027-<br>2031)|High (Oracle CEO Safra Catz confirmed many times) (v3.2 unupdated)|
-| Stargate (OpenAI/<br>SoftBank/Oracle/<br>MGX) | About $500B<br> (<br>announced<br>$400B+<br><br>committed<br>) | 4 years (2025-<br>2028) | Medium (announced<br>, overlapping with Oracle part<br>) (v3.2 unupdated)|
+| Stargate (OpenAI/<br>SoftBank/Oracle/<br>MGX) | $500B; announced project investment >$450B | 4 years (2025-<br>2028) | Medium (announced<br>, overlapping with Oracle part<br>) (v3.2 unupdated)|
 |AMD (6 GW Instinct<br>GPU) | Approximately $90B Cumulative<br>Hardware Revenue | From H2 2026<br>Onwards | Medium (AMD/OpenAI Public Disclosure)  (v3.2 unupdated)|
 |NVIDIA investment|up to<br>$100B|Conditional, gradually deployed per<br>GW|Medium (announced strategic cooperation) (v3.2 unupdated)|
 |Amazon AWS|Original$38B + additional$100B; nominal$138B|Additional amount8 years; original agreement has different term|OpenAI official2026-02-27|
@@ -341,6 +354,8 @@ Compare Anthropic commitments stack:
 Anthropic's commitments/revenue ratio (13.2x) is much lower than OpenAI (58.3x). This reflects two different business models: Anthropic’s revenue is expanding rapidly (doubling in about 10 weeks), and its commitment scale is relatively restrained; OpenAI’s commitment scale is extremely large, and it relies on future revenue to deliver.  (v3.2 note: S-1/A’s895.4B weakens the original “relatively restrained” judgment; OpenAI1.4T is unupdated and from another date, so not a same-date risk ranking. Old partner rows are unupdated and not summed to replace total commitments)
 
 v3.2: Total commitments use[S-1/A](https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm) (2026-11-02), pp174–175 and related disclosures, including short-term, subsequent commitments and uncommenced leases; the319.993B table is not the complete total. AWS update:[OpenAI](https://openai.com/index/amazon-partnership/) (2026-02-27).
+
+Rework2 source check: Stargate’s >450B is announced multiyear project investment, not cash spent; the 500B target is unchanged. AMD’s 6GW and Broadcom’s 10GW are confirmed, but the legacy 90B and 50–100B contract prices are unverified. NVIDIA’s up-to-100B is a dated investment intention, not capex or a current unconditional obligation. Anthropic’s 50B is its November 2025 project announcement. Other old partner amounts remain unverified and are not summed. [Sources](data/sources_2026-11.md#capex-all-rework2).
 
 ## **4. Normal industry EPR benchmark (rough estimate, non-audit industry model)**
 
@@ -657,7 +672,7 @@ Data available as of 2026-11-09:
 
 Under the assumptions of this article (K=$1.3T, L=6.1 years, R_T=$165-270B), the current EPR_cash of the AI industry chain is in the 1.35x-2.21x range, with a median of about 1.73x. This is lower than early 2.5-3.0x estimates (but the decline after the v3.1 correction is smaller than the first v3 draft claimed), mainly driven by 2026 Anthropic ARR surged from $9B to $40B in the first half of the year, Microsoft AI ARR disclosure $37B, and OpenAI maintaining rapid growth. AI current EPR position:
 
-v3.2 capital-date comparison: The old-K=1.3T midpoint is1.73x; a complete roll to2026-09-30 is unavailable. The original measurement date is unspecified. Four firms’ Q3 cash spending is201.923B, with151.44225B at assumed75%AI, but Oracle’s period differs and other flows are incomplete. There is no new matched-dateK/P/EPR number directly comparable to1.73x and the difference cannot be quantified; only the partial identity in3.1 is given. Updating revenue mechanically lowers fixed-K EPR and does not establish lower matched-date capital risk.
+v3.2 capital-date comparison: The old-K=1.3T midpoint is1.73x; a complete roll to2026-09-30 is unavailable. The original measurement date is unspecified. Four firms’ Q3 cash spending is201.92B, with151.44B at assumed75%AI, but Oracle’s period differs and other flows are incomplete. There is no new matched-dateK/P/EPR number directly comparable to1.73x and the difference cannot be quantified; only the partial identity in3.1 is given. Updating revenue mechanically lowers fixed-K EPR and does not establish lower matched-date capital risk.
 
    - Significantly higher than normal industry benchmarks (0.65-0.95x) - AI is still in the "infrastructure bubble level" range
 

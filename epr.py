@@ -59,10 +59,10 @@ ai_q3 = cash_q3 * I["capex_2026_billion"]["ai_share_of_hyperscaler"]
 quarter_dep = core["blended_depreciation_rate"] / 4
 assert abs(cash_q3 - 201.923) < 0.000001, cash_q3
 assert abs(ai_q3 - 151.44225) < 0.000001, ai_q3
-assert abs(reported_q3 - 208.765) < 0.000001, reported_q3
+assert abs(reported_q3 - 207.384) < 0.000001, reported_q3
 assert kr["base_as_of"] is None and kr["aligned_k_trillion"] is None
 print(f"Q3 actual cash PP&E subtotal {cash_q3:.3f}; AI at assumed 75% {ai_q3:.5f}")
-print(f"Company-reported Q3 capex subtotal {reported_q3:.3f}; lease definitions differ, not used as new asset additions.")
+print(f"Company-reported Q3 capex subtotal {reported_q3:.3f}; lease definitions and Amazon netting differ, not used as new asset additions.")
 print(f"Partial roll identity: K_0930 = {1-quarter_dep:.3f} * K_0630 + {ai_q3:.5f} + unmeasured net additions ($B).")
 print(f"Annual P = {P/K:.4f} * K_0930; EPR strict = P/{R_strict}; wide = P/{R_wide}; mid = sqrt(strict*wide).")
 print("Aligned 2026-09-30 K/P/EPR: unavailable; base measurement date is not established.")
@@ -131,13 +131,28 @@ near_2024 = sum(quarters[q] for q in ('fy2024_q3', 'fy2024_q4', 'fy2025_q1', 'fy
 near_2025 = sum(quarters[q] for q in ('fy2025_q3', 'fy2025_q4', 'fy2026_q1', 'fy2026_q2'))
 assert abs(near_2024 - orcl['capex_near_calendar_2024']) < 1e-9
 assert abs(near_2025 - orcl['capex_near_calendar_2025']) < 1e-9
-# The other four historical company estimates are unchanged from the README.
-historical_big5_2024 = 56 + 53 + 78 + 37 + near_2024
-historical_big5_2025 = 95 + 75 + 105 + 65 + near_2025
-assert abs(historical_big5_2024 - 234.745) < 1e-9
-assert abs(historical_big5_2025 - 375.477) < 1e-9
+ms = d['microsoft']
+ms_ytd = ms['historical_cash_capex_ytd']
+ms_quarters = ms['historical_cash_capex_quarters']
+for quarter, derived in (
+    ('cy2024_q1', ms_ytd['fy2024_9m'] - ms_ytd['fy2024_h1']),
+    ('cy2024_q2', ms_ytd['fy2024_full_year'] - ms_ytd['fy2024_9m']),
+    ('cy2024_q3', ms_ytd['fy2025_q1']),
+    ('cy2024_q4', ms_ytd['fy2025_h1'] - ms_ytd['fy2025_q1']),
+    ('cy2025_q1', ms_ytd['fy2025_9m'] - ms_ytd['fy2025_h1']),
+    ('cy2025_q2', ms_ytd['fy2025_full_year'] - ms_ytd['fy2025_9m']),
+    ('cy2025_q3', ms_ytd['fy2026_q1']),
+    ('cy2025_q4', ms_ytd['fy2026_h1'] - ms_ytd['fy2026_q1']),
+):
+    assert abs(ms_quarters[quarter] - derived) < 1e-9, quarter
+for year in (2024, 2025):
+    assert abs(sum(ms_quarters[f'cy{year}_q{q}'] for q in range(1, 5)) - ms[f'capex_calendar_{year}']) < 1e-9
+historical_big5_2024 = sum(d[n]['capex_calendar_2024'] for n in ('microsoft', 'alphabet', 'amazon', 'meta')) + near_2024
+historical_big5_2025 = sum(d[n]['capex_calendar_2025'] for n in ('microsoft', 'alphabet', 'amazon', 'meta')) + near_2025
+assert abs(historical_big5_2024 - 239.087) < 1e-9
+assert abs(historical_big5_2025 - 411.528) < 1e-9
 print(f"Oracle near-calendar cash capex: 2024 {near_2024:.3f}; 2025 {near_2025:.3f}; both shifted one month earlier.")
-print(f"Historical Big-5 totals: 2024 {historical_big5_2024:.3f}; 2025 {historical_big5_2025:.3f}; other four firms remain legacy estimates.")
+print(f"Historical Big-5 cash-purchase totals: 2024 {historical_big5_2024:.3f}; 2025 {historical_big5_2025:.3f}; Oracle shifted one month, other four calendar-year actuals.")
 cw = d["coreweave"]
 print(f"CoreWeave Q2 revenue {cw['revenue_quarter']:.3f}; backlog {cw['backlog']}; backlog/quarter revenue {cw['backlog']/cw['revenue_quarter']:.1f}x; backlog/FY26 revenue-guidance midpoint {cw['backlog']/(sum(cw['revenue_guidance_2026'])/2):.1f}x")
 nb = d["nebius"]
@@ -157,18 +172,31 @@ assert abs(orcl['capex_quarter'] - orcl['short_term_capex_financing_net_cash_flo
            - orcl['customer_prepayments_with_financing_component_quarter']
            - orcl['net_cash_capex_quarter']) < 1e-9
 assert abs(ir['capex_quarter'] - (2.131 + 2.693)) < 1e-9
-for name in ('cipher_digital', 'terawulf', 'core_scientific', 'hut8'):
+for name in ('alphabet', 'amazon', 'meta', 'spacex', 'anthropic', 'cipher_digital', 'terawulf', 'core_scientific', 'hut8'):
     row = d[name]
     assert abs(row['capex_quarter'] - (row['capex_ytd'] - row['capex_h1'])) < 1e-9, name
-for name in ('oracle', 'coreweave', 'nebius', 'iren', *d['other_neocloud']['members']):
+assert abs(d['nvidia']['capex_quarter'] - (d['nvidia']['capex_ytd'] - d['nvidia']['capex_fy_q1'])) < 1e-9
+for name in ('microsoft', 'alphabet', 'amazon', 'meta', 'nvidia', 'spacex', 'anthropic', 'openai', 'oracle', 'coreweave', 'nebius', 'iren', *d['other_neocloud']['members']):
     row = d[name]
     print(f"{name}: {row['period']}; cash capex Q {row['capex_quarter']}, "
-          f"YTD {row['capex_ytd']}; PP&E net {row['ppe_net']}; debt {row['total_debt']}")
+          f"YTD {row['capex_ytd']}; PP&E net {row['ppe_net']}; debt {row['total_debt']}; finance leases {row['finance_lease_liabilities']}")
     if row['capex_quarter'] is not None and row['capex_ytd'] is not None:
         assert 0 <= row['capex_quarter'] <= row['capex_ytd'], name
 assert d['galaxy_digital']['capex_quarter'] is None
 assert d['nscale']['revenue_quarter'] is None
+for name in ('microsoft', 'alphabet', 'meta'):
+    row = d[name]
+    assert abs(row['total_debt'] - row['debt_current'] - row['debt_noncurrent']) < 1e-9, name
+amzn = d['amazon']
+assert abs(amzn['total_debt'] - amzn['debt_current'] - amzn['debt_noncurrent'] - amzn['other_short_term_borrowings']) < 1e-9
+for period in ('quarter', 'ytd'):
+    assert abs(amzn[f'reported_capex_{period}'] - amzn[f'capex_{period}'] + amzn[f'ppe_disposal_proceeds_and_incentives_{period}']) < 1e-9
+    assert abs(d['meta'][f'reported_capex_{period}'] - d['meta'][f'capex_{period}'] - d['meta'][f'finance_lease_principal_payments_{period}']) < 1e-9
+assert abs(d['iren']['total_debt'] + d['iren']['finance_lease_liabilities'] - d['iren']['company_reported_debt_including_finance_leases']) < 1e-9
 print("Cash-spending identities passed. Periods, noncash assets, project announcements and order definitions remain separate.")
+for name in ('microsoft', 'alphabet', 'amazon', 'meta', 'oracle'):
+    row = d[name]
+    print(f"{name}: latest-quarter cash purchases / revenue {100 * row['capex_quarter'] / row['revenue_quarter']:.2f}%")
 
 nv = d["nvidia"]
 print(f"NVIDIA FY27 Q2 revenue {nv['revenue_quarter']}; DC {nv['data_center_revenue_quarter']}; Q3 guidance {nv['revenue_guidance_next_quarter']}; supply/capacity commitments {nv['supply_capacity_commitments']}")
