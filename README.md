@@ -17,6 +17,8 @@ v3.2 (2026-11-09) revision note: The original structure, judgments and forecasts
 
 Key data are checked against public sources available by November 9, 2026. Comparable figures are updated; other old numbers remain marked “v3.2 unupdated.” Major updates from earlier estimates:
 
+CoreWeave alone is updated through its November 10, 2026 Q3 release; other company checks retain the November 9 cutoff.
+
 |**Key Data**|**Updated Value**|**Source (Confidence)**|
 |---|---|---|
 |Anthropic 2026Q3 GAAP revenue annualized|$67.8B (16.956×4≈67.8)|S-1/A 2026-11-02, p161; not company-defined Run-Rate Revenue|
@@ -24,9 +26,9 @@ Key data are checked against public sources available by November 9, 2026. Compa
 |Microsoft AI ARR|$37B (FY26 Q3) |MSFT official conference call disclosure (high) (v3.2 unupdated) (v3.2 note: Microsoft37 is April disclosure; comparable net revenue is unupdated)|
 |OpenAI<br>Total commitments|About $1.4 trillion (5+ years cumulative nominal) |Sam Altman publicly confirmed (medium) (v3.2 unupdated)|
 |Big-5 annual capex guidance|$810–835B|Four CY2026 plus Oracle FY27; mixed periods, AI75% remains an assumption|
-|CoreWeave quarterly revenue|$2.58B (Q2 2026)|Company disclosure 2026-08-11|
-|CoreWeave<br>Revenue backlog|~$104B (vs<br>Early$30B+)|CRWV Q2 2026 Disclosure (High)|
-|CoreWeave 2026 capex guide|$35–39B|CRWV guide (high)|
+|CoreWeave quarterly revenue|$3.66B (Q3 2026)|Company disclosure 2026-11-10|
+|CoreWeave<br>Revenue backlog|~$132.5B (vs<br>Early$30B+)|CRWV Q3 2026 Disclosure (High)|
+|CoreWeave 2026 capex guide|$37–39B|CRWV guide (high)|
 |NVDA Q2 FY27 Total Revenue | $96.2B (DC: $89.0B) | NVDA 8-K (High) |
 |NVDA Q3 FY27 Guidelines|$108B (±2%)|NVDA Guidelines (High)|
 |NVDA supply commitments|$279B (FY27 Q2)|NVDA FY27 Q2 10-Q Note10 (2026-08-26)|
@@ -58,7 +60,7 @@ Put it into the benchmark and see:
 
 Capex to GDP (strictly distinguishing between level and growth contribution):
 
-- AI capex level/GDP (stock basis): Goldman estimates that AI capex currently accounts for about 1.8% of GDP. 2026 The total capex of Big-5 hyperscalers in the United States is $810-835B (of which ~75% is AI related ≈ $607.5-626.25B), accounting for about 1.9% of U.S. GDP (~$33.010036T) (including the industry-wide AI capex of about 2.0%). UK Rail capex to GDP in 1847 7-8%. U.S. telecom capex accounted for approximately 1.2% of GDP in 1999-2000. AI's current level is slightly above peak 2000 telecoms and well below 1840s railroads.  (v3.2 note: Goldman estimates US1.8% and global0.9%; this paper’s global-company guidance/USGDP is only a scale comparison, not domestic investment. Big-5 mixes years; adding two known neoclouds is not an industry total)
+- AI capex level/GDP (stock basis): Goldman estimates that AI capex currently accounts for about 1.8% of GDP. 2026 The total capex of Big-5 hyperscalers in the United States is $810-835B (of which ~75% is AI related ≈ $607.5-626.25B), accounting for about 1.9% of U.S. GDP (~$33.010036T) (including the industry-wide AI capex of about 2.1%). UK Rail capex to GDP in 1847 7-8%. U.S. telecom capex accounted for approximately 1.2% of GDP in 1999-2000. AI's current level is slightly above peak 2000 telecoms and well below 1840s railroads.  (v3.2 note: Goldman estimates US1.8% and global0.9%; this paper’s global-company guidance/USGDP is only a scale comparison, not domestic investment. Big-5 mixes years; adding two known neoclouds is not an industry total)
 
 - AI capex contribution to GDP growth (incremental basis, much more sensitive than horizontal basis): St. Louis Fed estimates 2025 first three quarters AI-related investment accounts for 39% of real GDP growth. Jason Furman estimates that investment in information processing equipment and software accounts for 92% of H1 2025 GDP growth. But Goldman Sachs (Jan Hatzius) countered: After deducting imported capital goods, the net contribution of AI capex to GDP growth is only 0.1–0.2 percentage points. The difference between the two basiss is more than 100 times. This article uses the St Louis Fed figures as a reference, but acknowledges that Goldman's imported capital goods adjustment is an important methodological correction.  (v3.2 note: The Fed’s39% covers the first three quarters of2025; Q3 alone11%,0.48pp, all real growth. Shares and percentage points do not support a100-fold comparison; other old estimates unupdated)
 
@@ -161,7 +163,7 @@ Interpretation. EPR is 1.35x in wide aperture and 2.21x in strict aperture. Medi
 
 What has changed? R_T expanded significantly. This is the entire driver of EPR improvement. From mid-year 2025 to May 2026, AI terminal revenue roughly doubled, while P (capital pressure) only increased by about 8% (K rose from $1.2T to $1.3T). R_T growth rate >> P growth rate → EPR decreases. (v3.2 unupdated)
 
-What hasn't changed? All buffering and amplification factors are still present. OpenAI's total commitments have increased to $1.4T, CoreWeave backlog has increased to ~$104B, NVDA's recurring investment scale >$40B, and hyperscaler 2026 capex guidance is still being revised upward. The AI ​​cycle is accelerating in two directions at the same time: revenue is chasing, and capex is also chasing. EPR is the difference between the two races. (v3.2 unupdated)
+What hasn't changed? All buffering and amplification factors are still present. OpenAI's total commitments have increased to $1.4T, CoreWeave backlog has increased to ~$132.5B, NVDA's recurring investment scale >$40B, and hyperscaler 2026 capex guidance is still being revised upward. The AI ​​cycle is accelerating in two directions at the same time: revenue is chasing, and capex is also chasing. EPR is the difference between the two races. (v3.2 unupdated)
 
 ## **2.3 R_T bottom-up decomposition (core update table)**
 
@@ -212,7 +214,7 @@ v3.2 supplement: Anthropic S-1/A p161 reports2026Q1/Q2/Q3 revenue4.731/11.555/16
 
 - Hyperscaler AI cumulative capex stock (Big-5 2022-2026 cumulative by AI portion 75%): approx. $780880B (v3.2 unupdated)
 
-- Neocloud AI capex stock (CoreWeave net property and equipment, PP&E, $46.74B at 2026-06-30 + Lambda + Crusoe + Nebius, etc.): approx. $90-130B (v3.2 note: [Q2](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm), 2026-08-12, updates CoreWeave only; the industry stock estimate is not remeasured. Company assets include construction in progress and do not equal deployed pure-AI capital.)
+- Neocloud AI capex stock (CoreWeave net property and equipment, PP&E, $56.78B at 2026-09-30 + Lambda + Crusoe + Nebius, etc.): approx. $90-130B (v3.2 note: [Q3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm), 2026-11-10, updates CoreWeave only; the industry stock estimate is not remeasured. Company assets include construction in progress and do not equal deployed pure-AI capital.)
 
 - Others (Oracle AI infra, self-built by enterprises, government/sovereign investment): $200-300B (v3.2 unupdated)
 
@@ -246,7 +248,7 @@ Microsoft fiscal YTD is one quarter; the other three YTD periods cover January�
 |---|---|---|---|---|
 ||||$750B)| (v3.2 unupdated)|
 |Neocloud total|~$15B|~$35B|~$60-70B|~$65B (v3.2 unupdated) (v3.2 note: Company rows below replace this aggregate; old60–70 is not added again)|
-|Industry AI capex<br>Traffic||~$400B|~$676.38B| (v3.2 note: Big-5 assumed AI guidance midpoint616.88+two listed firms59.5; incomplete industry, mixed periods, not actual spending)|
+|Industry AI capex<br>Traffic||~$400B|~$677.38B| (v3.2 note: Big-5 assumed AI guidance midpoint616.88+two listed firms60.5; incomplete industry, mixed periods, not actual spending)|
 
 Sources: SEC 10-Q Public Disclosures, Q1 2026 Earnings Call Guidance, CreditSights/Goldman Sachs/Yahoo Finance Comprehensive (updated after Q1). Four of the Big-5 companies raised their capex guidance after Q1; only Amazon maintained its original plan (because it was already the highest in the industry).  (v3.2 note: Four firms now use October disclosures and Oracle September FY27; Microsoft170 reflects delivery delays, so not every firm raised guidance. Original source description remains unupdated)
 
@@ -260,9 +262,9 @@ Big-5’s810–835B mixes four CY2026 guides with Oracle FY27 (2026-06 to2027-05
 
 | Company | Annual capex guidance, $B | Period and source |
 |---|---|---|
-| CoreWeave | 35–39 | CY2026; [IR](https://s205.q4cdn.com/133937190/files/doc_financials/2026/q2/CoreWeave-Q2-26-Earnings-Outlook-Presentation.pdf) (2026-08-11) |
+| CoreWeave | 37–39 | CY2026; [IR](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) (2026-11-10) |
 | Nebius | 20–25 | CY2026; [Third-party transcript](https://www.fool.com/earnings/call-transcripts/2026/08/19/nebius-nbis-q2-2026-earnings-call-transcript/) (2026-08-19, call 08-12) |
-| Two listed neoclouds | 55–64 | Not an industry total |
+| Two listed neoclouds | 57–64 | Not an industry total |
 | IREN | CY2026 unverified; remaining FY27 is 15 | [IR](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05) |
 | SpaceX SI | Full-year AI not separately disclosed; 9M actual 40.00 | [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22) |
 | Applied Digital | Full-year unverified | FY27 Q1 cash capex 2.07; initial-term contracts ~36 |
@@ -280,14 +282,16 @@ Big-5’s810–835B mixes four CY2026 guides with Oracle FY27 (2026-06 to2027-05
 | Anthropic | Not obtained | 9M cash PP&E 0.93; lease/equipment prepayments 1.96 are separate |
 | OpenAI / Stargate | Not disclosed | 500 multiyear target and >450 announced project investment; not annual cash capex |
 
-CoreWeave Q3 results and call are scheduled for 2026-11-10; Nebius for 2026-11-12. Q2 remains the latest reported quarter for both. Oracle and Nebius annual capex amounts still require official-audio verification; Nebius’s official Q2 letter reaffirms guidance without printing the capex amount. Private-company financing and project amounts above are separate announcements. The old neocloud60–70B has no auditable company allocation. SpaceX and IREN partial-period amounts and the added firms are not added to the annual-guidance sum. Definitions, dates, original line items and sources: [ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09).
+CoreWeave published Q3 results on 2026-11-10. Nebius Q3 results remain scheduled for 2026-11-12, so Nebius retains Q2. Oracle and Nebius annual capex amounts still require official-audio verification; Nebius’s official Q2 letter reaffirms guidance without printing the capex amount. Private-company financing and project amounts above are separate announcements. The old neocloud60–70B has no auditable company allocation. SpaceX and IREN partial-period amounts and the added firms are not added to the annual-guidance sum. Definitions, dates, original line items and sources: [ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09).
+
+CoreWeave’s company capex measures gross PP&E increases including finance-lease assets, less the change in construction in progress; it differs from cash purchases. The official outlook gives no standalone Q4 capex or revenue guide; Q4 interest expense is 1.05–1.15B. [Q3 definitions and sources](data/sources_2026-11.md#coreweave-q3-2026-11-10).
 
 Displayed amounts are rounded; ratios use the exact inputs in inputs.json. Cash capex below is the cash-flow statement measure; Q/YTD periods follow each company’s fiscal year. PP&E is net book value, not cumulative capex. Debt follows each company’s disclosed balance-sheet categories, with finance leases treated as specified in the ledger. Backlog, customer commitments, initial-term contract value and values including renewal options are not comparable or additive. Galaxy’s segment-reported capex is separate from unavailable consolidated cash PP&E; Nscale discloses a half-year rather than a quarter.
 
 | Company/quarter | Latest quarterly revenue, $B | Backlog/RPO or separately defined contract value, $B | Cash capex Q / YTD; PP&E net; debt; other, $B |
 |---|---|---|---|
 | Oracle FY27 Q1 | 19.35 (OCI ~7.4) | RPO 664 | 28.50 / 28.50; 127.85; 125.34; net cash capex17.97 |
-| CoreWeave Q2 2026 | 2.58 | ~104 | 6.42 / 14.12; 46.74; 35.07; FY revenue guide12.4–13.2 |
+| CoreWeave Q3 2026 | 3.66 (9M 8.31) | ~132.5 (RPO ~132.3) | Cash 9.44 / 23.56; company capex 14.51 / 30.65; PP&E 56.78; borrowings 46.87; finance leases 0.65; FY revenue guide13.0–13.3 |
 | Nebius Q2 2026 | 0.58 (AI cloud 0.57) | >40 | 5.66 / 8.13; 13.05; 8.55 |
 | IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 9.90 ; finance leases 0.31 |
 | Applied Digital FY27 Q1 | 0.34 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
@@ -327,7 +331,7 @@ Sam Altman publicly confirmed that OpenAI’s total commitments are approximatel
 |NVIDIA investment|up to<br>$100B|Conditional, gradually deployed per<br>GW|Medium (announced strategic cooperation) (v3.2 unupdated)|
 |Amazon AWS|Original$38B + additional$100B; nominal$138B|Additional amount8 years; original agreement has different term|OpenAI official2026-02-27|
 |Microsoft Azure (after reorganization<br>)|about $250B<br>cloud<br>purchase|many years|medium (reorganization agreement between both parties) (v3.2 unupdated)|
-|CoreWeave|Up to approximately $22.4B announced aggregate|Order-specific; latest $6.5B to 2031-05-31| (v3.2 note: [company](https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b), 2025-09-25, confirms aggregate ceiling; latest Q2 10-Q, 2026-08-12, confirms latest order. Not remaining backlog or a uniform 2032 term)|
+|CoreWeave|Up to approximately $22.4B announced aggregate|Order-specific; latest $6.5B to 2031-05-31| (v3.2 note: [company](https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b), 2025-09-25, confirms aggregate ceiling; the Q2 10-Q dated2026-08-12 is the historical source for that order’s term; current company financials use the Q3 release. Not remaining backlog or a uniform 2032 term)|
 |Broadcom<br>Self-developed chips +<br>Others|About $50-<br>100B|Many years|Mid (v3.2 unupdated)|
 |Total Notional Stack (Altman Public<br>Numbers) | Approximately $1.4 Trillion | 5+ Years | Mid-High  (v3.2 unupdated)|
 |OpenAI 2026-03 official|~$24B|current|medium-high|
@@ -516,11 +520,11 @@ Strictly distinguish between two completely different concepts: (1) capex level 
 |US Telecom|2000Peak<br>Value|Approx.1.2%|BEA|
 |US Housing (Residential Investment<br>Investment)|2005-<br>2006|About 6.3%|Historical Highs|
 |AI USA (Big-5<br>2026)|2026|About 1.9%|$607.5-626.25B AI<br>Part/GDP $33.010036T (v3.2 note: Global companies/USGDP; mixed periods, not US domestic investment)|
-|AI<br>USA (all industries<br>2026)|2026|about 2.0%|including neocloud + Oracle + sovereign (v3.2 note: Now Big-5 assumedAI plus CoreWeave/Nebius, not all industry; Oracle already inBig-5, not added again)|
+|AI<br>USA (all industries<br>2026)|2026|about 2.1%|including neocloud + Oracle + sovereign (v3.2 note: Now Big-5 assumedAI plus CoreWeave/Nebius, not all industry; Oracle already inBig-5, not added again)|
 |Goldman<br>Estimated AI<br>capex/GDP|Current|About 1.8% (narrow bore) |Goldman Sachs Research (v3.2 note: Goldman2026-08-07; US / 米国 / 美国)|
 |AI<br>Global2026|2026|About0.9%|$700-750B /<br>Global$110T (v3.2 note: New0.9% is Goldman’s global research estimate; old700–750/110T is unupdated and does not calculate the new share)|
 
-AI 2026 US capex/GDP is slightly higher than 2000 telecom peak, and well below 1840s rail. The difference between Goldman's estimate (1.8%) and this article's estimate (~1.9–2.0%) lies in the basis: Goldman uses a more stringent definition of pure AI capex, while this article uses the hyperscaler total capex × 75% AI ratio.  (v3.2 note: The difference also includes geography and period definitions, not onlyAI share)
+AI 2026 US capex/GDP is slightly higher than 2000 telecom peak, and well below 1840s rail. The difference between Goldman's estimate (1.8%) and this article's estimate (~1.9–2.1%) lies in the basis: Goldman uses a more stringent definition of pure AI capex, while this article uses the hyperscaler total capex × 75% AI ratio.  (v3.2 note: The difference also includes geography and period definitions, not onlyAI share)
 
 ## **7.2 Capex Contribution to GDP Growth**
 
@@ -612,7 +616,7 @@ But of course there are risks. Reasoning price wars, open source model challenge
 
 - Revolving financing is huge. NVIDIA 2026 invests $40B+ in equity bets. NVIDIA’s single $30B investment in OpenAI. NVIDIA + CoreWeave + OpenAI Triangle Loops scale. (v3.2 unupdated)
 
-- Neocloud local high leverage. CoreWeave includes lease leverage of approximately 5.0x annualized revenue, backlog ~$104B (vs Q2 revenue $2.58B = 40.4x quarterly basis; using 2026 full-year revenue guidance of $12.4–13.2B, it is about 8.1x forward annual revenue - both basiss are shown to avoid exaggeration).  (v3.2 note: Q2 debt plus finance/operating leases51.61 divided by Q2 revenue annualized10.3 gives5.0x; backlog is approximately104 per official release. The8.1x ratio uses annual-guide midpoint12.8; see3.2a.)
+- Neocloud local high leverage. CoreWeave’s borrowings plus finance and operating leases are 66.22B, about 4.5x Q3 revenue annualized at14.64B. Backlog is approximately132.5B, or36.2x Q3 revenue3.66B and10.1x the13.15B midpoint of FY2026 revenue guidance13.0–13.3B. Ratios use exact inputs; these periods differ. [Q3 sources](data/sources_2026-11.md#coreweave-q3-2026-11-10).
 
 - Rapid depreciation over GPU life. H100's economic value declined significantly within 24 months of B200/Rubin's emergence. (v3.2 unupdated)
 
@@ -634,7 +638,7 @@ Most likely path (updated):
 
 - OpenAI is the most vulnerable point in the industry chain. Commitments 58.3x The revenue ratio cannot be absorbed by revenue expansion alone and requires continued equity financing or commitment write-downs.  (v3.2 note: OpenAI1.4T unupdated; reported50B gives28.0x. Anthropic’s new commitments/quarterly annualization13.2x does not establish a risk rank across different dates)
 
-- Neocloud (CoreWeave, etc.) is also vulnerable. Backlog 40.4x quarterly revenue ratio (about 8.1x forward annual revenue on 2026 guidance) relies on backlog realization. If big clients like Anthropic or Meta renegotiate, it could trigger a chain of events
+- Neocloud (CoreWeave, etc.) is also vulnerable. Backlog 36.2x quarterly revenue ratio (about 10.1x forward annual revenue on 2026 guidance) relies on backlog realization. If big clients like Anthropic or Meta renegotiate, it could trigger a chain of events
 
 - Hyperscaler does not have a total collapse. Strong cash flow + diversification. 
 
@@ -650,7 +654,7 @@ Monitor high-priority signals for cycle turning points (sorted by importance, ad
 
 - 3. OpenAI commitments fulfillment speed. Whether OpenAI can maintain commitments stack schedule deployment. If OpenAI and Oracle, AWS, CoreWeave, etc. start to delay or renegotiate, it will be the earliest manifestation of the pressure on the commitments stack $1.4T. (v3.2 unupdated)
 
-- 4. Neocloud refinancing spread and backlog quality. CoreWeave backlog ~$104B looks thick, but is customer focused. Any customer default or delayed deployment would immediately hit EBITDA.
+- 4. Neocloud refinancing spread and backlog quality. CoreWeave backlog ~$132.5B looks thick, but is customer focused. Any customer default or delayed deployment would immediately hit EBITDA.
 
 - 5. Hyperscaler capex guidance tone. Changes in rhetoric from "increasing investment" to "improving efficiency". 
 
@@ -660,7 +664,7 @@ Monitor high-priority signals for cycle turning points (sorted by importance, ad
 
 - 8. GPU rental price. H100/H200/B200 spot price. H100 spot Chronically below $3/hour pressure CoreWeave. B200 New cluster breakeven $5/hour. (v3.2 unupdated)
 
-- 9. AI capex in GDP and contribution to GDP growth. Current capex/GDP is about 1.9–2.0% (US). The ratio continues to rise, which means the economy’s reliance on AI reflexivity deepens.  (v3.2 note: Global-company guidance/USGDP scale comparison, not US domestic actual investment; changes require comparable definitions)
+- 9. AI capex in GDP and contribution to GDP growth. Current capex/GDP is about 1.9–2.1% (US). The ratio continues to rise, which means the economy’s reliance on AI reflexivity deepens.  (v3.2 note: Global-company guidance/USGDP scale comparison, not US domestic actual investment; changes require comparable definitions)
 
 - 10. Capital market AI theme valuation quantile. Anthropic current $965B valuation (14.2x ARR); OpenAI $852B (35.5x ARR). The downward movement of these multiples is a periodic signal.  (v3.2 note: Valuations date toMay/March; denominators are Anthropic quarterly annualized67.8 and OpenAI official24; reported50 gives17.0x, dates differ)
 
@@ -692,7 +696,7 @@ v3.2 capital-date comparison: The old-K=1.3T midpoint is1.73x; a complete roll t
 
 AI capex/GDP ratio:
 
-- US capex level/GDP around 1.9–2.0% (medium-high, but well below 1840s rail 7-8%)  (v3.2 note: Only a global-company/USGDP scale comparison, not US domestic investment statistics)
+- US capex level/GDP around 1.9–2.1% (medium-high, but well below 1840s rail 7-8%)  (v3.2 note: Only a global-company/USGDP scale comparison, not US domestic investment statistics)
 
 - Net contribution to GDP growth 0.1-0.5 pp (Goldman adjusted for imported capital goods) (v3.2 unupdated)
 
@@ -760,7 +764,7 @@ One sentence summary: Under the stress test assumptions of this article, AI is a
 
 - Both Anthropic baskets now use$67.8B annualized Q3 GAAP revenue, above the older reported$65B. The company-defined October-end Run-Rate Revenue amount remains blank; the definitions are not interchangeable.
 
-- AI capex/GDP figures vary widely from source to source. Goldman 1.8% (narrow aperture) vs. this article's 1.9–2.0% (wide aperture includes all hyperscaler AI related capex).  (v3.2 note: Geography, period and definitions differ, not onlyAI share)
+- AI capex/GDP figures vary widely from source to source. Goldman 1.8% (narrow aperture) vs. this article's 1.9–2.1% (wide aperture includes all hyperscaler AI related capex).  (v3.2 note: Geography, period and definitions differ, not onlyAI share)
 
 - The contribution of AI capex to GDP growth varies greatly. From Goldman net 0.1-0.2 pp to Furman 92% (H1 2025 NIPA subcategory). This article adopts Goldman’s adjusted version of imported capital goods. (v3.2 unupdated)
 
@@ -792,7 +796,7 @@ v3.2 note: The original source list is retained below. Old numbers not replaced 
 
    - Alphabet/Amazon/Meta Q1 2026 10-Q (filed 2026-04-30) (v3.2 unupdated)
 
-- CoreWeave Q1 2026 Earnings Call Transcript and 10-Q (2026-05-08, backlog $99.4B) (v3.2 unupdated)
+- CoreWeave Q3 2026 results (2026-11-10), [cash-flow statements and balance sheet](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm), [official outlook](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) and definitions in3.2a.
 
 - Anthropic official announcement (2026-04-06, "run-rate revenue has now surpassed $30 billion") (v3.2 unupdated)
 

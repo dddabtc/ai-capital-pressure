@@ -17,6 +17,8 @@ v3.2（2026-11-09）修订说明：保留原文结构、判断和预测，只更
 
 本文关键数据按2026年11月9日可得的公开来源核查。可比新值已更新，其他旧数字保留并标“v3.2 未更新”。相对早期估算的主要更新：
 
+本轮仅将CoreWeave更新到2026年11月10日Q3公告；其他公司的核查仍截止11月9日。
+
 |**关键数据**|**更新值**|**来源（置信度）**|
 |---|---|---|
 |Anthropic 2026Q3 GAAP收入年化|$67.8B（16.956×4≈67.8）|S-1/A 2026-11-02，第161页；非公司定义Run-Rate Revenue|
@@ -24,9 +26,9 @@ v3.2（2026-11-09）修订说明：保留原文结构、判断和预测，只更
 |Microsoft AI ARR|$37B（FY26 Q3）|MSFT官方电话会披露（高）（v3.2 未更新）（v3.2 注：微软37是4月披露，11月可比净额未更新）|
 |OpenAI<br>总commitments|约$1.4万亿（5+年累计名<br>义）|Sam Altman公开确认（中）（v3.2 未更新）|
 |Big-5年度capex指引|$810–835B|四家CY2026 + Oracle FY27，期间不同；AI75%仍是假设|
-|CoreWeave季度收入|$2.58B（Q2 2026）|2026-08-11公司披露|
-|CoreWeave<br>收入backlog|~$104B（vs<br>早期$30B+）|CRWV Q2 2026披露（高）|
-|CoreWeave 2026 capex指引|$35–39B|CRWV指引（高）|
+|CoreWeave季度收入|$3.66B（Q3 2026）|2026-11-10公司披露|
+|CoreWeave<br>收入backlog|~$132.5B（vs<br>早期$30B+）|CRWV Q3 2026披露（高）|
+|CoreWeave 2026 capex指引|$37–39B|CRWV指引（高）|
 |NVDA Q2 FY27总收入|$96.2B（DC: $89.0B）|NVDA 8-K（高）|
 |NVDA Q3 FY27指引|$108B (±2%)|NVDA指引（高）|
 |NVDA supply commitments|$279B（FY27 Q2）|NVDA FY27 Q2 10-Q附注10（2026-08-26）|
@@ -58,7 +60,7 @@ v3.2（2026-11-09）修订说明：保留原文结构、判断和预测，只更
 
 Capex 占 GDP（严格区分水平和增长贡献）： 
 
-- AI capex 水平 / GDP（存量口径）：Goldman 估算 AI capex 当前占 GDP 约 1.8%。2026 美国 Big-5 hyperscaler 总 capex $810-835B（其中 ~75% 为 AI 相关 ≈ $607.5-626.25B），占美国 GDP（~$33.010036T）约 1.9%（含全行业 AI capex 约 2.0%）。1847 年英国铁路 capex 占 GDP 7-8%。1999-2000 年美国电信 capex 占 GDP 约 1.2%。AI 当前水平略高于 2000 电信峰值，远低于 1840s 铁路。 （v3.2 注：Goldman为美国1.8%、全球0.9%的研究估计；本文全球公司指引/美国GDP仅作规模对照，非美国境内投资；Big-5混合财年，另加已列两家新云厂商非全行业）
+- AI capex 水平 / GDP（存量口径）：Goldman 估算 AI capex 当前占 GDP 约 1.8%。2026 美国 Big-5 hyperscaler 总 capex $810-835B（其中 ~75% 为 AI 相关 ≈ $607.5-626.25B），占美国 GDP（~$33.010036T）约 1.9%（含全行业 AI capex 约 2.1%）。1847 年英国铁路 capex 占 GDP 7-8%。1999-2000 年美国电信 capex 占 GDP 约 1.2%。AI 当前水平略高于 2000 电信峰值，远低于 1840s 铁路。 （v3.2 注：Goldman为美国1.8%、全球0.9%的研究估计；本文全球公司指引/美国GDP仅作规模对照，非美国境内投资；Big-5混合财年，另加已列两家新云厂商非全行业）
 
 - AI capex 对 GDP 增长的贡献（增量口径，比水平口径敏感得多）：圣路易斯联储测算 2025前三季 AI 相关投资占实际 GDP 增长的 39%。Jason Furman 估算信息处理设备和软件 投资占 H1 2025 GDP 增长的 92%。但 Goldman Sachs（Jan Hatzius）反驳：扣除进口 资本品后，AI capex 对 GDP 增长的净贡献仅 0.1–0.2 个百分点。两个口径相差 100 倍以 上。本文采用 St Louis Fed 数字作为参考，但承认 Goldman 的进口资本品调整是重要的 方法论修正。 （v3.2 注：联储39%指2025前三季；Q3单季11%、0.48百分点，均为实际增长。占比%与百分点不能直接说相差100倍；其他旧估计未更新）
 
@@ -161,7 +163,7 @@ R_T 大幅上调的核心原因：Anthropic ARR 从 2025 末的 $9B 升至 2026 
 
 什么变了？R_T 大幅扩张。这是 EPR 改善的全部驱动力。从 2025 年中到 2026 年 5 月，AI 终 端收入大约翻了一倍，而 P（资本压力）只增长了约 8%（K 从 $1.2T 升到 $1.3T）。R_T 增速 >> P 增速 → EPR 下降。（v3.2 未更新）
 
-什么没变？所有缓冲和放大因素仍然存在。OpenAI 总 commitments 涨到 $1.4T、CoreWeave backlog 涨到 ~$104B、NVDA 循环投资规模 >$40B、hyperscaler 2026 capex 指引仍在上修。AI 周期同时在两个方向加速：revenue 在追、capex 也在追。EPR 是这两个 race 的差。（v3.2 未更新）
+什么没变？所有缓冲和放大因素仍然存在。OpenAI 总 commitments 涨到 $1.4T、CoreWeave backlog 涨到 ~$132.5B、NVDA 循环投资规模 >$40B、hyperscaler 2026 capex 指引仍在上修。AI 周期同时在两个方向加速：revenue 在追、capex 也在追。EPR 是这两个 race 的差。（v3.2 未更新）
 
 ## **2.3 R_T 自下而上分解（核心更新表）** 
 
@@ -212,7 +214,7 @@ v3.2 补充：Anthropic S-1/A第161页列2026Q1/Q2/Q3收入4.731/11.555/16.956B�
 
 - Hyperscaler AI 累积 capex stock（Big-5 2022-2026 累积按 AI 部分 75%）：约 $780880B（v3.2 未更新）
 
-- Neocloud AI capex stock（CoreWeave账面设备等资产净额，即PP&E，2026-06-30为$46.74B + Lambda + Crusoe + Nebius等）：约$90-130B（v3.2 注：[Q2](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm)，2026-08-12，只更新CoreWeave；行业存量估计未重新测量。公司资产含在建工程，不等于已部署的纯AI资本。）
+- Neocloud AI capex stock（CoreWeave账面设备等资产净额，即PP&E，2026-09-30为$56.78B + Lambda + Crusoe + Nebius等）：约$90-130B（v3.2 注：[Q3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm)，2026-11-10，只更新CoreWeave；行业存量估计未重新测量。公司资产含在建工程，不等于已部署的纯AI资本。）
 
 - 其他（Oracle AI infra、企业自建、政府/sovereign 投资）：$200-300B（v3.2 未更新）
 
@@ -246,7 +248,7 @@ v3.2 资本时点对照：原3.1只写2022–2026累计数，没有K测量日；
 |---|---|---|---|---|
 ||||$750B）|（v3.2 未更新）|
 |Neocloud合计|~$15B|~$35B|~$60-70B|~$65B（v3.2 未更新）（v3.2 注：本版逐家列示见下表，不把旧60–70再相加）|
-|行业AI capex<br>流量||~$400B|~$676.38B|（v3.2 注：Big-5假定AI指引中点616.88+已列两家59.5；非全行业、非同期间、非实际支出）|
+|行业AI capex<br>流量||~$400B|~$677.38B|（v3.2 注：Big-5假定AI指引中点616.88+已列两家60.5；非全行业、非同期间、非实际支出）|
 
 来源：SEC 10-Q 公开披露、Q1 2026 财报电话会议指引、CreditSights / Goldman Sachs / Yahoo Finance 综合（Q1 后更新）。Big-5 中四家 Q1 后上调 capex 指引；只有 Amazon 维持 原计划（因为已经是行业最高）。 （v3.2 注：本版四家采用10月披露，Oracle采用9月FY27；微软170受交付延迟影响，不再断言所有公司都在上修；旧来源描述保留但未更新）
 
@@ -260,9 +262,9 @@ Big-5的810–835B混合四家自然2026与Oracle FY27（2026-06至2027-05）。
 
 | 公司 | 年度资本支出指引，$B | 期间和来源 |
 |---|---|---|
-| CoreWeave | 35–39 | CY2026; [IR](https://s205.q4cdn.com/133937190/files/doc_financials/2026/q2/CoreWeave-Q2-26-Earnings-Outlook-Presentation.pdf) (2026-08-11) |
+| CoreWeave | 37–39 | CY2026; [IR](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) (2026-11-10) |
 | Nebius | 20–25 | CY2026; [第三方转录](https://www.fool.com/earnings/call-transcripts/2026/08/19/nebius-nbis-q2-2026-earnings-call-transcript/) (2026-08-19（会议08-12）) |
-| 已列两家新云厂商 | 55–64 | 不是全行业合计 |
+| 已列两家新云厂商 | 57–64 | 不是全行业合计 |
 | IREN | 自然2026未核实；剩余FY27为15 | [IR](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05) |
 | SpaceX SI | 全年AI未单独披露；前九月实际40.00 | [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22) |
 | Applied Digital | 全年未核实 | FY27 Q1现金支出2.07；初始租期合同总额约36 |
@@ -280,14 +282,16 @@ Big-5的810–835B混合四家自然2026与Oracle FY27（2026-06至2027-05）。
 | Anthropic | 未取得 | 前九个月现金设备购置0.93；租赁及设备预付款1.96另列 |
 | OpenAI / Stargate | 未披露 | 多年目标500，已公告项目投资>450；非年度现金支出 |
 
-CoreWeave三季报和电话会预定2026-11-10，Nebius预定2026-11-12；两家最新已披露季度仍为Q2。Oracle与Nebius全年支出数仍待官方录音核实；Nebius官方Q2股东信只确认维持指引，没有写出资本支出金额。上表私营公司的融资和项目金额单列。旧neocloud60–70B没有可审查的逐家底稿。SpaceX、IREN的部分期间金额及新增公司的数据不加入年度指引合计。定义、日期、原表行名和出处见[ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09)。
+CoreWeave已于2026-11-10发布Q3结果。Nebius三季报仍预定2026-11-12，继续保留Q2。Oracle与Nebius全年支出数仍待官方录音核实；Nebius官方Q2股东信只确认维持指引，没有写出资本支出金额。上表私营公司的融资和项目金额单列。旧neocloud60–70B没有可审查的逐家底稿。SpaceX、IREN的部分期间金额及新增公司的数据不加入年度指引合计。定义、日期、原表行名和出处见[ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09)。
+
+CoreWeave公司口径资本开支按设备等资产毛额增加计算，包含融资租赁取得的资产，再减去在建工程变动，与现金购置支出不同。官方展望没有给Q4单独资本开支或收入指引；Q4利息费用指引为1.05–1.15B。[Q3定义和出处](data/sources_2026-11.md#coreweave-q3-2026-11-10)。
 
 正文金额已四舍五入，比例按inputs.json中的精确值计算。下表现金支出采用现金流量表数据，季度/累计期间按各公司财年注明。PP&E是账面资产净额，不是累计资本支出。债务按各公司资产负债表分类，融资租赁是否计入见来源表。剩余订单、客户承诺、初始租期合同总额和含续租权金额不能直接比较或相加。Galaxy的部门支出与未取得的合并现金购置额分列；Nscale披露半年数，不外推季度数。
 
 | 公司/季度 | 最近季度收入，$B | 订单余额/RPO或另行定义的合同额，$B | 现金支出季度/累计；资产净额；债务；其他，$B |
 |---|---|---|---|
 | Oracle FY27 Q1 | 19.35 (OCI ~7.4) | RPO 664 | 28.50 / 28.50; 127.85; 125.34；净现金支出17.97 |
-| CoreWeave Q2 2026 | 2.58 | ~104 | 6.42 / 14.12; 46.74; 35.07；全年收入指引12.4–13.2 |
+| CoreWeave Q3 2026 | 3.66（前九月8.31）| ~132.5（RPO ~132.3）| 现金9.44 / 23.56；公司口径14.51 / 30.65；PP&E 56.78；借款46.87；融资租赁0.65；全年收入指引13.0–13.3 |
 | Nebius Q2 2026 | 0.58 (AI cloud 0.57) | >40 | 5.66 / 8.13; 13.05; 8.55 |
 | IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 9.90 ；融资租赁0.31 |
 | Applied Digital FY27 Q1 | 0.34 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
@@ -327,7 +331,7 @@ Sam Altman 公开确认 OpenAI 总 commitments 约 $1.4 万亿（涵盖未来 5+
 |NVIDIA投资|up to<br>$100B|条件性，按每<br>GW部署逐步|中（announced战略合作）（v3.2 未更新）|
 |Amazon AWS|原$38B + 新增$100B；名义$138B|新增部分8年，原协议不同期限|OpenAI官方2026-02-27|
 |Microsoft Azure（重<br>组后）|约$250B<br>cloud<br>purchase|多年|中（双方重组协议）（v3.2 未更新）|
-|CoreWeave|已公告合同总额上限约$22.4B|各订单期限不同；最新$6.5B至2031-05-31|（v3.2 注：[company](https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b)，2025-09-25，确认总额上限；最新Q2 10-Q，2026-08-12，确认最新订单。不是剩余订单额，也没有统一的2032年到期日）|
+|CoreWeave|已公告合同总额上限约$22.4B|各订单期限不同；最新$6.5B至2031-05-31|（v3.2 注：[company](https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b)，2025-09-25，确认总额上限；2026-08-12的Q2 10-Q是该订单期限的历史出处，当前财务已改用Q3公告。不是剩余订单额，也没有统一的2032年到期日）|
 |Broadcom<br>自研芯片+<br>其他|约$50-<br>100B|多年|中（v3.2 未更新）|
 |总名义栈（Altman公<br>开数字）|约$1.4万<br>亿|5+年|中-高（v3.2 未更新）|
 |OpenAI 2026-03 official|~$24B|当前|中-高|
@@ -516,11 +520,11 @@ v3.2 注：本节正常行业估计未更新；第五节历史假设与背景数
 |美国电信|2000峰<br>值|约1.2%|BEA|
 |美国住房（住宅投<br>资）|2005-<br>2006|约6.3%|历史高位|
 |AI美国（Big-5<br>2026）|2026|约1.9%|$607.5-626.25B AI<br>部分/ GDP $33.010036T（v3.2 注：全球公司/美国GDP，混合期间，非美国境内投资）|
-|AI<br>美国（全行业<br>2026）|2026|约2.0%|含neocloud + Oracle + sovereign（v3.2 注：改为Big-5假定AI加CoreWeave/Nebius，非全行业；Oracle已在Big-5，不再另加）|
+|AI<br>美国（全行业<br>2026）|2026|约2.1%|含neocloud + Oracle + sovereign（v3.2 注：改为Big-5假定AI加CoreWeave/Nebius，非全行业；Oracle已在Big-5，不再另加）|
 |Goldman<br>估算AI<br>capex/GDP|当前|约1.8%（窄口径）|Goldman Sachs Research（v3.2 注：Goldman2026-08-07; US / 米国 / 美国）|
 |AI<br>全球2026|2026|约0.9%|$700-750B /<br>全球$110T（v3.2 注：新0.9%为Goldman全球研究估计；原700–750/110T未更新，不用它推算新占比）|
 
-AI 2026 美国 capex/GDP 略高于 2000 电信峰值，远低于 1840s 铁路。Goldman 估算（1.8%）和本文估算（~1.9–2.0%）的差异在于口径：Goldman 用更严格的纯 AI capex 定义，本文按 hyperscaler 总 capex × 75% AI 比例。 （v3.2 注：差异还含地理和期间定义，不能只归因于AI占比）
+AI 2026 美国 capex/GDP 略高于 2000 电信峰值，远低于 1840s 铁路。Goldman 估算（1.8%）和本文估算（~1.9–2.1%）的差异在于口径：Goldman 用更严格的纯 AI capex 定义，本文按 hyperscaler 总 capex × 75% AI 比例。 （v3.2 注：差异还含地理和期间定义，不能只归因于AI占比）
 
 ## **7.2 Capex 对 GDP 增长的贡献** 
 
@@ -612,7 +616,7 @@ EPR 中心估计 1.73x 看起来精确，实际依赖多个不确定参数。下
 
 - 循环融资规模庞大。 NVIDIA 2026 投资 $40B+ in equity bets。NVIDIA 单笔 $30B 投入 OpenAI。NVIDIA + CoreWeave + OpenAI 三角循环规模巨大。（v3.2 未更新）
 
-- Neocloud 局部高杠杆。 CoreWeave 含租赁杠杆约 5.0x 年化收入，backlog ~$104B（vs Q2 收入 $2.58B = 40.4x 季度口径；按 2026 全年收入指引 $12.4–13.2B 折算约 8.1x 前瞻年收入——两个口径都列出以免夸大）。 （v3.2 注：Q2债务及融资/经营租赁合计51.61，除以季度收入年化10.3，得5.0x；订单额按官方公告写约104。8.1x按全年指引中点12.8计算；出处见3.2a。）
+- Neocloud局部高杠杆。CoreWeave借款加融资及经营租赁合计66.22B，约为Q3收入年化14.64B的4.5倍。剩余订单约132.5B，相当于Q3收入3.66B的36.2倍，或2026全年收入指引13.0–13.3B中点13.15B的10.1倍。比例按精确输入计算；两种收入期间不同。[Q3出处](data/sources_2026-11.md#coreweave-q3-2026-11-10)。
 
 - GPU 寿命快速折旧。 H100 在 B200/Rubin 出现后 24 个月内经济价值显著下降。（v3.2 未更新）
 
@@ -634,7 +638,7 @@ AI 缓冲因素比历史泡沫更强，且 R_T 已经显示比 1846 铁路或 20
 
 - OpenAI 是产业链最脆弱点。 Commitments 58.3x revenue 比无法仅靠收入扩张消化，需要 持续股权融资或 commitment 减记。 （v3.2 注：OpenAI1.4T未更新；用报道50B为28.0x。Anthropic新承诺/季度年化13.2x，不能据不同日期总额确证风险排名）
 
-- Neocloud（CoreWeave 等）也是脆弱点。 Backlog 40.4x 季度收入比依赖 backlog 兑现。 如果 Anthropic 或 Meta 等大客户重谈，会引发连锁
+- Neocloud（CoreWeave 等）也是脆弱点。 Backlog 36.2x季度收入比（按2026全年收入指引约10.1倍）依赖backlog兑现。 如果 Anthropic 或 Meta 等大客户重谈，会引发连锁
 
 - Hyperscaler 不会全面崩塌。现金流强 + 多元化。 
 
@@ -650,7 +654,7 @@ NVIDIA 不会破产，但 forward multiples 大幅压缩的概率仍存在。其
 
 - 3. OpenAI commitments 履约速度。 OpenAI 是否能维持 commitments 栈 schedule 部署。 如果 OpenAI 与 Oracle、AWS、CoreWeave 等开始延后或重谈，是 commitments 栈 $1.4T 压力的最早表现。（v3.2 未更新）
 
-- 4. Neocloud 再融资利差和 backlog 质量。 CoreWeave backlog ~$104B 看起来很厚，但 客户集中。任何客户违约或延后部署会立刻冲击 EBITDA。
+- 4. Neocloud 再融资利差和 backlog 质量。 CoreWeave backlog ~$132.5B 看起来很厚，但 客户集中。任何客户违约或延后部署会立刻冲击 EBITDA。
 
 - 5. Hyperscaler capex 指引语气。从"加大投资"到"提高效率"的话术变化。 
 
@@ -660,7 +664,7 @@ NVIDIA 不会破产，但 forward multiples 大幅压缩的概率仍存在。其
 
 - 8. GPU 租赁价格。 H100/H200/B200 spot 价格。H100 spot 长期低于 $3/hour 压力 CoreWeave。B200 新建集群盈亏平衡 $5/hour。（v3.2 未更新）
 
-- 9. AI capex 占 GDP 与对 GDP 增长贡献。当前 capex/GDP 约 1.9–2.0%（美国）。比例 继续上升意味着经济对 AI 反身性依赖加深。 （v3.2 注：为全球公司指引/美国GDP规模对照，非美国境内实际投资；比例变化需保持定义一致）
+- 9. AI capex 占 GDP 与对 GDP 增长贡献。当前 capex/GDP 约 1.9–2.1%（美国）。比例 继续上升意味着经济对 AI 反身性依赖加深。 （v3.2 注：为全球公司指引/美国GDP规模对照，非美国境内实际投资；比例变化需保持定义一致）
 
 - 10. 资本市场 AI 主题估值分位。 Anthropic 当前 $965B 估值（14.2x ARR）； OpenAI $852B（35.5x ARR）。这些倍数下行就是周期信号。 （v3.2 注：估值分别为5月/3月，分母为Anthropic季度年化67.8、OpenAI官方24；报道50对应17.0x，时点不同）
 
@@ -692,7 +696,7 @@ v3.2 同期资本对照：旧K=1.3T的几何中点1.73x；把K滚到2026-09-30�
 
 AI capex/GDP 占比： 
 
-- 美国 capex 水平 / GDP 约 1.9–2.0%（中等-高，但远低于 1840s 铁路 7-8%） （v3.2 注：仅全球公司/美国GDP规模对照，非美国境内投资统计）
+- 美国 capex 水平 / GDP 约 1.9–2.1%（中等-高，但远低于 1840s 铁路 7-8%） （v3.2 注：仅全球公司/美国GDP规模对照，非美国境内投资统计）
 
 - 对 GDP 增长的净贡献 0.1-0.5 pp（Goldman 进口资本品调整后）（v3.2 未更新）
 
@@ -760,7 +764,7 @@ AI capex/GDP 占比：
 
 - Anthropic本版严格/宽均为Q3 GAAP收入年化$67.8B；旧报道$65B已被超过。公司定义的10月末Run-Rate Revenue未填金额，不把这两种年化定义混用。
 
-- AI capex/GDP 数字不同来源差异较大。 Goldman 1.8%（窄口径）vs 本文 1.9–2.0%（宽 口径含全部 hyperscaler AI 相关 capex）。 （v3.2 注：地理、期间及定义不同，不仅是AI份额差异）
+- AI capex/GDP 数字不同来源差异较大。 Goldman 1.8%（窄口径）vs 本文 1.9–2.1%（宽 口径含全部 hyperscaler AI 相关 capex）。 （v3.2 注：地理、期间及定义不同，不仅是AI份额差异）
 
 - AI capex 对 GDP 增长的贡献口径差异极大。从 Goldman 净 0.1-0.2 pp 到 Furman 92% （H1 2025 NIPA 子类别）。本文取 Goldman 的进口资本品调整版本。（v3.2 未更新）
 
@@ -792,7 +796,7 @@ v3.2 注：下面保留原来源清单；未被本次新披露替换的旧数字
 
    - Alphabet/Amazon/Meta Q1 2026 10-Q (filed 2026-04-30)（v3.2 未更新）
 
-   - CoreWeave Q1 2026 Earnings Call Transcript and 10-Q (2026-05-08，backlog $99.4B)（v3.2 未更新）
+   - CoreWeave 2026 Q3结果（2026-11-10）：[现金流量表及资产负债表](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm)、[官方展望](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)，定义见3.2a。
 
 - Anthropic 官方公告 (2026-04-06，"run-rate revenue has now surpassed $30 billion")（v3.2 未更新）
 

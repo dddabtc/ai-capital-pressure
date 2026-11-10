@@ -90,10 +90,13 @@ print(f"Big-5 total {big5_lo}-{big5_hi} | assumed AI share {ai_share:.0%} -> {ai
 nc = cx["neocloud"]
 nc_lo = nc["coreweave"][0] + nc["nebius"][0]
 nc_hi = nc["coreweave"][1] + nc["nebius"][1]
+assert (nc_lo, nc_hi) == (57, 64), (nc_lo, nc_hi)
 print(f"CoreWeave {nc['coreweave']} + Nebius {nc['nebius']} -> listed neocloud guidance {nc_lo}-{nc_hi}")
 print("Oracle and Nebius annual amounts remain supplementary third-party transcripts, not primary-verified guidance.")
 gdp = I["us_gdp_trillion"] * 1000
 industry_ai = (ai_lo + ai_hi + nc_lo + nc_hi) / 2
+assert abs(industry_ai - 677.375) < 1e-9
+assert round(industry_ai / gdp * 100, 1) == 2.1
 print(f"Annual-guidance scale / US GDP (${gdp/1000:.6f}T SAAR): Big-5 AI {((ai_lo+ai_hi)/2)/gdp:.1%} | plus listed neocloud {industry_ai/gdp:.1%}")
 print("Mixed periods and definitions; not US domestic investment or a complete industry total.")
 sp = I["disclosed_billion"]["spacex"]
@@ -154,7 +157,16 @@ assert abs(historical_big5_2025 - 411.528) < 1e-9
 print(f"Oracle near-calendar cash capex: 2024 {near_2024:.3f}; 2025 {near_2025:.3f}; both shifted one month earlier.")
 print(f"Historical Big-5 cash-purchase totals: 2024 {historical_big5_2024:.3f}; 2025 {historical_big5_2025:.3f}; Oracle shifted one month, other four calendar-year actuals.")
 cw = d["coreweave"]
-print(f"CoreWeave Q2 revenue {cw['revenue_quarter']:.3f}; backlog {cw['backlog']}; backlog/quarter revenue {cw['backlog']/cw['revenue_quarter']:.1f}x; backlog/FY26 revenue-guidance midpoint {cw['backlog']/(sum(cw['revenue_guidance_2026'])/2):.1f}x")
+print(f"CoreWeave Q3 revenue {cw['revenue_quarter']:.3f}; 9M revenue {cw['revenue_ytd']:.3f}; backlog {cw['backlog']}; RPO approximately {cw['remaining_performance_obligations_approx']}; backlog/quarter revenue {cw['backlog']/cw['revenue_quarter']:.1f}x; backlog/FY26 revenue-guidance midpoint {cw['backlog']/(sum(cw['revenue_guidance_2026'])/2):.1f}x")
+assert cw['capex_2026'] == nc['coreweave'] == [37, 39]
+assert cw['capex_guidance_q4_2026'] is None and cw['revenue_guidance_q4_2026'] is None
+assert abs(cw['backlog'] - cw['remaining_performance_obligations_approx'] - cw['backlog_other_estimated_future_revenue_approx']) < 1e-9
+for period in ('quarter', 'ytd'):
+    assert abs(cw[f'reported_capex_{period}'] - cw[f'gross_ppe_increase_{period}'] + cw[f'construction_in_progress_change_{period}']) < 1e-9
+assert abs(cw['total_debt'] - sum(cw['debt_components'].values())) < 1e-9
+lease_leverage = (cw['total_debt'] + cw['finance_lease_liabilities'] + cw['operating_lease_liabilities']) / (cw['revenue_quarter'] * 4)
+assert round(lease_leverage, 1) == cw['debt_including_leases_to_annualized_quarter_revenue'] == 4.5
+print(f"CoreWeave company-defined capex Q3 {cw['reported_capex_quarter']:.3f}; 9M {cw['reported_capex_ytd']:.3f}; lease-inclusive debt / annualized-quarter revenue {lease_leverage:.1f}x. Cash purchases are separate.")
 nb = d["nebius"]
 print(f"Nebius Q2 revenue {nb['revenue_quarter']}; AI cloud {nb['ai_cloud_revenue_quarter']}; customer commitments >{nb['customer_commitments_lower_bound']} (not comparable backlog)")
 ir = d["iren"]
@@ -164,7 +176,7 @@ section("Oracle and neocloud cash spending / balance-sheet checks ($B)")
 assert orcl['annual_guidance_primary_verified'] is False
 assert nb['annual_guidance_primary_verified'] is False
 assert cw['annual_guidance_primary_verified'] is True
-assert cw['next_results_date'] == '2026-11-10'
+assert cw['latest_results_date'] == '2026-11-10' and cw['next_results_date'] is None
 assert nb['next_results_date'] == '2026-11-12'
 assert abs(orcl['operating_cash_flow_quarter'] - orcl['capex_quarter']
            - orcl['free_cash_flow_quarter']) < 1e-9
@@ -172,7 +184,7 @@ assert abs(orcl['capex_quarter'] - orcl['short_term_capex_financing_net_cash_flo
            - orcl['customer_prepayments_with_financing_component_quarter']
            - orcl['net_cash_capex_quarter']) < 1e-9
 assert abs(ir['capex_quarter'] - (2.131 + 2.693)) < 1e-9
-for name in ('alphabet', 'amazon', 'meta', 'spacex', 'anthropic', 'cipher_digital', 'terawulf', 'core_scientific', 'hut8'):
+for name in ('alphabet', 'amazon', 'meta', 'spacex', 'anthropic', 'coreweave', 'cipher_digital', 'terawulf', 'core_scientific', 'hut8'):
     row = d[name]
     assert abs(row['capex_quarter'] - (row['capex_ytd'] - row['capex_h1'])) < 1e-9, name
 assert abs(d['nvidia']['capex_quarter'] - (d['nvidia']['capex_ytd'] - d['nvidia']['capex_fy_q1'])) < 1e-9

@@ -1,10 +1,10 @@
 # 2026 年 11 月数据核查
 
-当前资本支出数据以文末“全公司资本支出返工2（2026-11-09）”为准。四家历史旧估计已替换为自然年现金购置实际数；Oracle沿用返工1指定的一月偏移期间。旧表保留修改历史。Oracle和Nebius全年指引仍未用一手材料确认。
+当前CoreWeave数据以文末“CoreWeave Q3更新（2026-11-10）”为准，其他公司仍按“全公司资本支出返工2（2026-11-09）”。CoreWeave旧Q2数字仅保留修改历史。Oracle和Nebius全年指引仍未用一手材料确认。
 
 本版保留作者原来的结构、判断和预测，并在相关句子后注明新数据的影响。能核实的新值已更新，查不到可比新值的旧数字仍保留并标未更新。旧资本存量日期不明确，不能把收入更新造成的压力比下降当作同期风险改善。
 
-截止2026-11-09。金额通常为十亿美元（B），K/GDP为万亿美元（T）。严格/宽仍是文章的两组估计名称，含明确标注的旧估计，不是完整审计行业统计。除R_T表列入的项目外，公司披露收入只作背景。
+CoreWeave截止2026-11-10，其他公司截止2026-11-09。金额通常为十亿美元（B），K/GDP为万亿美元（T）。严格/宽仍是文章的两组估计名称，含明确标注的旧估计，不是完整审计行业统计。除R_T表列入的项目外，公司披露收入只作背景。
 
 ## 输入逐项清单
 
@@ -738,7 +738,7 @@ Alphabet自然2024/2025为52.535/91.447；Amazon为82.999/131.819；Meta为37.25
 | spacex | 2026 Q3 ended 2026-09-30; consolidated SpaceX including xAI | 19.593 | 48.069 | 未取得 / 未取得 | 未取得金额明确的一手全年指引 | 未核齐同范围全年原数；非3.2五家历史比较 | 89.483 | 37.861；0.983 | [SPACEQ](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm)；[SPACEH](https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm) |
 | nvidia | FY2027 Q2 ended 2026-07-26 | 2.677 | 4.434 | 未取得 / 未取得 | 未取得金额明确的一手全年指引 | 未核齐同范围全年原数；非3.2五家历史比较 | 14.285 | 33.366；未取得 | [NVQ](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm)；[NVQ1](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm)；[NVRELEASE](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx)；[NVDATE](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/) |
 | anthropic | 2026 Q3 ended 2026-09-30 | 0.443 | 0.925 | 未取得 / 未取得 | 未取得金额明确的一手全年指引 | 0.015 / 0.131 | 3.061 | 130.502；1.674 | [ANTH](https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm)；[ANTH0](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) |
-| coreweave | 2026 Q2 ended 2026-06-30 | 6.422 | 14.117 | 未取得 / 未取得 | [35, 39]；一手 | 未核齐同范围全年原数；非3.2五家历史比较 | 46.736 | 35.068；0.221 | [C1](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/coreweave2q26earningspress.htm)；[C2](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm)；[C3](https://s205.q4cdn.com/133937190/files/doc_financials/2026/q2/CoreWeave-Q2-26-Earnings-Outlook-Presentation.pdf)；[C4](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/) |
+| coreweave | 2026 Q3 ended 2026-09-30 | 9.441 | 23.558 | 14.511 / 30.650 | [37,39]；一手 | 未核齐同范围全年原数；非3.2五家历史比较 | 56.778 | 46.873；0.649 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm)；[CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf)；[CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) |
 | nebius | 2026 Q2 ended 2026-06-30 | 5.6574 | 8.1303 | 未取得 / 未取得 | [20, 25]；第三方转录补充，未一手核实 | 未核齐同范围全年原数；非3.2五家历史比较 | 13.0452 | 8.5457；未取得 | [N1](https://assets.nebius.com/assets/72a8c258-bbb7-4df7-ab9d-8698f6cb88fc/PR.pdf)；[N2](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf)；[N3](https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call) |
 | iren | FY2027 Q1 ended 2026-09-30 | 4.824 | 4.824 | 未取得 / 未取得 | 全年未取得；剩余FY27计划15为一手 | 未核齐同范围全年原数；非3.2五家历史比较 | 12.344 | 9.897；0.311 | [I1](https://iren.gcs-web.com/static-files/67ed720a-021d-471a-8d9c-ea109edec817)；[I2](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) |
 | lambda | No public quarterly financial statements located as of 2026-11-09 | 未取得 | 未取得 | 未取得 / 未取得 | 未取得金额明确的一手全年指引 | 未核齐同范围全年原数；非3.2五家历史比较 | 未取得 | 未取得；未取得 | [L1](https://lambda.com/blog/lambda-closes-1-billion-senior-secured-credit-facility)；[L2](https://lambda.com/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center) |
@@ -1042,3 +1042,84 @@ SEC公司事实API首次取得七家标准标签用于交叉检查；随后提�
 | `README 3.2 Big-5历史合计` | 234.75/375.48 → 239.09/411.53 | 精确数计算，Oracle期间仍偏移一月 |
 | `README 3.1公司口径Q3小计` | 208.765 → 207.38（精确207.384） | Amazon净额修正；现金购置小计201.923不变 |
 | `README Stargate已公告项目规模` | >400 → >450 | [STARGATE](https://openai.com/index/expanding-stargate-to-michigan/)；非实际资本开支 |
+
+<a id="coreweave-q3-2026-11-10"></a>
+
+## CoreWeave Q3更新（2026-11-10）
+
+CoreWeave已换为2026年9月30日结束的Q3。现金设备购置9.441B、前九个月23.558B，正文显示9.44/23.56。公司按资产增加计算的资本开支为14.511/30.650B，正文14.51/30.65。季度和累计直接采用本次新闻稿原数；23.558−14.117=9.441也与此前H1现金数相符。
+
+公司资本开支的计算是：Q3 11.932−(−2.579)=14.511；9M 30.613−(−0.037)=30.650。包含融资租赁取得资产，并减去在建工程变动，不能把它直接称现金支出，也不能把与现金数的差额全部叫作未付购置款。精确值保存在inputs.json及来源表，正文金额最多两位，小于0.1最多三位。
+
+季度收入2.575→3.661B；前九个月收入新增8.314B；全年收入指引12.4–13.2→13.0–13.3B。剩余订单104→约132.5B，其中RPO约132.3B，其他预计合同收入约0.2B，仍以交付和服务可用为条件。公司剩余订单不等同于单独的GAAP履约义务金额，也不代表OpenAI一家的合同。
+
+净PP&E 46.736→56.778B。借款账面值35.068→46.873B，由当期有追索/无追索借款的流动及非流动四项相加，融资租赁另列0.649B，经营租赁另列18.697B。借款及两类租赁合计66.219B，除以Q3收入年化14.644B，得4.521920…倍，正文4.5倍；原5.0倍更新。剩余订单/季度收入132.5÷3.661=36.192297…倍，正文36.2；按全年收入指引中点13.15B算10.076046…倍，正文10.1，替换原40.4/8.1。
+
+全年资本开支指引35–39→37–39B。已列两家新云厂商合计55–64→57–64B，中点59.5→60.5B，仍包含Nebius尚未一手确认的20–25B补充数字。Big-5假定AI指引中点616.875不变，加两家新云中点后676.375→677.375B，正文677.38。沿用GDP 33.010036T，比例由2.048998…%升至2.052027…%，按原文一位百分数显示从2.0%变成2.1%；这是跨过取整边界，不是上升0.1个百分点的精确值。
+
+3.1现金购置小计只列Microsoft、Alphabet、Amazon和Meta，从来不含CoreWeave，继续为201.923B；公司口径小计207.384B也不变。没有把CoreWeave另加进这两个四公司小计。K=1.3T、收入165/270、P计算和EPR结论不变，新增CoreWeave收入只用于该公司比率，没有加入终端收入。Big-5年度指引810–835及其历史现金支出不变。
+
+| 来源 | 发布日 | 原文件和位置 |
+|---|---|---|
+| CQ3 | 2026-11-10 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm)；Q3新闻稿，损益表、资产负债表、现金流量表及Business Outlook。原表为百万美元：季度收入3,661、前九月8,314；季度现金购置(9,441)、前九月(23,558)；净PP&E 56,778；借款9,183+1,389+32,417+3,884；融资租赁296+353；经营租赁668+18,029。现金流量表原行名“Purchases of property and equipment, including capitalized internal-use software”。全年指引原话节录：“full year 2026 capital expenditures of $37 billion to $39 billion”。 |
+| CQ3E | 2026-11-10 | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf)；业绩演示稿第15页：RPO约132.3B，加其他预计合同收入0.2B，得到公司定义的剩余订单约132.5B；第14/16页：公司资本开支定义包含融资租赁取得资产，并扣除在建工程变动。第16页原表：季度资产毛额增加11,932、在建变动(2,579)，公司支出14,511；前九月分别30,613、(37)、30,650，百万美元。 |
+| CQ3G | 2026-11-10 | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；官方展望第3页：FY2026收入13.0–13.3B、资本开支37–39B、退出年化收入20–21B；Q4仅列利息费用1.05–1.15B。没有单列Q4资本开支或收入指引，未用全年减累计数代替公司指引。 |
+
+截至本轮查证，未取得CoreWeave Q3 10-Q或电话会逐字稿；新闻稿只说明10-Q将于当日前后提交，不能据此断定尚未发布。更新依据为SEC 8-K附件新闻稿和两份官方演示稿，不把电话会尚未核实的内容写成已核实。Q4没有单独资本开支或收入金额，记录为空；利息费用指引单列。
+
+任务给定的8-K索引、新闻稿及公司IR页直连下载返回403，未绕过。新闻稿正文经公开网页读取工具及[agent-reach技能](/home/ubuntu/.agents/skills/agent-reach/SKILL.md)的web渠道取得，并与官方PDF核对；两份PDF直连下载为200。未使用第三方财报转录、未登录、未绕过验证。
+
+OpenAI已公告合同总额上限22.4B及最新一单6.5B至2031-05-31，仍是2025公告和Q2 10-Q支持的既有合同事实。本轮未取得新的OpenAI单独合同总额；没有用132.5B公司订单额替代它。正文把Q2 10-Q明确标作该合同期限的历史出处，不再称当前财务所用最新季报。
+
+其他公司的数据保留11月9日核查状态。Nebius仍待11月12日披露Q3，Oracle和Nebius全年支出的一手来源缺口不变。旧来源表中的Q2数字保留为修改历史，以本节和最新公司行覆盖当前值，不删除历史章节。
+
+| 字段/位置 | 旧值 → 新值 | 出处/处理 |
+|---|---|---|
+| `as_of` | "2026-11-09 (v3.2)" → "2026-11-10 (CoreWeave Q3 update only; other sources retained at 2026-11-09, v3.2)" | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `capex_2026_billion.neocloud.coreweave` | [35,39] → [37,39] | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；[CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `capex_2026_billion.neocloud.note` | "CoreWeave CY2026 35-39 is primary-source guidance; Nebius CY2026 20-25 remains supplementary third-party transcript information, not primary-verified. IREN remaining FY27 15 is separate. Additional companies have no comparable CY2026 capex guidance verified; see individual disclosures and source ledger. Financing and multiyear projects are not annual capex. No industry total is inferred." → "CoreWeave CY2026 37-39 (Q3 results, November 10) is primary-source guidance; Nebius CY2026 20-25 remains supplementary third-party transcript information, not primary-verified. IREN remaining FY27 15 is separate. Additional companies have no comparable CY2026 capex guidance verified; see individual disclosures and source ledger. Financing and multiyear projects are not annual capex. No industry total is inferred." | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.period` | "2026 Q2 ended 2026-06-30" → "2026 Q3 ended 2026-09-30" | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.revenue_quarter` | 2.575 → 3.661 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.backlog` | 104 → 132.5 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.revenue_guidance_2026` | [12.4,13.2] → [13.0,13.3] | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；[CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.capex_2026` | [35,39] → [37,39] | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；[CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.ytd_period` | "2026 first six months ended 2026-06-30" → "2026 first nine months ended 2026-09-30" | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.next_results_date` | "2026-11-10" → null | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.capex_quarter` | 6.422 → 9.441 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.capex_ytd` | 14.117 → 23.558 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.capex_definition` | "Cash purchase of property and equipment, including capitalized internal-use software; not the accrued asset-additions measure." → "Cash purchases of property and equipment, including capitalized internal-use software. Q3 9.441 and 9M 23.558 are separately disclosed cash-flow lines, not company-reported asset additions." | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.ppe_net` | 46.736 → 56.778 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.total_debt` | 35.068 → 46.873 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.finance_lease_liabilities` | 0.221 → 0.649 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.debt_definition` | "Recourse 31.405 plus non-recourse 3.663, net carrying value, excluding separately stated finance leases." → "Recourse current 9.183 and noncurrent 32.417 plus non-recourse current 1.389 and noncurrent 3.884, carrying values. Finance leases 0.649 and operating leases 18.697 are separate." | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.annual_guidance_quote_primary` | "$35 – 39 billion" → "full year 2026 capital expenditures of $37 billion to $39 billion" | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；[CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.note` | "Q3 results and call scheduled for November 10; retain Q2. OpenAI 22.4 is the September 25, 2025 announced aggregate ceiling, not remaining backlog or a uniform 2032 maturity. Official Q2 release reports approximately 104, not 104.2; precision follows that primary source. Lease-inclusive ratio = (35.068 + 0.221 + 16.319) / (2.575 * 4), rounded to one decimal." → "Q3 results published November 10. Revenue backlog 132.5 is approximate and includes RPO 132.3 plus estimated future revenue 0.2, subject to delivery/availability. Lease-inclusive ratio = (46.873 + 0.649 + 18.697) / (3.661 * 4), rounded to one decimal. FY revenue-guide midpoint is 13.15. The primary outlook gives no standalone Q4 capex or revenue amount; do not derive a guide by subtracting YTD actuals. The 2025 OpenAI contract announcement remains a separate historical fact; current Q3 backlog is not a new OpenAI-only contract total." | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.operating_lease_liabilities` | 16.319 → 18.697 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.debt_including_leases_to_annualized_quarter_revenue` | 5.0 → 4.5 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.review_sources` | ["C1","C2","C3","C4"] → ["CQ3","CQ3E","CQ3G"] | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.review_as_of` | "2026-11-09" → "2026-11-10" | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.cash_capex_line` | "Purchase of property and equipment, including capitalized internal-use software" → "Purchases of property and equipment, including capitalized internal-use software" | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.latest_results_date` | 未列 → "2026-11-10" | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.revenue_ytd` | 未列 → 8.314 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.remaining_performance_obligations_approx` | 未列 → 132.3 | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf) |
+| `disclosed_billion.coreweave.backlog_other_estimated_future_revenue_approx` | 未列 → 0.2 | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf) |
+| `disclosed_billion.coreweave.capex_h1` | 未列 → 14.117 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.reported_capex_quarter` | 未列 → 14.511 | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf) |
+| `disclosed_billion.coreweave.reported_capex_ytd` | 未列 → 30.65 | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf) |
+| `disclosed_billion.coreweave.reported_capex_definition` | 未列 → "Increase in total gross property and equipment, including finance-lease assets, less change in construction in progress; not cash purchases. Q3 11.932 - (-2.579); 9M 30.613 - (-0.037)." | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf) |
+| `disclosed_billion.coreweave.gross_ppe_increase_quarter` | 未列 → 11.932 | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf) |
+| `disclosed_billion.coreweave.gross_ppe_increase_ytd` | 未列 → 30.613 | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf) |
+| `disclosed_billion.coreweave.construction_in_progress_change_quarter` | 未列 → -2.579 | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf) |
+| `disclosed_billion.coreweave.construction_in_progress_change_ytd` | 未列 → -0.037 | [CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf) |
+| `disclosed_billion.coreweave.capex_guidance_q4_2026` | 未列 → null | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；[CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.revenue_guidance_q4_2026` | 未列 → null | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；[CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.interest_expense_guidance_q4_2026` | 未列 → [1.05,1.15] | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；[CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.exit_2026_arr_guidance` | 未列 → [20,21] | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；[CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.debt_components.recourse_current` | 未列 → 9.183 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.debt_components.nonrecourse_current` | 未列 → 1.389 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.debt_components.recourse_noncurrent` | 未列 → 32.417 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `disclosed_billion.coreweave.debt_components.nonrecourse_noncurrent` | 未列 → 3.884 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) |
+| `README 3.2已列两家指引合计` | 55–64 → 57–64 | [CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf)；Nebius未变 |
+| `README 3.2混合规模中点` | 676.38 → 677.38 | 精确616.875+60.5=677.375，非全行业实际投入 |
+| `README capex/GDP` | 1.9–2.0% → 1.9–2.1% | 加新云一端2.048998…%→2.052027…%，Big-5一端未变 |
+| `README CoreWeave比率` | 租赁杠杆5.0；订单/季收入40.4；订单/全年收入8.1 → 4.5；36.2；10.1 | 精确计算见本节；收入期间分别列示 |

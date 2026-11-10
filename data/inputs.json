@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-09 (v3.2)",
+  "as_of": "2026-11-10 (CoreWeave Q3 update only; other sources retained at 2026-11-09, v3.2)",
   "core": {
     "K_trillion": 1.3,
     "L_years": 6.1,
@@ -68,7 +68,7 @@
     "ai_share_of_hyperscaler": 0.75,
     "neocloud": {
       "coreweave": [
-        35,
+        37,
         39
       ],
       "nebius": [
@@ -77,7 +77,7 @@
       ],
       "iren_calendar_2026": null,
       "other_estimate": null,
-      "note": "CoreWeave CY2026 35-39 is primary-source guidance; Nebius CY2026 20-25 remains supplementary third-party transcript information, not primary-verified. IREN remaining FY27 15 is separate. Additional companies have no comparable CY2026 capex guidance verified; see individual disclosures and source ledger. Financing and multiyear projects are not annual capex. No industry total is inferred.",
+      "note": "CoreWeave CY2026 37-39 (Q3 results, November 10) is primary-source guidance; Nebius CY2026 20-25 remains supplementary third-party transcript information, not primary-verified. IREN remaining FY27 15 is separate. Additional companies have no comparable CY2026 capex guidance verified; see individual disclosures and source ledger. Financing and multiyear projects are not annual capex. No industry total is inferred.",
       "lambda_calendar_2026": null,
       "crusoe_calendar_2026": null,
       "applied_digital_calendar_2026": null,
@@ -295,45 +295,72 @@
       "cash_capex_line": "Capital expenditures"
     },
     "coreweave": {
-      "period": "2026 Q2 ended 2026-06-30",
-      "revenue_quarter": 2.575,
-      "backlog": 104,
+      "period": "2026 Q3 ended 2026-09-30",
+      "revenue_quarter": 3.661,
+      "backlog": 132.5,
       "revenue_guidance_2026": [
-        12.4,
-        13.2
+        13.0,
+        13.3
       ],
       "capex_2026": [
-        35,
+        37,
         39
       ],
       "unit": "USD billion",
-      "ytd_period": "2026 first six months ended 2026-06-30",
-      "next_results_date": "2026-11-10",
-      "capex_quarter": 6.422,
-      "capex_ytd": 14.117,
-      "capex_definition": "Cash purchase of property and equipment, including capitalized internal-use software; not the accrued asset-additions measure.",
-      "ppe_net": 46.736,
-      "total_debt": 35.068,
-      "finance_lease_liabilities": 0.221,
-      "debt_definition": "Recourse 31.405 plus non-recourse 3.663, net carrying value, excluding separately stated finance leases.",
+      "ytd_period": "2026 first nine months ended 2026-09-30",
+      "next_results_date": null,
+      "capex_quarter": 9.441,
+      "capex_ytd": 23.558,
+      "capex_definition": "Cash purchases of property and equipment, including capitalized internal-use software. Q3 9.441 and 9M 23.558 are separately disclosed cash-flow lines, not company-reported asset additions.",
+      "ppe_net": 56.778,
+      "total_debt": 46.873,
+      "finance_lease_liabilities": 0.649,
+      "debt_definition": "Recourse current 9.183 and noncurrent 32.417 plus non-recourse current 1.389 and noncurrent 3.884, carrying values. Finance leases 0.649 and operating leases 18.697 are separate.",
       "backlog_definition": "Company revenue backlog includes remaining performance obligations and additional estimated future revenue under committed customer contracts; delivery and service availability conditions apply. Not unrecognized GAAP revenue alone.",
       "openai_total_announced_contract_value": 22.4,
       "openai_latest_order_value_max": 6.5,
       "openai_latest_order_end": "2031-05-31",
       "annual_guidance_primary_verified": true,
-      "annual_guidance_quote_primary": "$35 – 39 billion",
-      "note": "Q3 results and call scheduled for November 10; retain Q2. OpenAI 22.4 is the September 25, 2025 announced aggregate ceiling, not remaining backlog or a uniform 2032 maturity. Official Q2 release reports approximately 104, not 104.2; precision follows that primary source. Lease-inclusive ratio = (35.068 + 0.221 + 16.319) / (2.575 * 4), rounded to one decimal.",
+      "annual_guidance_quote_primary": "full year 2026 capital expenditures of $37 billion to $39 billion",
+      "note": "Q3 results published November 10. Revenue backlog 132.5 is approximate and includes RPO 132.3 plus estimated future revenue 0.2, subject to delivery/availability. Lease-inclusive ratio = (46.873 + 0.649 + 18.697) / (3.661 * 4), rounded to one decimal. FY revenue-guide midpoint is 13.15. The primary outlook gives no standalone Q4 capex or revenue amount; do not derive a guide by subtracting YTD actuals. The 2025 OpenAI contract announcement remains a separate historical fact; current Q3 backlog is not a new OpenAI-only contract total.",
       "backlog_approximate": true,
-      "operating_lease_liabilities": 16.319,
-      "debt_including_leases_to_annualized_quarter_revenue": 5.0,
+      "operating_lease_liabilities": 18.697,
+      "debt_including_leases_to_annualized_quarter_revenue": 4.5,
       "review_sources": [
-        "C1",
-        "C2",
-        "C3",
-        "C4"
+        "CQ3",
+        "CQ3E",
+        "CQ3G"
       ],
-      "review_as_of": "2026-11-09",
-      "cash_capex_line": "Purchase of property and equipment, including capitalized internal-use software"
+      "review_as_of": "2026-11-10",
+      "cash_capex_line": "Purchases of property and equipment, including capitalized internal-use software",
+      "latest_results_date": "2026-11-10",
+      "revenue_ytd": 8.314,
+      "remaining_performance_obligations_approx": 132.3,
+      "backlog_other_estimated_future_revenue_approx": 0.2,
+      "capex_h1": 14.117,
+      "reported_capex_quarter": 14.511,
+      "reported_capex_ytd": 30.65,
+      "reported_capex_definition": "Increase in total gross property and equipment, including finance-lease assets, less change in construction in progress; not cash purchases. Q3 11.932 - (-2.579); 9M 30.613 - (-0.037).",
+      "gross_ppe_increase_quarter": 11.932,
+      "gross_ppe_increase_ytd": 30.613,
+      "construction_in_progress_change_quarter": -2.579,
+      "construction_in_progress_change_ytd": -0.037,
+      "capex_guidance_q4_2026": null,
+      "revenue_guidance_q4_2026": null,
+      "interest_expense_guidance_q4_2026": [
+        1.05,
+        1.15
+      ],
+      "exit_2026_arr_guidance": [
+        20,
+        21
+      ],
+      "debt_components": {
+        "recourse_current": 9.183,
+        "nonrecourse_current": 1.389,
+        "recourse_noncurrent": 32.417,
+        "nonrecourse_noncurrent": 3.884
+      }
     },
     "nebius": {
       "period": "2026 Q2 ended 2026-06-30",
