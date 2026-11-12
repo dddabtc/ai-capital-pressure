@@ -1,10 +1,10 @@
 # 2026 年 11 月数据核查
 
-当前CoreWeave数据以文末“CoreWeave Q3更新（2026-11-10）”为准，其他公司仍按“全公司资本支出返工2（2026-11-09）”。CoreWeave旧Q2数字仅保留修改历史。Oracle和Nebius全年指引仍未用一手材料确认。
+当前Nebius数据以文末“Nebius Q3更新（2026-11-12）”为准，CoreWeave按“CoreWeave Q3更新（2026-11-10）”，其他公司按“全公司资本支出返工2（2026-11-09）”。旧季度数字保留为修改历史。Nebius全年资本开支金额已获一手确认，Oracle仍未确认。
 
 本版保留作者原来的结构、判断和预测，并在相关句子后注明新数据的影响。能核实的新值已更新，查不到可比新值的旧数字仍保留并标未更新。旧资本存量日期不明确，不能把收入更新造成的压力比下降当作同期风险改善。
 
-CoreWeave截止2026-11-10，其他公司截止2026-11-09。金额通常为十亿美元（B），K/GDP为万亿美元（T）。严格/宽仍是文章的两组估计名称，含明确标注的旧估计，不是完整审计行业统计。除R_T表列入的项目外，公司披露收入只作背景。
+Nebius截止2026-11-12，CoreWeave截止2026-11-10，其他公司截止2026-11-09。金额通常为十亿美元（B），K/GDP为万亿美元（T）。严格/宽仍是文章的两组估计名称，含明确标注的旧估计，不是完整审计行业统计。除R_T表列入的项目外，公司披露收入只作背景。
 
 ## 输入逐项清单
 
@@ -739,7 +739,7 @@ Alphabet自然2024/2025为52.535/91.447；Amazon为82.999/131.819；Meta为37.25
 | nvidia | FY2027 Q2 ended 2026-07-26 | 2.677 | 4.434 | 未取得 / 未取得 | 未取得金额明确的一手全年指引 | 未核齐同范围全年原数；非3.2五家历史比较 | 14.285 | 33.366；未取得 | [NVQ](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm)；[NVQ1](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm)；[NVRELEASE](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/default.aspx)；[NVDATE](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/) |
 | anthropic | 2026 Q3 ended 2026-09-30 | 0.443 | 0.925 | 未取得 / 未取得 | 未取得金额明确的一手全年指引 | 0.015 / 0.131 | 3.061 | 130.502；1.674 | [ANTH](https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm)；[ANTH0](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) |
 | coreweave | 2026 Q3 ended 2026-09-30 | 9.441 | 23.558 | 14.511 / 30.650 | [37,39]；一手 | 未核齐同范围全年原数；非3.2五家历史比较 | 56.778 | 46.873；0.649 | [CQ3](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm)；[CQ3E](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf)；[CQ3G](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) |
-| nebius | 2026 Q2 ended 2026-06-30 | 5.6574 | 8.1303 | 未取得 / 未取得 | [20, 25]；第三方转录补充，未一手核实 | 未核齐同范围全年原数；非3.2五家历史比较 | 13.0452 | 8.5457；未取得 | [N1](https://assets.nebius.com/assets/72a8c258-bbb7-4df7-ab9d-8698f6cb88fc/PR.pdf)；[N2](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf)；[N3](https://nebius.com/newsroom/nebius-group-announces-date-of-third-quarter-2026-results-and-conference-call) |
+| nebius | 2026 Q3 ended 2026-09-30 | 7.3004 | 15.4307 | 约7.3 / 未单列 | [27, 27]；约数，已一手核实 | 未核齐同范围全年原数；非3.2五家历史比较 | 19.3419 | 14.1908；融资租赁未取得 | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)；[NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)；[NQ3H](https://nebius.com/investor-hub) |
 | iren | FY2027 Q1 ended 2026-09-30 | 4.824 | 4.824 | 未取得 / 未取得 | 全年未取得；剩余FY27计划15为一手 | 未核齐同范围全年原数；非3.2五家历史比较 | 12.344 | 9.897；0.311 | [I1](https://iren.gcs-web.com/static-files/67ed720a-021d-471a-8d9c-ea109edec817)；[I2](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) |
 | lambda | No public quarterly financial statements located as of 2026-11-09 | 未取得 | 未取得 | 未取得 / 未取得 | 未取得金额明确的一手全年指引 | 未核齐同范围全年原数；非3.2五家历史比较 | 未取得 | 未取得；未取得 | [L1](https://lambda.com/blog/lambda-closes-1-billion-senior-secured-credit-facility)；[L2](https://lambda.com/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center) |
 | crusoe | No public quarterly financial statements located; company announcement 2026-09-17 | 未取得 | 未取得 | 未取得 / 未取得 | 未取得金额明确的一手全年指引 | 未核齐同范围全年原数；非3.2五家历史比较 | 未取得 | 未取得；未取得 | [R1](https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding) |
@@ -1123,3 +1123,81 @@ OpenAI已公告合同总额上限22.4B及最新一单6.5B至2031-05-31，仍是2
 | `README 3.2混合规模中点` | 676.38 → 677.38 | 精确616.875+60.5=677.375，非全行业实际投入 |
 | `README capex/GDP` | 1.9–2.0% → 1.9–2.1% | 加新云一端2.048998…%→2.052027…%，Big-5一端未变 |
 | `README CoreWeave比率` | 租赁杠杆5.0；订单/季收入40.4；订单/全年收入8.1 → 4.5；36.2；10.1 | 精确计算见本节；收入期间分别列示 |
+
+<a id="nebius-q3-2026-11-12"></a>
+## Nebius Q3更新（2026-11-12）
+
+Nebius已换成2026年9月30日结束的Q3。新闻稿直接列出季度及前九个月现金购置支出7.3004/15.4307B，正文7.30/15.43；15.4307−此前H1的8.1303=7.3004也相符。原现金流量表行名为“Purchases of property and equipment and intangible assets”，包含无形资产，不能称纯设备购置。股东信第16页给约7.3B，是与现金数相符的取整数；没有另外披露不同公司指标的计算或调整表，未编造差额。
+
+季度收入0.5823→0.9808B；前九个月新增1.9621B；AI云季度收入0.5749→0.9738B。Q3收入包括约0.325B一次性轻资产业务收入。全年收入预计位于3.0–3.4B的低端，不能解释为维持整个区间。2027初步收入指引12–13B。公司定义的年化收入（“Annualized run-rate revenue”）按单月年化，9月底6.4B；旧12月7–9B目标改为2027年2月超过7B，不是经常性订阅收入指标，也不用于更改本文终端AI收入。
+
+股东信第14页列9月底剩余履约义务（RPO）38.7B。第16页融资说明仍提超过40B类似已承诺收入；第5页列从Q3开始至信件发布日新增超过12B合同额，涵盖早期Q4。三项含义和日期不同，不能相加，也不能把新增合同额当作9月底余额。CoreWeave的公司订单额含RPO及其他预计收入，故不把Nebius RPO改名成同定义订单额；`comparable_backlog`继续为null。旧>40列已改为RPO列，而>40披露单独保留说明。
+
+净PP&E 13.0452→19.3419B；借款账面值8.5457→14.1908B，由流动0.1875加非流动14.0033。经营租赁不计入借款。没有在本次新闻稿及股东信找到独立融资租赁余额，保持null，不写0。
+
+2026资本开支指引20–25→约27B。一手原话节录：“Capital expenditures: Approximately $27 billion”，股东信第17页、SEC附件99.2的img017。旧20–25曾只靠第三方转录；本次图片也把它列作旧区间，新值已经一手核实，`annual_guidance_primary_verified=true`。2027初步资本开支40–45B，未加入2026合计。官方材料没有单列Q4资本开支或收入指引；不拿全年减累计数充当指引。未找到下次财报日期，改为null。
+
+已列两家新云年度指引57–64→64–66B，中点60.5→65B。Big-5假定AI中点616.875不变，加两家后677.375→681.875B，正文681.88。GDP沿用33.010036T，比率2.052027…%→2.065659…%，正文仍2.1%，1.9–2.1%显示范围不变。这是混合期间的全球公司指引与美国GDP规模比较，非全行业、非美国境内实际支出；27B本身是约数。
+
+3.1只有Microsoft、Alphabet、Amazon、Meta四家的现金购置小计，未含Nebius，继续201.923B；公司口径小计207.384B也不变。本次未增加Nebius杠杆或合同倍数。R_T 165/270、K=1.3T、P约365、EPR 2.21/1.35/1.73保持原值。旧Q2及未确认年度金额的章节是历史，以本节和最新公司行覆盖当前状态。
+
+| 来源 | 发布日 | 原文件和位置 |
+|---|---|---|
+| NQ3 | 2026-11-12 | [SEC 6-K目录](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/)；[新闻稿](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第1页收入、第2页现金摘要，第6页资产负债表、第7页损益表、第8页现金流量表。原表百万美元：Q3/9M收入980.8/1,962.1，现金购置(7,300.4)/(15,430.7)，净设备19,341.9，流动/非流动借款187.5/14,003.3。 |
+| NQ3L | 2026-11-12 | [公司股东信PDF](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)；[SEC附件99.2](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm)。第5页新合同，第14页收入、AI云、ARR及RPO，第16页约7.3B资本开支与>40B融资讨论，第17页2026及2027指引；PDF页码与img005/014/016/017对应。已目视核对[img014](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2img014.jpg)、[img016](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2img016.jpg)、[img017](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2img017.jpg)。 |
+| NQ3H | 2026-11-12核查 | [投资者页面](https://nebius.com/investor-hub)列Q3电话会和[最新官方录音](https://youtu.be/watl8S9EG08)。页面下载成功；录音读取未取得正文，未把录音当作已核实的内容。未取得独立Q3演示稿或官方逐字稿。全年数字已由官方股东信文字和图片证实，无须依赖第三方转录。 |
+| N1 | 2026-08-12 | 前表保留的Q2新闻稿第8页H1现金8,130.3百万美元；只用作季度现金数的交叉核算。 |
+
+SEC目录、新闻稿、股东信HTML及23张图片均按任务指定的非真实邮箱客户端名下载成功，IR页和官方PDF也返回200。未绕过验证，未登录。网页工具首次直读SEC失败，agent-reach补读；最终使用指定客户端名取得的原文件。
+
+下表逐项对照本次基准0bb3cb7；金额单位B，字符串中的数字按原字段保留。
+
+| 字段/位置 | 旧值 → 新值 | 出处/处理 |
+|---|---|---|
+| `as_of` | "2026-11-10 (CoreWeave Q3 update only; other sources retained at 2026-11-09, v3.2)" → "2026-11-12 (Nebius Q3 update; CoreWeave at 2026-11-10; other sources retained at 2026-11-09, v3.2)" | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)、[NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)、[NQ3H](https://nebius.com/investor-hub)；已发布和本次核查状态 |
+| `capex_2026_billion.neocloud.nebius` | [20,25] → [27,27] | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `capex_2026_billion.neocloud.note` | "CoreWeave CY2026 37-39 (Q3 results, November 10) is primary-source guidance; Nebius CY2026 20-25 remains supplementary third-party transcript information, not primary-verified. IREN remaining FY27 15 is separate. Additional companies have no comparable CY2026 capex guidance verified; see individual disclosures and source ledger. Financing and multiyear projects are not annual capex. No industry total is inferred." → "CoreWeave CY2026 37-39 (November 10) and Nebius CY2026 approximately 27 (November 12) are primary-source guidance. IREN remaining FY27 15 is separate. Additional companies have no comparable CY2026 capex guidance verified; see individual disclosures and source ledger. Financing and multiyear projects are not annual capex. No industry total is inferred." | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)、[NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)、[NQ3H](https://nebius.com/investor-hub)；已发布和本次核查状态 |
+| `disclosed_billion.nebius.period` | "2026 Q2 ended 2026-06-30" → "2026 Q3 ended 2026-09-30" | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.revenue_quarter` | 0.5823 → 0.9808 | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.ai_cloud_revenue_quarter` | 0.5749 → 0.9738 | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第14页（img014） |
+| `disclosed_billion.nebius.capex_quarter_approx` | 5.7 → 7.3 | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第16页（img016）；近似值 |
+| `disclosed_billion.nebius.capex_2026` | [20,25] → [27,27] | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.ytd_period` | "2026 first six months ended 2026-06-30" → "2026 first nine months ended 2026-09-30" | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.next_results_date` | "2026-11-12" → null | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)、[NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)、[NQ3H](https://nebius.com/investor-hub)；已发布和本次核查状态 |
+| `disclosed_billion.nebius.capex_quarter` | 5.6574 → 7.3004 | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.capex_ytd` | 8.1303 → 15.4307 | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.capex_definition` | "Cash purchases of property and equipment AND intangible assets, as named in the cash-flow statement; not pure PP&E." → "Cash purchases of property and equipment and intangible assets; not pure PP&E. Q3 and 9M are both directly disclosed; 15.4307 minus H1 8.1303 also equals 7.3004. The shareholder letter rounds Q3 capex to approximately 7.3; no different company measure or reconciliation is provided." | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.ppe_net` | 13.0452 → 19.3419 | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.total_debt` | 8.5457 → 14.1908 | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.debt_definition` | "Current debt 0.0467 plus non-current debt 8.4990, carrying value; operating leases excluded." → "Debt, current 0.1875 plus Debt, non-current 14.0033, carrying value. Operating leases excluded; no separate finance-lease balance located in these Q3 materials." | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.backlog_definition` | "More than 40 of customer commitments is management disclosure, not a company metric comparable to CoreWeave revenue backlog." → "RPO 38.7 at September 30 is separate from over 40 of similar committed revenue in the financing discussion and over 12 of new contract value since Q3 began through the letter date. None is the same company-defined metric as CoreWeave revenue backlog; do not add these overlapping measures." | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第5、14、16页；不同定义，不相加 |
+| `disclosed_billion.nebius.annual_guidance_primary_verified` | false → true | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.annual_guidance_quote_primary` | null → "Capital expenditures: Approximately $27 billion" | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.note` | "Q3 results and call scheduled for November 12; retain Q2. Official Q2 shareholder letter p3 reaffirms all annual metrics without printing the 20-25 capex amount. That numeric guidance remains supplementary third-party transcript information; official audio was not verified." → "Q3 results published November 12. FY2026 revenue is expected at the low end of 3.0-3.4. Q3 includes approximately 0.325 of non-recurring asset-light revenue. ARR is company-defined annualized run-rate revenue, not added to terminal AI revenue. Initial FY2027 revenue/capex guides are 12-13/40-45. No standalone Q4 revenue or capex guide, next results date, or separate finance-lease liability balance was located. Official call linked from investor hub but its content was not verified; printed primary materials suffice for the annual capex amount." | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)、[NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)、[NQ3H](https://nebius.com/investor-hub)；已发布和本次核查状态 |
+| `disclosed_billion.nebius.review_sources` | ["N1","N2","N3"] → ["NQ3","NQ3L","NQ3H","N1"] | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)、[NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)、[NQ3H](https://nebius.com/investor-hub)；已发布和本次核查状态 |
+| `disclosed_billion.nebius.review_as_of` | "2026-11-09" → "2026-11-12" | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)、[NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)、[NQ3H](https://nebius.com/investor-hub)；已发布和本次核查状态 |
+| `disclosed_billion.nebius.revenue_ytd` | 未列 → 1.9621 | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.capex_h1` | 未列 → 8.1303 | [N1](https://assets.nebius.com/assets/72a8c258-bbb7-4df7-ab9d-8698f6cb88fc/PR.pdf)，第8页；交叉核算用 |
+| `disclosed_billion.nebius.capex_full_year_guidance` | 未列 → [27,27] | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.capex_guidance_2027` | 未列 → [40,45] | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.capex_guidance_q4_2026` | 未列 → null | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.revenue_guidance_2026` | 未列 → [3.0,3.4] | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.revenue_guidance_2026_qualifier` | 未列 → "Low end of the range, not an unchanged full-range outlook." | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.revenue_guidance_2027` | 未列 → [12,13] | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.revenue_guidance_q4_2026` | 未列 → null | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.annualized_run_rate_revenue` | 未列 → 6.4 | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第14页（img014） |
+| `disclosed_billion.nebius.annualized_run_rate_revenue_period` | 未列 → "End of September 2026; company-defined ARR annualizes a single month, not annual recurring revenue or quarterly GAAP revenue annualized." | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第14页（img014） |
+| `disclosed_billion.nebius.arr_target_lower_bound` | 未列 → 7 | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.arr_target_period` | 未列 → "February 2027; exceeds 7, replacing the previous December 2026 target of 7-9." | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.remaining_performance_obligations` | 未列 → 38.7 | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第14页（img014） |
+| `disclosed_billion.nebius.new_contract_value_lower_bound` | 未列 → 12 | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第5、14、16页；不同定义，不相加 |
+| `disclosed_billion.nebius.new_contract_value_period` | 未列 → "Since the beginning of Q3 through the November 12 shareholder letter; includes early Q4, not a quarter-end backlog balance." | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第5、14、16页；不同定义，不相加 |
+| `disclosed_billion.nebius.debt_current` | 未列 → 0.1875 | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.debt_noncurrent` | 未列 → 14.0033 | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)，第6–8页；定义和计算见本节 |
+| `disclosed_billion.nebius.annual_guidance_date` | 未列 → "2026-11-12" | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.annual_guidance_primary_location` | 未列 → "Q3 shareholder letter p17; SEC Exhibit 99.2 image tm2629571d1_ex99-2img017.jpg." | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第17页（img017）；指引、原话或定义，详见本节 |
+| `disclosed_billion.nebius.latest_results_date` | 未列 → "2026-11-12" | [NQ3](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)、[NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)、[NQ3H](https://nebius.com/investor-hub)；已发布和本次核查状态 |
+| `disclosed_billion.nebius.nonrecurring_asset_light_revenue_quarter_approx` | 未列 → 0.325 | [NQ3L](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)，第14页（img014） |
+| `README 3.2两家指引合计` | 57–64 → 64–66 | CoreWeave37–39加Nebius约27 |
+| `README 3.2规模中点` | 677.38 → 681.88 | 616.875+65=681.875 |
+| `README capex/GDP` | 1.9–2.1% → 1.9–2.1% | 加新云一端由2.052027…%变为2.065659…%；取整显示不变 |

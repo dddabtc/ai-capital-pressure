@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-10 (CoreWeave Q3 update only; other sources retained at 2026-11-09, v3.2)",
+  "as_of": "2026-11-12 (Nebius Q3 update; CoreWeave at 2026-11-10; other sources retained at 2026-11-09, v3.2)",
   "core": {
     "K_trillion": 1.3,
     "L_years": 6.1,
@@ -72,12 +72,12 @@
         39
       ],
       "nebius": [
-        20,
-        25
+        27,
+        27
       ],
       "iren_calendar_2026": null,
       "other_estimate": null,
-      "note": "CoreWeave CY2026 37-39 (Q3 results, November 10) is primary-source guidance; Nebius CY2026 20-25 remains supplementary third-party transcript information, not primary-verified. IREN remaining FY27 15 is separate. Additional companies have no comparable CY2026 capex guidance verified; see individual disclosures and source ledger. Financing and multiyear projects are not annual capex. No industry total is inferred.",
+      "note": "CoreWeave CY2026 37-39 (November 10) and Nebius CY2026 approximately 27 (November 12) are primary-source guidance. IREN remaining FY27 15 is separate. Additional companies have no comparable CY2026 capex guidance verified; see individual disclosures and source ledger. Financing and multiyear projects are not annual capex. No industry total is inferred.",
       "lambda_calendar_2026": null,
       "crusoe_calendar_2026": null,
       "applied_digital_calendar_2026": null,
@@ -363,37 +363,72 @@
       }
     },
     "nebius": {
-      "period": "2026 Q2 ended 2026-06-30",
-      "revenue_quarter": 0.5823,
-      "ai_cloud_revenue_quarter": 0.5749,
-      "capex_quarter_approx": 5.7,
+      "period": "2026 Q3 ended 2026-09-30",
+      "revenue_quarter": 0.9808,
+      "ai_cloud_revenue_quarter": 0.9738,
+      "capex_quarter_approx": 7.3,
       "customer_commitments_lower_bound": 40,
       "comparable_backlog": null,
       "capex_2026": [
-        20,
-        25
+        27,
+        27
       ],
       "unit": "USD billion",
-      "ytd_period": "2026 first six months ended 2026-06-30",
-      "next_results_date": "2026-11-12",
-      "capex_quarter": 5.6574,
-      "capex_ytd": 8.1303,
-      "capex_definition": "Cash purchases of property and equipment AND intangible assets, as named in the cash-flow statement; not pure PP&E.",
-      "ppe_net": 13.0452,
-      "total_debt": 8.5457,
-      "debt_definition": "Current debt 0.0467 plus non-current debt 8.4990, carrying value; operating leases excluded.",
-      "backlog_definition": "More than 40 of customer commitments is management disclosure, not a company metric comparable to CoreWeave revenue backlog.",
-      "annual_guidance_primary_verified": false,
-      "annual_guidance_quote_primary": null,
-      "note": "Q3 results and call scheduled for November 12; retain Q2. Official Q2 shareholder letter p3 reaffirms all annual metrics without printing the 20-25 capex amount. That numeric guidance remains supplementary third-party transcript information; official audio was not verified.",
+      "ytd_period": "2026 first nine months ended 2026-09-30",
+      "next_results_date": null,
+      "capex_quarter": 7.3004,
+      "capex_ytd": 15.4307,
+      "capex_definition": "Cash purchases of property and equipment and intangible assets; not pure PP&E. Q3 and 9M are both directly disclosed; 15.4307 minus H1 8.1303 also equals 7.3004. The shareholder letter rounds Q3 capex to approximately 7.3; no different company measure or reconciliation is provided.",
+      "ppe_net": 19.3419,
+      "total_debt": 14.1908,
+      "debt_definition": "Debt, current 0.1875 plus Debt, non-current 14.0033, carrying value. Operating leases excluded; no separate finance-lease balance located in these Q3 materials.",
+      "backlog_definition": "RPO 38.7 at September 30 is separate from over 40 of similar committed revenue in the financing discussion and over 12 of new contract value since Q3 began through the letter date. None is the same company-defined metric as CoreWeave revenue backlog; do not add these overlapping measures.",
+      "annual_guidance_primary_verified": true,
+      "annual_guidance_quote_primary": "Capital expenditures: Approximately $27 billion",
+      "note": "Q3 results published November 12. FY2026 revenue is expected at the low end of 3.0-3.4. Q3 includes approximately 0.325 of non-recurring asset-light revenue. ARR is company-defined annualized run-rate revenue, not added to terminal AI revenue. Initial FY2027 revenue/capex guides are 12-13/40-45. No standalone Q4 revenue or capex guide, next results date, or separate finance-lease liability balance was located. Official call linked from investor hub but its content was not verified; printed primary materials suffice for the annual capex amount.",
       "review_sources": [
-        "N1",
-        "N2",
-        "N3"
+        "NQ3",
+        "NQ3L",
+        "NQ3H",
+        "N1"
       ],
-      "review_as_of": "2026-11-09",
+      "review_as_of": "2026-11-12",
       "finance_lease_liabilities": null,
-      "cash_capex_line": "Purchases of property and equipment and intangible assets"
+      "cash_capex_line": "Purchases of property and equipment and intangible assets",
+      "revenue_ytd": 1.9621,
+      "capex_h1": 8.1303,
+      "capex_full_year_guidance": [
+        27,
+        27
+      ],
+      "capex_guidance_2027": [
+        40,
+        45
+      ],
+      "capex_guidance_q4_2026": null,
+      "revenue_guidance_2026": [
+        3.0,
+        3.4
+      ],
+      "revenue_guidance_2026_qualifier": "Low end of the range, not an unchanged full-range outlook.",
+      "revenue_guidance_2027": [
+        12,
+        13
+      ],
+      "revenue_guidance_q4_2026": null,
+      "annualized_run_rate_revenue": 6.4,
+      "annualized_run_rate_revenue_period": "End of September 2026; company-defined ARR annualizes a single month, not annual recurring revenue or quarterly GAAP revenue annualized.",
+      "arr_target_lower_bound": 7,
+      "arr_target_period": "February 2027; exceeds 7, replacing the previous December 2026 target of 7-9.",
+      "remaining_performance_obligations": 38.7,
+      "new_contract_value_lower_bound": 12,
+      "new_contract_value_period": "Since the beginning of Q3 through the November 12 shareholder letter; includes early Q4, not a quarter-end backlog balance.",
+      "debt_current": 0.1875,
+      "debt_noncurrent": 14.0033,
+      "annual_guidance_date": "2026-11-12",
+      "annual_guidance_primary_location": "Q3 shareholder letter p17; SEC Exhibit 99.2 image tm2629571d1_ex99-2img017.jpg.",
+      "latest_results_date": "2026-11-12",
+      "nonrecurring_asset_light_revenue_quarter_approx": 0.325
     },
     "iren": {
       "period": "FY2027 Q1 ended 2026-09-30",

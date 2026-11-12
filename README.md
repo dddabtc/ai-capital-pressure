@@ -17,7 +17,7 @@ v3.2 (2026-11-09) revision note: The original structure, judgments and forecasts
 
 Key data are checked against public sources available by November 9, 2026. Comparable figures are updated; other old numbers remain marked “v3.2 unupdated.” Major updates from earlier estimates:
 
-CoreWeave alone is updated through its November 10, 2026 Q3 release; other company checks retain the November 9 cutoff.
+Nebius is updated through its November 12, 2026 Q3 release, CoreWeave through November 10; other company checks retain the November 9 cutoff.
 
 |**Key Data**|**Updated Value**|**Source (Confidence)**|
 |---|---|---|
@@ -248,7 +248,7 @@ Microsoft fiscal YTD is one quarter; the other three YTD periods cover January�
 |---|---|---|---|---|
 ||||$750B)| (v3.2 unupdated)|
 |Neocloud total|~$15B|~$35B|~$60-70B|~$65B (v3.2 unupdated) (v3.2 note: Company rows below replace this aggregate; old60–70 is not added again)|
-|Industry AI capex<br>Traffic||~$400B|~$677.38B| (v3.2 note: Big-5 assumed AI guidance midpoint616.88+two listed firms60.5; incomplete industry, mixed periods, not actual spending)|
+|Industry AI capex<br>Traffic||~$400B|~$681.88B| (v3.2 note: Big-5 assumed AI guidance midpoint616.88+two listed firms65.00; incomplete industry, mixed periods, not actual spending)|
 
 Sources: SEC 10-Q Public Disclosures, Q1 2026 Earnings Call Guidance, CreditSights/Goldman Sachs/Yahoo Finance Comprehensive (updated after Q1). Four of the Big-5 companies raised their capex guidance after Q1; only Amazon maintained its original plan (because it was already the highest in the industry).  (v3.2 note: Four firms now use October disclosures and Oracle September FY27; Microsoft170 reflects delivery delays, so not every firm raised guidance. Original source description remains unupdated)
 
@@ -263,8 +263,8 @@ Big-5’s810–835B mixes four CY2026 guides with Oracle FY27 (2026-06 to2027-05
 | Company | Annual capex guidance, $B | Period and source |
 |---|---|---|
 | CoreWeave | 37–39 | CY2026; [IR](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) (2026-11-10) |
-| Nebius | 20–25 | CY2026; [Third-party transcript](https://www.fool.com/earnings/call-transcripts/2026/08/19/nebius-nbis-q2-2026-earnings-call-transcript/) (2026-08-19, call 08-12) |
-| Two listed neoclouds | 57–64 | Not an industry total |
+| Nebius | ~27.00 | CY2026; [Q3 p17](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf) (2026-11-12) |
+| Two listed neoclouds | 64–66 | Not an industry total |
 | IREN | CY2026 unverified; remaining FY27 is 15 | [IR](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05) |
 | SpaceX SI | Full-year AI not separately disclosed; 9M actual 40.00 | [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22) |
 | Applied Digital | Full-year unverified | FY27 Q1 cash capex 2.07; initial-term contracts ~36 |
@@ -282,9 +282,15 @@ Big-5’s810–835B mixes four CY2026 guides with Oracle FY27 (2026-06 to2027-05
 | Anthropic | Not obtained | 9M cash PP&E 0.93; lease/equipment prepayments 1.96 are separate |
 | OpenAI / Stargate | Not disclosed | 500 multiyear target and >450 announced project investment; not annual cash capex |
 
-CoreWeave published Q3 results on 2026-11-10. Nebius Q3 results remain scheduled for 2026-11-12, so Nebius retains Q2. Oracle and Nebius annual capex amounts still require official-audio verification; Nebius’s official Q2 letter reaffirms guidance without printing the capex amount. Private-company financing and project amounts above are separate announcements. The old neocloud60–70B has no auditable company allocation. SpaceX and IREN partial-period amounts and the added firms are not added to the annual-guidance sum. Definitions, dates, original line items and sources: [ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09).
+CoreWeave published Q3 results on 2026-11-10 and Nebius on 2026-11-12. Nebius’s Q3 shareholder letter p17 prints approximately $27.00B of 2026 capex guidance. Oracle’s annual capex amounts still lack primary verification. Private-company financing and project amounts above are separate announcements. The old neocloud60–70B has no auditable company allocation. SpaceX and IREN partial-period amounts and the added firms are not added to the annual-guidance sum. Definitions, dates, original line items and sources: [ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09).
 
 CoreWeave’s company capex measures gross PP&E increases including finance-lease assets, less the change in construction in progress; it differs from cash purchases. The official outlook gives no standalone Q4 capex or revenue guide; Q4 interest expense is 1.05–1.15B. [Q3 definitions and sources](data/sources_2026-11.md#coreweave-q3-2026-11-10).
+
+Nebius expects 2026 revenue at the low end of $3.00–3.40B, and initially guides 2027 revenue of $12.00–13.00B and capex of $40.00–45.00B. Its company-defined annualized run-rate revenue (ARR) was $6.40B at September-end; the revised target is above $7.00B in February 2027. ARR annualizes a single month.
+
+Q3 revenue includes approximately $0.33B of non-recurring asset-light revenue. RPO of $38.70B differs from CoreWeave’s backlog definition; over $40.00B of similar committed revenue in the financing discussion and over $12.00B of new contracts since Q3 began through the letter date are separate, overlapping disclosures.
+
+Cash purchases include intangible assets; the letter’s approximately $7.30B of Q3 capex is rounded, with no different measure reconciled. A separate finance-lease balance, standalone Q4 revenue/capex guide and next results date were not located. [Q3 statements](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm); [letter pp5,14,16–17](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf); [sources](data/sources_2026-11.md#nebius-q3-2026-11-12).
 
 Displayed amounts are rounded; ratios use the exact inputs in inputs.json. Cash capex below is the cash-flow statement measure; Q/YTD periods follow each company’s fiscal year. PP&E is net book value, not cumulative capex. Debt follows each company’s disclosed balance-sheet categories, with finance leases treated as specified in the ledger. Backlog, customer commitments, initial-term contract value and values including renewal options are not comparable or additive. Galaxy’s segment-reported capex is separate from unavailable consolidated cash PP&E; Nscale discloses a half-year rather than a quarter.
 
@@ -292,7 +298,7 @@ Displayed amounts are rounded; ratios use the exact inputs in inputs.json. Cash 
 |---|---|---|---|
 | Oracle FY27 Q1 | 19.35 (OCI ~7.4) | RPO 664 | 28.50 / 28.50; 127.85; 125.34; net cash capex17.97 |
 | CoreWeave Q3 2026 | 3.66 (9M 8.31) | ~132.5 (RPO ~132.3) | Cash 9.44 / 23.56; company capex 14.51 / 30.65; PP&E 56.78; borrowings 46.87; finance leases 0.65; FY revenue guide13.0–13.3 |
-| Nebius Q2 2026 | 0.58 (AI cloud 0.57) | >40 | 5.66 / 8.13; 13.05; 8.55 |
+| Nebius Q3 2026 | 0.98 (9M 1.96; AI cloud 0.97) | RPO 38.70 | 7.30 / 15.43; PP&E 19.34; debt 14.19 |
 | IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 9.90 ; finance leases 0.31 |
 | Applied Digital FY27 Q1 | 0.34 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
 | Cipher Digital Q3 2026 | 0.027 (HPC 0.006) | ~9.1 | 1.55 / 2.52; 3.90; 5.56 |
@@ -311,7 +317,7 @@ Displayed amounts are rounded; ratios use the exact inputs in inputs.json. Cash 
 | Anthropic Q3 2026 | 16.96 | Total commitments 895.4; not capex | 0.44 / 0.93; 3.06; 130.50; finance leases 1.67 |
 | OpenAI / Stargate | No public quarterly statements verified; financing and project announcements do not establish cash capex | | |
 
-SpaceX’s Q3 10-Q Note 1 (pp10–11) confirms that xAI is wholly owned; Notes 3 (p12) and 18 (pp32–33) disclose revenue and capex. GPU purchases, data-center capex and full-year pure-AI guidance are not separately disclosed. Neocloud order metrics have different definitions and are not directly summed; their entire revenues are not added to terminal AI revenue either. [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf) (2026-08-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
+SpaceX’s Q3 10-Q Note 1 (pp10–11) confirms that xAI is wholly owned; Notes 3 (p12) and 18 (pp32–33) disclose revenue and capex. GPU purchases, data-center capex and full-year pure-AI guidance are not separately disclosed. Neocloud order metrics have different definitions and are not directly summed; their entire revenues are not added to terminal AI revenue either. [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf) (2026-11-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
 
 Microsoft’s 170B versus its old guidance cannot directly establish a smaller project programme: lease recognition and delivery timing affect reported capex. Microsoft said FY27 second-half spending would accelerate; Alphabet said 2027 spending would increase significantly; Meta said its 2027 budget was still being developed and it intended to keep investing aggressively, without a full-year amount. Amazon’s release supplied no comparable full-year 2027 capex number, so none is entered. These are published management statements, not new forecasts by this paper. [Microsoft](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1), [Alphabet](https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx), [Meta](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx), [Amazon](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf)
 

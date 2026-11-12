@@ -17,7 +17,7 @@ v3.2（2026-11-09）修订说明：保留原文结构、判断和预测，只更
 
 本文关键数据按2026年11月9日可得的公开来源核查。可比新值已更新，其他旧数字保留并标“v3.2 未更新”。相对早期估算的主要更新：
 
-本轮仅将CoreWeave更新到2026年11月10日Q3公告；其他公司的核查仍截止11月9日。
+Nebius更新到2026年11月12日Q3公告，CoreWeave截至11月10日；其他公司的核查仍截止11月9日。
 
 |**关键数据**|**更新值**|**来源（置信度）**|
 |---|---|---|
@@ -248,7 +248,7 @@ v3.2 资本时点对照：原3.1只写2022–2026累计数，没有K测量日；
 |---|---|---|---|---|
 ||||$750B）|（v3.2 未更新）|
 |Neocloud合计|~$15B|~$35B|~$60-70B|~$65B（v3.2 未更新）（v3.2 注：本版逐家列示见下表，不把旧60–70再相加）|
-|行业AI capex<br>流量||~$400B|~$677.38B|（v3.2 注：Big-5假定AI指引中点616.88+已列两家60.5；非全行业、非同期间、非实际支出）|
+|行业AI capex<br>流量||~$400B|~$681.88B|（v3.2 注：Big-5假定AI指引中点616.88+已列两家65.00；非全行业、非同期间、非实际支出）|
 
 来源：SEC 10-Q 公开披露、Q1 2026 财报电话会议指引、CreditSights / Goldman Sachs / Yahoo Finance 综合（Q1 后更新）。Big-5 中四家 Q1 后上调 capex 指引；只有 Amazon 维持 原计划（因为已经是行业最高）。 （v3.2 注：本版四家采用10月披露，Oracle采用9月FY27；微软170受交付延迟影响，不再断言所有公司都在上修；旧来源描述保留但未更新）
 
@@ -263,8 +263,8 @@ Big-5的810–835B混合四家自然2026与Oracle FY27（2026-06至2027-05）。
 | 公司 | 年度资本支出指引，$B | 期间和来源 |
 |---|---|---|
 | CoreWeave | 37–39 | CY2026; [IR](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) (2026-11-10) |
-| Nebius | 20–25 | CY2026; [第三方转录](https://www.fool.com/earnings/call-transcripts/2026/08/19/nebius-nbis-q2-2026-earnings-call-transcript/) (2026-08-19（会议08-12）) |
-| 已列两家新云厂商 | 57–64 | 不是全行业合计 |
+| Nebius | ~27.00 | CY2026; [Q3 p17](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf) (2026-11-12) |
+| 已列两家新云厂商 | 64–66 | 不是全行业合计 |
 | IREN | 自然2026未核实；剩余FY27为15 | [IR](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05) |
 | SpaceX SI | 全年AI未单独披露；前九月实际40.00 | [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22) |
 | Applied Digital | 全年未核实 | FY27 Q1现金支出2.07；初始租期合同总额约36 |
@@ -282,9 +282,15 @@ Big-5的810–835B混合四家自然2026与Oracle FY27（2026-06至2027-05）。
 | Anthropic | 未取得 | 前九个月现金设备购置0.93；租赁及设备预付款1.96另列 |
 | OpenAI / Stargate | 未披露 | 多年目标500，已公告项目投资>450；非年度现金支出 |
 
-CoreWeave已于2026-11-10发布Q3结果。Nebius三季报仍预定2026-11-12，继续保留Q2。Oracle与Nebius全年支出数仍待官方录音核实；Nebius官方Q2股东信只确认维持指引，没有写出资本支出金额。上表私营公司的融资和项目金额单列。旧neocloud60–70B没有可审查的逐家底稿。SpaceX、IREN的部分期间金额及新增公司的数据不加入年度指引合计。定义、日期、原表行名和出处见[ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09)。
+CoreWeave已于2026-11-10发布Q3结果，Nebius于2026-11-12发布。Nebius的Q3股东信第17页明确列出2026年资本开支约27.00B。Oracle全年支出数仍未获一手确认。上表私营公司的融资和项目金额单列。旧neocloud60–70B没有可审查的逐家底稿。SpaceX、IREN的部分期间金额及新增公司的数据不加入年度指引合计。定义、日期、原表行名和出处见[ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09)。
 
 CoreWeave公司口径资本开支按设备等资产毛额增加计算，包含融资租赁取得的资产，再减去在建工程变动，与现金购置支出不同。官方展望没有给Q4单独资本开支或收入指引；Q4利息费用指引为1.05–1.15B。[Q3定义和出处](data/sources_2026-11.md#coreweave-q3-2026-11-10)。
+
+Nebius预计2026年收入位于3.00–3.40B区间低端，初步预计2027年收入12.00–13.00B、资本开支40.00–45.00B。公司把单月收入乘12称为年化收入（ARR），9月底为6.40B，修订后目标为2027年2月超过7.00B。
+
+Q3收入含约0.33B的一次性轻资产业务收入。9月底剩余履约义务（RPO）38.70B，与CoreWeave的订单定义不同；融资讨论中的超过40.00B类似合同收入，以及Q3开始至信件发布日新增超过12.00B合同额，是不同且可能重叠的披露。
+
+现金购置含无形资产；股东信约7.30B季度资本开支是取整数，未另给不同指标的调整表。未取得单列融资租赁余额、Q4收入或资本开支指引及下次财报日期。[Q3报表](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)；[股东信第5、14、16–17页](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)；[来源表](data/sources_2026-11.md#nebius-q3-2026-11-12)。
 
 正文金额已四舍五入，比例按inputs.json中的精确值计算。下表现金支出采用现金流量表数据，季度/累计期间按各公司财年注明。PP&E是账面资产净额，不是累计资本支出。债务按各公司资产负债表分类，融资租赁是否计入见来源表。剩余订单、客户承诺、初始租期合同总额和含续租权金额不能直接比较或相加。Galaxy的部门支出与未取得的合并现金购置额分列；Nscale披露半年数，不外推季度数。
 
@@ -292,7 +298,7 @@ CoreWeave公司口径资本开支按设备等资产毛额增加计算，包含�
 |---|---|---|---|
 | Oracle FY27 Q1 | 19.35 (OCI ~7.4) | RPO 664 | 28.50 / 28.50; 127.85; 125.34；净现金支出17.97 |
 | CoreWeave Q3 2026 | 3.66（前九月8.31）| ~132.5（RPO ~132.3）| 现金9.44 / 23.56；公司口径14.51 / 30.65；PP&E 56.78；借款46.87；融资租赁0.65；全年收入指引13.0–13.3 |
-| Nebius Q2 2026 | 0.58 (AI cloud 0.57) | >40 | 5.66 / 8.13; 13.05; 8.55 |
+| Nebius Q3 2026 | 0.98 (9M 1.96; AI cloud 0.97) | RPO 38.70 | 7.30 / 15.43; PP&E 19.34; debt 14.19 |
 | IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 9.90 ；融资租赁0.31 |
 | Applied Digital FY27 Q1 | 0.34 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
 | Cipher Digital Q3 2026 | 0.027 (HPC 0.006) | ~9.1 | 1.55 / 2.52; 3.90; 5.56 |
@@ -311,7 +317,7 @@ CoreWeave公司口径资本开支按设备等资产毛额增加计算，包含�
 | Anthropic Q3 2026 | 16.96 | 总承诺895.4，非capex | 0.44 / 0.93; 3.06; 130.50；融资租赁1.67 |
 | OpenAI / Stargate | 未取得公开季度报表；融资和项目公告不能代替现金支出 | | |
 
-SpaceX Q3 10-Q附注1（第10–11页）确认xAI为全资子公司；附注3（第12页）及附注18（第32–33页）列收入和资本支出。GPU采购、数据中心等单独资本开支及全年纯AI指引未单独披露。新云厂商的订单指标定义不同，不直接相加；它们的全部收入也不直接加进终端AI收入。 [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf) (2026-08-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
+SpaceX Q3 10-Q附注1（第10–11页）确认xAI为全资子公司；附注3（第12页）及附注18（第32–33页）列收入和资本支出。GPU采购、数据中心等单独资本开支及全年纯AI指引未单独披露。新云厂商的订单指标定义不同，不直接相加；它们的全部收入也不直接加进终端AI收入。 [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf) (2026-11-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
 
 微软的170B与旧指引不能直接解释为项目规模下降，租赁确认和交付时间会影响报表资本支出。微软表示FY27下半年支出将加速；Alphabet表示2027年支出将明显增加；Meta表示仍在编制2027预算，计划继续大力投入，未给全年金额。Amazon公告没有给可比的2027全年capex数，本版不填数。这些只是已公布的管理层说法，不是本文新增预测。 [Microsoft](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1), [Alphabet](https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx), [Meta](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx), [Amazon](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf)
 

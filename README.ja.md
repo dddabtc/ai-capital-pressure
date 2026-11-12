@@ -17,7 +17,7 @@ v3.2（2026-11-09）修訂：原文の構成・判断・予測を維持し、数
 
 主要データを2026年11月9日までの公開資料で確認しました。比較可能な値は更新し、その他は「v3.2 未更新」として残します。従来推計からの主な更新：
 
-今回はCoreWeaveのみ2026年11月10日のQ3発表まで更新し、他社の確認期限は11月9日のままです。
+Nebiusは2026年11月12日のQ3発表、CoreWeaveは11月10日まで更新し、他社の確認期限は11月9日のままです。
 
 |**主要データ**|**更新値**|**ソース (信頼度)**|
 |---|---|---|
@@ -248,7 +248,7 @@ Microsoftの年度累計は1四半期、他3社は1–9月。借入金は帳簿�
 |---|---|---|---|---|
 ||||$750B)|（v3.2 未更新）|
 |Neocloud 合計|~$15B|~$35B|~$60-70B|~$65B（v3.2 未更新）（v3.2 注：今回の会社別表がこの旧合計を更新、60–70を再加算しない）|
-|業界 AI 設備投資<br>トラフィック||~$400B|~$677.38B|（v3.2 注：Big-5仮定AI指針中央値616.88+確認2社60.5。業界不完全・期間混在・実績ではない）|
+|業界 AI 設備投資<br>トラフィック||~$400B|~$681.88B|（v3.2 注：Big-5仮定AI指針中央値616.88+確認2社65.00。業界不完全・期間混在・実績ではない）|
 
 出典: SEC 10-Q Public Disclosures、Q1 2026 Earnings Call Guide、CreditSights/Goldman Sachs/Yahoo Finance Comprehensive (Q1 後に更新)。大手 5 社のうち 4 社は、Q1 後に設備投資見通しを引き上げました。アマゾンだけが当初の計画を維持した（すでに業界最高だったため）。 （v3.2 注：4社は10月開示、Oracleは9月FY27、Microsoft170は引渡遅延影響。全社上方修正とは言えず旧出典説明は未更新）
 
@@ -263,8 +263,8 @@ Big-5の810–835Bは4社暦年2026とOracle FY27（2026-06～2027-05）の混�
 | 会社 | 年間capex指針、$B | 期間と出典 |
 |---|---|---|
 | CoreWeave | 37–39 | CY2026; [IR](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) (2026-11-10) |
-| Nebius | 20–25 | CY2026; [第三者書き起こし](https://www.fool.com/earnings/call-transcripts/2026/08/19/nebius-nbis-q2-2026-earnings-call-transcript/) (2026-08-19（説明会08-12）) |
-| 上記新興クラウド2社 | 57–64 | 業界合計ではない |
+| Nebius | ~27.00 | CY2026; [Q3 p17](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf) (2026-11-12) |
+| 上記新興クラウド2社 | 64–66 | 業界合計ではない |
 | IREN | 暦年2026未確認、FY27残額15 | [IR](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05) |
 | SpaceX SI | 通年AI個別開示なし、9か月実績40.00 | [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22) |
 | Applied Digital | 通年未確認 | FY27 Q1現金支出2.07、初期契約総額約36 |
@@ -282,9 +282,15 @@ Big-5の810–835Bは4社暦年2026とOracle FY27（2026-06～2027-05）の混�
 | Anthropic | 未取得 | 9か月現金設備購入0.93。リース・設備前払1.96は別記 |
 | OpenAI / Stargate | 未開示 | 複数年目標500、公表済事業投資>450。年間現金支出ではない |
 
-CoreWeaveは2026-11-10にQ3結果を公表。NebiusのQ3は2026-11-12予定で、引き続きQ2を使用。OracleとNebiusの年間設備投資額は公式録音で未確認。Nebius公式Q2株主書簡は指針維持を記すが設備投資額を記載しない。非公開企業の資金調達額と事業計画額は別記する。旧neocloud60–70Bには確認可能な企業別内訳がない。SpaceX、IRENの部分期間額と追加企業の数字を年間指針合計に加えない。定義、日付、原表項目と出典は[ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09)。
+CoreWeaveは2026-11-10、Nebiusは2026-11-12にQ3結果を公表。NebiusのQ3株主書簡17頁は2026年設備投資約27.00Bを明記。Oracleの年間設備投資額は一次資料で未確認。非公開企業の資金調達額と事業計画額は別記する。旧neocloud60–70Bには確認可能な企業別内訳がない。SpaceX、IRENの部分期間額と追加企業の数字を年間指針合計に加えない。定義、日付、原表項目と出典は[ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09)。
 
 CoreWeaveの会社capexはファイナンスリース資産を含む設備総額の増加から建設仮勘定の変動を控除した値で、現金購入とは異なる。公式展望にQ4単独の設備投資額・売上指針はなく、Q4利息費用指針は1.05–1.15B。[Q3定義と出典](data/sources_2026-11.md#coreweave-q3-2026-11-10)。
+
+Nebiusの2026年売上見通しは3.00–3.40Bの下限付近、2027年の初期見通しは売上12.00–13.00B、設備投資40.00–45.00B。会社定義の年換算売上（ARR）は単月売上の12倍で、9月末6.40B、修正目標は2027年2月に7.00B超。
+
+Q3売上には約0.33Bの一時的な資産保有を抑えた事業の売上を含む。9月末の残存履行義務（RPO）38.70BはCoreWeaveの受注残とは定義が異なる。資金調達の説明にある40.00B超の類似契約売上と、Q3開始から書簡公表日までの新規契約12.00B超は別の、重複し得る開示。
+
+現金購入は無形資産を含む。書簡のQ3設備投資約7.30Bは丸めた値で、別指標への調整表はない。独立したファイナンスリース残高、Q4売上・設備投資指針、次回決算日は未取得。[Q3財務諸表](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm)、[書簡5、14、16–17頁](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf)、[出典表](data/sources_2026-11.md#nebius-q3-2026-11-12)。
 
 本文の金額は四捨五入し、比率はinputs.jsonの精密値で計算する。以下の現金設備投資はキャッシュフロー計算書の数値。四半期・累計期間は各会計年度に従う。PP&Eは帳簿純額で累計投資額ではない。債務は各社の貸借対照表分類に従い、ファイナンスリースの扱いは出典表に記す。受注残、顧客コミットメント、初期契約総額、更新オプション込みの額は直接比較・合算できない。Galaxyの部門投資額は未取得の連結現金購入額と別記。Nscaleは半期開示で、四半期額に換算しない。
 
@@ -292,7 +298,7 @@ CoreWeaveの会社capexはファイナンスリース資産を含む設備総額
 |---|---|---|---|
 | Oracle FY27 Q1 | 19.35 (OCI ~7.4) | RPO 664 | 28.50 / 28.50; 127.85; 125.34、純現金投資17.97 |
 | CoreWeave Q3 2026 | 3.66（9か月8.31）| ~132.5（RPO ~132.3）| 現金9.44 / 23.56、会社capex14.51 / 30.65、PP&E56.78、借入46.87、ファイナンスリース0.65、年間売上指針13.0–13.3 |
-| Nebius Q2 2026 | 0.58 (AI cloud 0.57) | >40 | 5.66 / 8.13; 13.05; 8.55 |
+| Nebius Q3 2026 | 0.98 (9M 1.96; AI cloud 0.97) | RPO 38.70 | 7.30 / 15.43; PP&E 19.34; debt 14.19 |
 | IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 9.90 、ファイナンスリース0.31 |
 | Applied Digital FY27 Q1 | 0.34 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
 | Cipher Digital Q3 2026 | 0.027 (HPC 0.006) | ~9.1 | 1.55 / 2.52; 3.90; 5.56 |
@@ -311,7 +317,7 @@ CoreWeaveの会社capexはファイナンスリース資産を含む設備総額
 | Anthropic Q3 2026 | 16.96 | 総約束895.4、capexではない | 0.44 / 0.93; 3.06; 130.50、ファイナンスリース1.67 |
 | OpenAI / Stargate | 公開四半期財務諸表は未取得。資金調達・事業発表から現金支出を推計しない | | |
 
-SpaceX Q3 10-Q注記1（10–11ページ）はxAIの完全子会社化を確認し、注記3（12ページ）と18（32–33ページ）は売上と設備投資を開示します。GPU購入、データセンター別投資、通年純AI指針は個別開示されていません。新興クラウドの注文指標は定義が異なるため直接合算せず、全収入を最終AI収入へ加えることもしません。 [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/a6ecfd85-a6cb-4967-8ef7-9a25bd261f9c/SHLQ226.pdf) (2026-08-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
+SpaceX Q3 10-Q注記1（10–11ページ）はxAIの完全子会社化を確認し、注記3（12ページ）と18（32–33ページ）は売上と設備投資を開示します。GPU購入、データセンター別投資、通年純AI指針は個別開示されていません。新興クラウドの注文指標は定義が異なるため直接合算せず、全収入を最終AI収入へ加えることもしません。 [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22); [Oracle](https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx) (2026-09-10); [Nebius](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf) (2026-11-12); [IREN](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05)
 
 Microsoftの170Bと旧指針の差だけでは事業規模縮小とは言えず、リース計上と引渡時期が報告capexに影響します。同社はFY27後半の支出加速、Alphabetは2027年の大幅増加を述べました。Metaは2027予算を策定中で投資継続の意向を示しましたが、通年額は未公表です。Amazonの発表には比較可能な2027通年capex額がなく、数値を補いません。いずれも公表済み経営陣発言で、本文の新予測ではありません。 [Microsoft](https://www.microsoft.com/en-us/Investor/events/fy-2027/earnings-fy-2027-q1), [Alphabet](https://abc.xyz/investor/events/event-details/2026/2026-Q3-Earnings-Call-2026-Ujou16CTw9/default.aspx), [Meta](https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx), [Amazon](https://ir.aboutamazon.com/files/doc_earnings/2026/q3/earnings-result/AMZN-Q3-2026-Earnings-Release.pdf)
 
