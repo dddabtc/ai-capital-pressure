@@ -248,7 +248,7 @@ Microsoft fiscal YTD is one quarter; the other three YTD periods cover January�
 |---|---|---|---|---|
 ||||$750B)| (v3.2 unupdated)|
 |Neocloud total|~$15B|~$35B|~$60-70B|~$65B (v3.2 unupdated) (v3.2 note: Company rows below replace this aggregate; old60–70 is not added again)|
-|Industry AI capex<br>Traffic||~$400B|~$681.88B| (v3.2 note: Big-5 assumed AI guidance midpoint616.88+two listed firms65.00; incomplete industry, mixed periods, not actual spending)|
+|Industry AI capex<br>Traffic||~$400B|~$681.88B| (v3.2 note: Big-5 assumed AI guidance midpoint616.88+two listed firms65; incomplete industry, mixed periods, not actual spending)|
 
 Sources: SEC 10-Q Public Disclosures, Q1 2026 Earnings Call Guidance, CreditSights/Goldman Sachs/Yahoo Finance Comprehensive (updated after Q1). Four of the Big-5 companies raised their capex guidance after Q1; only Amazon maintained its original plan (because it was already the highest in the industry).  (v3.2 note: Four firms now use October disclosures and Oracle September FY27; Microsoft170 reflects delivery delays, so not every firm raised guidance. Original source description remains unupdated)
 
@@ -263,7 +263,7 @@ Big-5’s810–835B mixes four CY2026 guides with Oracle FY27 (2026-06 to2027-05
 | Company | Annual capex guidance, $B | Period and source |
 |---|---|---|
 | CoreWeave | 37–39 | CY2026; [IR](https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) (2026-11-10) |
-| Nebius | ~27.00 | CY2026; [Q3 p17](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf) (2026-11-12) |
+| Nebius | ~27 | CY2026; [Q3 p17](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf) (2026-11-12) |
 | Two listed neoclouds | 64–66 | Not an industry total |
 | IREN | CY2026 unverified; remaining FY27 is 15 | [IR](https://iren.gcs-web.com/static-files/3217742e-5d79-4681-a7d9-06b934b35937) (2026-11-05) |
 | SpaceX SI | Full-year AI not separately disclosed; 9M actual 40.00 | [10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm) (2026-10-22) |
@@ -282,15 +282,15 @@ Big-5’s810–835B mixes four CY2026 guides with Oracle FY27 (2026-06 to2027-05
 | Anthropic | Not obtained | 9M cash PP&E 0.93; lease/equipment prepayments 1.96 are separate |
 | OpenAI / Stargate | Not disclosed | 500 multiyear target and >450 announced project investment; not annual cash capex |
 
-CoreWeave published Q3 results on 2026-11-10 and Nebius on 2026-11-12. Nebius’s Q3 shareholder letter p17 prints approximately $27.00B of 2026 capex guidance. Oracle’s annual capex amounts still lack primary verification. Private-company financing and project amounts above are separate announcements. The old neocloud60–70B has no auditable company allocation. SpaceX and IREN partial-period amounts and the added firms are not added to the annual-guidance sum. Definitions, dates, original line items and sources: [ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09).
+CoreWeave published Q3 results on 2026-11-10 and Nebius on 2026-11-12. Nebius’s Q3 shareholder letter p17 prints approximately $27B of 2026 capex guidance. Oracle’s annual capex amounts still lack primary verification. Private-company financing and project amounts above are separate announcements. The old neocloud60–70B has no auditable company allocation. SpaceX and IREN partial-period amounts and the added firms are not added to the annual-guidance sum. Definitions, dates, original line items and sources: [ledger](data/sources_2026-11.md#oracle-neocloud-2026-11-09).
 
 CoreWeave’s company capex measures gross PP&E increases including finance-lease assets, less the change in construction in progress; it differs from cash purchases. The official outlook gives no standalone Q4 capex or revenue guide; Q4 interest expense is 1.05–1.15B. [Q3 definitions and sources](data/sources_2026-11.md#coreweave-q3-2026-11-10).
 
-Nebius expects 2026 revenue at the low end of $3.00–3.40B, and initially guides 2027 revenue of $12.00–13.00B and capex of $40.00–45.00B. Its company-defined annualized run-rate revenue (ARR) was $6.40B at September-end; the revised target is above $7.00B in February 2027. ARR annualizes a single month.
+Nebius expects 2026 revenue at the low end of $3.0–3.4B, and initially guides 2027 revenue of $12–13B and capex of $40–45B. Its company-defined annualized run-rate revenue (ARR) was $6.4B at September-end; the revised target is above $7B in February 2027. ARR annualizes a single month.
 
-Q3 revenue includes approximately $0.33B of non-recurring asset-light revenue. RPO of $38.70B differs from CoreWeave’s backlog definition; over $40.00B of similar committed revenue in the financing discussion and over $12.00B of new contracts since Q3 began through the letter date are separate, overlapping disclosures.
+Q3 revenue includes approximately $0.325B of non-recurring asset-light revenue. RPO of $38.7B differs from CoreWeave’s backlog definition; over $40B of similar committed revenue in the financing discussion and over $12B of new contracts since Q3 began through the letter date are separate, overlapping disclosures.
 
-Cash purchases include intangible assets; the letter’s approximately $7.30B of Q3 capex is rounded, with no different measure reconciled. A separate finance-lease balance, standalone Q4 revenue/capex guide and next results date were not located. [Q3 statements](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm); [letter pp5,14,16–17](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf); [sources](data/sources_2026-11.md#nebius-q3-2026-11-12).
+Cash purchases include intangible assets; the letter’s approximately $7.3B of Q3 capex is rounded, with no different measure reconciled. A separate finance-lease balance, standalone Q4 revenue/capex guide and next results date were not located. [Q3 statements](https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-1.htm); [letter pp5,14,16–17](https://assets.nebius.com/assets/5bc733ff-bed7-415c-af10-74ce7881a764/Nebius-SHL-2026-Q3.pdf); [sources](data/sources_2026-11.md#nebius-q3-2026-11-12).
 
 Displayed amounts are rounded; ratios use the exact inputs in inputs.json. Cash capex below is the cash-flow statement measure; Q/YTD periods follow each company’s fiscal year. PP&E is net book value, not cumulative capex. Debt follows each company’s disclosed balance-sheet categories, with finance leases treated as specified in the ledger. Backlog, customer commitments, initial-term contract value and values including renewal options are not comparable or additive. Galaxy’s segment-reported capex is separate from unavailable consolidated cash PP&E; Nscale discloses a half-year rather than a quarter.
 
@@ -298,7 +298,7 @@ Displayed amounts are rounded; ratios use the exact inputs in inputs.json. Cash 
 |---|---|---|---|
 | Oracle FY27 Q1 | 19.35 (OCI ~7.4) | RPO 664 | 28.50 / 28.50; 127.85; 125.34; net cash capex17.97 |
 | CoreWeave Q3 2026 | 3.66 (9M 8.31) | ~132.5 (RPO ~132.3) | Cash 9.44 / 23.56; company capex 14.51 / 30.65; PP&E 56.78; borrowings 46.87; finance leases 0.65; FY revenue guide13.0–13.3 |
-| Nebius Q3 2026 | 0.98 (9M 1.96; AI cloud 0.97) | RPO 38.70 | 7.30 / 15.43; PP&E 19.34; debt 14.19 |
+| Nebius Q3 2026 | 0.98 (9M 1.96; AI cloud 0.97) | RPO 38.7 | 7.30 / 15.43; PP&E 19.34; debt 14.19 |
 | IREN FY27 Q1 | 0.23 (AI cloud 0.20) | 20.3 | 4.82 / 4.82; 12.34; 9.90 ; finance leases 0.31 |
 | Applied Digital FY27 Q1 | 0.34 | ~36 | 2.07 / 2.07; 6.33; 6.38 |
 | Cipher Digital Q3 2026 | 0.027 (HPC 0.006) | ~9.1 | 1.55 / 2.52; 3.90; 5.56 |
